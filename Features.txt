@@ -1,0 +1,4 @@
+plossive
+dental
+labial
+velar
