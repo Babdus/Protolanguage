@@ -3,10 +3,14 @@ dental
 alveolar
 postalveolar
 palatal
+palato-velar
 velar
 uvular
 pharyngeal
 glottal
+coronal
+dorsal
+laryngeal
 apical
 laminal
 domed
