@@ -19,11 +19,13 @@ Protolanguage Reconstuction Tool (PRT) არის პროგრამა, �
 
 აუთფუთის ერთ-ერთი სავარაუდო ფორმა შეიძლება იყოს:
 
+```
 Node-1 (*katus*, *mehter*, *ekorel*, *verm*)
-+-- Node-2 (*katuz*, *moder*, *eṡkörel*, *vorm*)
-|   +-- გერმანული (Katze, Mutter, Eichhörnchen, Wurm)
-│   +-- ინგლისური (Cat, Mother, Squirrel, Worm)
-+-- ფრანგული (Chat, Mère, Écureuil, Ver)
+├── Node-2 (*katuz*, *moder*, *eṡkörel*, *vorm*)
+│   ├── გერმანული (Katze, Mutter, Eichhörnchen, Wurm)
+│   └── ინგლისური (Cat, Mother, Squirrel, Worm)
+└── ფრანგული (Chat, Mère, Écureuil, Ver)
+```
 
 ### Terms and Concepts ცნებები და განმარტებები
 
