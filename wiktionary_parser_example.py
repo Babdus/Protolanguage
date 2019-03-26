@@ -11,8 +11,12 @@ def main(argv):
 
     html = requests.get(url).content
     soup = BeautifulSoup(html, 'lxml')
-    translations_table = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))[0]
+    translations_tables = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
+    if len(translations_tables) < 1:
+        print('\033[31mNo translations found\033[0m')
+        return
 
+    translations_table = translations_tables[0]
     dictionary = {}
 
     if len(argv) > 2:
