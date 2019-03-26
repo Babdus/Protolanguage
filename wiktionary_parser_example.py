@@ -12,13 +12,44 @@ def main(argv):
 
     html = requests.get(url).content
     soup = BeautifulSoup(html, 'lxml')
+
+    used_langs = []
+    dictionary = {}
+    data = {}
+
+    ### FOR MAIN LANG
+    heading_span = soup.find('span', id='English')
+    if heading_span is None:
+        return
+    heading = heading_span.parent
+
+    transcriptions = []
+
+    for next_heading in heading.next_siblings:
+        if next_heading.name == 'h2':
+            break
+        if type(next_heading).__name__ == 'Tag':
+            transcription_tags = next_heading.findAll('span', {"class": "IPA"})
+            for transcription_tag in transcription_tags:
+                transcription = transcription_tag.text
+                transcription = transcription.strip('][/')
+                if transcription[0] != '-':
+                    transcriptions.append(transcription)
+
+    dictionary[word] = transcriptions
+    print(f'\033[33;1mEnglish\033[0m: {word} {transcriptions}')
+
+    data[main_lang] = [transcriptions[0]]
+    used_langs.append(main_lang)
+
+    ###
+
     translations_tables = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
     if len(translations_tables) < 1:
         print('\033[31mNo translations found\033[0m')
         return
 
     translations_table = translations_tables[0]
-    dictionary = {}
 
     if len(argv) > 2:
         if argv[2] == '--full':
@@ -70,6 +101,11 @@ def main(argv):
         dictionary[translation] = transcriptions
         print(f'\033[33;1m{anchor}\033[0m: {translation} {transcriptions}')
 
+        data[lang] = [transcriptions[0]]
+        used_langs.append(lang)
+
+    df = pd.DataFrame(data,columns=used_langs)
+    df.to_csv('DATA_BASE')
 
 if __name__ == "__main__":
     main(sys.argv[1:])
