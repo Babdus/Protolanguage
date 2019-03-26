@@ -2,6 +2,7 @@ import sys
 import time
 from bs4 import BeautifulSoup
 import requests
+import pandas as pd
 
 def main(argv):
     start_time = time.time()
@@ -20,7 +21,11 @@ def main(argv):
     dictionary = {}
 
     if len(argv) > 2:
-        langs = argv[2:]
+        if argv[2] == '--full':
+            df = pd.read_csv('languages_full_list.csv')
+            langs = df.code
+        else:
+            langs = argv[2:]
     else:
         langs = []
         with open('language_list') as fp:
