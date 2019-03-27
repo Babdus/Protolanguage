@@ -14,13 +14,11 @@ def get_words(arg):
     else:
         return arg.split(' ')
 
-
 def get_languages(arg):
     if arg[-4:] == '.csv':
         return pd.read_csv(arg).code
     else:
         return arg.split(' ')
-
 
 def get_transcriptions(word, soup, anchor):
     heading_span = soup.find('span', id=anchor)
@@ -42,12 +40,10 @@ def get_transcriptions(word, soup, anchor):
     print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcriptions}\033[0m')
     return transcriptions
 
-
 def get_relevant_transcription(transcriptions):
     if transcriptions and len(transcriptions) > 0:
         return transcriptions[0]
     return None
-
 
 def append_to_data(data, lang, transcriptions):
     transcription = get_relevant_transcription(transcriptions)
@@ -56,10 +52,8 @@ def append_to_data(data, lang, transcriptions):
     else:
         data[lang] = [transcription]
 
-
 def get_relevant_translations_table(translations_tables):
     return translations_tables[numpy.argmax([len(table.findChildren()) for table in translations_tables])]
-
 
 def find_translation_with_transcriptions(word, lang, main_lang, translations_table):
     translation_tag = translations_table.find('span', lang=lang)
@@ -83,11 +77,9 @@ def find_translation_with_transcriptions(word, lang, main_lang, translations_tab
     anchor = href_list[1]
     return get_transcriptions(translation, soup, anchor)
 
-
 def get_soup(url):
     html = requests.get(url).content
     return BeautifulSoup(html, 'lxml')
-
 
 def construct_row(word, langs, main_lang, output_path):
     soup = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}')
@@ -103,35 +95,24 @@ def construct_row(word, langs, main_lang, output_path):
         print(f'\033[31mNo translations found for {word}\033[0m')
         return
 
-    # append_to_data(data, main_lang, transcriptions)
-    # used_langs.add(main_lang)
     dictionary[main_lang] = get_relevant_transcription(transcriptions)
 
     translations_table = get_relevant_translations_table(translations_tables)
 
     for lang in langs:
         transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
-        # append_to_data(data, lang, transcriptions)
-        # used_langs.add(lang)
         dictionary[lang] = get_relevant_transcription(transcriptions)
 
     while global_lock.locked():
         continue
-
     global_lock.acquire()
-
     with open(output_path, 'a') as out:
         transcriptions_list = ['' if dictionary[lang] is None else dictionary[lang] for lang in langs]
         print(transcriptions_list)
         out.write(dictionary[main_lang]+','+','.join(transcriptions_list)+'\n')
-
     global_lock.release()
 
-
 def construct_dictionary(words, langs, main_lang, output_path):
-    # data = {}
-    # used_langs = set()
-
     with open(output_path, 'w') as out:
         out.write(main_lang+','+','.join(langs)+'\n')
 
@@ -140,11 +121,7 @@ def construct_dictionary(words, langs, main_lang, output_path):
         t = threading.Thread(target=construct_row, args=[word, langs, main_lang, output_path])
         threads.append(t)
         t.start()
-
     [thread.join() for thread in threads]
-
-    # return pd.DataFrame(data, columns=list(used_langs))
-
 
 def main(argv):
     start_time = time.time()
@@ -159,7 +136,6 @@ def main(argv):
 
     end_time = time.time()
     print(f'Took {end_time - start_time} seconds')
-
 
 if __name__ == "__main__":
     main(sys.argv[1:])
