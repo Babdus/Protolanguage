@@ -129,6 +129,7 @@ def main(argv):
 
     words = get_words(argv[0])
     langs = get_languages(argv[1])
+    langs = [str(lang) for lang in langs]
     if words is None or langs is None:
         return
     dictionary = construct_dictionary(words, langs, main_lang, argv[2])
