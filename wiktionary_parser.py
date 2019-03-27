@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 import numpy
+import threading
+
+global_lock = threading.Lock()
 
 def get_words(arg):
     if arg[-4:] == '.csv':
@@ -86,36 +89,61 @@ def get_soup(url):
     return BeautifulSoup(html, 'lxml')
 
 
-def construct_dictionary(words, langs, main_lang):
-    data = {}
-    used_langs = set()
+def construct_row(word, langs, main_lang, output_path):
+    soup = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}')
 
+    dictionary = {}
+    transcriptions = get_transcriptions(word, soup, 'English')
+    if len(transcriptions) == 0:
+        print(f'\033[31mNo transcription found for {word}\033[0m')
+        return
+
+    translations_tables = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
+    if len(translations_tables) < 1:
+        print(f'\033[31mNo translations found for {word}\033[0m')
+        return
+
+    # append_to_data(data, main_lang, transcriptions)
+    # used_langs.add(main_lang)
+    dictionary[main_lang] = get_relevant_transcription(transcriptions)
+
+    translations_table = get_relevant_translations_table(translations_tables)
+
+    for lang in langs:
+        transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
+        # append_to_data(data, lang, transcriptions)
+        # used_langs.add(lang)
+        dictionary[lang] = get_relevant_transcription(transcriptions)
+
+    while global_lock.locked():
+        continue
+
+    global_lock.acquire()
+
+    with open(output_path, 'a') as out:
+        transcriptions_list = ['' if dictionary[lang] is None else dictionary[lang] for lang in langs]
+        print(transcriptions_list)
+        out.write(dictionary[main_lang]+','+','.join(transcriptions_list)+'\n')
+
+    global_lock.release()
+
+
+def construct_dictionary(words, langs, main_lang, output_path):
+    # data = {}
+    # used_langs = set()
+
+    with open(output_path, 'w') as out:
+        out.write(main_lang+','+','.join(langs)+'\n')
+
+    threads = []
     for word in words:
-        soup = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}')
+        t = threading.Thread(target=construct_row, args=[word, langs, main_lang, output_path])
+        threads.append(t)
+        t.start()
 
-        dictionary = {}
-        transcriptions = get_transcriptions(word, soup, 'English')
-        if len(transcriptions) == 0:
-            print(f'\033[31mNo transcription found for {word}\033[0m')
-            continue
-        dictionary[main_lang] = transcriptions
+    [thread.join() for thread in threads]
 
-        translations_tables = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
-        if len(translations_tables) < 1:
-            print(f'\033[31mNo translations found for {word}\033[0m')
-            continue
-
-        append_to_data(data, main_lang, transcriptions)
-        used_langs.add(main_lang)
-
-        translations_table = get_relevant_translations_table(translations_tables)
-
-        for lang in langs:
-            transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
-            append_to_data(data, lang, transcriptions)
-            used_langs.add(lang)
-
-    return pd.DataFrame(data, columns=list(used_langs))
+    # return pd.DataFrame(data, columns=list(used_langs))
 
 
 def main(argv):
@@ -126,8 +154,8 @@ def main(argv):
     langs = get_languages(argv[1])
     if words is None or langs is None:
         return
-    dictionary = construct_dictionary(words, langs, main_lang)
-    dictionary.to_csv(argv[2])
+    dictionary = construct_dictionary(words, langs, main_lang, argv[2])
+    # dictionary.to_csv(argv[2])
 
     end_time = time.time()
     print(f'Took {end_time - start_time} seconds')
