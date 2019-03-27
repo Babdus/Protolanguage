@@ -3,6 +3,7 @@ import time
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import numpy
 
 def get_words(arg):
     if arg[-4:] == '.csv':
@@ -54,7 +55,7 @@ def append_to_data(data, lang, transcriptions):
 
 
 def get_relevant_translations_table(translations_tables):
-    return translations_tables[0]
+    return translations_tables[numpy.argmax([len(table.findChildren()) for table in translations_tables])]
 
 
 def find_translation_with_transcriptions(word, lang, main_lang, translations_table):
