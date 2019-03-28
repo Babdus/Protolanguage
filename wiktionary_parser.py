@@ -5,6 +5,7 @@ import requests
 import pandas as pd
 import numpy
 import threading
+from pdb import set_trace as bp
 
 global_lock = threading.Lock()
 
@@ -53,7 +54,9 @@ def append_to_data(data, lang, transcriptions):
         data[lang] = [transcription]
 
 def get_relevant_translations_table(translations_tables):
-    return translations_tables[numpy.argmax([len(table.findChildren()) for table in translations_tables])]
+    argmax = numpy.argmax([len(table.findChildren()) for table in translations_tables])
+    print([len(table.findChildren()) for table in translations_tables])
+    return translations_tables[argmax]
 
 def find_translation_with_transcriptions(word, lang, main_lang, translations_table):
     translation_tag = translations_table.find('span', lang=lang)
@@ -81,6 +84,12 @@ def get_soup(url):
     html = requests.get(url).content
     return BeautifulSoup(html, 'lxml')
 
+def get_translation_tables(soup, word, main_lang):
+    embedded_translations = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
+    soup_2 = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}/translations')
+    remote_translations = soup_2.findAll('div', id=lambda x: x and x.startswith('Translations-'))
+    return embedded_translations + remote_translations
+
 def construct_row(word, langs, main_lang, output_path):
     soup = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}')
 
@@ -90,7 +99,7 @@ def construct_row(word, langs, main_lang, output_path):
         print(f'\033[31mNo transcription found for {word}\033[0m')
         return
 
-    translations_tables = soup.findAll('div', id=lambda x: x and x.startswith('Translations-'))
+    translations_tables = get_translation_tables(soup, word, main_lang)
     if len(translations_tables) < 1:
         print(f'\033[31mNo translations found for {word}\033[0m')
         return
@@ -108,7 +117,6 @@ def construct_row(word, langs, main_lang, output_path):
     global_lock.acquire()
     with open(output_path, 'a') as out:
         transcriptions_list = ['' if dictionary[lang] is None else dictionary[lang] for lang in langs]
-        print(transcriptions_list)
         out.write(dictionary[main_lang]+','+','.join(transcriptions_list)+'\n')
     global_lock.release()
 
