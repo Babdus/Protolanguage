@@ -39,7 +39,7 @@ def main(argv):
             if isinstance(german_words[i], str) and len(german_words[i]) > 0:
                 distance = levenshtein(word, german_words[i])
                 print(word, german_words[i], distance)
-                out.write(str(int(distance)) + '\n')
+                out.write(str(int(distance)) + ' ' + word + '\n')
 
 
 if __name__ == "__main__":
