@@ -22,8 +22,8 @@ def main(argv):
             axis += '─'
             axis_val += ' '
 
-    print('\n\033[33;1mDistances\033[0m\033[35m│ Occurences →')
-    print('       \033[33;1m↓\033[0m\033[35m │' + axis_val)
+    print('\n\033[33;1mDistances\033[0m\033[35m│ Occurences ⤳')
+    print('       \033[33;1m↯\033[0m\033[35m │' + axis_val)
     print('         ├' + axis)
 
     for x in range(0, max(array)+1):
