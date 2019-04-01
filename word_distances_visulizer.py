@@ -12,7 +12,7 @@ def main(argv):
     for x in range(max_value):
         if x%5 == 0:
             axis += '┴'
-            if x >= 100:
+            if x > 100:
                 axis_val = axis_val[:-2] + str(x)
             elif x >= 10:
                 axis_val = axis_val[:-1] + str(x)
