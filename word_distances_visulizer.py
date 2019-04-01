@@ -7,10 +7,8 @@ def main(argv):
     occurences = Counter(array)
     max_value = occurences.most_common()[0][1]
 
-    print(max_value)
-
-    axis = '   ├'
-    axis_val = '   │'
+    axis = ''
+    axis_val = ''
     for x in range(max_value):
         if x%5 == 0:
             axis += '┴'
@@ -24,16 +22,16 @@ def main(argv):
             axis += '─'
             axis_val += ' '
 
-    print('\033[35m')
-    print(axis_val)
-    print(axis)
+    print('\n\033[33;1mDistances\033[0m\033[35m│ Occurences →')
+    print('       \033[33;1m↓\033[0m\033[35m │' + axis_val)
+    print('         ├' + axis)
 
     for x in range(0, max(array)+1):
         bar = ''
         for l in range(occurences[x]):
             bar += '▒'
         x = " " + str(x) if x < 10 else str(x)
-        print(f"\033[33;1m{x} \033[0m\033[35m┤\033[30;1m" + bar + "\033[0m")
+        print(f"      \033[33;1m{x}\033[0m\033[35m╶┤\033[30;1m" + bar + "\033[0m")
 
 if __name__ == "__main__":
     main(sys.argv[1:])
