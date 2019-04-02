@@ -16,9 +16,9 @@ def main():
     with open('Symbols.json', 'w') as outfile:
         json.dump(symbol_features, outfile)
     for symbol in symbol_features:
-        print symbol
+        print(symbol)
         for feature in symbol_features[symbol]:
-            print '\t', feature, '-', int(symbol_features[symbol][feature])
+            print('\t', feature, '-', int(symbol_features[symbol][feature]))
 
 if __name__ == "__main__":
     main()

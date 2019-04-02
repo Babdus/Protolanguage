@@ -1,9 +1,13 @@
 import sys
 from collections import Counter
+from levenshtein import calculate_distance
 
 def main(argv):
-    with open(argv[0]) as inp:
-        array = [int(line.split()[0].strip()) for line in inp.readlines()]
+
+    array = calculate_distance(argv[0], argv[1], argv[2], 'temp.out')
+    array = [int(elem) for elem in array]
+    # with open(argv[0]) as inp:
+    #     array = [int(line.split()[0].strip()) for line in inp.readlines()]
     occurences = Counter(array)
     max_value = occurences.most_common()[0][1]
 

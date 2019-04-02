@@ -29,18 +29,22 @@ def levenshtein(seq1, seq2):
     # print (matrix)
     return (matrix[size_x - 1, size_y - 1])
 
-def main(argv):
-    english_words = pd.read_csv(argv[0]).en
-    german_words = pd.read_csv(argv[0]).de
+def calculate_distance(input_file, lang_1, lang_2, output_file):
+    lang_1_words = getattr(pd.read_csv(input_file), lang_1)
+    lang_2_words = getattr(pd.read_csv(input_file), lang_2)
 
-    with open(argv[1], 'w') as out:
-        for i, word in enumerate(english_words):
-            print(word, german_words[i])
-            if isinstance(german_words[i], str) and len(german_words[i]) > 0:
-                distance = levenshtein(word, german_words[i])
-                print(word, german_words[i], distance)
+    distances = []
+    with open(output_file, 'w') as out:
+        for i, word in enumerate(lang_1_words):
+            if isinstance(lang_2_words[i], str) and len(lang_2_words[i]) > 0:
+                distance = levenshtein(word, lang_2_words[i])
+                # print(word, lang_2_words[i], distance)
+                distances.append(distance)
                 out.write(str(int(distance)) + ' ' + word + '\n')
+    return distances
 
+def main(argv):
+    calculate_distance(argv[0], argv[1], argv[2], argv[3])
 
 if __name__ == "__main__":
     main(sys.argv[1:])
