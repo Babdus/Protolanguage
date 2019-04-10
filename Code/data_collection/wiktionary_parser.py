@@ -130,15 +130,9 @@ def write_in_file(dictionaries, output_path):
     lang_list = list(lang_set)
     lang_list.sort()
     with open(output_path, 'w') as out:
-        output = 'word'
-        for lang in lang_list:
-            output += ', ' + lang
-        out.write(output+'\n')
+        out.write(', '.join(['word'] + lang_list) + '\n')
         for row in dictionaries:
-            output = row['word']
-            for lang in lang_list:
-                output += ', ' + row['dictionary'][lang]
-            out.write(output+'\n')
+            out.write(', '.join([row['word']] + [row['dictionary'][lang] for lang in lang_list]) + '\n')
 
 def main(argv):
     start_time = time.time()
