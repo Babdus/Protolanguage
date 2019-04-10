@@ -112,17 +112,33 @@ def construct_row(word, langs, main_lang):
         transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
         dictionary[lang] = get_relevant_transcription(transcriptions)
 
-    return { word: dictionary }
+    return { 'word': word, 'dictionary': dictionary }
 
-def construct_dictionary(words, langs, main_lang, output_path):
-    with open(output_path, 'w') as out:
-        out.write(main_lang+','+','.join(langs)+'\n')
-
-    pool = Pool(40)
+def construct_dictionary(words, langs, main_lang):
+    pool = Pool(20)
     args = [(word, langs, main_lang) for word in words]
     dictionaries = pool.starmap(construct_row, args)
+
     print(dictionaries)
     return dictionaries
+
+def write_in_file(dictionaries, output_path):
+    lang_set = set()
+    for row in dictionaries:
+        lang_set = lang_set.union(set(row['dictionary'].keys()))
+
+    lang_list = list(lang_set)
+    lang_list.sort()
+    with open(output_path, 'w') as out:
+        output = 'word'
+        for lang in lang_list:
+            output += ', ' + lang
+        out.write(output+'\n')
+        for row in dictionaries:
+            output = row['word']
+            for lang in lang_list:
+                output += ', ' + row['dictionary'][lang]
+            out.write(output+'\n')
 
 def main(argv):
     start_time = time.time()
@@ -133,8 +149,8 @@ def main(argv):
     langs = [str(lang) for lang in langs]
     if words is None or langs is None:
         return
-    dictionary = construct_dictionary(words, langs, main_lang, argv[2])
-    # dictionary.to_csv(argv[2])
+    dictionaries = construct_dictionary(words, langs, main_lang)
+    write_in_file(dictionaries, argv[2])
 
     end_time = time.time()
     print(f'Took {end_time - start_time} seconds')

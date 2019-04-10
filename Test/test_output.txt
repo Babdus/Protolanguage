@@ -1,1 +1,21 @@
-en,de,fr,ru,hu
+word, de, en, fr, hu, ru
+house, haʊ̯s, haʊs, mɛ.zɔ̃, ˈhaːz, dom
+boat, boːt, bəʊt, ba.to, ˈt͡ʃoːnɒk, ˈlotkə
+word, vɔrt, wɜːd, mo, ˈsoː, ˈslovə
+horse, (p)feːrt, hɔːs, ʃə.val, ˈloː, ˈloʂətʲ
+rain, ˈʁeːɡən, ɹeɪn, plɥi, ˈɛʃøː, doʂtʲ
+wind, vɪnt, ˈwɪnd, vɑ̃, ˈseːl, ˈvʲetʲɪr
+meat, flaɪ̯ʃ, miːt, vjɑ̃d, ˈhuːʃ, ˈmʲasə
+sun, ˈzɔnə, sʌn, sɔ.lɛj, ˈnɒp, ˈsont͡sə
+sky, ˈhɪml̩, skaɪ, sjɛl, ˈeːɡ, ˈnʲebə
+life, ˈleːbən, laɪf, vi, ˈeːlɛt, ʐɨzʲnʲ
+death, toːt, dɛθ, mɔʁ, ˈhɒlaːl, smʲertʲ
+mother, ˈmʊtɐ, ˈmʌðə(ɹ), mɛʁ, ˈɒɲɒ, matʲ
+father, ˈfɑːtʰɐ, ˈfɑː.ðə(ɹ), pɛʁ, ˈɒpɒ, ɐˈtʲet͡s
+son, zoːn, sʌn, fi, ˈfiʲuː, sɨn
+daughter, ˈtɔx.tɐ, ˈdɔːtə(ɹ), fij, ˈlaːɲ, dot͡ɕ
+love, ˈliːbə, lʌv, a.muʁ, ˈsɛrɛtɛt, lʲʊˈbofʲ
+friend, frɔʏ̯nt, fɹɛnd, a.mi, ˈbɒraːt, druk
+water, ˈva.sɐ, ˈwɔːtə, o, ˈviːz, vɐˈda
+hand, hant, hænd, mɛ̃, ˈkeːz, rʊˈka
+leg, baɪ̯n, lɛɡ, ʒɑ̃b, ˈlaːb, nɐˈɡa
