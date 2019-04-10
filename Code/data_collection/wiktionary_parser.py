@@ -6,6 +6,7 @@ import pandas as pd
 import numpy
 import threading
 from pdb import set_trace as bp
+from multiprocessing import Pool
 
 global_lock = threading.Lock()
 
@@ -55,7 +56,6 @@ def append_to_data(data, lang, transcriptions):
 
 def get_relevant_translations_table(translations_tables):
     argmax = numpy.argmax([len(table.findChildren()) for table in translations_tables])
-    print([len(table.findChildren()) for table in translations_tables])
     return translations_tables[argmax]
 
 def find_translation_with_transcriptions(word, lang, main_lang, translations_table):
@@ -90,7 +90,7 @@ def get_translation_tables(soup, word, main_lang):
     remote_translations = soup_2.findAll('div', id=lambda x: x and x.startswith('Translations-'))
     return embedded_translations + remote_translations
 
-def construct_row(word, langs, main_lang, output_path):
+def construct_row(word, langs, main_lang):
     soup = get_soup(f'https://{main_lang}.wiktionary.org/wiki/{word}')
 
     dictionary = {}
@@ -112,24 +112,17 @@ def construct_row(word, langs, main_lang, output_path):
         transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
         dictionary[lang] = get_relevant_transcription(transcriptions)
 
-    while global_lock.locked():
-        continue
-    global_lock.acquire()
-    with open(output_path, 'a') as out:
-        transcriptions_list = ['' if dictionary[lang] is None else dictionary[lang] for lang in langs]
-        out.write(dictionary[main_lang]+','+','.join(transcriptions_list)+'\n')
-    global_lock.release()
+    return { word: dictionary }
 
 def construct_dictionary(words, langs, main_lang, output_path):
     with open(output_path, 'w') as out:
         out.write(main_lang+','+','.join(langs)+'\n')
 
-    threads = []
-    for word in words:
-        t = threading.Thread(target=construct_row, args=[word, langs, main_lang, output_path])
-        threads.append(t)
-        t.start()
-    [thread.join() for thread in threads]
+    pool = Pool(40)
+    args = [(word, langs, main_lang) for word in words]
+    dictionaries = pool.starmap(construct_row, args)
+    print(dictionaries)
+    return dictionaries
 
 def main(argv):
     start_time = time.time()
