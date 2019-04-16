@@ -36,7 +36,7 @@ def get_transcriptions(word, soup, anchor):
             transcription_tags = next_heading.findAll('span', {"class": "IPA"})
             for transcription_tag in transcription_tags:
                 transcription = transcription_tag.text.strip('][/')
-                if transcription[0] != '-':
+                if len(transcription) > 0 and transcription[0] != '-':
                     transcriptions.append(transcription)
 
     print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcriptions}\033[0m')
@@ -81,7 +81,14 @@ def find_translation_with_transcriptions(word, lang, main_lang, translations_tab
     return get_transcriptions(translation, soup, anchor)
 
 def get_soup(url):
-    html = requests.get(url).content
+    try:
+        html = requests.get(url).content
+    except requests.exceptions.ConnectionError as e:
+        print(f'\033[31m{e}\033[0m')
+        time.sleep(5)
+        html = requests.get(url).content
+    if html is None:
+        return None
     return BeautifulSoup(html, 'lxml')
 
 def get_translation_tables(soup, word, main_lang):
@@ -112,10 +119,14 @@ def construct_row(word, langs, main_lang):
         transcriptions = find_translation_with_transcriptions(word, lang, main_lang, translations_table)
         dictionary[lang] = get_relevant_transcription(transcriptions)
 
+    with open(f'Data/words_and_languages/temp/{word}.csv', 'w') as out:
+        langs.sort()
+        out.write(', '.join(['word'] + langs) + '\n')
+        out.write(', '.join([word] + [dictionary[lang] if dictionary[lang] is not None else '' for lang in langs]) + '\n')
     return { 'word': word, 'dictionary': dictionary }
 
-def construct_dictionary(words, langs, main_lang):
-    pool = Pool(20)
+def construct_dictionary(words, langs, main_lang, processes):
+    pool = Pool(processes)
     args = [(word, langs, main_lang) for word in words]
     dictionaries = pool.starmap(construct_row, args)
 
@@ -132,7 +143,7 @@ def write_in_file(dictionaries, output_path):
     with open(output_path, 'w') as out:
         out.write(', '.join(['word'] + lang_list) + '\n')
         for row in dictionaries:
-            out.write(', '.join([row['word']] + [row['dictionary'][lang] for lang in lang_list]) + '\n')
+            out.write(', '.join([row['word']] + [row['dictionary'][lang] if row['dictionary'][lang] is not None else '' for lang in lang_list]) + '\n')
 
 def main(argv):
     start_time = time.time()
@@ -143,7 +154,7 @@ def main(argv):
     langs = [str(lang) for lang in langs]
     if words is None or langs is None:
         return
-    dictionaries = construct_dictionary(words, langs, main_lang)
+    dictionaries = construct_dictionary(words, langs, main_lang, int(argv[3]))
     write_in_file(dictionaries, argv[2])
 
     end_time = time.time()
