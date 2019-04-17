@@ -1,0 +1,79 @@
+File exists
+
+You are using the solver cplexamp.
+
+Checking ampl.mod for cplex_options...
+
+Checking ampl.com for cplex_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+Presolve eliminates 28 constraints.
+
+Adjusted problem:
+
+63 variables, all binary
+
+119 constraints, all linear; 238 nonzeros
+
+        119 inequality constraints
+
+1 linear objective; 49 nonzeros.
+
+
+
+CPLEX 12.7.0.0: threads=4
+
+CPLEX 12.7.0.0: optimal integer solution; objective 9
+
+59 MIP simplex iterations
+
+0 branch-and-bound nodes
+
+No basis.
+
+X [*] :=
+
+1  1
+
+2  1
+
+3  1
+
+4  0
+
+5  0
+
+6  0
+
+7  0
+
+;
+
+
+
+Y [*] :=
+
+1  1
+
+2  1
+
+3  1
+
+4  0
+
+5  0
+
+6  0
+
+7  0
+
+;
