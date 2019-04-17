@@ -12,16 +12,19 @@ def construct_graph(df):
     for row in rows:
         word_vertices[row] = set()
 
+    count = 0
     for col in df:
         s = set()
         for row in rows:
             cell = df[col][row]
             cell = cell.strip()
             if len(cell) > 0:
+                count += 1
                 word_vertices[row].add(col)
                 s.add(row)
         lang_vertices[col] = s
-    print(lang_vertices, word_vertices)
+    # print(lang_vertices, word_vertices)
+    print(count)
     return lang_vertices, word_vertices
 
 def find_minimal_vertices(vs):
@@ -48,7 +51,7 @@ def find_minimal_vertex(lang_vs, word_vs):
     min = 1000000
     argmin = None
     for argmin_v in argmin_vs:
-        print('argmin_v:', argmin_v)
+        # print('argmin_v:', argmin_v)
         s = sum(len(xvs[v]) for v in vs[argmin_v])
         min, argmin, = (s, argmin_v) if s < min else (min, argmin)
     return argmin, side
@@ -62,6 +65,7 @@ def main(argv):
     df = pd.read_csv(argv[0], index_col=0).fillna('')
     lang_vertices, word_vertices = construct_graph(df)
 
+    start = time.time()
     i = 0
     while True:
         print("iter:", i)
@@ -69,14 +73,16 @@ def main(argv):
         if minimal_vertex is None:
             break
         vs, xvs = (lang_vertices, word_vertices) if side == 'lang' else (word_vertices, lang_vertices)
-        print(minimal_vertex)
+        # print(minimal_vertex)
         remove_vertex(minimal_vertex, vs, xvs)
-        print(lang_vertices, word_vertices)
+        # print(lang_vertices, word_vertices)
         i += 1
+    end = time.time()
 
-    print(lang_vertices, word_vertices)
+    # print(lang_vertices, word_vertices)
     df_f = df.loc[list(word_vertices.keys()), list(lang_vertices.keys())]
     print(df_f)
+    print('Took', "%.3f" % (end-start), 'seconds')
     df_f.to_csv(argv[1])
 
 if __name__ == "__main__":

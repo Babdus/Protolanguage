@@ -35,7 +35,7 @@ def get_transcriptions(word, soup, anchor):
         if type(next_heading).__name__ == 'Tag':
             transcription_tags = next_heading.findAll('span', {"class": "IPA"})
             for transcription_tag in transcription_tags:
-                transcription = transcription_tag.text.strip('][/')
+                transcription = transcription_tag.text.strip('][/').split(',')[0]
                 if len(transcription) > 0 and transcription[0] != '-':
                     transcriptions.append(transcription)
 
