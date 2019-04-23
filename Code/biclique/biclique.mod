@@ -19,3 +19,6 @@ subject to Choose_Rows_Accordingly {i in rows, j in cols}:
 
 subject to Choose_Cols_Accordingly {i in rows, j in cols}:
 	Z[i,j] <= Y[j];
+
+subject to Num_Ys:
+	(sum {j in cols} Y[j]) >= 50;
