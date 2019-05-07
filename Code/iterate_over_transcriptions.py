@@ -2,8 +2,7 @@ import sys
 import math
 import pandas as pd
 from collections import Counter
-from IPA import IPAChar
-from IPA import IPAString
+from IPA.IPAString import IPAString
 
 def main(argv):
     df = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
