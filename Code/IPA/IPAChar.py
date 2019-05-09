@@ -246,3 +246,8 @@ class IPAChar:
         if len(self.places().intersection(other_ch.places())) > 0:
             return True
         return False
+
+    def distance(ch1, ch2):
+        c1 = ch1.counter if hasattr(ch1, 'counter') else IPAChar(ch1).counter
+        c2 = ch2.counter if hasattr(ch2, 'counter') else IPAChar(ch2).counter
+        return sum((c1[f] - c2[f]) if c1[f] > c2[f] else (c2[f] - c1[f]) for f in feature_names)/12
