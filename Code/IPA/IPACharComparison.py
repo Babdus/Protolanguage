@@ -1,6 +1,12 @@
 from IPA.IPAChar import IPAChar
 from IPA.IPAData import letters, modifiers, features, places, coronals, feature_names
 
+def in_the_same_cluster(f1, f2):
+    s1 = places | secondary_places
+    s2 = manners | secondary_manners
+    s3 = airflows
+    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2)
+
 def set_distance(set1, set2, direction):
     s1, s2, direction = (set1, set2, direction) if len(set1) > len(set2) else (set2, set1, !direction)
     if len(s1) == 0:
@@ -45,3 +51,6 @@ class IPACharComparison:
 
     def distance(self):
         return distance
+
+    def way(self):
+        return way

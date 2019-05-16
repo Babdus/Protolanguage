@@ -16,6 +16,7 @@ replace_with = {'ṭ': 't',
                 'ḥ': 'h',
                 'ĺ': 'l',
                 'ḹ': 'l',
+
                 'ī': 'i',
                 'î': 'i',
                 'í': 'i',
@@ -47,7 +48,10 @@ replace_with = {'ṭ': 't',
                 'ā': 'a',
                 'à': 'a',
                 'ǎ': 'a',
-                'ạ': 'a'
+                'ạ': 'a',
+
+                'ʴ': '˞',
+                'ṃ': u'\u0303'
                 }
 
 letters = {'p': {'LB', 'PL'},
@@ -189,45 +193,41 @@ ignore_set = {'.', 'ˈ', 'ˌ', 'ː', 'ˑ', '*', '´', '′', '˘', '˧', '˩', '
               u'\u0324', u'\u0329', u'\u032f', u'\u0330', u'\u033a', u'\u033b', u'\u035C',
               u'\u0361', u'\u1dc4', u'\u1dc5', u'\u1dc8'}
 
-modifiers = {'ᵝ': {'action': 'add', 'args': ['LB']},
-             '˞': {'action': 'add', 'args': ['AL']},
-             'ʴ': {'action': 'add', 'args': ['AL'], 'replace_with': '˞'},
-             'ʲ': {'action': 'add', 'args': ['PA']},
-             'ˠ': {'action': 'add', 'args': ['VE']},
-             'ʷ': {'action': 'add', 'args': ['LB', 'VE']},
-             'ˁ': {'action': 'add', 'args': ['PH']},
-             'ˀ': {'action': 'add', 'args': ['GL']},
+modifiers = {'ᵝ': {'action': 'add', 'args': ['LZ']},
+             '˞': {'action': 'add', 'args': ['RZ']},
+             'ʲ': {'action': 'add', 'args': ['PZ']},
+             'ˠ': {'action': 'add', 'args': ['VZ']},
+             'ʷ': {'action': 'add', 'args': ['LZ', 'VZ']},
+             'ˁ': {'action': 'add', 'args': ['HZ']},
+             'ˀ': {'action': 'add', 'args': ['GZ']},
              'ˡ': {'action': 'add', 'args': ['LA']},
              'ʰ': {'action': 'add', 'args': ['AS']},
              'ʱ': {'action': 'add', 'args': ['AS', 'VO']},
              'ʼ': {'action': 'add', 'args': ['EJ']},
-             u'\u0303': {'action': 'add', 'args': ['NA']},
-             u'\u030a': {'action': 'devoice', 'args': []},
+             u'\u0303': {'action': 'add', 'args': ['NZ']},
+             u'\u030a': {'action': 'remove', 'args': ['VO']},
              u'\u0322': {'action': 'make', 'args': ['places', 'RE']},
-             u'\u0325': {'action': 'devoice', 'args': []},
+             u'\u0325': {'action': 'remove', 'args': ['VO']},
              u'\u032c': {'action': 'add', 'args': ['VO']},
              u'\u031f': {'action': 'advance', 'args': []},
              u'\u031e': {'action': 'lower', 'args': []},
              u'\u031d': {'action': 'upper', 'args': []},
              u'\u032a': {'action': 'dentalize', 'args': []},
-             u'\u0339': {'action': 'half_labialize', 'args': []},
-             u'\u02be': {'action': 'half_labialize', 'args': []},
-             u'\u0348': {'action': 'intensify', 'args': []},
-             'ṃ': {'action': 'add', 'args': ['NA'], 'replace_with': u'\u0303'}
-             }
+             u'\u0339': {'action': 'add_and_remove', 'args': [['LH'], ['LZ']]},
+             u'\u02be': {'action': 'add_and_remove', 'args': [['LH'], ['LZ']]},
+             u'\u0348': {'action': 'add', 'args': ['IT']}
+            }
 
 coronals = {'DE', 'AL', 'PO', 'RE'}
 places = {'LB', 'LD', 'LL', 'DE', 'AL', 'PO', 'RE', 'PA', 'NE', 'VE', 'UV', 'PH', 'GL'}
-secondaries = {'LZ', 'RZ', 'PZ', 'VZ', 'HZ', 'NZ'}
+secondary_places = {'LZ', 'RZ', 'PZ', 'VZ', 'HZ'}
 manners = {'NA', 'PL', 'NF', 'SF', 'NS', 'SS', 'VI', 'TA', 'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
-lateralization = {'LA'}
-voiceness = {'VO'}
-airflows = {'AS', 'EJ', 'IN'}
+secondary_manners = {'NZ', 'LA'}
+airflows = {'AS', 'EJ', 'IN', 'VO'}
 features = {'places': places,
-            'secondaries': secondaries,
+            'secondary_places': secondary_places,
             'manners': manners,
-            'lateralization': lateralization,
-            'voiceness': voiceness,
+            'secondary_manners': secondary_manners,
             'airflows': airflows}
 
 feature_names = {'LB': 'Labial', 'LD': 'Labiodental', 'LL': 'Labiolingual', 'DE': 'Dental',

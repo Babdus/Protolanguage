@@ -1,10 +1,12 @@
 from IPA.IPAChar import IPAChar
-from IPA.IPAData import letters, modifiers, ignore_set
+from IPA.IPAData import replace_with, letters, modifiers, ignore_set
 
 class IPAString:
     def __init__(self, symbols):
         self.chars = []
         for symbol in symbols:
+            if symbol in replace_with:
+                symbol = replace_with[symbol]
             if symbol in letters:
                 ch = IPAChar(symbol)
                 if ch.is_spirant() and len(self.chars) > 0 and self.chars[-1].is_plosive() and len(self.chars[-1].get_modifiers()) == 0 and ch.has_same_place(self.chars[-1]):

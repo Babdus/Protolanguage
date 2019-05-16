@@ -1,24 +1,31 @@
 from collections import Counter
-from IPA.IPAData import letters, modifiers, features, places, coronals, feature_names
+from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, feature_names
 
 class IPAChar:
     def __init__(self, symbols):
         self.modifiers = []
-        self.symbols = symbols
-        self.counter = None
+        self.symbols = ''
+        self.features = None
         for i, symbol in enumerate(symbols):
+            if symbol in replace_with:
+                symbol = replace_with[symbol]
             if symbol in letters:
-                if 'replace_with' in letters[symbol]:
-                    self.symbols = self.symbols[:i] + letters[symbol]['replace_with']
-                    features = {feature:letters[symbol][feature] for feature in letters[symbol] if feature != 'replace_with'}
-                else:
-                    features = letters[symbol]
-                self.counter = Counter(features)
-            elif symbol in modifiers:
-                action = modifiers[symbol]
-                if action != 'Ignore':
-                    self.modifiers.append(symbol)
-                    getattr(self, action)()
+                if len(self.symbols) > 0:
+                    ch = IPAChar(symbol)
+                    if ch.is_spirant() and self.is_plosive() and !self.has_modifiers() and self.has_same_place(ch):
+                        self.make_affricate(ch)
+                else
+                    self.symbols += symbol
+                    self.features = letters[symbol]
+            elif symbol in modifiers and len(self.features) > 0:
+                method = modifiers[symbol]
+                args = method['args']
+                action = method['action']
+                getattr(self, action)(symbol, *args)
+                self.symbols += symbol
+                self.modifiers.append(symbol)
+            elif symbol in ignore_set:
+                continue
             else:
                 raise ValueError(f"\033[31m {symbol} \033[0m, context: {symbols}")
 
@@ -225,11 +232,14 @@ class IPAChar:
     def get_modifiers(self):
         return self.modifiers
 
+    def has_modifiers(self):
+        return len(self.modifiers) > 0
+
     def is_spirant(self):
-        return self.counter['SP'] > 8
+        return 'NS' in self.features or 'SS' in self.features
 
     def is_plosive(self):
-        return self.counter['PL'] > 8
+        return 'PL' in self.features
 
     def coronal(self):
         coronal = 0
@@ -241,6 +251,7 @@ class IPAChar:
         return places.intersection(self.counter)
 
     def has_same_place(self, other_ch):
+        # TODO
         if self.coronal() >= 3 and other_ch.coronal() >= 3:
             return True
         if len(self.places().intersection(other_ch.places())) > 0:
