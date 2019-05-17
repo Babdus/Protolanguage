@@ -221,7 +221,7 @@ modifiers = {'ᵝ': {'action': 'add', 'args': ['LZ']},
 coronals = {'DE', 'AL', 'PO', 'RE'}
 vowels = {'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
 places = {'LB', 'LD', 'LL', 'DE', 'AL', 'PO', 'RE', 'PA', 'NE', 'VE', 'UV', 'PH', 'GL'}
-secondary_places = {'LZ', 'LH', 'RZ', 'PZ', 'VZ', 'HZ'}
+secondary_places = {'LZ', 'LH', 'RZ', 'PZ', 'VZ', 'HZ', 'GZ'}
 manners = {'NA', 'PL', 'NF', 'SF', 'NS', 'SS', 'VI', 'TA', 'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
 secondary_manners = {'NZ', 'LA'}
 airflows = {'AS', 'EJ', 'IT', 'IN', 'VO'}
@@ -233,8 +233,9 @@ features = {'places': places,
 
 feature_names = {'LB': 'Labial', 'LD': 'Labiodental', 'LL': 'Labiolingual', 'DE': 'Dental',
                  'AL': 'Alveolar', 'PO': 'Postalveolar', 'RE': 'Retroflex', 'PA': 'Palatal',
-                 'NE': 'Neutral', 'VE': 'Velar', 'UV': 'Uvular', 'PH': 'Pharyngeal', 'GL': 'Glotal',
-                 'LZ': 'Labialized', 'LH': 'Half-labialized', 'RZ': 'Rhoticized', 'PZ': 'Palatalized', 'VZ': 'Velarized', 'HZ': 'Pharyngealized',
+                 'NE': 'Neutral', 'VE': 'Velar', 'UV': 'Uvular', 'PH': 'Pharyngeal', 'GL': 'Glottal',
+                 'LZ': 'Labialized', 'LH': 'Half-labialized', 'RZ': 'Rhoticized', 'PZ': 'Palatalized',
+                 'VZ': 'Velarized', 'HZ': 'Pharyngealized', 'GZ': 'Glottalize',
                  'NZ': 'Nasalized', 'NA': 'Nasal', 'PL': 'Plosive', 'NF': 'Nonsibilant affricate', 'SF': 'Sibilant affricate',
                  'NS': 'Nonsibilant fricative', 'SS': 'Sibilant fricative', 'VI': 'Vibrant', 'TA': 'Tap',
                  'SV': 'Approximant', 'CL': 'Closed', 'NC': 'Near-closed', 'MC': 'Mid-closed', 'MI': 'Mid',

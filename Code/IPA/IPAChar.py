@@ -1,4 +1,4 @@
-from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, feature_names
+from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, vowels, feature_names
 
 class IPAChar:
     def __init__(self, symbols, printing=True):
@@ -49,7 +49,8 @@ class IPAChar:
     def make(self, symbol, *args):
         cluster = args[0]
         for feature in features[cluster]:
-            del self.features[feature]
+            if feature in self.features:
+                self.features.remove(feature)
         feature = args[1]
         self.features.add(feature)
         self.symbols += symbol
