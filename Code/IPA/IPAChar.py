@@ -1,9 +1,8 @@
-from collections import Counter
 from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, feature_names
 
 class IPAChar:
-    def __init__(self, symbols):
-        self.modifiers = []
+    def __init__(self, symbols, printing=True):
+        self.modifiers = set()
         self.symbols = ''
         self.features = None
         for i, symbol in enumerate(symbols):
@@ -11,220 +10,169 @@ class IPAChar:
                 symbol = replace_with[symbol]
             if symbol in letters:
                 if len(self.symbols) > 0:
-                    ch = IPAChar(symbol)
-                    if ch.is_spirant() and self.is_plosive() and !self.has_modifiers() and self.has_same_place(ch):
+                    ch = IPAChar(symbol, printing=False)
+                    if ch.is_spirant() and self.is_plosive() and not self.has_modifiers() and self.has_same_place(ch) and self.has_same_voice(ch):
                         self.make_affricate(ch)
-                else
+                    else:
+                        raise Exception(f"\033[31mToo many symbols for one character\033[0m, context: {symbols}")
+                else:
                     self.symbols += symbol
-                    self.features = letters[symbol]
+                    self.features = letters[symbol].copy()
             elif symbol in modifiers and len(self.features) > 0:
                 method = modifiers[symbol]
                 args = method['args']
                 action = method['action']
                 getattr(self, action)(symbol, *args)
-                self.symbols += symbol
-                self.modifiers.append(symbol)
+                self.modifiers.add(symbol)
             elif symbol in ignore_set:
                 continue
             else:
                 raise ValueError(f"\033[31m {symbol} \033[0m, context: {symbols}")
+        if printing:
+            print(str(self))
 
     def add(self, symbol, *args):
         for arg in args:
-            for key, value in features.items():
-                if arg in value:
-                    whole = True
-                    for feature in value:
-                        if feature in self.counter:
-                            self.counter[feature] /= 2
-                            whole = False
-                    self.counter[arg] += 12 if whole else 6
+            self.features.add(arg)
         self.symbols += symbol
+
+    def remove(self, symbol, *args):
+        for arg in args:
+            if arg in self.features:
+                self.features.remove(arg)
+        self.symbols += symbol
+
+    def add_and_remove(self, symbol, *args):
+        self.add(symbol, *args[0])
+        self.remove('', *args[1])
 
     def make(self, symbol, *args):
         cluster = args[0]
         for feature in features[cluster]:
-            del self.counter[feature]
+            del self.features[feature]
         feature = args[1]
-        self.counter[feature] = 12
-        self.symbols += symbol
-
-    def half_labialize(self, symbol):
-        for place in places:
-            if place in self.counter:
-                self.counter[place] *= 3/4
-        self.counter['LB'] += 3
-        self.symbols += symbol
-
-    def devoice(self, symbol):
-        if self.counter['VO'] > 0:
-            del self.counter['VO']
-            self.symbols += symbol
-
-    def intensify(self, symbol):
-        self.counter['EJ'] += 6
+        self.features.add(feature)
         self.symbols += symbol
 
     def dentalize(self, symbol):
-        if self.counter['LB'] > 0:
-            self.counter['LD'] += self.counter['LB']
-            del self.counter['LB']
-            self.symbols += symbol
-        if self.counter['AL'] > 0:
-            self.counter['DE'] += self.counter['AL']
-            del self.counter['AL']
-            self.symbols += symbol
-        if self.counter['PO'] > 0:
-            self.counter['DE'] += self.counter['PO']
-            del self.counter['PO']
-            self.symbols += symbol
-        if self.counter['PO'] > 0:
-            self.counter['DE'] += self.counter['PO']
-            del self.counter['PO']
-            self.symbols += symbol
+        if 'LB' in self.features:
+            self.add_and_remove(symbol, ['LD'], ['LB'])
+        elif 'AL' in self.features:
+            self.add_and_remove(symbol, ['DE'], ['AL'])
+        elif 'PO' in self.features:
+            self.add_and_remove(symbol, ['DE'], ['PO'])
 
     def advance(self, symbol):
-        if self.counter['LD'] > 0:
-            self.counter['LB'] += self.counter['LD']
-            del self.counter['LD']
-            self.symbols += symbol
-        if self.counter['DE'] > 0:
-            self.counter['LL'] += self.counter['DE']/2
-            self.counter['DE'] /= 2
-            self.symbols += symbol
-        if self.counter['AL'] > 0:
-            self.counter['DE'] += self.counter['AL']
-            del self.counter['AL']
-            self.symbols += symbol
-        if self.counter['PO'] > 0:
-            self.counter['AL'] += self.counter['PO']
-            del self.counter['PO']
-            self.symbols += symbol
-        if self.counter['RE'] > 0:
-            self.counter['PO'] += self.counter['RE']
-            del self.counter['RE']
-            self.symbols += symbol
-        if self.counter['PA'] > 0:
-            self.counter['AL'] += self.counter['PA']/2
-            self.counter['PA'] /= 2
-            self.symbols += symbol
-        if self.counter['VE'] > 0:
-            fraction = 1/2
-            if self.counter['CL'] + self.counter['OP'] == 12:
-                fraction = 1/4
-            self.counter['PA'] += self.counter['VE']*fraction
-            self.counter['VE'] -= self.counter['VE']*fraction
-            self.symbols += symbol
-        if self.counter['UV'] > 0:
-            self.counter['VE'] += self.counter['UV']/2
-            self.counter['UV'] /= 2
-            self.symbols += symbol
-        if self.counter['PH'] > 0:
-            self.counter['UV'] += self.counter['PH']
-            del self.counter['PH']
-            self.symbols += symbol
-        if self.counter['GL'] > 0:
-            self.counter['PH'] += self.counter['GL']
-            del self.counter['GL']
-            self.symbols += symbol
+        if 'LD' in self.features:
+            self.add_and_remove(symbol, ['LB'], ['LD'])
+        elif 'DE' in self.features:
+            self.add_and_remove(symbol, ['LL'], ['DE'])
+        elif 'AL' in self.features:
+            self.add_and_remove(symbol, ['DE'], ['AL'])
+        elif 'PO' in self.features:
+            self.add_and_remove(symbol, ['AL'], ['PO'])
+        elif 'RE' in self.features:
+            self.add_and_remove(symbol, ['PO'], ['RE'])
+        elif 'PA' in self.features:
+            self.add(symbol, 'AL')
+        elif 'NE' in self.features:
+            if len(self.features & vowels) > 0:
+                self.add(symbol, 'PZ')
+            else:
+                self.add_and_remove(symbol, ['PA'], ['NE'])
+        elif 'VE' in self.features:
+            if len(self.features & vowels) > 0:
+                self.add_and_remove(symbol, ['VZ', 'NE'], ['VE'])
+            else:
+                self.add_and_remove(symbol, ['NE'], ['VE'])
+        elif 'UV' in self.features:
+            self.add_and_remove(symbol, ['VE'], ['UV'])
+        elif 'PH' in self.features:
+            self.add_and_remove(symbol, ['UV'], ['PH'])
+        elif 'GL' in self.features:
+            self.add_and_remove(symbol, ['PH'], ['GL'])
 
     def lower(self, symbol):
-        if self.counter['CL'] + self.counter['OP'] == 12:
-            self.counter['CL'] -= 2
-            self.counter['OP'] += 2
-            if self.counter['OP'] > 12:
-                self.counter['OP'] = 12
-            if self.counter['CL'] < 0:
-                self.counter['CL'] = 0
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['CL'] == 12:
-            self.counter['SP'] -= 3
-            self.counter['CL'] += 3
-            if self.counter['CL'] > 12:
-                self.counter['CL'] = 12
-            if self.counter['SP'] < 0:
-                self.counter['SP'] = 0
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['VI'] == 12:
-            self.counter['SP'] -= 6
-            self.counter['VI'] += 6
-            if self.counter['VI'] > 12:
-                self.counter['VI'] = 12
-            if self.counter['SP'] < 0:
-                self.counter['SP'] = 0
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['TA'] == 12:
-            self.counter['SP'] -= 6
-            self.counter['TA'] += 6
-            if self.counter['TA'] > 12:
-                self.counter['TA'] = 12
-            if self.counter['SP'] < 0:
-                self.counter['SP'] = 0
-            self.symbols += symbol
-        if self.counter['PL'] + self.counter['SP'] == 12:
-            self.counter['PL'] -= 3
-            self.counter['SP'] += 3
-            if self.counter['SP'] > 12:
-                self.counter['SP'] = 12
-            if self.counter['PL'] < 0:
-                self.counter['PL'] = 0
-            self.symbols += symbol
+        if 'PL' in self.features:
+            self.add_and_remove(symbol, ['NS'], ['PL'])
+        elif 'NF' in self.features:
+            self.add_and_remove(symbol, ['NS'], ['NF'])
+        elif 'SF' in self.features:
+            self.add_and_remove(symbol, ['SS'], ['SF'])
+        elif 'NS' in self.features:
+            self.add_and_remove(symbol, ['SV'], ['NS'])
+        elif 'SS' in self.features:
+            self.add_and_remove(symbol, ['SV'], ['SS'])
+        elif 'VI' in self.features:
+            self.add_and_remove(symbol, ['SV'], ['VI'])
+        elif 'TA' in self.features:
+            self.add_and_remove(symbol, ['SV'], ['TA'])
+        elif 'SV' in self.features:
+            self.add_and_remove(symbol, ['CL'], ['SV'])
+        elif 'CL' in self.features:
+            self.add_and_remove(symbol, ['NC'], ['CL'])
+        elif 'NC' in self.features:
+            self.add_and_remove(symbol, ['MC'], ['NC'])
+        elif 'MC' in self.features:
+            self.add_and_remove(symbol, ['MI'], ['MC'])
+        elif 'MI' in self.features:
+            self.add_and_remove(symbol, ['MO'], ['MI'])
+        elif 'MO' in self.features:
+            self.add_and_remove(symbol, ['NO'], ['MO'])
+        elif 'NO' in self.features:
+            self.add_and_remove(symbol, ['OP'], ['NO'])
 
     def upper(self, symbol):
-        if self.counter['PL'] + self.counter['SP'] == 12:
-            self.counter['PL'] += 3
-            self.counter['SP'] -= 3
-            if self.counter['SP'] < 0:
-                self.counter['SP'] = 0
-            if self.counter['PL'] > 12:
-                self.counter['PL'] = 12
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['VI'] == 12:
-            self.counter['SP'] += 6
-            self.counter['VI'] -= 6
-            if self.counter['VI'] < 0:
-                self.counter['VI'] = 0
-            if self.counter['SP'] > 12:
-                self.counter['SP'] = 12
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['TA'] == 12:
-            self.counter['SP'] += 6
-            self.counter['TA'] -= 6
-            if self.counter['TA'] < 0:
-                self.counter['TA'] = 0
-            if self.counter['SP'] > 12:
-                self.counter['SP'] = 12
-            self.symbols += symbol
-        if self.counter['SP'] + self.counter['CL'] == 12:
-            self.counter['SP'] += 3
-            self.counter['CL'] -= 3
-            if self.counter['CL'] < 0:
-                self.counter['CL'] = 0
-            if self.counter['SP'] > 12:
-                self.counter['SP'] = 12
-            self.symbols += symbol
-        if self.counter['CL'] + self.counter['OP'] == 12:
-            self.counter['CL'] += 2
-            self.counter['OP'] -= 2
-            if self.counter['CL'] > 12:
-                self.counter['CL'] = 12
-            if self.counter['OP'] < 0:
-                self.counter['OP'] = 0
-            self.symbols += symbol
+        if 'NF' in self.features:
+            self.add_and_remove(symbol, ['PL'], ['NF'])
+        elif 'SF' in self.features:
+            self.add_and_remove(symbol, ['PL'], ['SF'])
+        elif 'NS' in self.features:
+            self.add_and_remove(symbol, ['PL'], ['NS'])
+        elif 'SS' in self.features:
+            self.add_and_remove(symbol, ['PL'], ['SS'])
+        elif 'VI' in self.features:
+            self.add_and_remove(symbol, ['NS'], ['VI'])
+        elif 'TA' in self.features:
+            self.add_and_remove(symbol, ['PL'], ['TA'])
+        elif 'SV' in self.features:
+            self.add_and_remove(symbol, ['NS'], ['SV'])
+        elif 'CL' in self.features:
+            self.add_and_remove(symbol, ['SV'], ['CL'])
+        elif 'NC' in self.features:
+            self.add_and_remove(symbol, ['CL'], ['NC'])
+        elif 'MC' in self.features:
+            self.add_and_remove(symbol, ['NC'], ['MC'])
+        elif 'MI' in self.features:
+            self.add_and_remove(symbol, ['MC'], ['MI'])
+        elif 'MO' in self.features:
+            self.add_and_remove(symbol, ['MI'], ['MO'])
+        elif 'NO' in self.features:
+            self.add_and_remove(symbol, ['MO'], ['NO'])
+        elif 'OP' in self.features:
+            self.add_and_remove(symbol, ['NO'], ['OP'])
 
-    def make_affricate(self, last_symbol):
-        self.symbols = last_symbol + self.symbols
-        plosive_space = 12 - self.counter['PL']
-        spirnt = self.counter['SP']
-        self.counter['SP'] -= plosive_space/2
-        self.counter['PL'] += plosive_space/2
+    def make_affricate(self, other_ch):
+        self.features = other_ch.features.copy()
+        if 'SS' in self.features:
+            self.add_and_remove(other_ch.symbols, ['SF'], ['SS'])
+        elif 'NS' in self.features:
+            self.add_and_remove(other_ch.symbols, ['NF'], ['NS'])
+        else:
+            raise Exception(f"\033[31m Cannot make affricate from {self.symbols}\033[0m")
 
     def name(self):
-        if self.counter is not None:
-            return ", ".join(feature_names[key] if self.counter[key] == 12 else f"{round(self.counter[key] / 0.12)}% {feature_names[key]}" for key in self.counter)
+        if self.features is not None:
+            return ", ".join(feature_names[f] for f in self.features)
 
     def __str__(self):
         return f"{self.symbols}: {self.name()}"
+
+    def __eq__(self, obj):
+        return isinstance(obj, IPAChar) and obj.features == self.features
+
+    def __ne__(self, obj):
+        return not isinstance(obj, IPAChar) or obj.features != self.features
 
     def symbol(self):
         return self.symbols
@@ -241,24 +189,17 @@ class IPAChar:
     def is_plosive(self):
         return 'PL' in self.features
 
-    def coronal(self):
-        coronal = 0
-        for feature in coronals.intersection(self.counter):
-            coronal += self.counter[feature]
-        return coronal
-
     def places(self):
-        return places.intersection(self.counter)
+        return places & self.features
 
     def has_same_place(self, other_ch):
-        # TODO
-        if self.coronal() >= 3 and other_ch.coronal() >= 3:
+        if 'AL' in self.features and len(coronals & other_ch.features) > 0:
             return True
-        if len(self.places().intersection(other_ch.places())) > 0:
+        if len(self.places() & other_ch.places()) > 0:
             return True
         return False
 
-    def distance(ch1, ch2):
-        c1 = ch1.counter if hasattr(ch1, 'counter') else IPAChar(ch1).counter
-        c2 = ch2.counter if hasattr(ch2, 'counter') else IPAChar(ch2).counter
-        return sum((c1[f] - c2[f]) if c1[f] > c2[f] else (c2[f] - c1[f]) for f in feature_names)/12
+    def has_same_voice(self, other_ch):
+        if ('VO' in self.features and 'VO' in other_ch.features) or ('VO' not in self.features and 'VO' not in other_ch.features):
+            return True
+        return False
