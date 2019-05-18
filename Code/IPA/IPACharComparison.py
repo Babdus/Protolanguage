@@ -1,56 +1,58 @@
 from IPA.IPAChar import IPAChar
-from IPA.IPAData import letters, modifiers, features, places, coronals, feature_names
+from IPA.IPAData import feature_distance_map, places, secondary_places, manners, secondary_manners, airflows
+from munkres import Munkres, DISALLOWED
 
 def in_the_same_cluster(f1, f2):
     s1 = places | secondary_places
     s2 = manners | secondary_manners
     s3 = airflows
-    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2)
-
-def set_distance(set1, set2, direction):
-    s1, s2, direction = (set1, set2, direction) if len(set1) > len(set2) else (set2, set1, !direction)
-    if len(s1) == 0:
-        return 0, []
-    elem = s1.pop()
-    distance, way = set_distance(s1, s2, direction)
-    distance = distance_map[elem+" " if direction else " "+elem] + distance
-    way = ["{elem} -> \033[31mX\033[0m" if direction else "\033[31mX\033[0m -> {elem}"] + way
-
-    for f in s2:
-        if in_the_same_cluster(f, elem):
-            s2.remove(f)
-            d, w = set_distance(s1, s2, direction)
-            d = distance_map[elem+f if direction else f+elem] + d
-            w = ["{elem} -> {f}" if direction else "{f} -> {elem}"] + w
-            if d < distance:
-                distance = d
-                way = w
-            s2.add(f)
-
-    return distance, way
+    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
 
 class IPACharComparison:
-    def __init__(self, ch1, ch2, context):
+    def __init__(self, ch1, ch2):
         self.char1 = ch1
         self.char2 = ch2
-        self.context = context
         self.calculate()
 
     def calculate(self):
         set1 = self.char1.features - self.char2.features
         set2 = self.char2.features - self.char1.features
-        if len(set1) + len(set2) > 7:
-            print('\033[31;mIPACharComparisonLargeDifferenceException: set1: {set1}, set2: {set2}, char1: {self.char1}, char2: {self.char2},\033[0m context: {self.context}')
-            input = input('Continue? (Y/N)')
-            while input not in {'Y', 'N'}:
-                print('Please press Y or N')
-                input = input('Continue? (Y/N)')
-            if input == 'N':
-                raise Exception('\033[31;mIPACharComparisonLargeDifferenceException: set1: {set1}, set2: {set2}, char1: {self.char1}, char2: {self.char2},\033[0m context: {self.context}')
-        self.distance, self.way = set_distance(set1, set2, True)
+
+        if len(set1) + len(set2) == 0:
+            self.distance = 0
+            self.way = []
+            return
+
+        column_names = [f1 for f1 in set1] + ['X' for x in set2]
+        row_names = [f2 for f2 in set2] + ['X' for x in set1]
+        matrix = []
+        for f2 in set2:
+            row = [feature_distance_map[(f1, f2)] if in_the_same_cluster(f1, f2) else DISALLOWED for f1 in set1]
+            row += [feature_distance_map[('X', f2)] for x in set2]
+            matrix.append(row)
+        for y in range(len(set1)):
+            row = [feature_distance_map[(f1, 'X')] for f1 in set1]
+            row += [0 for x in set2]
+            matrix.append(row)
+
+        munkres = Munkres()
+        indexes = munkres.compute(matrix)
+
+        for row in matrix:
+            print(['X' if d == DISALLOWED else d for d in row])
+        print(indexes)
+        print(column_names)
+        print(row_names)
+
+        indexes = [step for step in indexes if step[1] < len(set1) or step[0] < len(set2)]
+        self.distance = sum(matrix[step[0]][step[1]] for step in indexes)
+        self.way = [(column_names[step[1]], row_names[step[0]]) for step in indexes]
 
     def distance(self):
         return distance
 
     def way(self):
         return way
+
+    def __str__(self):
+        return f'Distance: {self.distance}\nWay: ' + "".join([f'{step[0]}->{step[1]}\n' for step in self.way])
