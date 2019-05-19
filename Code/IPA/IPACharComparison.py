@@ -9,18 +9,17 @@ def in_the_same_cluster(f1, f2):
     return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
 
 class IPACharComparison:
-    def __init__(self, ch1, ch2):
+    def __init__(self):
+        pass
+
+    def compare(self, ch1, ch2):
         self.char1 = ch1
         self.char2 = ch2
-        self.calculate()
-
-    def calculate(self):
+        self.distance = 0
+        self.way = {}
         set1 = self.char1.features - self.char2.features
         set2 = self.char2.features - self.char1.features
-
         if len(set1) + len(set2) == 0:
-            self.distance = 0
-            self.way = []
             return
 
         column_names = [f1 for f1 in set1] + ['X' for x in set2]
@@ -37,22 +36,15 @@ class IPACharComparison:
 
         munkres = Munkres()
         indexes = munkres.compute(matrix)
-
-        for row in matrix:
-            print(['X' if d == DISALLOWED else d for d in row])
-        print(indexes)
-        print(column_names)
-        print(row_names)
-
         indexes = [step for step in indexes if step[1] < len(set1) or step[0] < len(set2)]
         self.distance = sum(matrix[step[0]][step[1]] for step in indexes)
-        self.way = [(column_names[step[1]], row_names[step[0]]) for step in indexes]
+        self.way = {column_names[step[1]]: row_names[step[0]] for step in indexes}
 
-    def distance(self):
-        return distance
+    def get_distance(self):
+        return self.distance
 
-    def way(self):
-        return way
+    def get_way(self):
+        return self.way
 
     def __str__(self):
-        return f'Distance: {self.distance}\nWay: ' + "".join([f'{step[0]}->{step[1]}\n' for step in self.way])
+        return f'Distance: {self.distance}\nWay: ' + "".join([f'{step}->{self.way[step]}\n' for step in self.way])

@@ -1,4 +1,4 @@
-from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, vowels, feature_names
+from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, vowels, feature_names, feature_distance_map
 
 class IPAChar:
     def __init__(self, symbols, printing=True):
@@ -30,6 +30,12 @@ class IPAChar:
                 raise ValueError(f"\033[31m {symbol} \033[0m, context: {symbols}")
         if printing:
             print(str(self))
+
+    def delete_cost(self):
+        return sum(feature_distance_map[(f, 'X')] for f in self.features)
+
+    def create_cost(self):
+        return sum(feature_distance_map[('X', f)] for f in self.features)
 
     def add(self, symbol, *args):
         for arg in args:
