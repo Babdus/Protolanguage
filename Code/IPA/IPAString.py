@@ -26,3 +26,6 @@ class IPAString:
 
     def __str__(self):
         return '\n'.join(str(char) for char in self.chars)
+
+    def __len__(self):
+        return len(self.chars)
