@@ -8,9 +8,9 @@ def calculate_distance(df, lang_1, lang_2, output_file):
     lang_1_words = df[lang_1]
     lang_2_words = df[lang_2]
 
-    distances = []
     output = []
     comp = Istcom()
+    distances = []
     for i, word in enumerate(lang_1_words):
         if isinstance(word, str) and len(word) > 0 and isinstance(lang_2_words[i], str) and len(lang_2_words[i]) > 0:
             istr1 = Istr(word)
@@ -18,12 +18,7 @@ def calculate_distance(df, lang_1, lang_2, output_file):
             comp.compare(istr1, istr2)
             distance = comp.distance / (len(istr1) + len(istr2)) * 5
             distances.append(distance)
-            output.append((distance, word, lang_2_words[i]))
-    output.sort()
-    if output_file is not None:
-        with open(output_file, 'w') as out:
-            for o in output:
-                out.write(f'{o[1]} {o[2]}: {o[0]}\n')
+            output.append((distance*1000//1/1000, word, lang_2_words[i]))
     return distances, output
 
 def main(argv):
@@ -31,15 +26,24 @@ def main(argv):
     df = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
 
     # for col1 in df.columns:
-    dists = []
-    for col2 in df.columns:
-        distances, output = calculate_distance(df, 'ka', col2, None)
-        if len(distances) > 50:
-            dists.append((sum(distances)/len(distances), 'ka', col2))
+    matrix = []
+    for i, col1 in enumerate(df.columns):
+        row = []
+        for j, col2 in enumerate(df.columns):
+            if i <= j:
+                row.append('')
+                continue
+            print(col1, col2)
+            distances, output = calculate_distance(df, col1, col2, None)
+            if len(distances) > 20:
+                # out = list(map(lambda x: f'{x[0]}: {x[1]} {x[2]}', output))
+                row.append(f'{sum(distances)/len(distances)*100000//1/100000}')
+            else:
+                row.append('-')
+        matrix.append(row)
 
-    dists.sort()
-    for dist in dists:
-        print(dist[1], dist[2], dist[0])
+    df2 = pd.DataFrame(matrix, index=df.columns, columns=df.columns)
+    df2.to_csv(argv[1])
 
     end = time()
     print(((end-start)*1000//1)/1000, 'seconds')
