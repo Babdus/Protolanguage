@@ -1,0 +1,763 @@
+{
+  "name": "sqgdgagvbrcykmvizalothbomymnhubaaztrtkughearmtpshykufatgnnsvdafoisenlbdeyifyafnlfroccaroitesglptltlvbgmkslplcsskukberusahiurasbneljakotlidmsnyxhzufisekate",
+  "children": [
+    {
+      "name": "sqgdgagvbrcykmvizalothbomymnhubaaztrtkughearmtpshykufatg",
+      "distance": 0.039382247371673396,
+      "children": [
+        {
+          "name": "sqgdgagvbrcy",
+          "distance": 0.3334985718154904,
+          "children": [
+            {
+              "name": "sq",
+              "distance": 9.950425356001421
+            },
+            {
+              "name": "gdgagvbrcy",
+              "distance": 0.49718151899858043,
+              "children": [
+                {
+                  "name": "gdgagv",
+                  "distance": 4.791119680989585,
+                  "children": [
+                    {
+                      "name": "gd",
+                      "distance": 6.541563258196721
+                    },
+                    {
+                      "name": "gagv",
+                      "distance": 0.7983617418032782,
+                      "children": [
+                        {
+                          "name": "ga",
+                          "distance": 6.286040587121213
+                        },
+                        {
+                          "name": "gv",
+                          "distance": 5.313509412878788
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "brcy",
+                  "distance": 2.8868140690104136,
+                  "children": [
+                    {
+                      "name": "br",
+                      "distance": 7.328799737215908
+                    },
+                    {
+                      "name": "cy",
+                      "distance": 6.62343026278409
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "kmvizalothbomymnhubaaztrtkughearmtpshykufatg",
+          "distance": 0.21701722774505644,
+          "children": [
+            {
+              "name": "kmvizalothbomy",
+              "distance": 1.0289078949483226,
+              "children": [
+                {
+                  "name": "kmvizaloth",
+                  "distance": 0.6638446351841538,
+                  "children": [
+                    {
+                      "name": "km",
+                      "distance": 12.033451966646638
+                    },
+                    {
+                      "name": "vizaloth",
+                      "distance": 0.5965155333533634,
+                      "children": [
+                        {
+                          "name": "vi",
+                          "distance": 10.564699424189815
+                        },
+                        {
+                          "name": "zaloth",
+                          "distance": 3.3820455758101886,
+                          "children": [
+                            {
+                              "name": "za",
+                              "distance": 7.0213609242584685
+                            },
+                            {
+                              "name": "loth",
+                              "distance": 3.6111290757415304,
+                              "children": [
+                                {
+                                  "name": "lo",
+                                  "distance": 3.4483300342465695
+                                },
+                                {
+                                  "name": "th",
+                                  "distance": 3.6223799657534315
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "bomy",
+                  "distance": 0.25843661481584723,
+                  "children": [
+                    {
+                      "name": "bo",
+                      "distance": 11.517318206521741
+                    },
+                    {
+                      "name": "my",
+                      "distance": 12.035631793478258
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mnhubaaztrtkughearmtpshykufatg",
+              "distance": 0.23198162897745744,
+              "children": [
+                {
+                  "name": "mnhubaaztrtkug",
+                  "distance": 0.7296092465209979,
+                  "children": [
+                    {
+                      "name": "mn",
+                      "distance": 11.477659569202768
+                    },
+                    {
+                      "name": "hubaaztrtkug",
+                      "distance": 0.25155636829722994,
+                      "children": [
+                        {
+                          "name": "hu",
+                          "distance": 10.255537485546874
+                        },
+                        {
+                          "name": "baaztrtkug",
+                          "distance": 4.831990639453123,
+                          "children": [
+                            {
+                              "name": "ba",
+                              "distance": 6.038782543269241
+                            },
+                            {
+                              "name": "aztrtkug",
+                              "distance": 2.2153099567307617,
+                              "children": [
+                                {
+                                  "name": "az",
+                                  "distance": 2.8959728532608713
+                                },
+                                {
+                                  "name": "trtkug",
+                                  "distance": 0.3094521467391287,
+                                  "children": [
+                                    {
+                                      "name": "tr",
+                                      "distance": 2.933273028169011
+                                    },
+                                    {
+                                      "name": "tkug",
+                                      "distance": 0.6970819718309889,
+                                      "children": [
+                                        {
+                                          "name": "tk",
+                                          "distance": 2.847249583333335
+                                        },
+                                        {
+                                          "name": "ug",
+                                          "distance": 2.600660416666665
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "hearmtpshykufatg",
+                  "distance": 0.08985256988525314,
+                  "children": [
+                    {
+                      "name": "hearmt",
+                      "distance": 3.0706700143432637,
+                      "children": [
+                        {
+                          "name": "he",
+                          "distance": 7.9224901017992435
+                        },
+                        {
+                          "name": "armt",
+                          "distance": 0.9786948982007546,
+                          "children": [
+                            {
+                              "name": "ar",
+                              "distance": 7.013993147865853
+                            },
+                            {
+                              "name": "mt",
+                              "distance": 7.540556852134148
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "pshykufatg",
+                      "distance": 0.38996576690674045,
+                      "children": [
+                        {
+                          "name": "ps",
+                          "distance": 10.609182345377604
+                        },
+                        {
+                          "name": "hykufatg",
+                          "distance": 0.06939265462239241,
+                          "children": [
+                            {
+                              "name": "hy",
+                              "distance": 10.823010518554685
+                            },
+                            {
+                              "name": "kufatg",
+                              "distance": 2.628694481445315,
+                              "children": [
+                                {
+                                  "name": "ku",
+                                  "distance": 6.157147977195947
+                                },
+                                {
+                                  "name": "fatg",
+                                  "distance": 5.0438470228040515,
+                                  "children": [
+                                    {
+                                      "name": "fa",
+                                      "distance": 1.933021249999999
+                                    },
+                                    {
+                                      "name": "tg",
+                                      "distance": 1.4574087500000013
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nnsvdafoisenlbdeyifyafnlfroccaroitesglptltlvbgmkslplcsskukberusahiurasbneljakotlidmsnyxhzufisekate",
+      "distance": 0.039382247371673396,
+      "children": [
+        {
+          "name": "nnsvdafoisenlbdeyifyafnl",
+          "distance": 2.2642244078445444,
+          "children": [
+            {
+              "name": "nnsvdafois",
+              "distance": 1.143410176696778,
+              "children": [
+                {
+                  "name": "nnsvda",
+                  "distance": 2.8646511177884606,
+                  "children": [
+                    {
+                      "name": "nnsv",
+                      "distance": 0.30389463362069025,
+                      "children": [
+                        {
+                          "name": "nn",
+                          "distance": 4.3274290833333255
+                        },
+                        {
+                          "name": "sv",
+                          "distance": 3.798920916666675
+                        }
+                      ]
+                    },
+                    {
+                      "name": "da",
+                      "distance": 4.17392036637931
+                    }
+                  ]
+                },
+                {
+                  "name": "fois",
+                  "distance": 2.5089163822115403,
+                  "children": [
+                    {
+                      "name": "fo",
+                      "distance": 6.019187417763159
+                    },
+                    {
+                      "name": "is",
+                      "distance": 5.100022582236842
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "enlbdeyifyafnl",
+              "distance": 0.7285463858032224,
+              "children": [
+                {
+                  "name": "en",
+                  "distance": 8.78017540792411
+                },
+                {
+                  "name": "lbdeyifyafnl",
+                  "distance": 1.5552227170758872,
+                  "children": [
+                    {
+                      "name": "lbdeyi",
+                      "distance": 0.9607204517663057,
+                      "children": [
+                        {
+                          "name": "lb",
+                          "distance": 5.308946957720593
+                        },
+                        {
+                          "name": "deyi",
+                          "distance": 1.509858042279408,
+                          "children": [
+                            {
+                              "name": "de",
+                              "distance": 3.499380498991935
+                            },
+                            {
+                              "name": "yi",
+                              "distance": 3.648919501008065
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "fyafnl",
+                      "distance": 0.4374632982336937,
+                      "children": [
+                        {
+                          "name": "fy",
+                          "distance": 5.2386701828457465
+                        },
+                        {
+                          "name": "afnl",
+                          "distance": 0.9796548171542536,
+                          "children": [
+                            {
+                              "name": "af",
+                              "distance": 5.005138565848212
+                            },
+                            {
+                              "name": "nl",
+                              "distance": 4.353621434151788
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "froccaroitesglptltlvbgmkslplcsskukberusahiurasbneljakotlidmsnyxhzufisekate",
+          "distance": 0.4391074818038936,
+          "children": [
+            {
+              "name": "froccaroitesglpt",
+              "distance": 2.136886477762859,
+              "children": [
+                {
+                  "name": "frocca",
+                  "distance": 1.2559842382812496,
+                  "children": [
+                    {
+                      "name": "fr",
+                      "distance": 8.429846934621711
+                    },
+                    {
+                      "name": "occa",
+                      "distance": 2.0284980653782885,
+                      "children": [
+                        {
+                          "name": "oc",
+                          "distance": 4.372138843750002
+                        },
+                        {
+                          "name": "ca",
+                          "distance": 4.671881156249998
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "roitesglpt",
+                  "distance": 0.05501029296874904,
+                  "children": [
+                    {
+                      "name": "ro",
+                      "distance": 7.7626722799479175
+                    },
+                    {
+                      "name": "itesglpt",
+                      "distance": 1.8163814700520842,
+                      "children": [
+                        {
+                          "name": "it",
+                          "distance": 5.896454376860121
+                        },
+                        {
+                          "name": "esglpt",
+                          "distance": 1.0667856231398778,
+                          "children": [
+                            {
+                              "name": "es",
+                              "distance": 4.940289579081631
+                            },
+                            {
+                              "name": "glpt",
+                              "distance": 1.6597504209183693,
+                              "children": [
+                                {
+                                  "name": "gl",
+                                  "distance": 3.875522822265625
+                                },
+                                {
+                                  "name": "pt",
+                                  "distance": 3.795107177734375
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ltlvbgmkslplcsskukberusahiurasbneljakotlidmsnyxhzufisekate",
+              "distance": 0.18078708546956346,
+              "children": [
+                {
+                  "name": "ltlvbgmkslplcsskukberu",
+                  "distance": 1.0183256410435266,
+                  "children": [
+                    {
+                      "name": "ltlv",
+                      "distance": 2.828810367624385,
+                      "children": [
+                        {
+                          "name": "lt",
+                          "distance": 7.597703343023259
+                        },
+                        {
+                          "name": "lv",
+                          "distance": 6.134456656976742
+                        }
+                      ]
+                    },
+                    {
+                      "name": "bgmkslplcsskukberu",
+                      "distance": 2.5504207261256164,
+                      "children": [
+                        {
+                          "name": "bgmk",
+                          "distance": 2.1045744702148443,
+                          "children": [
+                            {
+                              "name": "bg",
+                              "distance": 3.609499652777779
+                            },
+                            {
+                              "name": "mk",
+                              "distance": 4.022710347222222
+                            }
+                          ]
+                        },
+                        {
+                          "name": "slplcsskukberu",
+                          "distance": 0.6759117797851548,
+                          "children": [
+                            {
+                              "name": "sl",
+                              "distance": 5.676267028645836
+                            },
+                            {
+                              "name": "plcsskukberu",
+                              "distance": 0.8677754713541637,
+                              "children": [
+                                {
+                                  "name": "plcssk",
+                                  "distance": 0.8059963069661492,
+                                  "children": [
+                                    {
+                                      "name": "pl",
+                                      "distance": 5.130326196933961
+                                    },
+                                    {
+                                      "name": "cssk",
+                                      "distance": 1.721898803066038,
+                                      "children": [
+                                        {
+                                          "name": "cs",
+                                          "distance": 2.610079645522391
+                                        },
+                                        {
+                                          "name": "sk",
+                                          "distance": 2.7608103544776093
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "ukberu",
+                                  "distance": 0.6224861930338516,
+                                  "children": [
+                                    {
+                                      "name": "uk",
+                                      "distance": 4.911298344350964
+                                    },
+                                    {
+                                      "name": "beru",
+                                      "distance": 1.2591316556490364,
+                                      "children": [
+                                        {
+                                          "name": "be",
+                                          "distance": 3.658408288690475
+                                        },
+                                        {
+                                          "name": "ru",
+                                          "distance": 4.083031711309523
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "sahiurasbneljakotlidmsnyxhzufisekate",
+                  "distance": 0.09816884259905079,
+                  "children": [
+                    {
+                      "name": "sahiurasbn",
+                      "distance": 1.1066467581176753,
+                      "children": [
+                        {
+                          "name": "sa",
+                          "distance": 9.425284947916667
+                        },
+                        {
+                          "name": "hiurasbn",
+                          "distance": 1.8643475520833341,
+                          "children": [
+                            {
+                              "name": "hiur",
+                              "distance": 6.400014285386029,
+                              "children": [
+                                {
+                                  "name": "hi",
+                                  "distance": 1.6567612837837855
+                                },
+                                {
+                                  "name": "ur",
+                                  "distance": 1.3708187162162144
+                                }
+                              ]
+                            },
+                            {
+                              "name": "asbn",
+                              "distance": 2.1680057146139715,
+                              "children": [
+                                {
+                                  "name": "as",
+                                  "distance": 5.751248636363637
+                                },
+                                {
+                                  "name": "bn",
+                                  "distance": 5.407091363636362
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "eljakotlidmsnyxhzufisekate",
+                      "distance": 0.2577975387573255,
+                      "children": [
+                        {
+                          "name": "el",
+                          "distance": 9.564281276855468
+                        },
+                        {
+                          "name": "jakotlidmsnyxhzufisekate",
+                          "distance": 0.21965856689453034,
+                          "children": [
+                            {
+                              "name": "jako",
+                              "distance": 0.5208132827524039,
+                              "children": [
+                                {
+                                  "name": "ja",
+                                  "distance": 11.183653291015625
+                                },
+                                {
+                                  "name": "ko",
+                                  "distance": 11.703056708984375
+                                }
+                              ]
+                            },
+                            {
+                              "name": "tlidmsnyxhzufisekate",
+                              "distance": 0.17897468599759625,
+                              "children": [
+                                {
+                                  "name": "tlidms",
+                                  "distance": 1.8260545089285731,
+                                  "children": [
+                                    {
+                                      "name": "tl",
+                                      "distance": 9.277376867439516
+                                    },
+                                    {
+                                      "name": "idms",
+                                      "distance": 5.856188132560481,
+                                      "children": [
+                                        {
+                                          "name": "id",
+                                          "distance": 1.7757931249999956
+                                        },
+                                        {
+                                          "name": "ms",
+                                          "distance": 1.4588468750000045
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "nyxhzufisekate",
+                                  "distance": 0.3440945535714275,
+                                  "children": [
+                                    {
+                                      "name": "nyxhzufise",
+                                      "distance": 0.5026848463541667,
+                                      "children": [
+                                        {
+                                          "name": "nyxhzu",
+                                          "distance": 1.4994893105468745,
+                                          "children": [
+                                            {
+                                              "name": "ny",
+                                              "distance": 8.454851796875001
+                                            },
+                                            {
+                                              "name": "xhzu",
+                                              "distance": 8.397003203125,
+                                              "children": [
+                                                {
+                                                  "name": "xh",
+                                                  "distance": 2.876075800000001
+                                                },
+                                                {
+                                                  "name": "zu",
+                                                  "distance": 3.342174199999999
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "fise",
+                                          "distance": 1.1193056894531277,
+                                          "children": [
+                                            {
+                                              "name": "fi",
+                                              "distance": 8.292372539062502
+                                            },
+                                            {
+                                              "name": "se",
+                                              "distance": 9.290787460937498
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "kate",
+                                      "distance": 0.1931476536458332,
+                                      "children": [
+                                        {
+                                          "name": "ka",
+                                          "distance": 11.481865022977942
+                                        },
+                                        {
+                                          "name": "te",
+                                          "distance": 9.589444977022058
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
