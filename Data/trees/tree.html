@@ -553,7 +553,7 @@ treeData = [{
                       "parent": "frocca",
                       "children": [
                         {
-                          "name": "Occitan (post 1500)",
+                          "name": "Occitan",
                           "distance": 4.372138843750002,
                           "parent": "occa"
                         },
@@ -991,25 +991,28 @@ function update(source) {
       console.log(d)
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
-  nodeEnter.append("circle")
-	  .attr("r", function(d) { return d.children || d._children ? 1 : 10})
+  nodeEnter.append("ellipse")
+	  .attr("rx", function(d) { return d.children || d._children ? 0 : d.name.length*5})
+    .attr("ry", function(d) { return d.children || d._children ? 0 : 10})
 	  .style("fill", function(d) {
-      return d.children || d._children ? "#e8e8e8" : "#4e4"});
+      return d.children || d._children ? "#e8e8e8" : "#46fc80"})
+    .style("stroke", '#4bcdea')
+    .style("stroke-width", 2)
 
   nodeEnter.append("text")
 	  .attr("x", function(d) {
-		  return d.children || d._children ? -13 : 13; })
-	  .attr("dy", ".5em")
+		  return d.children || d._children ? -13 : -d.name.length*3; })
+	  .attr("dy", ".3em")
 	  .attr("text-anchor", function(d) {
 		  return d.children || d._children ? "end" : "start"; })
 	  .text(function(d) { return d.children || d._children ? '' : d.name; })
 	  .style("fill-opacity", 1);
 
-  nodeEnter.append("text")
-	  .attr("x", -45)
-    .attr("dy", "-0.5em")
-	  .text(function(d) { return d.distance ? Math.round(d.distance * 100) / 100 : ''; })
-	  .style("fill-opacity", 1);
+  // nodeEnter.append("text")
+	//   .attr("x", -45)
+  //   .attr("dy", "-0.5em")
+	//   .text(function(d) { return d.distance ? Math.round(d.distance * 100) / 100 : ''; })
+	//   .style("fill-opacity", 1);
 
   // Declare the links…
   var link = svg.selectAll("path.link")
