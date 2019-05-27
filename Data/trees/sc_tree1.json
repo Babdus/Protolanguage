@@ -1,0 +1,54 @@
+[
+  {
+    "name": "dasvnnfois",
+    "parent": "null",
+    "children": [
+      {
+        "name": "dasv",
+        "distance": 0.8895418750000001,
+        "parent": "dasvnnfois",
+        "children": [
+          {
+            "name": "Danish",
+            "distance": 4.147598750000001,
+            "parent": "dasv"
+          },
+          {
+            "name": "Swedish",
+            "distance": 3.7429912499999984,
+            "parent": "dasv"
+          }
+        ]
+      },
+      {
+        "name": "nnfois",
+        "distance": 0.8895418750000001,
+        "parent": "dasvnnfois",
+        "children": [
+          {
+            "name": "Norwegian Nynorsk",
+            "distance": 3.22630375,
+            "parent": "nnfois"
+          },
+          {
+            "name": "fois",
+            "distance": 4.357321249999998,
+            "parent": "nnfois",
+            "children": [
+              {
+                "name": "Faroese",
+                "distance": 6.049896666666667,
+                "parent": "fois"
+              },
+              {
+                "name": "Icelandic",
+                "distance": 5.069313333333334,
+                "parent": "fois"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

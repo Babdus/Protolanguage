@@ -43,7 +43,7 @@ def distance_to_tree(d_dict):
 
     create_tree(t_dict, root, ch_dict, language_codes)
 
-    t_json = json.dumps(t_dict, indent=2)
+    t_json = json.dumps([t_dict], indent=2)
     print(t_json)
     return t_json
 

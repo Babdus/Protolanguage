@@ -12,7 +12,7 @@ test_langs = ['af', 'ar', 'as', 'az', 'ba', 'be', 'bg', 'bn', 'bo', 'br', 'ca',
               'ro', 'ru', 'sa', 'se', 'sk', 'sl', 'sq', 'sv', 'te', 'tg', 'th',
               'tk', 'tl', 'tr', 'ug', 'uk', 'ur', 'vi', 'xh', 'yi', 'za', 'zu']
 
-ie_test_langs = ['af', 'be', 'bg', 'bn', 'br', 'ca',
+ie_test_langs = ['af', 'as', 'be', 'bg', 'bn', 'br', 'ca',
                  'cs', 'cy', 'da', 'de', 'el', 'en', 'es', 'fa', 'fo', 'fr',
                  'fy', 'ga', 'gd', 'gl', 'gv', 'hi', 'hy', 'is',
                  'it', 'ku', 'lb', 'lt', 'lv', 'mk',
@@ -41,14 +41,21 @@ def main(argv):
     start = time()
     df = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
 
+    langs = ie_test_langs
+
+    if len(argv) > 2:
+        langs = argv[2].strip().split()
+
+    print(langs)
+
     # for col1 in df.columns:
     with open(argv[1], 'w') as out:
         # matrix = []
-        out.write(','+','.join(ie_test_langs))
-        for i, col1 in enumerate(ie_test_langs):
+        out.write(','+','.join(langs)+'\n')
+        for i, col1 in enumerate(langs):
             out.write(col1)
             # row = []
-            for j, col2 in enumerate(ie_test_langs):
+            for j, col2 in enumerate(langs):
                 if i <= j:
                     out.write(',')
                     # row.append('')
