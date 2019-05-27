@@ -53,7 +53,7 @@ var svg = d3.select("body").append("svg")
 
 // load the external data
 d3.json("ie_tree1.json", function(error, treeData) {
-  root = treeData[0];
+  root = treeData;
   update(root);
 });
 
