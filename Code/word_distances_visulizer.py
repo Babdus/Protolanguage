@@ -1,10 +1,17 @@
 import sys
+import pandas as pd
 from collections import Counter
 from language_comparison import calculate_distance
 
 def main(argv):
-    array = calculate_distance(argv[0], argv[1], argv[2], 'temp.out')
-    array = [int(elem) for elem in array]
+    df = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
+    distances, output = calculate_distance(df, argv[1], argv[2], f'{argv[1]}-{argv[2]}.out')
+
+    with open(f'../Test/{argv[1]}-{argv[2]}.out', 'w') as out:
+        for o in output:
+            out.write(f'{o[1]} - {o[2]}: {o[0]}\n')
+
+    array = [int(elem) for elem in distances]
     # with open(argv[0]) as inp:
     #     array = [int(line.split()[0].strip()) for line in inp.readlines()]
     occurences = Counter(array)

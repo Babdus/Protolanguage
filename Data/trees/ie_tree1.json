@@ -1,0 +1,556 @@
+{
+  "name": "elsabnhiurltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+  "parent": "null",
+  "children": [
+    {
+      "name": "elsabnhiur",
+      "distance": 0.0395052333068846,
+      "parent": "elsabnhiurltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+      "children": [
+        {
+          "name": "Greek",
+          "distance": 9.650444317626954,
+          "parent": "elsabnhiur"
+        },
+        {
+          "name": "sabnhiur",
+          "distance": 1.3673206823730464,
+          "parent": "elsabnhiur",
+          "children": [
+            {
+              "name": "Sanskrit",
+              "distance": 9.296942602982956,
+              "parent": "sabnhiur"
+            },
+            {
+              "name": "bnhiur",
+              "distance": 1.7514298970170454,
+              "parent": "sabnhiur",
+              "children": [
+                {
+                  "name": "Bengali",
+                  "distance": 7.506744222861841,
+                  "parent": "bnhiur"
+                },
+                {
+                  "name": "hiur",
+                  "distance": 5.863090777138157,
+                  "parent": "bnhiur",
+                  "children": [
+                    {
+                      "name": "Hindi",
+                      "distance": 1.5843791111111087,
+                      "parent": "hiur"
+                    },
+                    {
+                      "name": "Urdu",
+                      "distance": 1.4432008888888912,
+                      "parent": "hiur"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+      "distance": 0.0395052333068846,
+      "parent": "elsabnhiurltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+      "children": [
+        {
+          "name": "ltlvbgmkslplcsskberuuk",
+          "distance": 0.9510268869018548,
+          "parent": "ltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+          "children": [
+            {
+              "name": "ltlv",
+              "distance": 2.917175772460939,
+              "parent": "ltlvbgmkslplcsskberuuk",
+              "children": [
+                {
+                  "name": "Lithuanian",
+                  "distance": 7.569208139204548,
+                  "parent": "ltlv"
+                },
+                {
+                  "name": "Latvian",
+                  "distance": 6.162951860795452,
+                  "parent": "ltlv"
+                }
+              ]
+            },
+            {
+              "name": "bgmkslplcsskberuuk",
+              "distance": 2.4620553212890623,
+              "parent": "ltlvbgmkslplcsskberuuk",
+              "children": [
+                {
+                  "name": "bgmk",
+                  "distance": 2.0463060937500006,
+                  "parent": "bgmkslplcsskberuuk",
+                  "children": [
+                    {
+                      "name": "Bulgarian",
+                      "distance": 3.4938611363636345,
+                      "parent": "bgmk"
+                    },
+                    {
+                      "name": "Macedonian",
+                      "distance": 4.138348863636367,
+                      "parent": "bgmk"
+                    }
+                  ]
+                },
+                {
+                  "name": "slplcsskberuuk",
+                  "distance": 0.7341801562499986,
+                  "parent": "bgmkslplcsskberuuk",
+                  "children": [
+                    {
+                      "name": "Slovenian",
+                      "distance": 5.619466083559782,
+                      "parent": "slplcsskberuuk"
+                    },
+                    {
+                      "name": "plcsskberuuk",
+                      "distance": 0.9245764164402175,
+                      "parent": "slplcsskberuuk",
+                      "children": [
+                        {
+                          "name": "plcssk",
+                          "distance": 0.8091239687499996,
+                          "parent": "plcsskberuuk",
+                          "children": [
+                            {
+                              "name": "Polish",
+                              "distance": 5.103629707031248,
+                              "parent": "plcssk"
+                            },
+                            {
+                              "name": "cssk",
+                              "distance": 1.7485952929687505,
+                              "parent": "plcssk",
+                              "children": [
+                                {
+                                  "name": "Czech",
+                                  "distance": 2.627464146341457,
+                                  "parent": "cssk"
+                                },
+                                {
+                                  "name": "Slovak",
+                                  "distance": 2.743425853658543,
+                                  "parent": "cssk"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "beruuk",
+                          "distance": 0.6193585312500012,
+                          "parent": "plcsskberuuk",
+                          "children": [
+                            {
+                              "name": "beru",
+                              "distance": 1.368197379032256,
+                              "parent": "beruuk",
+                              "children": [
+                                {
+                                  "name": "Belarusian",
+                                  "distance": 3.750627403846152,
+                                  "parent": "beru"
+                                },
+                                {
+                                  "name": "Russian",
+                                  "distance": 3.990812596153847,
+                                  "parent": "beru"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Ukrainian",
+                              "distance": 4.802232620967745,
+                              "parent": "beruuk"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "frcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+          "distance": 0.2974238241577156,
+          "parent": "ltlvbgmkslplcsskberuukfrcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+          "children": [
+            {
+              "name": "frcaocroitesglpt",
+              "distance": 1.9024470603434243,
+              "parent": "frcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+              "children": [
+                {
+                  "name": "frcaoc",
+                  "distance": 1.1456183610026034,
+                  "parent": "frcaocroitesglpt",
+                  "children": [
+                    {
+                      "name": "French",
+                      "distance": 8.722821432291669,
+                      "parent": "frcaoc"
+                    },
+                    {
+                      "name": "caoc",
+                      "distance": 1.7355235677083307,
+                      "parent": "frcaoc",
+                      "children": [
+                        {
+                          "name": "Catalan",
+                          "distance": 4.854864665178573,
+                          "parent": "caoc"
+                        },
+                        {
+                          "name": "Occitan (post 1500)",
+                          "distance": 4.189155334821427,
+                          "parent": "caoc"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "roitesglpt",
+                  "distance": 0.16537617024739526,
+                  "parent": "frcaocroitesglpt",
+                  "children": [
+                    {
+                      "name": "Romanian",
+                      "distance": 7.620007869591348,
+                      "parent": "roitesglpt"
+                    },
+                    {
+                      "name": "itesglpt",
+                      "distance": 1.9590458804086541,
+                      "parent": "roitesglpt",
+                      "children": [
+                        {
+                          "name": "Italian",
+                          "distance": 5.815250078124999,
+                          "parent": "itesglpt"
+                        },
+                        {
+                          "name": "esglpt",
+                          "distance": 1.1479899218750003,
+                          "parent": "itesglpt",
+                          "children": [
+                            {
+                              "name": "Spanish",
+                              "distance": 4.9906549030172425,
+                              "parent": "esglpt"
+                            },
+                            {
+                              "name": "glpt",
+                              "distance": 1.6093850969827574,
+                              "parent": "esglpt",
+                              "children": [
+                                {
+                                  "name": "Galician",
+                                  "distance": 3.8378609523809506,
+                                  "parent": "glpt"
+                                },
+                                {
+                                  "name": "Portuguese",
+                                  "distance": 3.8327690476190495,
+                                  "parent": "glpt"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "kutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+              "distance": 0.2935870094807942,
+              "parent": "frcaocroitesglptkutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+              "children": [
+                {
+                  "name": "kutgfahyps",
+                  "distance": 0.543134800720215,
+                  "parent": "kutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+                  "children": [
+                    {
+                      "name": "kutgfa",
+                      "distance": 2.5451502343749994,
+                      "parent": "kutgfahyps",
+                      "children": [
+                        {
+                          "name": "Kurdish",
+                          "distance": 6.081641032986109,
+                          "parent": "kutgfa"
+                        },
+                        {
+                          "name": "tgfa",
+                          "distance": 5.11935396701389,
+                          "parent": "kutgfa",
+                          "children": [
+                            {
+                              "name": "Tajik",
+                              "distance": 1.498370397727273,
+                              "parent": "tgfa"
+                            },
+                            {
+                              "name": "Persian",
+                              "distance": 1.8920596022727272,
+                              "parent": "tgfa"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "hyps",
+                      "distance": 0.16094976562499985,
+                      "parent": "kutgfahyps",
+                      "children": [
+                        {
+                          "name": "Armenian",
+                          "distance": 10.874027444196427,
+                          "parent": "hyps"
+                        },
+                        {
+                          "name": "Pushto",
+                          "distance": 10.550152555803573,
+                          "parent": "hyps"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "foisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+                  "distance": 0.3722602383422846,
+                  "parent": "kutgfahypsfoisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+                  "children": [
+                    {
+                      "name": "foisdannsvenlbdeyifyafnl",
+                      "distance": 2.2347248754882822,
+                      "parent": "foisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+                      "children": [
+                        {
+                          "name": "foisdannsv",
+                          "distance": 1.1287110763113841,
+                          "parent": "foisdannsvenlbdeyifyafnl",
+                          "children": [
+                            {
+                              "name": "fois",
+                              "distance": 2.7501298345588228,
+                              "parent": "foisdannsv",
+                              "children": [
+                                {
+                                  "name": "Faroese",
+                                  "distance": 6.069122837837839,
+                                  "parent": "fois"
+                                },
+                                {
+                                  "name": "Icelandic",
+                                  "distance": 5.0500871621621615,
+                                  "parent": "fois"
+                                }
+                              ]
+                            },
+                            {
+                              "name": "dannsv",
+                              "distance": 2.6234376654411755,
+                              "parent": "foisdannsv",
+                              "children": [
+                                {
+                                  "name": "Danish",
+                                  "distance": 4.203247053571428,
+                                  "parent": "dannsv"
+                                },
+                                {
+                                  "name": "nnsv",
+                                  "distance": 0.2745679464285722,
+                                  "parent": "dannsv",
+                                  "children": [
+                                    {
+                                      "name": "Norwegian Nynorsk",
+                                      "distance": 4.334786631944443,
+                                      "parent": "nnsv"
+                                    },
+                                    {
+                                      "name": "Swedish",
+                                      "distance": 3.7915633680555576,
+                                      "parent": "nnsv"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "enlbdeyifyafnl",
+                          "distance": 0.7432454861886171,
+                          "parent": "foisdannsvenlbdeyifyafnl",
+                          "children": [
+                            {
+                              "name": "en",
+                              "distance": 8.931443543701171,
+                              "parent": "enlbdeyifyafnl"
+                            },
+                            {
+                              "name": "lbdeyifyafnl",
+                              "distance": 1.4039545812988266,
+                              "parent": "enlbdeyifyafnl",
+                              "children": [
+                                {
+                                  "name": "lbdeyi",
+                                  "distance": 0.9621576236979174,
+                                  "parent": "lbdeyifyafnl",
+                                  "children": [
+                                    {
+                                      "name": "Luxembourgish",
+                                      "distance": 5.355374178240741,
+                                      "parent": "lbdeyi"
+                                    },
+                                    {
+                                      "name": "deyi",
+                                      "distance": 1.4634308217592604,
+                                      "parent": "lbdeyi",
+                                      "children": [
+                                        {
+                                          "name": "German",
+                                          "distance": 3.580749111842103,
+                                          "parent": "deyi"
+                                        },
+                                        {
+                                          "name": "Yiddish",
+                                          "distance": 3.567550888157897,
+                                          "parent": "deyi"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "fyafnl",
+                                  "distance": 0.43602612630208204,
+                                  "parent": "lbdeyifyafnl",
+                                  "children": [
+                                    {
+                                      "name": "Western Frisian",
+                                      "distance": 5.086107980769232,
+                                      "parent": "fyafnl"
+                                    },
+                                    {
+                                      "name": "afnl",
+                                      "distance": 1.132217019230768,
+                                      "parent": "fyafnl",
+                                      "children": [
+                                        {
+                                          "name": "Afrikaans",
+                                          "distance": 5.091816213235295,
+                                          "parent": "afnl"
+                                        },
+                                        {
+                                          "name": "Dutch",
+                                          "distance": 4.266943786764705,
+                                          "parent": "afnl"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "sqgdgagvbrcy",
+                      "distance": 0.46614981201171757,
+                      "parent": "foisdannsvenlbdeyifyafnlsqgdgagvbrcy",
+                      "children": [
+                        {
+                          "name": "Albanian",
+                          "distance": 9.930987901611328,
+                          "parent": "sqgdgagvbrcy"
+                        },
+                        {
+                          "name": "gdgagvbrcy",
+                          "distance": 0.5166189733886739,
+                          "parent": "sqgdgagvbrcy",
+                          "children": [
+                            {
+                              "name": "gdgagv",
+                              "distance": 4.782179659288194,
+                              "parent": "gdgagvbrcy",
+                              "children": [
+                                {
+                                  "name": "Gaelic",
+                                  "distance": 6.586524906249997,
+                                  "parent": "gdgagv"
+                                },
+                                {
+                                  "name": "gagv",
+                                  "distance": 0.7534000937500025,
+                                  "parent": "gdgagv",
+                                  "children": [
+                                    {
+                                      "name": "Irish",
+                                      "distance": 6.288401395348839,
+                                      "parent": "gagv"
+                                    },
+                                    {
+                                      "name": "Manx",
+                                      "distance": 5.311148604651161,
+                                      "parent": "gagv"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "brcy",
+                              "distance": 2.8957540907118045,
+                              "parent": "gdgagvbrcy",
+                              "children": [
+                                {
+                                  "name": "Breton",
+                                  "distance": 7.547253575,
+                                  "parent": "brcy"
+                                },
+                                {
+                                  "name": "Welsh",
+                                  "distance": 6.404976424999998,
+                                  "parent": "brcy"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
