@@ -61,11 +61,11 @@ def main(argv):
     end = time()
     print(delta)
 
-    print(((end-start)*1000//1)/1000, 'seconds')
-
     t_json = distance_to_tree(delta)
     with open(argv[1], 'w') as out:
         out.write(t_json)
+    
+    print(((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
     main(sys.argv[1:])
