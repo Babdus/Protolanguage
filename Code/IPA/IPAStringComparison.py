@@ -36,10 +36,12 @@ class IPAStringComparison:
                     step = ('sub: '+seq1[x].symbol()+' '+seq2[y].symbol(),) if comparer.distance > 0 else ()
                     thisrow[y] = (subcost, oneago[y-1][1] + step)
 
-                # This block deals with transpositions
                 # if (x > 0 and y > 0 and seq1[x] == seq2[y - 1]
                 #     and seq1[x-1] == seq2[y] and seq1[x] != seq2[y]):
-                #     thisrow[y] = min(thisrow[y], twoago[y - 2] + 1)
+                #     if twoago[y - 2][0] + 5 < thisrow[y][0]:
+                #         print(thisrow[y][1][:-2])
+                #         print(thisrow[y][1])
+                #         thisrow[y] = (twoago[y - 2][0] + 5, thisrow[y][1][:-2] + ('tra: '+seq2[y].symbol()+' '+seq1[x].symbol(),))
         self.distance, self.steps = thisrow[len(seq2)-1]
         return thisrow[len(seq2)-1]
 
