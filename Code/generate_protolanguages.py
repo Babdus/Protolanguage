@@ -25,14 +25,19 @@ def load_modern_language(lang, df):
 
 def reconstruct_language(lang1, lang2):
     lang = {}
+    comp = Istcom()
     for word in lang1:
-        if word not in lang2 or len(lang2[word]) < 1:
+        if len(lang2[word]) < 1:
             lang[word] = lang1[word]
+        elif len(lang1[word]) < 1:
+            lang[word] = lang2[word]
         else:
-            lang[word] = lang1[word] if random.choice([True, False]) else lang2[word]
+            comp.compare(lang1[word], lang2[word])
+            steps1 = comp.steps
+            comp.compare(lang2[word], lang1[word])
+            steps2 = comp.steps
 
-    for word in lang2.keys() - lang1.keys():
-        lang[word] = lang2[word]
+            
 
     return lang
 
