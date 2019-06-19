@@ -13,7 +13,7 @@ class IPACharComparison:
     def __init__(self):
         pass
 
-    def compare(self, ch1, ch2, asymmetric=False):
+    def compare(self, ch1, ch2, asymmetric=False, relat_dist_to_ch1=0.5):
         self.char1 = ch1
         self.char2 = ch2
         self.distance = 0
@@ -27,7 +27,7 @@ class IPACharComparison:
             return
 
         if asymmetric:
-            self.find_parent(set1 + set2, tuple(sorted(list(set1))), tuple(sorted(list(set2))))
+            self.find_parent(set1 + set2, tuple(sorted(list(set1))), tuple(sorted(list(set2))), relat_dist_to_ch1)
             return
 
         column_names = [f1 for f1 in set1] + ['X' for x in set2]
@@ -48,9 +48,19 @@ class IPACharComparison:
         self.distance = sum(matrix[step[0]][step[1]] for step in indexes)
         self.way = {column_names[step[1]]: row_names[step[0]] for step in indexes}
 
-    def find_parent(self, feature_set, vertex1, vertex2):
-        distances_to_char1 = dijkstra(vertex1, feature_set)
-        distances_to_char2 = dijkstra(vertex2, feature_set)
+    def is_valid_sound(features):
+        return len(features & places) == 1 and len(features & manners) == 1
+
+    def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):
+        dists_to_char1, next_nodes_to_char1 = dijkstra(vertex1, feature_set, asymmetric_feature_distance_map)
+        dists_to_char2, next_nodes_to_char2 = dijkstra(vertex2, feature_set, asymmetric_feature_distance_map)
+
+        same_features = self.char1.features & self.char2.features
+        relat_dists_to_char1 = {}
+        for node in dists_to_char1:
+            if is_valid_sound(set(node) | same_features):
+                relat_dists_to_char1[node] = dists_to_char1[node] / (dists_to_char1[node] + dists_to_char2[node])
+
 
     def get_distance(self):
         return self.distance
