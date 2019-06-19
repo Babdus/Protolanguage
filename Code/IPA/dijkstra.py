@@ -1,3 +1,5 @@
+from fibonacci_heap_mod import Fibonacci_heap as fh
+
 def neighbours(vertex, whole_set, distances):
     ns = {}
     if vertex == 'X':
@@ -17,27 +19,21 @@ def neighbours(vertex, whole_set, distances):
             ns[tuple(sorted(list(vertex + (other_elem,))))] = distances[(other_elem, 'X')]
     return ns
 
-def pop_minimal_vertex(Q, dist):
-    mv = None
-    md = None
-    for v in Q:
-        if md is None or md > dist[v]:
-            mv, md = v, dist[v]
-    Q.remove(mv)
-    return mv
-
 def dijkstra(vertex, whole_set, distances):
-    dist = {}
+    entries = {}
     prev = {}
-    dist[vertex] = 0
-    Q = {vertex}
+    Q = fh()
+    entries[vertex] = Q.enqueue(vertex, 0)
     while len(Q) > 0:
-        min_vertex = pop_minimal_vertex(Q, dist)
-        neighbour_distances = neighbours(min_vertex, whole_set, distances)
+        min_vertex_entry = Q.dequeue_min()
+        neighbour_distances = neighbours(min_vertex_entry.get_value(), whole_set, distances)
         for neighbour in neighbour_distances:
-            alt = dist[min_vertex] + neighbour_distances[neighbour]
-            if neighbour not in dist or alt < dist[neighbour]:
-                dist[neighbour] = alt
-                prev[neighbour] = min_vertex
-                Q.add(neighbour)
+            alt = min_vertex_entry.get_priority() + neighbour_distances[neighbour]
+            if neighbour not in entries or alt < entries[neighbour].get_priority():
+                if neighbour in entries:
+                    Q.decrease_key(entries[neighbour], alt)
+                else:
+                    entries[neighbour] = Q.enqueue(neighbour, alt)
+                prev[neighbour] = min_vertex_entry.get_value()
+    dist = {key: entries[key].get_priority() for key in entries}
     return dist, prev
