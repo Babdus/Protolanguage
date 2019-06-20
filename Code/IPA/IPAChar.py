@@ -1,10 +1,13 @@
-from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, vowels, feature_names, feature_distance_map
+from IPA.IPAData import replace_with, letters, ignore_set, modifiers, features, places, coronals, vowels, feature_names, feature_distance_map, reversed_letters
 
 class IPAChar:
-    def __init__(self, symbols, printing=True):
+    def __init__(self, symbols, printing=True, create_from_set=False):
         self.modifiers = set()
         self.symbols = ''
         self.features = None
+        if create_from_set:
+            self.create_from_set(symbols)
+            return
         for i, symbol in enumerate(symbols):
             if symbol in replace_with:
                 symbol = replace_with[symbol]
@@ -30,6 +33,12 @@ class IPAChar:
                 raise ValueError(f"\033[31m {symbol} \033[0m, context: {symbols}")
         if printing:
             print(str(self))
+
+    def create_from_set(self, feats):
+        self.features = feats
+        tup = tuple(sorted(list(feats)))
+        if tup in reversed_letters:
+            self.symbols += reversed_letters[tup]
 
     def delete_cost(self):
         return sum(feature_distance_map[(f, 'X')] for f in self.features)

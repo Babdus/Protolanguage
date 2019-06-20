@@ -1,7 +1,7 @@
 from IPA.IPAChar import IPAChar
-from IPA.IPAData import feature_distance_map, places, secondary_places, manners, secondary_manners, airflows
+from IPA.IPAData import asymmetric_feature_distance_map, feature_distance_map, places, secondary_places, manners, secondary_manners, airflows
 from munkres import Munkres, DISALLOWED
-from dijkstra import *
+from IPA.dijkstra import *
 
 def in_the_same_cluster(f1, f2):
     s1 = places | secondary_places
@@ -27,7 +27,7 @@ class IPACharComparison:
             return
 
         if asymmetric:
-            self.find_parent(set1 + set2, tuple(sorted(list(set1))), tuple(sorted(list(set2))), relat_dist_to_ch1)
+            self.find_parent(set1 | set2, tuple(sorted(list(set1))), tuple(sorted(list(set2))), relat_dist_to_ch1)
             return
 
         column_names = [f1 for f1 in set1] + ['X' for x in set2]
@@ -49,6 +49,7 @@ class IPACharComparison:
         self.way = {column_names[step[1]]: row_names[step[0]] for step in indexes}
 
     def is_valid_sound(features):
+        # TODO check here real validity of generated protosounds
         return len(features & places) == 1 and len(features & manners) == 1
 
     def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):
@@ -62,10 +63,16 @@ class IPACharComparison:
                 total = dists_to_char1[node] + dists_to_char2[node]
                 relat_dists_to_char1[node] = (dists_to_char1[node] / total, total)
 
-        minimal_distance_node = 
+        minimal_distance = relat_dists_to_char1[min(relat_dists_to_char1, key=lambda x: relat_dists_to_char1[x][1])][1]
+        sorted_distances = sorted(relat_dists_to_char1.items(), key=lambda item: item[1][1]/minimal_distance/2 + abs(item[1][0]-relat_dist_to_ch1))
+        self.parent = IPAChar(set(sorted_distances[0][0]) | same_features, create_from_set=True)
+        self.distance = sorted_distances[0][1][1]
 
     def get_distance(self):
         return self.distance
+
+    def get_parent(self):
+        return self.parent
 
     def get_way(self):
         return self.way
