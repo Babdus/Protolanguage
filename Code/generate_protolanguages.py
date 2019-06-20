@@ -23,22 +23,27 @@ def load_modern_language(lang, df):
         dictionary[word] = Istr(dictionary[word])
     return dictionary
 
-def reconstruct_language(lang1, lang2):
+def reconstruct_language(child1, child2):
     lang = {}
     comp = Istcom()
+    lang1 = child1['lang']
+    lang2 = child2['lang']
+    dist1 = child1['distance']
+    dist2 = child2['distance']
+
+    color_code = random.choice([30, 31, 32, 33, 34, 35, 36, 37, 90, 91, 92, 93, 94, 95, 96, 97])
+    print(f'\033[{str(color_code)}m')
+    print(child1['name'], child2['name'])
+    print('\033[0m')
+
     for word in lang1:
         if len(lang2[word]) < 1:
             lang[word] = lang1[word]
         elif len(lang1[word]) < 1:
             lang[word] = lang2[word]
         else:
-            comp.compare(lang1[word], lang2[word])
-            steps1 = comp.steps
-            comp.compare(lang2[word], lang1[word])
-            steps2 = comp.steps
-
-            
-
+            comp.compare(lang1[word], lang2[word], asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
+            lang[word] = comp.parent
     return lang
 
 def reconstruct_languages(tree, df):
@@ -54,7 +59,7 @@ def reconstruct_languages(tree, df):
     else:
         child2['lang'] = load_modern_language(tree['name'][-2:], df)
 
-    tree['lang'] = reconstruct_language(child1['lang'], child2['lang'])
+    tree['lang'] = reconstruct_language(child1, child2)
 
 def main(argv):
     df = pd.io.parsers.read_csv(argv[1],index_col=0).fillna('')

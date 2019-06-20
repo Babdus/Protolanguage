@@ -43,11 +43,17 @@ class IPAChar:
             self.symbols += reversed_letters[tup]
         if len(self.symbols) == 0:
             if 'NF' in self.features:
-                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'NF'}) | {'PL'})))]
-                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'NF'}) | {'NS'})))]
+                pl = tuple(sorted(list((self.features - {'NF'}) | {'PL'})))
+                sp = tuple(sorted(list((self.features - {'NF'}) | {'NS'})))
+                if pl in reversed_letters and sp in reversed_letters:
+                    self.symbols += reversed_letters[pl]
+                    self.symbols += reversed_letters[sp]
             if 'SF' in self.features:
-                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'SF'}) | {'PL'})))]
-                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'SF'}) | {'NS'})))]
+                pl = tuple(sorted(list((self.features - {'SF'}) | {'PL'})))
+                sp = tuple(sorted(list((self.features - {'SF'}) | {'NS'})))
+                if pl in reversed_letters and sp in reversed_letters:
+                    self.symbols += reversed_letters[pl]
+                    self.symbols += reversed_letters[sp]
 
     def delete_cost(self):
         return sum(feature_distance_map[(f, 'X')] for f in self.features)

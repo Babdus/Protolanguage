@@ -52,7 +52,6 @@ class IPACharComparison:
     def is_valid_sound(features):
         # TODO check here real validity of generated protosounds
         valid = (len(features & places) == 1 or (len(features & {'AL', 'PA'}) == 2 and len(features & places) == 2)) and len(features & manners) == 1
-        print(valid, features)
         return valid
 
     @staticmethod
@@ -77,6 +76,10 @@ class IPACharComparison:
         return features
 
     def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):
+        if vertex1 == ():
+            vertex1 = 'X'
+        if vertex2 == ():
+            vertex2 = 'X'
         dists_to_char1, next_nodes_to_char1 = dijkstra(vertex1, feature_set, asymmetric_feature_distance_map)
         dists_to_char2, next_nodes_to_char2 = dijkstra(vertex2, feature_set, asymmetric_feature_distance_map)
 

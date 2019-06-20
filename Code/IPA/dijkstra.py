@@ -2,14 +2,8 @@ from fibonacci_heap_mod import Fibonacci_heap as fh
 from IPA.IPAData import places, secondary_places, manners, secondary_manners, airflows
 
 def is_valid_sound(tup):
-    places_count = 0
-    manners_count = 0
-    for elem in tup:
-        if elem in places:
-            places_count += 1
-        if elem in manners:
-            manners_count += 1
-    return places_count < 2 and manners_count < 2
+    features = set(tup)
+    return (len(features & places) < 2 or (len(features & {'AL', 'PA'}) == 2 and len(features & places) == 2)) and len(features & manners) < 2
 
 def neighbours(vertex, whole_set, distances):
     ns = {}

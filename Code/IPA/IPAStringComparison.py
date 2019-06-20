@@ -53,7 +53,10 @@ class IPAStringComparison:
                     parent_sound = step[1][2]
                 choice = np.random.choice([True, False], 1, p=[relat_dist_to_word1, 1-relat_dist_to_word1])[0]
                 if choice and action[:3] == 'add':
-                    word_as_dict_of_indexes[indexes[0]].append(seq2[indexes[1]])
+                    if indexes[0] in word_as_dict_of_indexes:
+                        word_as_dict_of_indexes[indexes[0]].append(seq2[indexes[1]])
+                    else:
+                        word_as_dict_of_indexes[indexes[0]] = [seq2[indexes[1]]]
                 elif choice and action[:3] == 'del':
                     del word_as_dict_of_indexes[indexes[0]]
                 elif action[:3] == 'sub':
