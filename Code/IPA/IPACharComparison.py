@@ -59,8 +59,10 @@ class IPACharComparison:
         relat_dists_to_char1 = {}
         for node in dists_to_char1:
             if is_valid_sound(set(node) | same_features):
-                relat_dists_to_char1[node] = dists_to_char1[node] / (dists_to_char1[node] + dists_to_char2[node])
+                total = dists_to_char1[node] + dists_to_char2[node]
+                relat_dists_to_char1[node] = (dists_to_char1[node] / total, total)
 
+        minimal_distance_node = 
 
     def get_distance(self):
         return self.distance
