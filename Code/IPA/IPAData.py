@@ -218,11 +218,14 @@ modifiers = {'ᵝ': {'action': 'add', 'args': ['LZ']},
              u'\u0348': {'action': 'add', 'args': ['IT']}
             }
 
+vowelable_places = {'PA', 'NE', 'VE'}
+labials = {'LB', 'LD', 'LL'}
+linguals = {'LL', 'DE', 'AL', 'PO', 'RE', 'PA', 'NE', 'VE', 'UV'}
 coronals = {'DE', 'AL', 'PO', 'RE'}
 vowels = {'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
 places = {'LB', 'LD', 'LL', 'DE', 'AL', 'PO', 'RE', 'PA', 'NE', 'VE', 'UV', 'PH', 'GL'}
 secondary_places = {'LZ', 'LH', 'RZ', 'PZ', 'VZ', 'HZ', 'GZ'}
-manners = {'NA', 'PL', 'NF', 'SF', 'NS', 'SS', 'VI', 'TA', 'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
+manners = {'NA', 'PL', 'NF', 'SF', 'NS', 'SS', 'VI', 'TA', 'SV', 'CL', 'NC', 'MC', 'MI', 'MO', 'NO', 'OP'}
 secondary_manners = {'NZ', 'LA'}
 airflows = {'AS', 'EJ', 'IT', 'IN', 'VO'}
 features = {'places': places,

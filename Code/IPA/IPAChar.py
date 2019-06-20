@@ -35,10 +35,19 @@ class IPAChar:
             print(str(self))
 
     def create_from_set(self, feats):
+        if 'X' in feats:
+            feats.remove('X')
         self.features = feats
         tup = tuple(sorted(list(feats)))
         if tup in reversed_letters:
             self.symbols += reversed_letters[tup]
+        if len(self.symbols) == 0:
+            if 'NF' in self.features:
+                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'NF'}) | {'PL'})))]
+                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'NF'}) | {'NS'})))]
+            if 'SF' in self.features:
+                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'SF'}) | {'PL'})))]
+                self.symbols += reversed_letters[tuple(sorted(list((self.features - {'SF'}) | {'NS'})))]
 
     def delete_cost(self):
         return sum(feature_distance_map[(f, 'X')] for f in self.features)

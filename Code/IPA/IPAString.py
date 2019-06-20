@@ -2,8 +2,11 @@ from IPA.IPAChar import IPAChar
 from IPA.IPAData import replace_with, letters, modifiers, ignore_set
 
 class IPAString:
-    def __init__(self, symbols):
+    def __init__(self, symbols, create_from_char_array=False):
         self.chars = []
+        if create_from_char_array:
+            self.chars = symbols
+            return
         for symbol in symbols:
             if symbol in replace_with:
                 symbol = replace_with[symbol]
