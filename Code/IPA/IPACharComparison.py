@@ -62,17 +62,54 @@ class IPACharComparison:
         if 'SS' in features and len(coronals & features) == 0:
             features.remove('SS')
             features.add('NS')
-        if 'LA' in features and len(linguals & features) == 0:
+        if 'LA' in features and (len(linguals & features) == 0 or len(vowels & features) > 0):
             features.remove('LA')
+        if 'LA' in features and 'PL' in features:
+            features.remove('PL')
+            features.add('NF')
         if len(features & vowels) > 0 and len(features & vowelable_places) == 0:
             features = features - vowels
             features.add('SV')
+        if len(features & vowels) > 0 and len(features & (places - vowelable_places)) > 0:
+            features = features - (places - vowelable_places)
+        if 'VI' in features and len(features & vibrantable_places) == 0:
+            features.remove('VI')
+            features.add('NS')
+        if 'TA' in features and len(features & vibrantable_places) == 0:
+            features.remove('TA')
+            features.add('PL')
         if len({'PO', 'PL'} & features) > 1:
+            features.remove('PO')
+            features.add('AL')
+        if len({'PO', 'NA'} & features) > 1:
             features.remove('PO')
             features.add('AL')
         if len({'DE', 'PL'} & features) > 1:
             features.remove('DE')
             features.add('AL')
+        if len({'PA', 'PZ'} & features) > 1:
+            features.remove('PZ')
+        if len({'VE', 'VZ'} & features) > 1:
+            features.remove('VZ')
+        if len({'LB', 'LZ'} & features) > 1:
+            features.remove('LZ')
+        if len({'RE', 'RZ'} & features) > 1:
+            features.remove('RZ')
+        if len({'PH', 'HZ'} & features) > 1:
+            features.remove('HZ')
+        if len({'GL', 'GZ'} & features) > 1:
+            features.remove('GZ')
+        if len({'PZ', 'VE'} & features) > 1:
+            features.remove('PZ')
+            features.remove('VE')
+            features.add('NE')
+        if len({'VZ', 'PA'} & features) > 1:
+            features.remove('PA')
+            features.remove('VZ')
+            features.add('NE')
+        if len({'PZ', 'VZ'} & features) > 1:
+            features.remove('PZ')
+            features.remove('VZ')
         return features
 
     def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):

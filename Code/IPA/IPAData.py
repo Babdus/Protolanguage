@@ -83,6 +83,7 @@ letters = {'p': {'LB', 'PL'},
            'ʜ': {'PH', 'VI'},
            'ʢ': {'PH', 'VI', 'VO'},
 
+           'ⱱ' + u'\u031f': {'LB', 'TA', 'VO'},
            'ⱱ': {'LD', 'TA', 'VO'},
            'ɾ': {'AL', 'TA', 'VO'},
            'ɽ': {'RE', 'TA', 'VO'},
@@ -114,14 +115,20 @@ letters = {'p': {'LB', 'PL'},
 
            'ʋ': {'LD', 'SV', 'VO'},
            'ɹ': {'AL', 'SV', 'VO'},
+           'ɹ' + u'\u0320': {'PO', 'SV', 'VO'},
            'ɻ': {'RE', 'SV', 'VO'},
            'j': {'PA', 'SV', 'VO'},
            'ɰ': {'VE', 'SV', 'VO'},
 
            'l': {'AL', 'SV', 'LA', 'VO'},
+           'ɬ': {'AL', 'NS', 'LA'},
+           'ɮ': {'AL', 'NS', 'LA', 'VO'},
            'ɭ': {'RE', 'SV', 'LA', 'VO'},
+           'ɭ' + u'\u031d': {'RE', 'NS', 'LA', 'VO'},
            'ʎ': {'PA', 'SV', 'LA', 'VO'},
+           'ʎ' + u'\u031d': {'PA', 'NS', 'LA', 'VO'},
            'ʟ': {'VE', 'SV', 'LA', 'VO'},
+           'ʟ' + u'\u031d': {'VE', 'NS', 'LA', 'VO'},
 
            'ʘ': {'LB', 'PL', 'EJ', 'IN'},
            'ǀ': {'DE', 'PL', 'EJ', 'IN'},
@@ -219,6 +226,7 @@ modifiers = {'ᵝ': {'action': 'add', 'args': ['LZ']},
             }
 
 vowelable_places = {'PA', 'NE', 'VE'}
+vibrantable_places = {'LB', 'LL', 'DE', 'AL', 'PO', 'RE', 'UV', 'PH'}
 labials = {'LB', 'LD', 'LL'}
 linguals = {'LL', 'DE', 'AL', 'PO', 'RE', 'PA', 'NE', 'VE', 'UV'}
 coronals = {'DE', 'AL', 'PO', 'RE'}
