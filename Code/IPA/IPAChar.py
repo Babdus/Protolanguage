@@ -256,6 +256,14 @@ class IPAChar:
                     self.symbols += reversed_letters[tup]
                     not_found = False
 
+            if not_found and 'IN' in self.remaining_features:
+                self.modifiers.add('↓')
+                self.remaining_features.remove('IN')
+                tup = tuple(sorted(list(self.remaining_features)))
+                if tup in reversed_letters:
+                    self.symbols += reversed_letters[tup]
+                    not_found = False
+
             if not_found and 'VO' in self.remaining_features:
                 self.modifiers.add(u'\u032c')
                 self.remaining_features.remove('VO')

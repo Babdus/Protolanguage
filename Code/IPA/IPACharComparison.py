@@ -84,6 +84,12 @@ class IPACharComparison:
         if len({'PO', 'NA'} & features) > 1:
             features.remove('PO')
             features.add('AL')
+        if len({'PO', 'VI'} & features) > 1:
+            features.remove('PO')
+            features.add('AL')
+        if len({'PO', 'TA'} & features) > 1:
+            features.remove('PO')
+            features.add('AL')
         if len({'DE', 'PL'} & features) > 1:
             features.remove('DE')
             features.add('AL')
@@ -110,6 +116,15 @@ class IPACharComparison:
         if len({'PZ', 'VZ'} & features) > 1:
             features.remove('PZ')
             features.remove('VZ')
+        if len({'AL', 'PA', 'SV'} & features) > 2:
+            features.remove('AL')
+        if len({'AL', 'PA', 'TA'} & features) > 2 or len({'AL', 'PA', 'VI'} & features) > 2:
+            features.remove('PA')
+            features.add('PZ')
+        if len({'NA', 'GL'} & features) > 1:
+            features.remove('NA')
+            features.add('NZ')
+            features.add('NS')
         return features
 
     def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):

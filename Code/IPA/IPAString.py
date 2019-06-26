@@ -27,6 +27,9 @@ class IPAString:
             else:
                 raise ValueError(f"\033[31m {symbol} \033[0m, context: {symbols}")
 
+    def to_ipa(self):
+        return ''.join(char.symbols for char in self.chars)
+
     def __str__(self):
         return '\n'.join(str(char) for char in self.chars)
 

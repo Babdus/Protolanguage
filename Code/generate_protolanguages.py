@@ -44,6 +44,7 @@ def reconstruct_language(child1, child2):
         else:
             comp.compare(lang1[word], lang2[word], asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
             lang[word] = comp.parent
+            print('\033[36;1m', comp.parent.to_ipa(), '\033[0m')
     return lang
 
 def reconstruct_languages(tree, df):

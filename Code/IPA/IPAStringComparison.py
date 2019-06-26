@@ -61,7 +61,7 @@ class IPAStringComparison:
                     del word_as_dict_of_indexes[indexes[0]]
                 elif action[:3] == 'sub':
                     word_as_dict_of_indexes[indexes[0]][0] = parent_sound
-            self.parent = IPAString([item for sublist in word_as_dict_of_indexes.values() for item in sublist], create_from_char_array=True)
+            self.parent = IPAString([item for index in sorted(list(word_as_dict_of_indexes)) for item in word_as_dict_of_indexes[index]], create_from_char_array=True)
 
         return thisrow[len(seq2)-1]
 
