@@ -15,7 +15,7 @@ def convert_istr_to_printable(tree):
         convert_istr_to_printable(tree['children'][0])
         convert_istr_to_printable(tree['children'][1])
     for word in tree['lang']:
-        tree['lang'][word] = str(tree['lang'][word])
+        tree['lang'][word] = tree['lang'][word].to_ipa()
 
 def load_modern_language(lang, df):
     dictionary = df[lang].to_dict()
@@ -32,9 +32,7 @@ def reconstruct_language(child1, child2):
     dist2 = child2['distance']
 
     color_code = random.choice([30, 31, 32, 33, 34, 35, 36, 37, 90, 91, 92, 93, 94, 95, 96, 97])
-    print(f'\033[{str(color_code)}m')
-    print(child1['name'], child2['name'])
-    print('\033[0m')
+    print(f'\033[{str(color_code)}m', child1['name'], child2['name'], '\033[0m')
 
     for word in lang1:
         if len(lang2[word]) < 1:
@@ -44,7 +42,7 @@ def reconstruct_language(child1, child2):
         else:
             comp.compare(lang1[word], lang2[word], asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
             lang[word] = comp.parent
-            print('\033[36;1m', comp.parent.to_ipa(), '\033[0m')
+            # print(comp.parent.to_ipa())
     return lang
 
 def reconstruct_languages(tree, df):

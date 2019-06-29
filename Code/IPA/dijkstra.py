@@ -1,5 +1,5 @@
 from fibonacci_heap_mod import Fibonacci_heap as fh
-from IPA.IPAData import vowels, places, secondary_places, manners, secondary_manners, airflows
+from IPA.IPAData import *
 
 def is_valid_sound(tup):
     features = set(tup)
@@ -42,6 +42,8 @@ def add_intermediate_features(vertex, whole_set):
         else:
             adding_sublist = vowel_list[index1+1:index2]
         whole_set |= set(adding_sublist)
+    if len(features1 & vowelable_places) > 0 and len(features2 & vowelable_places) > 0:
+        whole_set.add('NE')
     return whole_set
 
 def dijkstra(vertex, whole_set, distances):

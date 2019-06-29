@@ -125,6 +125,9 @@ class IPACharComparison:
             features.remove('NA')
             features.add('NZ')
             features.add('NS')
+        if len({'NA', 'PH'} & features) > 1:
+            features.remove('PH')
+            features.add('UV')
         return features
 
     def find_parent(self, feature_set, vertex1, vertex2, relat_dist_to_ch1):
@@ -146,7 +149,7 @@ class IPACharComparison:
         sorted_distances = sorted(relat_dists_to_char1.items(), key=lambda item: item[1][1]/minimal_distance/2 + abs(item[1][0]-relat_dist_to_ch1))
         self.sorted_distances = sorted_distances
         parent_features = IPACharComparison.adjust_features(set(sorted_distances[0][0]) | same_features)
-        self.parent = IPAChar(parent_features, create_from_set=True)
+        self.parent = IPAChar(parent_features, create_from_set=True, printing=False)
 
         self.distance = sorted_distances[0][1][1]
 

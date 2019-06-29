@@ -48,6 +48,8 @@ class IPAChar:
         if len(self.symbols) == 0:
             if 'NF' in self.remaining_features:
                 pl = (self.remaining_features & (places | {'VO'})) | {'PL'}
+                if len(pl & {'AL', 'PA'}) > 1:
+                    pl.remove('AL')
                 if 'PO' in pl:
                     pl.remove('PO')
                     pl.add('AL')
@@ -57,6 +59,10 @@ class IPAChar:
                 if 'NE' in pl:
                     pl.remove('NE')
                     pl.add('VE')
+                if 'PH' in pl and 'VO' in pl:
+                    pl.remove('VO')
+                if 'GL' in pl and 'VO' in pl:
+                    pl.remove('VO')
                 tup = tuple(sorted(list(pl)))
                 if tup in reversed_letters:
                     plosive = reversed_letters[tup]
@@ -68,6 +74,8 @@ class IPAChar:
 
             if 'SF' in self.remaining_features:
                 pl = (self.remaining_features & (places | {'VO'})) | {'PL'}
+                if len(pl & {'AL', 'PA'}) > 1:
+                    pl.remove('PA')
                 if 'PO' in pl:
                     pl.remove('PO')
                     pl.add('AL')
@@ -90,6 +98,13 @@ class IPAChar:
 
         if len(self.symbols) == 0:
             not_found = True
+            if not_found and 'IN' in self.remaining_features:
+                self.modifiers.add('↓')
+                self.remaining_features.remove('IN')
+                tup = tuple(sorted(list(self.remaining_features)))
+                if tup in reversed_letters:
+                    self.symbols += reversed_letters[tup]
+                    not_found = False
             if not_found and 'NE' in self.remaining_features:
                 if len(self.remaining_features & vowels) == 0:
                     self.modifiers.add(u'\u031f')
@@ -251,14 +266,6 @@ class IPAChar:
             if not_found and len({'AL', 'PA', 'PL'} & self.remaining_features) == 3:
                 self.modifiers.add(u'\u031f')
                 self.remaining_features.remove('AL')
-                tup = tuple(sorted(list(self.remaining_features)))
-                if tup in reversed_letters:
-                    self.symbols += reversed_letters[tup]
-                    not_found = False
-
-            if not_found and 'IN' in self.remaining_features:
-                self.modifiers.add('↓')
-                self.remaining_features.remove('IN')
                 tup = tuple(sorted(list(self.remaining_features)))
                 if tup in reversed_letters:
                     self.symbols += reversed_letters[tup]
