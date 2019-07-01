@@ -44,7 +44,7 @@ function update(source) {
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeEnter.append("ellipse")
-	  .attr("rx", function(d) { return d.children || d._children ? 4 : d.name.length*5})
+	  .attr("rx", function(d) { return d.children || d._children ? 4 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })
     .attr("ry", function(d) { return d.children || d._children ? 4 : 10})
 	  .style("fill", function(d) {
       return d.children || d._children ? "#e8e8e8" : "#46fc80"})
@@ -53,11 +53,11 @@ function update(source) {
 
   nodeEnter.append("text")
 	  .attr("x", function(d) {
-		  return d.children || d._children ? -13 : -d.name.length*3; })
+		  return d.children || d._children ? -13 : (d.full_name ? -d.full_name.length*3 : -d.name.length*3); })
 	  .attr("dy", ".3em")
 	  .attr("text-anchor", function(d) {
 		  return d.children || d._children ? "end" : "start"; })
-	  .text(function(d) { return d.children || d._children ? d.name : d.name; })
+	  .text(function(d) { return d.full_name ? d.full_name : d.name; })
 	  .style("fill-opacity", 1)
     .style("display", function(d) { return d.children || d._children ? 'none' : 'block'; });
 

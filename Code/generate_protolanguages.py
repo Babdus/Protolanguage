@@ -10,12 +10,13 @@ import pandas as pd
 from IPA.IPAString import IPAString as Istr
 from IPA.IPAStringComparison import IPAStringComparison as Istcom
 
-def convert_istr_to_printable(tree):
+def convert_istr_to_printable(tree, languages_dict):
     if 'children' in tree:
-        convert_istr_to_printable(tree['children'][0])
-        convert_istr_to_printable(tree['children'][1])
+        convert_istr_to_printable(tree['children'][0], languages_dict)
+        convert_istr_to_printable(tree['children'][1], languages_dict)
     for word in tree['lang']:
         tree['lang'][word] = tree['lang'][word].to_ipa()
+        languages_dict[tree['name']] = tree['lang']
 
 def load_modern_language(lang, df):
     dictionary = df[lang].to_dict()
@@ -52,11 +53,15 @@ def reconstruct_languages(tree, df):
     if 'children' in child1:
         reconstruct_languages(child1, df)
     else:
-        child1['lang'] = load_modern_language(tree['name'][:2], df)
+        child1['full_name'] = child1['name']
+        child1['name']      = tree['name'][:2]
+        child1['lang']      = load_modern_language(child1['name'], df)
     if 'children' in child2:
         reconstruct_languages(child2, df)
     else:
-        child2['lang'] = load_modern_language(tree['name'][-2:], df)
+        child2['full_name'] = child2['name']
+        child2['name']      = tree['name'][-2:]
+        child2['lang']      = load_modern_language(child2['name'], df)
 
     tree['lang'] = reconstruct_language(child1, child2)
 
@@ -70,7 +75,8 @@ def main(argv):
     tree = forest[0]
     reconstruct_languages(tree, df)
 
-    convert_istr_to_printable(tree)
+    languages_dict = {}
+    convert_istr_to_printable(tree, languages_dict)
     end = time()
 
     for word in tree['lang']:
@@ -81,6 +87,11 @@ def main(argv):
     t_json = json.dumps([tree], indent=2)
     with open(argv[2], 'w') as out:
         out.write(t_json)
+
+    for lang in languages_dict:
+        l_json = json.dumps(languages_dict[lang])
+        with open(argv[3] + '/' + lang + '.json', 'w') as out:
+            out.write(l_json)
 
     print(((end-start)*1000//1)/1000, 'seconds')
 
