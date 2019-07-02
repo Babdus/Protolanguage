@@ -1,37 +1,19 @@
 $(window).on('load', function() {
-  let url = new URL(window.location.href);
-  let langs = url.searchParams.get("langs").split(',');
-  console.log(langs);
-  let jsons = {};
-
-  langs.forEach(function (item, index) {
-    d3.json("../Data/protolanguages/"+item+".json", function(error, data) {
-      jsons[item] = data;
-    });
-    console.log(item, index);
-  });
-
-  d3.json("../Data/protolanguages/test.json", function(error, data) {
-    jsons['test1'] = data;
-  });
-
-  d3.json("../Data/protolanguages/test2.json", function(error, data) {
-    jsons['test2'] = data;
-  });
-
-  console.log(jsons);
-
-  // $("#table").append('<tr><th> </th><th>test</th><th>test2</th></tr>');
-  
-  console.log(jsons['test']);
-  for(var word in jsons['test']) {
-
-    var row = "<tr><th>"+word+"</th>";
-    for(var lang in keys) {
-      row += "<th>"+jsons[lang][word]+"</th>";
+  d3.json("../Data/words_and_languages/swadesh_list.json", function(error, words) {
+    $("#table").append('<tr id="thead"><th> </th></tr>');
+    for(var word in words) {
+      $("#table").append('<tr id="'+words[word]+'"><td>'+words[word]+'</td></tr>');
     }
-    row += "</tr>";
-    console.log(row);
-    $("#table").append(row);
-  }
+    let url = new URL(window.location.href);
+    let langs = url.searchParams.get("langs").split(',');
+
+    langs.forEach(function (lang, index) {
+      d3.json("../Data/protolanguages/"+lang+".json", function(error, data) {
+        $("#thead").append('<th>'+lang+'</th>');
+        for(var word in data) {
+          $("#"+word).append('<td>'+data[word]+'</td>');
+        }
+      });
+    });
+  });
 });

@@ -17,8 +17,10 @@ var svg = d3.select("body").append("svg")
   .append("g")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+let url = new URL(window.location.href);
+let data_name = url.searchParams.get("data");
 // load the external data
-d3.json("../Data/trees/tree1.json", function(error, treeData) {
+d3.json("../Data/trees/"+data_name+".json", function(error, treeData) {
   root = treeData[0];
   update(root);
 });
@@ -43,7 +45,10 @@ function update(source) {
       console.log(d)
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
-  nodeEnter.append("ellipse")
+  nodeEnter.append("a")
+		.attr("xlink:href", function(d) { return "/Front/language.html?langs="+d.name; })
+		.attr("target", "_blank")
+		.append("ellipse")
 	  .attr("rx", function(d) { return d.children || d._children ? 4 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })
     .attr("ry", function(d) { return d.children || d._children ? 4 : 10})
 	  .style("fill", function(d) {
