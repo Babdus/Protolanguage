@@ -39,7 +39,7 @@ def get_transcriptions(word, soup, anchor):
                 if len(transcription) > 0 and transcription[0] != '-':
                     transcriptions.append(transcription)
 
-    print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcriptions}\033[0m')
+    print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcriptions}\033[0m', end='\r')
     return transcriptions
 
 def get_relevant_transcription(transcriptions):
@@ -130,7 +130,6 @@ def construct_dictionary(words, langs, main_lang, processes):
     args = [(word, langs, main_lang) for word in words]
     dictionaries = pool.starmap(construct_row, args)
 
-    print(dictionaries)
     return dictionaries
 
 def write_in_file(dictionaries, output_path):
@@ -145,7 +144,7 @@ def write_in_file(dictionaries, output_path):
         for row in dictionaries:
             out.write(', '.join([row['word']] + [row['dictionary'][lang] if row['dictionary'][lang] is not None else '' for lang in lang_list]) + '\n')
 
-def main(argv):
+def parser(argv):
     start_time = time.time()
     main_lang = 'en'
 
@@ -161,4 +160,4 @@ def main(argv):
     print(f'Took {end_time - start_time} seconds')
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    parser(sys.argv[1:])
