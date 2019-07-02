@@ -3,7 +3,7 @@ from time import time
 import pandas as pd
 from distance_dict_to_tree_dict import distance_to_tree
 
-def main(argv):
+def generate(argv):
     d = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
     start = time()
 
@@ -56,16 +56,13 @@ def main(argv):
 
         n = d.shape[0]
 
-        print('\033[35mn\033[0m: ', n)
-
     end = time()
-    print(delta)
 
     t_json = distance_to_tree(delta)
     with open(argv[1], 'w') as out:
         out.write(t_json)
-    
+
     print(((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    generate(sys.argv[1:])

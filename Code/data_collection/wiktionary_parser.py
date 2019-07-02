@@ -121,8 +121,8 @@ def construct_row(word, langs, main_lang):
 
     with open(f'Data/words_and_languages/temp/{word}.csv', 'w') as out:
         langs.sort()
-        out.write(', '.join(['word'] + langs) + '\n')
-        out.write(', '.join([word] + [dictionary[lang] if dictionary[lang] is not None else '' for lang in langs]) + '\n')
+        out.write(','.join(['word'] + langs) + '\n')
+        out.write(','.join([word] + [dictionary[lang] if dictionary[lang] is not None else '' for lang in langs]) + '\n')
     return { 'word': word, 'dictionary': dictionary }
 
 def construct_dictionary(words, langs, main_lang, processes):
@@ -140,9 +140,9 @@ def write_in_file(dictionaries, output_path):
     lang_list = list(lang_set)
     lang_list.sort()
     with open(output_path, 'w') as out:
-        out.write(', '.join(['word'] + lang_list) + '\n')
+        out.write(','.join(['word'] + lang_list) + '\n')
         for row in dictionaries:
-            out.write(', '.join([row['word']] + [row['dictionary'][lang] if row['dictionary'][lang] is not None else '' for lang in lang_list]) + '\n')
+            out.write(','.join([row['word']] + [row['dictionary'][lang] if row['dictionary'][lang] is not None else '' for lang in lang_list]) + '\n')
 
 def parser(argv):
     start_time = time.time()

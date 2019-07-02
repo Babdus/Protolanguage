@@ -1,8 +1,10 @@
 # argv[0]: tree.json (without languages)
 # argv[1]: words × languages.csv
 # argv[2]: output tree.json (with languages)
+# argv[3]: output directory for each protolanguage
 
 import sys
+import os
 from time import time
 import random
 import json
@@ -33,7 +35,7 @@ def reconstruct_language(child1, child2):
     dist2 = child2['distance']
 
     color_code = random.choice([30, 31, 32, 33, 34, 35, 36, 37, 90, 91, 92, 93, 94, 95, 96, 97])
-    print(f'\033[{str(color_code)}m', child1['name'], child2['name'], '\033[0m')
+    print(f'\033[{str(color_code)}m', child1['name'], child2['name'], '\033[0m', end='\r')
 
     for word in lang1:
         if len(lang2[word]) < 1:
@@ -65,7 +67,7 @@ def reconstruct_languages(tree, df):
 
     tree['lang'] = reconstruct_language(child1, child2)
 
-def main(argv):
+def generate(argv):
     df = pd.io.parsers.read_csv(argv[1],index_col=0).fillna('')
     start = time()
 
@@ -79,10 +81,10 @@ def main(argv):
     convert_istr_to_printable(tree, languages_dict)
     end = time()
 
-    for word in tree['lang']:
-        print(word)
-        print(tree['lang'][word])
-        print('\n')
+    # for word in tree['lang']:
+    #     print(word)
+    #     print(tree['lang'][word])
+    #     print('\n')
 
     t_json = json.dumps([tree], indent=2)
     with open(argv[2], 'w') as out:
@@ -90,10 +92,12 @@ def main(argv):
 
     for lang in languages_dict:
         l_json = json.dumps(languages_dict[lang])
+        if not os.path.exists(argv[3]):
+            os.makedirs(argv[3])
         with open(argv[3] + '/' + lang + '.json', 'w') as out:
             out.write(l_json)
 
     print(((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    generate(sys.argv[1:])
