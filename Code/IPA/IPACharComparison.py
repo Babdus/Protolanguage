@@ -109,10 +109,6 @@ class IPACharComparison:
             features.remove('PZ')
             features.remove('VE')
             features.add('NE')
-        if len({'VZ', 'PA'} & features) > 1:
-            features.remove('PA')
-            features.remove('VZ')
-            features.add('NE')
         if len({'PZ', 'VZ'} & features) > 1:
             features.remove('PZ')
             features.remove('VZ')
@@ -121,6 +117,10 @@ class IPACharComparison:
         if len({'AL', 'PA', 'TA'} & features) > 2 or len({'AL', 'PA', 'VI'} & features) > 2:
             features.remove('PA')
             features.add('PZ')
+        if len({'VZ', 'PA'} & features) > 1 and len(features & places) == 1:
+            features.remove('PA')
+            features.remove('VZ')
+            features.add('NE')
         if len({'NA', 'GL'} & features) > 1:
             features.remove('NA')
             features.add('NZ')
@@ -149,7 +149,12 @@ class IPACharComparison:
         sorted_distances = sorted(relat_dists_to_char1.items(), key=lambda item: item[1][1]/minimal_distance/2 + abs(item[1][0]-relat_dist_to_ch1))
         self.sorted_distances = sorted_distances
         parent_features = IPACharComparison.adjust_features(set(sorted_distances[0][0]) | same_features)
-        self.parent = IPAChar(parent_features, create_from_set=True, printing=False)
+
+        try:
+            self.parent = IPAChar(parent_features, create_from_set=True, printing=False)
+        except ValueError as e:
+            print(e)
+            print('Context:', self.char1, self.char2)
 
         self.distance = sorted_distances[0][1][1]
 

@@ -6,9 +6,14 @@ $(window).on('load', function() {
     }
     let url = new URL(window.location.href);
     let langs = url.searchParams.get("langs").split(',');
+    let dir = url.searchParams.get("dir");
 
     langs.forEach(function (lang, index) {
-      d3.json("../Data/protolanguages/"+lang+".json", function(error, data) {
+      let path = "../Data/protolanguages/"+lang+".json";
+      if(dir){
+        path = "../Data/"+dir+"/"+lang+".json";
+      }
+      d3.json(path, function(error, data) {
         $("#thead").append('<th>'+lang+'</th>');
         for(var word in data) {
           $("#"+word).append('<td>'+data[word]+'</td>');

@@ -1,3 +1,7 @@
+# argv[0]: word list csv
+# argv[1]: lang list csv
+# argv[2]: name
+
 import sys
 from time import time
 from datetime import datetime
@@ -34,7 +38,7 @@ def main(argv):
     print('Reconstructing protolanguages')
     stamp = datetime.fromtimestamp(time()).strftime('%Y%m%d%H%M%S')
     protolanguage_tree_path = data_dir_path + '/trees/' + name + '_tree_with_languages_' + stamp + '.json'
-    protolanguage_dir_path  = data_dir_path + '/trees/' + name + '_protolanguages_' + stamp
+    protolanguage_dir_path  = data_dir_path + name + '_protolanguages_' + stamp
     reconstruct([language_tree_path, word_languge_dicts_path, protolanguage_tree_path, protolanguage_dir_path])
 
     end = time()

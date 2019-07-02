@@ -1,0 +1,126 @@
+[
+  {
+    "name": "ukberultlvslbgmkplcssk",
+    "parent": "null",
+    "children": [
+      {
+        "name": "ukberu",
+        "distance": 0.34973210937500054,
+        "parent": "ukberultlvslbgmkplcssk",
+        "children": [
+          {
+            "name": "Ukrainian",
+            "distance": 4.782521718749998,
+            "parent": "ukberu"
+          },
+          {
+            "name": "beru",
+            "distance": 0.975993281250001,
+            "parent": "ukberu",
+            "children": [
+              {
+                "name": "Belarusian",
+                "distance": 3.4578150000000005,
+                "parent": "beru"
+              },
+              {
+                "name": "Russian",
+                "distance": 4.394394999999999,
+                "parent": "beru"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ltlvslbgmkplcssk",
+        "distance": 0.34973210937500054,
+        "parent": "ukberultlvslbgmkplcssk",
+        "children": [
+          {
+            "name": "ltlvslbgmk",
+            "distance": 1.2062342187499988,
+            "parent": "ltlvslbgmkplcssk",
+            "children": [
+              {
+                "name": "ltlv",
+                "distance": 4.992427031250001,
+                "parent": "ltlvslbgmk",
+                "children": [
+                  {
+                    "name": "Lithuanian",
+                    "distance": 7.1933316666666665,
+                    "parent": "ltlv"
+                  },
+                  {
+                    "name": "Latvian",
+                    "distance": 6.143108333333333,
+                    "parent": "ltlv"
+                  }
+                ]
+              },
+              {
+                "name": "slbgmk",
+                "distance": 0.6389917187499989,
+                "parent": "ltlvslbgmk",
+                "children": [
+                  {
+                    "name": "Slovenian",
+                    "distance": 4.697285000000001,
+                    "parent": "slbgmk"
+                  },
+                  {
+                    "name": "bgmk",
+                    "distance": 2.5806000000000004,
+                    "parent": "slbgmk",
+                    "children": [
+                      {
+                        "name": "Bulgarian",
+                        "distance": 2.8736890624999996,
+                        "parent": "bgmk"
+                      },
+                      {
+                        "name": "Macedonian",
+                        "distance": 4.5511409375000005,
+                        "parent": "bgmk"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "plcssk",
+            "distance": 0.7499520312499994,
+            "parent": "ltlvslbgmkplcssk",
+            "children": [
+              {
+                "name": "Polish",
+                "distance": 4.970036874999999,
+                "parent": "plcssk"
+              },
+              {
+                "name": "cssk",
+                "distance": 1.9299331250000007,
+                "parent": "plcssk",
+                "children": [
+                  {
+                    "name": "Czech",
+                    "distance": 2.780310714285715,
+                    "parent": "cssk"
+                  },
+                  {
+                    "name": "Slovak",
+                    "distance": 2.4853692857142855,
+                    "parent": "cssk"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
