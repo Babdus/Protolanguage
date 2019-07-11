@@ -11,7 +11,7 @@ $(window).on('load', function() {
     langs.forEach(function (lang, index) {
       let path = "../Data/protolanguages/"+lang+".json";
       if(dir){
-        path = "../Data/"+dir+"/"+lang+".json";
+        path = "../Data/trees/"+dir+"/protolanguages/"+lang+".json";
       }
       d3.json(path, function(error, data) {
         $("#thead").append('<th>'+lang+'</th>');

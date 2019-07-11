@@ -52,28 +52,21 @@ def compare(argv):
     if len(argv) > 2:
         langs = get_languages(argv[2])
 
-    # for col1 in df.columns:
     with open(argv[1], 'w') as out:
-        # matrix = []
         out.write(','+','.join(langs)+'\n')
         for i, col1 in enumerate(langs):
             out.write(col1)
-            # row = []
             for j, col2 in enumerate(langs):
                 if i <= j:
                     out.write(',')
-                    # row.append('')
                     continue
                 print(col1, col2, end='\r')
                 distances, output = calculate_distance(df, col1, col2, None)
-                # out = list(map(lambda x: f'{x[0]}: {x[1]} {x[2]}', output))
-                out.write(f',{sum(distances)/len(distances)*100000//1/100000}')
-                # row.append(f'{sum(distances)/len(distances)*100000//1/100000}')
+                if len(distances) == 0:
+                    out.write(',N/A')
+                else:
+                    out.write(f',{sum(distances)/len(distances)*100000//1/100000}')
             out.write('\n')
-            # matrix.append(row)
-
-    # df2 = pd.DataFrame(matrix, index=test_langs, columns=test_langs)
-    # df2.to_csv(argv[1])
 
     end = time()
     print(((end-start)*1000//1)/1000, 'seconds')

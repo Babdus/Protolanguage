@@ -19,8 +19,12 @@ var svg = d3.select("body").append("svg")
 
 let url = new URL(window.location.href);
 let data_name = url.searchParams.get("data");
+if(!data_name){
+	data_name = 'whole';
+}
+let path = "../Data/trees/"+data_name+"/tree_with_languages.json";
 // load the external data
-d3.json("../Data/trees/"+data_name+".json", function(error, treeData) {
+d3.json(path, function(error, treeData) {
   root = treeData[0];
   update(root);
 });
@@ -46,7 +50,7 @@ function update(source) {
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeEnter.append("a")
-		.attr("xlink:href", function(d) { return "/Front/language.html?langs="+d.name; })
+		.attr("xlink:href", function(d) { return "/Front/language.html?langs="+d.name+"&dir="+data_name; })
 		.attr("target", "_blank")
 		.append("ellipse")
 	  .attr("rx", function(d) { return d.children || d._children ? 4 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })

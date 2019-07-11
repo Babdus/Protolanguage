@@ -35,11 +35,12 @@ def get_transcriptions(word, soup, anchor):
         if type(next_heading).__name__ == 'Tag':
             transcription_tags = next_heading.findAll('span', {"class": "IPA"})
             for transcription_tag in transcription_tags:
-                transcription = transcription_tag.text.strip('][/').split(',')[0]
+                transcription = transcription_tag.text.strip('][/').split(',')[0].split('~')[0].split('/')[0]
                 if len(transcription) > 0 and transcription[0] != '-':
                     transcriptions.append(transcription)
 
-    print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcriptions}\033[0m', end='\r')
+    transcription = transcriptions[0] if len(transcriptions) > 0 else ''
+    print(f'\033[33;1m{anchor}\033[0m: {word} \033[34m{transcription}\033[0m', end='              \r')
     return transcriptions
 
 def get_relevant_transcription(transcriptions):
@@ -150,7 +151,7 @@ def parser(argv):
 
     words = get_words(argv[0])
     langs = get_languages(argv[1])
-    langs = [str(lang) for lang in langs]
+    langs = [str(lang) for lang in langs if str(lang) != main_lang]
     if words is None or langs is None:
         return
     dictionaries = construct_dictionary(words, langs, main_lang, int(argv[3]))
