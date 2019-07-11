@@ -18,6 +18,7 @@ var svg = d3.select("body").append("svg")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 let url = new URL(window.location.href);
+console.log(url.pathname.replace(/[^/]*$/, ''));
 let data_name = url.searchParams.get("data");
 if(!data_name){
 	data_name = 'whole';
@@ -50,7 +51,7 @@ function update(source) {
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeEnter.append("a")
-		.attr("xlink:href", function(d) { return "/Front/language.html?langs="+d.name+"&dir="+data_name; })
+		.attr("xlink:href", function(d) { return url.pathname.replace(/[^/]*$/, '') + "language.html?langs="+d.name+"&dir="+data_name; })
 		.attr("target", "_blank")
 		.append("ellipse")
 	  .attr("rx", function(d) { return d.children || d._children ? 4 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })
