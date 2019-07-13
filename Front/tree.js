@@ -47,21 +47,19 @@ function update(source) {
   var nodeEnter = node.enter().append("g")
 	  .attr("class", "node")
 	  .attr("transform", function(d) {
-      console.log(d)
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
-  nodeEnter.append("a")
+  var nodeA = nodeEnter.append("a")
 		.attr("xlink:href", function(d) { return url.pathname.replace(/[^/]*$/, '') + "language.html?langs="+d.name+"&dir="+data_name; })
-		.attr("target", "_blank")
-		.append("ellipse")
-	  .attr("rx", function(d) { return d.children || d._children ? 4 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })
-    .attr("ry", function(d) { return d.children || d._children ? 4 : 10})
-	  .style("fill", function(d) {
-      return d.children || d._children ? "#e8e8e8" : "#46fc80"})
-    .style("stroke", '#4bcdea')
-    .style("stroke-width", 2);
+		.attr("target", "_blank");
 
-  nodeEnter.append("text")
+	nodeA.append("ellipse")
+	  .attr("rx", function(d) { return d.children || d._children ? 5.3 : (d.full_name ? d.full_name.length*5 : d.name.length*5) })
+    .attr("ry", function(d) { return d.children || d._children ? 5.3 : 10})
+	  .style("fill", function(d) {
+      return d.children || d._children ? "#e8e8e8" : "#fff1cc"});
+
+  nodeA.append("text")
 	  .attr("x", function(d) {
 		  return d.children || d._children ? -13 : (d.full_name ? -d.full_name.length*3 : -d.name.length*3); })
 	  .attr("dy", ".3em")

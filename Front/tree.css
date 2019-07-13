@@ -5,9 +5,13 @@
 }
 
 .node ellipse {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 3px;
+  stroke: #0d2144;
+  stroke-width: 2px;
+}
+
+.node ellipse:hover {
+  /* stroke: #8f92fb; */
+  stroke-width: 4px;
 }
 
 .node text {
@@ -18,4 +22,10 @@
   fill: none;
   stroke: #ccc;
   stroke-width: 2px;
+}
+
+body {
+  background-color: #628e7d;
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, #81a294 1px, transparent 1px), linear-gradient(to bottom, #81a294 1px, transparent 1px);
 }

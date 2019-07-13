@@ -1,8 +1,44 @@
 table {
-  border: 1px solid grey;
+  border: none;
   font-family: monospace;
+  margin: auto;
+  border-collapse:collapse
 }
 
-td {
-  border: 1px solid grey;
+table tr#thead {
+  border-bottom: 1px solid grey;
+  font-family: sans-serif;
+}
+
+table tr:hover {
+  border-bottom: 1px solid #628e7d;
+}
+
+table tr:hover td#arrow {
+  font-size: 30px;
+  color: #628e7d;
+}
+
+table tr td:first-child {
+  font-family: sans-serif;
+  text-align: right;
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+td, th {
+  min-width: 30px;
+  max-width: 200px;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
 }
