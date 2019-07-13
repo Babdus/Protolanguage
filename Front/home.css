@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  font-size: 18px;
+}
+
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+.button {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #628e7d;
+  margin: auto;
+  max-width: 200px;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: #729e8d;
+}

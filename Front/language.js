@@ -207,7 +207,7 @@ $(window).on('load', function() {
       }
       d3.json(path, function(error, data) {
         lang_name = lang
-        $("#thead").append('<th>'+lang.trunc(20)+'</th><th></th>');
+        $("#thead").append('<th>Reconstructed</th><th></th>');
         for(var word in data) {
           $("#"+word).append('<td>['+data[word]+']</td><td id="arrow">&rarr;</td>');
         }
