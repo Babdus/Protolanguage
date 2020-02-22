@@ -12,13 +12,12 @@ test_langs = ['af', 'ar', 'as', 'az', 'ba', 'be', 'bg', 'bn', 'bo', 'br', 'ca',
               'ro', 'ru', 'sa', 'se', 'sk', 'sl', 'sq', 'sv', 'te', 'tg', 'th',
               'tk', 'tl', 'tr', 'ug', 'uk', 'ur', 'vi', 'xh', 'yi', 'za', 'zu']
 
-ie_test_langs = ['af', 'as', 'be', 'bg', 'bn', 'br', 'ca',
-                 'cs', 'cy', 'da', 'de', 'el', 'en', 'es', 'fa', 'fo', 'fr',
-                 'fy', 'ga', 'gd', 'gl', 'gv', 'hi', 'hy', 'is',
-                 'it', 'ku', 'lb', 'lt', 'lv', 'mk',
-                 'nl', 'nn', 'oc', 'pl', 'ps', 'pt',
-                 'ro', 'ru', 'sa', 'sk', 'sl', 'sq', 'sv', 'tg',
-                 'uk', 'ur', 'yi']
+ie_test_langs = ['af', 'as', 'be', 'bg', 'bn', 'br', 'ca', 'cs',
+                 'cy', 'da', 'de', 'el', 'en', 'es', 'fa', 'fo',
+                 'fr', 'fy', 'ga', 'gd', 'gl', 'gv', 'hi', 'hy',
+                 'is', 'it', 'ku', 'lb', 'lt', 'lv', 'mk', 'nl',
+                 'nn', 'oc', 'pl', 'ps', 'pt', 'ro', 'ru', 'sa',
+                 'sk', 'sl', 'sq', 'sv', 'tg', 'uk', 'ur', 'yi']
 
 def get_languages(arg):
     if arg[-4:] == '.csv':

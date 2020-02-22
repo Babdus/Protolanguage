@@ -35,3 +35,6 @@ class IPAString:
 
     def __len__(self):
         return len(self.chars)
+
+    def __repr__(self):
+        return self.__str__()
