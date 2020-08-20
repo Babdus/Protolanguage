@@ -1,0 +1,498 @@
+[
+  {
+    "name": "hy.fy.de.yi.nl.af.is.fo.da.sv.no.sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+    "parent": "null",
+    "children": [
+      {
+        "name": "hy.fy.de.yi.nl.af.is.fo.da.sv.no",
+        "distance": 0.12204156616210954,
+        "parent": "hy.fy.de.yi.nl.af.is.fo.da.sv.no.sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+        "children": [
+          {
+            "name": "Armenian",
+            "distance": 11.210521192626953,
+            "parent": "hy.fy.de.yi.nl.af.is.fo.da.sv.no"
+          },
+          {
+            "name": "fy.de.yi.nl.af.is.fo.da.sv.no",
+            "distance": 1.9534741979980463,
+            "parent": "hy.fy.de.yi.nl.af.is.fo.da.sv.no",
+            "children": [
+              {
+                "name": "fy.de.yi.nl.af",
+                "distance": 2.2794349609375004,
+                "parent": "fy.de.yi.nl.af.is.fo.da.sv.no",
+                "children": [
+                  {
+                    "name": "Western Frisian",
+                    "distance": 5.070059583333334,
+                    "parent": "fy.de.yi.nl.af"
+                  },
+                  {
+                    "name": "de.yi.nl.af",
+                    "distance": 0.5226554166666668,
+                    "parent": "fy.de.yi.nl.af",
+                    "children": [
+                      {
+                        "name": "de.yi",
+                        "distance": 2.0177473214285735,
+                        "parent": "de.yi.nl.af",
+                        "children": [
+                          {
+                            "name": "German",
+                            "distance": 3.449012250000002,
+                            "parent": "de.yi"
+                          },
+                          {
+                            "name": "Yiddish",
+                            "distance": 3.4320077499999977,
+                            "parent": "de.yi"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "nl.af",
+                        "distance": 1.0562026785714265,
+                        "parent": "de.yi.nl.af",
+                        "children": [
+                          {
+                            "name": "Dutch",
+                            "distance": 4.208836120689648,
+                            "parent": "nl.af"
+                          },
+                          {
+                            "name": "Afrikaans",
+                            "distance": 4.872443879310351,
+                            "parent": "nl.af"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "is.fo.da.sv.no",
+                "distance": 1.0543661328124996,
+                "parent": "fy.de.yi.nl.af.is.fo.da.sv.no",
+                "children": [
+                  {
+                    "name": "is.fo",
+                    "distance": 2.700090942708332,
+                    "parent": "is.fo.da.sv.no",
+                    "children": [
+                      {
+                        "name": "Icelandic",
+                        "distance": 4.785196129032256,
+                        "parent": "is.fo"
+                      },
+                      {
+                        "name": "Faroese",
+                        "distance": 5.710953870967744,
+                        "parent": "is.fo"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "da.sv.no",
+                    "distance": 2.7950728072916675,
+                    "parent": "is.fo.da.sv.no",
+                    "children": [
+                      {
+                        "name": "Danish",
+                        "distance": 3.998036812499997,
+                        "parent": "da.sv.no"
+                      },
+                      {
+                        "name": "sv.no",
+                        "distance": 0.34505818750000294,
+                        "parent": "da.sv.no",
+                        "children": [
+                          {
+                            "name": "Swedish",
+                            "distance": 3.798710585937498,
+                            "parent": "sv.no"
+                          },
+                          {
+                            "name": "Norwegian",
+                            "distance": 4.1127294140625015,
+                            "parent": "sv.no"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+        "distance": 0.12204156616210954,
+        "parent": "hy.fy.de.yi.nl.af.is.fo.da.sv.no.sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+        "children": [
+          {
+            "name": "sq.gv.ga.gd.cy.br",
+            "distance": 0.48454085205078357,
+            "parent": "sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+            "children": [
+              {
+                "name": "Albanian",
+                "distance": 9.582697589518226,
+                "parent": "sq.gv.ga.gd.cy.br"
+              },
+              {
+                "name": "gv.ga.gd.cy.br",
+                "distance": 0.5600592854817705,
+                "parent": "sq.gv.ga.gd.cy.br",
+                "children": [
+                  {
+                    "name": "gv.ga.gd",
+                    "distance": 4.620622816840277,
+                    "parent": "gv.ga.gd.cy.br",
+                    "children": [
+                      {
+                        "name": "Manx",
+                        "distance": 5.863806710526318,
+                        "parent": "gv.ga.gd"
+                      },
+                      {
+                        "name": "ga.gd",
+                        "distance": 0.8233182894736819,
+                        "parent": "gv.ga.gd",
+                        "children": [
+                          {
+                            "name": "Irish",
+                            "distance": 6.228912564102566,
+                            "parent": "ga.gd"
+                          },
+                          {
+                            "name": "Gaelic",
+                            "distance": 5.757197435897434,
+                            "parent": "ga.gd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "cy.br",
+                    "distance": 2.813228433159721,
+                    "parent": "gv.ga.gd.cy.br",
+                    "children": [
+                      {
+                        "name": "Welsh",
+                        "distance": 6.231666789772728,
+                        "parent": "cy.br"
+                      },
+                      {
+                        "name": "Breton",
+                        "distance": 7.101903210227274,
+                        "parent": "cy.br"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+            "distance": 0.2894378869628901,
+            "parent": "sq.gv.ga.gd.cy.br.fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+            "children": [
+              {
+                "name": "fr.oc.ca.ro.it.es.pt.gl",
+                "distance": 2.0186234191894536,
+                "parent": "fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+                "children": [
+                  {
+                    "name": "fr.oc.ca",
+                    "distance": 1.1874091513671865,
+                    "parent": "fr.oc.ca.ro.it.es.pt.gl",
+                    "children": [
+                      {
+                        "name": "French",
+                        "distance": 8.726026489955357,
+                        "parent": "fr.oc.ca"
+                      },
+                      {
+                        "name": "oc.ca",
+                        "distance": 1.6826885100446436,
+                        "parent": "fr.oc.ca",
+                        "children": [
+                          {
+                            "name": "Occitan (post 1500)",
+                            "distance": 4.086617656250002,
+                            "parent": "oc.ca"
+                          },
+                          {
+                            "name": "Catalan",
+                            "distance": 4.790762343749998,
+                            "parent": "oc.ca"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ro.it.es.pt.gl",
+                    "distance": 0.10874334863281332,
+                    "parent": "fr.oc.ca.ro.it.es.pt.gl",
+                    "children": [
+                      {
+                        "name": "Romanian",
+                        "distance": 7.555253109019887,
+                        "parent": "ro.it.es.pt.gl"
+                      },
+                      {
+                        "name": "it.es.pt.gl",
+                        "distance": 1.8010731409801117,
+                        "parent": "ro.it.es.pt.gl",
+                        "children": [
+                          {
+                            "name": "Italian",
+                            "distance": 5.702984475097655,
+                            "parent": "it.es.pt.gl"
+                          },
+                          {
+                            "name": "es.pt.gl",
+                            "distance": 1.1489630249023444,
+                            "parent": "it.es.pt.gl",
+                            "children": [
+                              {
+                                "name": "Spanish",
+                                "distance": 4.832872604166664,
+                                "parent": "es.pt.gl"
+                              },
+                              {
+                                "name": "pt.gl",
+                                "distance": 1.5733023958333368,
+                                "parent": "es.pt.gl",
+                                "children": [
+                                  {
+                                    "name": "Portuguese",
+                                    "distance": 3.787526824324326,
+                                    "parent": "pt.gl"
+                                  },
+                                  {
+                                    "name": "Galician",
+                                    "distance": 3.7795131756756737,
+                                    "parent": "pt.gl"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+                "distance": 0.3012117687988285,
+                "parent": "fr.oc.ca.ro.it.es.pt.gl.lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+                "children": [
+                  {
+                    "name": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be",
+                    "distance": 0.8454689996337892,
+                    "parent": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+                    "children": [
+                      {
+                        "name": "lt.lv",
+                        "distance": 2.809371808733259,
+                        "parent": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be",
+                        "children": [
+                          {
+                            "name": "Lithuanian",
+                            "distance": 7.320588038194443,
+                            "parent": "lt.lv"
+                          },
+                          {
+                            "name": "Latvian",
+                            "distance": 6.015851961805557,
+                            "parent": "lt.lv"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "bg.mk.sl.pl.sk.cs.uk.ru.be",
+                        "distance": 2.5110561600167407,
+                        "parent": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be",
+                        "children": [
+                          {
+                            "name": "bg.mk",
+                            "distance": 2.071464563419117,
+                            "parent": "bg.mk.sl.pl.sk.cs.uk.ru.be",
+                            "children": [
+                              {
+                                "name": "Bulgarian",
+                                "distance": 3.3245637980769227,
+                                "parent": "bg.mk"
+                              },
+                              {
+                                "name": "Macedonian",
+                                "distance": 4.100266201923077,
+                                "parent": "bg.mk"
+                              }
+                            ]
+                          },
+                          {
+                            "name": "sl.pl.sk.cs.uk.ru.be",
+                            "distance": 0.6609323115808823,
+                            "parent": "bg.mk.sl.pl.sk.cs.uk.ru.be",
+                            "children": [
+                              {
+                                "name": "Slovenian",
+                                "distance": 5.407789136513157,
+                                "parent": "sl.pl.sk.cs.uk.ru.be"
+                              },
+                              {
+                                "name": "pl.sk.cs.uk.ru.be",
+                                "distance": 0.9176030509868429,
+                                "parent": "sl.pl.sk.cs.uk.ru.be",
+                                "children": [
+                                  {
+                                    "name": "pl.sk.cs",
+                                    "distance": 0.8382407880434775,
+                                    "parent": "pl.sk.cs.uk.ru.be",
+                                    "children": [
+                                      {
+                                        "name": "Polish",
+                                        "distance": 5.042340112499999,
+                                        "parent": "pl.sk.cs"
+                                      },
+                                      {
+                                        "name": "sk.cs",
+                                        "distance": 1.7143848875000005,
+                                        "parent": "pl.sk.cs",
+                                        "children": [
+                                          {
+                                            "name": "Slovak",
+                                            "distance": 2.653792395833334,
+                                            "parent": "sk.cs"
+                                          },
+                                          {
+                                            "name": "Czech",
+                                            "distance": 2.6348876041666665,
+                                            "parent": "sk.cs"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "uk.ru.be",
+                                    "distance": 0.6238048369565226,
+                                    "parent": "pl.sk.cs.uk.ru.be",
+                                    "children": [
+                                      {
+                                        "name": "Ukrainian",
+                                        "distance": 4.549164492187498,
+                                        "parent": "uk.ru.be"
+                                      },
+                                      {
+                                        "name": "ru.be",
+                                        "distance": 1.3112205078125028,
+                                        "parent": "uk.ru.be",
+                                        "children": [
+                                          {
+                                            "name": "Russian",
+                                            "distance": 3.9986663235294144,
+                                            "parent": "ru.be"
+                                          },
+                                          {
+                                            "name": "Belarusian",
+                                            "distance": 3.584803676470585,
+                                            "parent": "ru.be"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "sva.ka.xmf.lzz.el.te",
+                    "distance": 0.3081328656005844,
+                    "parent": "lt.lv.bg.mk.sl.pl.sk.cs.uk.ru.be.sva.ka.xmf.lzz.el.te",
+                    "children": [
+                      {
+                        "name": "sva.ka.xmf.lzz",
+                        "distance": 1.4835801386718768,
+                        "parent": "sva.ka.xmf.lzz.el.te",
+                        "children": [
+                          {
+                            "name": "sva",
+                            "distance": 10.994346005859377,
+                            "parent": "sva.ka.xmf.lzz"
+                          },
+                          {
+                            "name": "ka.xmf.lzz",
+                            "distance": 2.7684264941406234,
+                            "parent": "sva.ka.xmf.lzz",
+                            "children": [
+                              {
+                                "name": "Georgian",
+                                "distance": 8.10225659090909,
+                                "parent": "ka.xmf.lzz"
+                              },
+                              {
+                                "name": "xmf.lzz",
+                                "distance": 2.28115840909091,
+                                "parent": "ka.xmf.lzz",
+                                "children": [
+                                  {
+                                    "name": "xmf",
+                                    "distance": 5.633757999999993,
+                                    "parent": "xmf.lzz"
+                                  },
+                                  {
+                                    "name": "lzz",
+                                    "distance": 5.962922000000008,
+                                    "parent": "xmf.lzz"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "el.te",
+                        "distance": 0.7466586113281248,
+                        "parent": "sva.ka.xmf.lzz.el.te",
+                        "children": [
+                          {
+                            "name": "Greek",
+                            "distance": 8.895653457031253,
+                            "parent": "el.te"
+                          },
+                          {
+                            "name": "Telugu",
+                            "distance": 10.266766542968748,
+                            "parent": "el.te"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

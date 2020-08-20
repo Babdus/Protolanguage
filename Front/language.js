@@ -187,7 +187,26 @@ lang_codes = {
   "yi": "Yiddish",
   "yo": "Yoruba",
   "za": "Zhuang",
-  "zu": "Zulu"
+  "zu": "Zulu",
+  "sva": "Svan",
+  "lzz": "Laz",
+  "xmf": "Mingrelian",
+  "tcy": "Tulu",
+  "bfq": "Badaga",
+  "kfa": "Kodava",
+  "xub": "Betta Kurumba",
+  "yea": "Ravula",
+  "tcx": "Toda",
+  "kfe": "Kota",
+  "gon": "Gondi",
+  "kff": "Koya",
+  "kxv": "Kuvi",
+  "kfb": "Kolami",
+  "pci": "Duruwa",
+  "gdb": "Ollari",
+  "brh": "Brahui",
+  "kru": "Kurukh",
+  "mjt": "Malto"
 }
 
 $(window).on('load', function() {
@@ -212,10 +231,10 @@ $(window).on('load', function() {
           $("#"+word).append('<td>['+data[word]+']</td><td id="arrow">&rarr;</td>');
         }
       });
-      if(lang.length > 2 && lang.length % 2 == 0){
+      if(lang.includes(".")){
         $("h1").append("Dictionary of reconstructed protolanguage " + lang);
         var paragraph = "This language is an ancestor of modern languages ";
-        var langs1 = lang.match(/.{2}/g);
+        var langs1 = lang.split(".");
         console.log(langs1);
         langs1.forEach(function (lang, index) {
           if(index == langs1.length - 2){

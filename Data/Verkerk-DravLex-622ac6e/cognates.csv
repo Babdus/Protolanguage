@@ -1,0 +1,2115 @@
+ID,Form_ID,Cognateset_ID,Source,source_comment,Comment
+1,1,I-B,,Verkerk,high quality lookalike
+2,2,I-B,,Dunn,reasonable lookalike (need an explanation for the ending)
+3,3,I-B,BurrowEmeneau1961[468],,5160
+4,4,I-B,BurrowEmeneau1961[468],,5160
+5,5,I-B,BurrowEmeneau1961[468],,"no. 5160 Form in DED is: Ka. ān (obl. en-), nān (obl. nan-)."
+6,6,I-B,BurrowEmeneau1961[468],,"no. 5160 Form in DED is: Koḍ. na·nï, na· (obl. en-, nan-, na·-)."
+7,7,I-B,,Kolipakam,Based on similarity with Telugu : ne:nu
+8,8,I-B,BurrowEmeneau1961[468],,3160
+9,9,I-B,,Verkerk,high quality lookalike
+10,10,I-B,BurrowEmeneau1961[468],,5160
+11,11,I-B,BurrowEmeneau1961[468],,no.5160
+12,12,I-B,BurrowEmeneau1961[468],,3160
+13,13,I-B,BurrowEmeneau1961[468],,no. 5160
+14,14,I-B,BurrowEmeneau1961[468],,no. 5160
+15,15,I-B,BurrowEmeneau1961[468],,5160
+16,16,I-B,Andronov1964;BurrowEmeneau1961[468],,; no. 5160
+17,17,I-B,BurrowEmeneau1961[468],,no. 5160
+18,18,I-B,BurrowEmeneau1961[468],,no. 5160
+19,19,I-B,BurrowEmeneau1961[468],,no. 5160
+20,20,I-B,BurrowEmeneau1961[468],,no. 5160
+21,21,I-B,,Verkerk,high quality lookalike
+22,22,all-A,,Verkerk,high quality look-alike
+23,23,all-A,Andronov1964;BurrowEmeneau1961[DED844],,; DED844
+24,24,all-A,BurrowEmeneau1961[DED844],,DED844
+25,25,all-A,BurrowEmeneau1961[82],,DED844
+26,26,all-A,Andronov1964;BurrowEmeneau1961[DED844],,"; DED844 - cited as ellam: Ma. ellām, ellāvum all; ellīrum you all."
+27,27,all-A,Andronov1964;BurrowEmeneau1961[DED844],,; DED844
+28,28,all-B,,Verkerk,high quality look-alike
+29,29,all-B,Andronov1964,,
+30,30,all-C,,Verkerk,high quality look-alike
+31,31,all-C,,Verkerk,
+32,32,all-D,,Verkerk,"could be ofody in following DED990 reference: To. wïḏ (obl. wïḏn-/wïn-) one; wïḏy, wïḏi· alone; wïnaṛ at the same time, together (wïḏ naṛ one step; cf. 3582); wïḏïnaṛ at once, immediately (< wïḏi· naṛ one step only); ofoḏy all, the whole (cf. Ta. ovv-oṉṟu each one)."
+33,33,all-E,,Verkerk,
+34,34,all-F,,Verkerk,
+35,35,all-G,,Verkerk,
+36,36,all-H,,Dunn,apparent singleton
+37,37,all-I,BurrowEmeneau1961[215],,DED2461
+38,38,all-J,,Kolipakam,No obvious cognates.
+39,39,all-K,,Kolipakam,No obvious cognates.
+40,40,all-L,,Kolipakam,No obvious cognates.
+41,41,all-M,,Kolipakam,No obvious cognates
+42,42,all-N,,Kolipakam,No obvious cognates
+43,43,all-O,,Kolipakam,No obvious cognates
+44,44,ashes-A,Andronov1964;BurrowEmeneau1961[DED2453],,; 
+45,45,ashes-A,,Jordan,Lookalike to members of DED2453
+46,46,ashes-A,Andronov1964;BurrowEmeneau1961[DED2453],,; 
+47,47,ashes-B,,Jordan,Lookalike to members of DED4316
+48,48,ashes-B,,Jordan,Lookalike with members of DED4316
+49,49,ashes-B,BurrowEmeneau1961[DED4316],,"B&E form: būda, būdi, būdu ""The forms in brackets are probably, but not all necessarily, borrowed from Skt. DED (S, N) 3541"" but see note on the cognate class."
+50,50,ashes-B,BurrowEmeneau1961[DED4316],,"The forms in brackets are probably, but not all necessarily, borrowed from Skt. DED (S, N) 3541 but see note on cognate class"
+51,51,ashes-B,BurrowEmeneau1961[381],,DED4316
+52,52,ashes-B,,Jordan,Identical to members of DED4316
+53,53,ashes-B,BurrowEmeneau1961[DED4316],,
+54,54,ashes-B,BurrowEmeneau1961[DED4316],,"B&E form: To. pu·Q ""The forms in brackets are probably, but not all necessarily, borrowed from Skt. DED (S, N) 3541"" But see note on cognate class."
+55,55,ashes-B,BurrowEmeneau1961[DED4316],,"Lookalike with Kodava ""The forms in brackets are probably, but not all necessarily, borrowed from Skt. DED (S, N) 3541"" But see note on cognate class."
+56,56,ashes-C,,Jordan,Self-identified
+57,57,ashes-C,,Jordan,Self-identified
+58,58,ashes-D,BurrowEmeneau1961[329],,DED3693
+59,59,ashes-D,BurrowEmeneau1961[329],,DED3693
+60,60,ashes-D,Andronov1964,,
+61,61,ashes-F,,Kolipakam,apparent singleton
+62,62,ashes-G,BurrowEmeneau1961[376],,DED4243
+63,63,ashes-H,,Kolipakam,apparent singleton
+64,64,bark-A,,Kolipakam,"high quality look alike of set - 3876(pg. 346), but not on DED list."
+65,65,bark-A,,Kolipakam,"high quality look alike of set - 3876(pg. 346), but not on DED list."
+66,66,bark-A,Andronov1964;BurrowEmeneau1961[346],,; set - 3876
+67,67,bark-A,Andronov1964;BurrowEmeneau1961[346],,; set - 3876
+68,68,bark-A,Andronov1964;BurrowEmeneau1961[346],,; DED3876
+69,69,bark-B,Andronov1964,,
+70,70,bark-C,BurrowEmeneau1961[74],,DED757
+71,71,bark-D,,Kolipakam,"high quality look alike of DED4417(pg. 391), but not on DED list."
+72,72,bark-D,BurrowEmeneau1961[391],,DED4417
+73,73,bark-E,BurrowEmeneau1961[11],,set - 98
+74,74,bark-F,,Kolipakam,self-identified
+75,75,bark-G,,Kolipakam,self-identified
+76,76,bark-H,,Kolipakam,self-identified
+77,77,bark-I,,Kolipakam,self-identified
+78,78,bark-J,BurrowEmeneau1961[313],,DED3559
+79,79,bark-J,,Kolipakam,self-identified
+80,80,bark-K,,Kolipakam,Self-identified
+81,81,bark-K,,Kolipakam,self-identified
+82,82,bark-L,,Kolipakam,No obvious cognate or entry in DED
+83,83,bark-M,,Kolipakam,No obvious cognate or entry in DED
+84,84,bark-N,,Kolipakam,No Obvious cognates or entry in DED
+85,85,belly-A,BurrowEmeneau1961[474],,Set-5259
+86,86,belly-A,BurrowEmeneau1961[474],,Set-5259
+87,87,belly-A,BurrowEmeneau1961[474],,Set-5259
+88,88,belly-A,BurrowEmeneau1961[474],,Set-5259
+89,89,belly-A,,Kolipakam,"High quality look alike, but not in the list of DED 5259, pg: 474."
+90,90,belly-A,,Kolipakam,"High quality look alike, but not in the list of DED 5259, pg: 474."
+91,91,belly-B,,Kolipakam,"High quality look alike, but not in the list of DED 4494, pg: 397."
+92,92,belly-B,,Dunn,reasonable lookalike
+93,93,belly-B,Andronov1964,,
+94,94,belly-B,BurrowEmeneau1961[397],,"Set-4494 DED form has Potte, but change from p>h (proto-dravidian to kannada) indicated."
+95,95,belly-B,,Kolipakam,"High quality look alike, but not in the list of DED 4494, pg: 397."
+96,96,belly-B,BurrowEmeneau1961[397],,"Set 4494 ""Ka. poṭṭe belly, paunch, stomach, womb; poḍe belly, pregnancy; puṭṭi belly. Tu. poṭṭè pregnancy; poṭṭebañji a pot-belly (bañji belly); boḍḍe stout man. Te. poṭṭa belly."""
+97,97,belly-B,BurrowEmeneau1961[397],,Set-4494
+98,98,belly-B,BurrowEmeneau1961[397],,Set-4494
+99,99,belly-C,BurrowEmeneau1961[112],,Set-1198
+100,100,belly-D,,Kolipakam,Self-Identified
+101,101,belly-E,BurrowEmeneau1961[308],,Set-3507
+102,102,belly-F,,Kolipakam,Self-Identified
+103,103,belly-G,BurrowEmeneau1961[200],,DED2244
+104,104,belly-H,BurrowEmeneau1961[371],,DED4193
+105,105,belly-H,BurrowEmeneau1961[371],,DED4193
+106,106,belly-H,BurrowEmeneau1961[371],,DED4193
+107,107,belly-I,BurrowEmeneau1961[348],,DED3898
+108,108,belly-J,,Kolipakam,No obvious cognates or entry in DED
+109,109,belly-K,,Kolipakam,No obvious cognates or entry in DED
+110,110,big-A,BurrowEmeneau1961[391],,DED4411
+111,111,big-A,,Verkerk,high quality look-alike
+112,112,big-A,BurrowEmeneau1961[391],,DED4411
+113,113,big-A,,Dunn,High quality cognate candidate
+114,114,big-A,BurrowEmeneau1961[DED4411],,"DED4411; ""Pa. berto big;"""
+115,115,big-A,Andronov1964;BurrowEmeneau1961[DED4411],,"; DED4411; ""Ta. peru, perum, pēr great; peritu that which is great, big, large; greatly; periya large, great, elder, important; """
+116,116,big-A,,Verkerk,"Not in DED4411, look-alike but doubtful"
+117,117,big-A,Andronov1964;BurrowEmeneau1961[DED4411],,"; DED4411; ""Te. perũgu, per(u)gu, per(u)vu to grow, grow up, increase, accumulate, be augmented, expand, extend; perũguḍu growth, increase; perime, pemme greatness, power, authority; pērima grandeur, magnificence; pērimi greatness, eminence; pēru great, large, much; pēr(u)cu to increase, rise, swell; pekku many; pekkaṇḍru, pekkuru many persons; pekkuva increase, growth, development, excess; (inscr.) perddaḷ elders; pedda great, big, large, long, tall, old, senior, chief, respectable; an elder, superior, head man; peddayu adv. much, very, exceedingly; peddi mother's elder sister; peccu excess, addition; heccu, eccu increase, greatness; much, more, superior, excessive; vb. to increase, rise; penu (before consonant), penn- (before vowel) large, big, great; pencu to enlarge; pellu excessiveness, greatness; excessive, much, great; greatly, much, very; pellidamu greatness, excessiveness; peluca much, exceeding; pelucana greatness, excessiveness; bebbuli a royal tiger.; """
+118,118,big-B,BurrowEmeneau1961[DED5276],,"DED5276; ""Koḍ. bala power, strength; balate right (hand); ballyë great."""
+119,119,big-B,Andronov1964;BurrowEmeneau1961[DED5276],,"; DED5276; ""Ma. val, valu, valiya strong, powerful, great; valiyā forcibly, suddenly; valaṅ-kai right hand; valam the right or strong side; valippam, valima greatness, bigness; valluka to be able, strong; vallabham power, capacity; vanpu greatness, strength; vampikka to grow large, grow arrogant"""
+120,120,big-B,,Verkerk,high-quality look-alike
+121,121,big-C,,Verkerk,high quality look-alike
+122,122,big-C,Andronov1964;BurrowEmeneau1961[DED3491],,"; DED3491; ""Ka. doḍḍa big, large, stout, thick, great, extensive, spacious, respectable, eminent, important, chief, principal, loud;"""
+123,123,big-D,BurrowEmeneau1961[DED4729],,"DED4729; ""Tu. malla, mallavu, mallāvu great, large, big, extensive, chief, principal, important, loud;"""
+124,124,big-E,,Verkerk,Cannot be related to any of the forms
+125,125,big-F,,Dunn,apparent singleton
+126,126,big-G,BurrowEmeneau1961[476],,DED5276
+127,127,big-H,,Kolipakam,no other obvious cognates
+128,128,big-I,,Kolipakam,No other cognate or entry in DED
+129,129,big-J,,Kolipakam,No other cognate or entry in DED
+130,130,bird-A,Andronov1964;BurrowEmeneau1961[DED4020],,"; DED4020: Ta. paṟa (paṟapp-, paṟant-) to fly, hover, flutter, move with celerity, hasten, be in a hurry, be greatly agitated, be scattered, dispersed, disappear; paṟapaṟa (-pp-, -tt-) to hasten, hurry; paṟati over-hastiness, over-anxiety; paṟappaṉ hasty person; paṟappu flying, haste, anxiety; paṟappai, paṟal bird; paṟavai bird, wing, feather, bee; paṟi (-v-, -nt-) to run away (as a horse), flow out quickly, be displaced suddenly, give way, fly off (as steam), be discharged (as an arrow); paṟai flying, wing, feather, bird; pāṟu (pāṟi-) to run, flee, be scattered, give way, be in disorder, cross over; n. hawk, kite, falcon, eagle; ruin; pāṟal heavy shower; bull (cf. meaning of Ka. vb. pāṟu)."
+131,131,bird-A,BurrowEmeneau1961[358],,"set-4020 - Not listed in the DED form: To. po·ṟ- (po·ṟy-) to fly; po·ṯ- (po·ṯy-) to teach (young) to fly; o·ṟc- (o·ṟ&cangle;-) to throw in air and catch (jackstraws, coins). Could be a loanword from Tamil?"
+132,132,bird-B,,Dunn,Clear cognate to loans in other languages
+133,133,bird-B,Andronov1964,,
+134,134,bird-B,,Kolipakam,Same as loan word in closely related language
+135,135,bird-B,,Kolipakam,Same as loan word in closely related language - Andronov
+136,136,bird-B,,Kolipakam,similar to other forms
+137,137,bird-B,Andronov1964,,Loanword according to Andronov
+138,138,bird-B,Andronov1964,,Loanword according to Andronov
+139,139,bird-B,,Kolipakam,Same as loan word in closely related language - Andronov
+140,140,bird-B,,Kolipakam,Same as loan word in closely related language - Andronov
+141,141,bird-C,BurrowEmeneau1961[368],,DED4154
+142,142,bird-C,BurrowEmeneau1961[368],,DED4154
+143,143,bird-C,,Verkerk,high quality look-alike
+144,144,bird-C,Andronov1964;BurrowEmeneau1961[DED4154],,; DED4154
+145,145,bird-D,BurrowEmeneau1961[DED1584],,"DED1584: Ta. kiḷi, kiḷḷai parrot."
+146,146,bird-E,,Kolipakam,Doubtful translation
+147,147,bird-F,,Kolipakam,No obvious cognates or entry in DED
+148,148,bird-G,,Kolipakam,No obvious cognates or entry in DED
+149,149,bird-H,,Kolipakam,No obvious cognates or entry in DED
+150,150,bird-I,BurrowEmeneau1961[286],,DED3275
+151,151,bite-A,,Dunn,clear cognate
+152,152,bite-A,BurrowEmeneau1961,,DED1124
+153,153,bite-A,Andronov1964,,
+154,154,bite-A,BurrowEmeneau1961[DED1124],,
+155,155,bite-A,BurrowEmeneau1961,,DED1124
+156,156,bite-A,Andronov1964;BurrowEmeneau1961[DED1124],,; -kkuga is a verb ending (from online Malayalam dictionaries)
+157,157,bite-A,Andronov1964;BurrowEmeneau1961[DED1024],,; 
+158,158,bite-A,BurrowEmeneau1961[DED1124],,Identical to DED forms
+159,159,bite-B,,Dunn,No evidence to linking this to any other class
+160,160,bite-C,,Kolipakam,No obvious cognate or entry in DED
+161,161,bite-D,,Dunn,Good quality lookalike to DED2164
+162,162,bite-D,Andronov1964;BurrowEmeneau1961[DED2164],,; 
+163,163,bite-D,BurrowEmeneau1961[DED2164],,
+164,164,bite-F,,Dunn,Identical to sister Kannada term from DED
+165,165,bite-F,BurrowEmeneau1961,,DED1097
+166,166,bite-F,BurrowEmeneau1961[DED1097],,
+167,167,bite-F,,Dunn,Identical to sister Kannada term from DED
+168,168,bite-F,,Kolipakam,high quality look alike to 1097
+169,169,bite-F,BurrowEmeneau1961,,DED1097
+170,170,bite-G,,Dunn,No evidence to linking this to any other class
+171,171,bite-H,,Kolipakam,No obvious cogante or entry in DED
+172,172,black-A,,Jordan,Lookalike with members of DED1395
+173,173,black-A,,Jordan,Lookalike with members of DED1395
+174,174,black-A,Buck1949[130],,DED1395
+175,175,black-A,BurrowEmeneau1961[DED1395],,"B&E form: kaṟe, kaṟi blackness, the colour black, stain, blot; kaṟṟage, kaṟṟane blackly, blackness; karpu, kappu blackness"
+176,176,black-A,BurrowEmeneau1961[DED1395],,"B&E form: Koḍ. kara- (karap-, karat-) to become black; karapï blackness; karatë black; kare stain More likely to be a member of DED1395 than DED1278"
+177,177,black-A,Buck1949[130],,DED1395
+178,178,black-A,,Jordan,Lookalike with members of DED1395
+179,179,black-A,Andronov1964;BurrowEmeneau1961[DED1395],,"; B&E form: kaṟuppu, kaṟu"
+180,180,black-A,BurrowEmeneau1961[DED1395],,"1395 Ta. kaṟu (-pp-, -tt-) to grow black, darken, ... kaṟukaṟu (-pp-, -tt-) to become very black; kaṟuppaṉ black man, a demon; kaṟuppu blackness, darkness, spot, taint, moral defect Some confusion with DED1278 kar-"
+181,181,black-A,BurrowEmeneau1961[DED1395],,"B&E form: kaṟf- (kaṟt-) to become black, dark; kap black dot"
+182,182,black-A,BurrowEmeneau1961[DED1395],,"This is ""to become black"". DED1278 lists Tu. kardů ""black"""
+183,183,black-A,,Jordan,Lookalike with members of DED1395
+184,184,black-B,,Jordan,Lookalike with e.g. Telugu nalla and other members of DED3613
+185,185,black-B,BurrowEmeneau1961[DED3613],,
+186,186,black-B,BurrowEmeneau1961[DED3613],,
+187,187,black-C,,Kolipakam,apparent singleton. No entry in DED
+188,188,black-D,BurrowEmeneau1961[DED4781],,"Br. maun black, dark (of night)."
+189,189,black-D,BurrowEmeneau1961[DED4781],,"Kui māsu dusk, twilight. Kur. māxā night; māxnā to grow dark, be overtaken by night; mōxārō black, dark-complexioned."
+190,190,black-E,BurrowEmeneau1961[DED1278],,"B&E form: Ka. kari to be scorched, singed, charred; fry, roast; n. state of being scorched, frying, blackness, charcoal; karaku, kariku state of being scorched; karidu black; kar-, ka- id.; kargu to turn black (or with 1494 Ta. kār̤); kare blackness Unclear whether this is a member of DED1278 or DED1395"
+191,191,black-F,,Kolipakam,apparent singleton. no entry in DED
+192,192,black-G,,Kolipakam,apparent singleton. no entry in DED
+193,193,blood-A,,Dunn,obvious shared form with sister languages
+194,194,blood-A,Andronov1964,,
+195,195,blood-A,Andronov1964,,
+196,196,blood-A,Andronov1964,,
+197,197,blood-A,Andronov1964,,
+198,198,blood-B,,Kolipakam,"High quality look alike to set - 3748 (pg.335), but not in DED list."
+199,199,blood-B,,Kolipakam,High quality lookalike to set - 3748
+200,200,blood-B,BurrowEmeneau1961[335],,DED3748
+201,201,blood-B,BurrowEmeneau1961[335],,DED3748
+202,202,blood-B,BurrowEmeneau1961[335],,DED3748
+203,203,blood-B,BurrowEmeneau1961[335],,DED3748
+204,204,blood-B,,Kolipakam,"High quality look alike to set - 3748 (pg.335), but not in DED list."
+205,205,blood-B,BurrowEmeneau1961[335],,DED3748
+206,206,blood-B,BurrowEmeneau1961[335],,DED3748
+207,207,blood-B,Andronov1964;BurrowEmeneau1961[335],,; set - 3748
+208,208,blood-B,BurrowEmeneau1961[335],,set - 3748
+209,209,blood-B,BurrowEmeneau1961[335],,set - 3748
+210,210,blood-C,BurrowEmeneau1961[175],,DED1931
+211,211,blood-D,BurrowEmeneau1961[250],,set - 2883
+212,212,blood-D,BurrowEmeneau1961[250],,set - 2883
+213,213,blood-D,,Kolipakam,"High quality look alike to set - 2883 (pg.250), but not in DED list."
+214,214,blood-E,BurrowEmeneau1961[482],,set -5334
+215,215,blood-F,,Kolipakam,No obvious cognates or entry in DED
+216,216,bone-A,,Kolipakam,High quality look alike of set - 839 (pg. 81) but not in DED list
+217,217,bone-A,BurrowEmeneau1961[81],,DED839
+218,218,bone-A,Andronov1964;BurrowEmeneau1961[81],,; set - 839
+219,219,bone-A,BurrowEmeneau1961[81],,DED839
+220,220,bone-A,Andronov1964;BurrowEmeneau1961[81],,; set - 839
+221,221,bone-A,Andronov1964;BurrowEmeneau1961[81],,; set - 839
+222,222,bone-A,Andronov1964;BurrowEmeneau1961[81],,; set - 839
+223,223,bone-A,BurrowEmeneau1961[81],,set - 839
+224,224,bone-A,BurrowEmeneau1961[81],,set - 839
+225,225,bone-B,BurrowEmeneau1961[400],,DED4528
+226,226,bone-B,BurrowEmeneau1961[400],,DED4528
+227,227,bone-B,BurrowEmeneau1961[400],,set - 4528
+228,228,bone-B,,Kolipakam,High quality look alike of set -4528 (pg. 400) but not in DED list
+229,229,bone-B,Andronov1964;BurrowEmeneau1961[400],,; set - 4528
+230,230,bone-B,BurrowEmeneau1961[400],,set - 4528
+231,231,bone-C,BurrowEmeneau1961[DED1288],,Initial q in DED corresponds to zero in this list
+232,232,bone-D,BurrowEmeneau1961[456],,set -5050
+233,233,bone-D,BurrowEmeneau1961[456],,set -5050
+234,234,bone-D,,Kolipakam,High quality look alike of set - 5050 (pg. 456) but not in DED list
+235,235,bone-E,,Kolipakam,Self-identified
+236,236,bone-F,BurrowEmeneau1961,,DED1296
+237,237,bone-G,,Kolipakam,no obvious cognates or entry in DED
+238,238,breast-A,,Dunn,Clear lookalike
+239,239,breast-A,Andronov1964;BurrowEmeneau1961[DED4818],,"; Ma. mār, mārvvu, māṟu chest; fathom."
+240,240,breast-A,Andronov1964;BurrowEmeneau1961[DED4818],,"; Ta. mār breast, chest; fathom; mārpu bosom, breast, chest, woman's breas"
+241,241,breast-A,BurrowEmeneau1961[DED4818],,"Ta. mār breast, chest; fathom; mārpu bosom, breast, chest, woman's breas"
+242,242,breast-B,Andronov1964;BurrowEmeneau1961[DED827],,; 
+243,243,breast-B,,Dunn,Good lookalike
+244,244,breast-B,BurrowEmeneau1961[DED827],,"Pa. edram, edrom chest."
+245,245,breast-C,Andronov1964,,
+246,246,breast-E,,Dunn,"Singleton. Not in DED, no other apparent cognates."
+247,247,breast-F,BurrowEmeneau1961[DED4985],,Koḍ. mole breast.
+248,248,breast-F,BurrowEmeneau1961[448],,DED4985
+249,249,breast-F,BurrowEmeneau1961[DED4985],,
+250,250,breast-F,,Dunn,Identical to close relative DED4985
+251,251,breast-G,,Dunn,not in DED
+252,252,breast-G,,Dunn,not in DED
+253,253,breast-G,,Dunn,not in DED
+254,254,breast-H,BurrowEmeneau1961[DED3206],,"Tu. tigalè 'breast, chest'; Ka. (PBh.) tegale 'chest'."
+255,255,breast-I,,Dunn,apparent singleton
+256,256,breast-J,,Kolipakam,no obvious cogante or entry in DED
+257,257,breast-K,,Kolipakam,No obvious cognates or entry in DED
+258,258,breast-L,,Kolipakam,No obvious cognate or entry in DED
+259,259,breast-M,,Kolipakam,No obvious cognate or entry in DED
+260,260,breast-N,,Kolipakam,No obvious cognate or entry in DED
+261,261,breast-O,,Kolipakam,No obvious cognate or entry in DED
+262,262,breast-P,,Kolipakam,No obvious cognate or entry in DED
+263,263,burn-A,,Kolipakam,Self-identified. Not similar to any other cognate class
+264,264,burn-B,BurrowEmeneau1961[139],,"DED1500 Te. kālu to burn, be burnt, scalded, scorched, baked"
+265,265,burn-C,BurrowEmeneau1961[230],,"DED2654 Ka. suḍu (suṭṭ-) to burn, roast, bake, fire (a gun); be consumed with fire, burn, feel hot, be roasted; n. burning, etc."
+266,266,burn-C,BurrowEmeneau1961[230],,DED2654 Koḍ. cuḍ- (cuḍuv- cuṭṭ-) to burn (tr.)
+267,267,burn-C,,Kolipakam,High quality look alike to DED2654
+268,268,burn-D,BurrowEmeneau1961[80],,"DED811 Ta. eri (-v-, -nt-) to burn, blaze, shine, (sore or fever) burns, suffer a painful emotion;"
+269,269,burn-E,,Kolipakam,high quality look alike to DED1207
+270,270,burn-E,,Kolipakam,high quality look alike to DED1207
+271,271,burn-E,BurrowEmeneau1961[113],,DED1207
+272,272,burn-E,BurrowEmeneau1961[113],,"DED1207 Ma. kattuka to kindle, burn;"
+273,273,burn-E,,Kolipakam,high quality look alike to DED1207
+274,274,burn-F,,Kolipakam,High quality look alike to DED4680
+275,275,burn-F,BurrowEmeneau1961[414],,"DED4680 Te. maṇḍu to burn, blaze, flame, cause or produce a burning pain, be angry, be in a fury or violent rage, be envious; maṇṭa flame, blaze, burning pain, anger, wrath, fury, envy;"
+276,276,burn-G,,Kolipakam,not similar to any other cognate class
+277,277,burn-H,BurrowEmeneau1961[135],,DED1458
+278,278,burn-I,BurrowEmeneau1961[329],,DED3693
+279,279,burn-J,,Kolipakam,apparent singleton. no entry in DED
+280,280,burn-K,,Kolipakam,apparent singleton. no entry in DED
+281,281,burn-L,,Kolipakam,apparent singleton. No entry in DED
+282,282,claw-A,Andronov1964;Buck1949[245],,; IE *(o)nogh-
+283,283,claw-A,Andronov1964;Buck1949[245],,; IE *(o)nogh-
+284,284,claw-B,,Kolipakam,"High quality look alike to set - 561(pg,55), but not on DED list."
+285,285,claw-B,,Kolipakam,DED561
+286,286,claw-B,BurrowEmeneau1961[55],,DED561
+287,287,claw-B,Andronov1964;BurrowEmeneau1961[55],,; set - 561
+288,288,claw-B,BurrowEmeneau1961[55],,set - 561
+289,289,claw-B,BurrowEmeneau1961[55],,DED561
+290,290,claw-B,,Kolipakam,"High quality look alike to set - 561(pg,55), but not on DED list."
+291,291,claw-B,BurrowEmeneau1961,,DED561
+292,292,claw-B,BurrowEmeneau1961[55],,DED561
+293,293,claw-B,BurrowEmeneau1961[55],,Set 561
+294,294,claw-B,BurrowEmeneau1961[55],,set - 561
+295,295,claw-B,Andronov1964;BurrowEmeneau1961[55],,; set - 561
+296,296,claw-B,BurrowEmeneau1961[55],,set - 561
+297,297,claw-B,BurrowEmeneau1961[55],,set - 561
+298,298,claw-C,,Kolipakam,Self-identified
+299,299,claw-D,,Kolipakam,
+300,300,claw-D,,Kolipakam,"The suffix of the word is cognate to ""Goru"" - Set B"
+301,301,claw-E,,Kolipakam,No obvious cognate or entry in DED
+302,302,claw-F,,Kolipakam,No obvious cognate or entry in DED
+303,303,cloud-A,Andronov1964;Buck1949[65],,; skt. megha
+304,304,cloud-A,,Kolipakam,skt. megha
+305,305,cloud-A,Andronov1964;Buck1949[65],,; skt. megha
+306,306,cloud-A,Andronov1964;Buck1949[65],,; skt. megha
+307,307,cloud-A,Andronov1964;Buck1949[65],,; skt. megha
+308,308,cloud-A,Buck1949[65],Jordan,Identical to Tamil form; skt. megha
+309,309,cloud-B,Andronov1964;BurrowEmeneau1961[437],,"; DED4892 Ta. mukil cloud. Ma. mukil id. To. nïs̱ muxuḷm mist on hills in morning (in song; see 3675). Ka. mugil cloud, series or bank of clouds; the sky. Tu. mugalů, mugaḷů cloud; mugaliyuni to become cloudy (the sky). Te. mogulu, moyilu cloud. Kol. morgar id. Pa. malgur id. Ga. (Oll. P.) mogul id., sky; (S.) moggul id. Go. (M.) moyol, (Ma.) moyol (pl. moyosk), (L.) muyol cloud (Voc. 2987); (LuS.) moyoolee a cloud; (Koya T.) moyyel id. DED(S) 4006."
+310,310,cloud-C,BurrowEmeneau1961[418],,DED4728
+311,311,cloud-C,BurrowEmeneau1961[DED4728],,
+312,312,cloud-C,BurrowEmeneau1961[DED4728],,
+313,313,cloud-D,,Jordan,Good lookalike with Tulu form: mōḍa DED5033
+314,314,cloud-D,BurrowEmeneau1961[DED5033],,B&E form: mōḍa
+315,315,cloud-D,BurrowEmeneau1961[DED5033],,B&E form: mo·ḍa
+316,316,cloud-D,,Jordan,Form similar Kannada: mo:ɖa
+317,317,cloud-D,BurrowEmeneau1961[DED5033],,B&E form: mōḍa
+318,318,cloud-D,BurrowEmeneau1961[DED5033],,Identical to Kodava form: mo·ḍa
+319,319,cloud-E,,Jordan,"Form similar to DED4641 e.g. Tamil: mancu, Ko. Manj"
+320,320,cloud-F,,Kolipakam,possible loanword hindi - badal
+321,321,cloud-F,,Kolipakam,possible loan word : hindi - badal
+322,322,cloud-G,,Kolipakam,No apparent cognate or entry in DED
+323,323,cloud-H,,Kolipakam,apparent singleton. no entry in ded
+324,324,cloud-I,,Kolipakam,apparent singleton. no entry in ded
+325,325,cloud-J,,Kolipakam,apparent singleton. no entry in DED
+326,326,cold-A,Andronov1964,,Andronov form: taṇḍi
+327,327,cold-A,BurrowEmeneau1961[DED3045],,B&E form: taṇi
+328,328,cold-A,Andronov1964,,
+329,329,cold-A,,Jordan,Lookalike with Kannada: taɳɳige
+330,330,cold-B,Andronov1964,,
+331,331,cold-C,,Kolipakam,High quality look alike
+332,332,cold-C,,Jordan,Lookalike with Te: tʃalla
+333,333,cold-C,Andronov1964,,
+334,334,cold-C,,Jordan,Lookalike with Te: tʃalla
+335,335,cold-D,BurrowEmeneau1961[360],,DED4035
+336,336,cold-D,BurrowEmeneau1961,,DED4035
+337,337,cold-D,Andronov1964;BurrowEmeneau1961[DED4035],,; 
+338,338,cold-E,,Jordan,Self identified.
+339,339,cold-E,,Jordan,Self identified.
+340,340,cold-F,,Jordan,Self identified.
+341,341,cold-G,,Jordan,"MIGHT be cognate with Kodava ""ko:ʈa"""
+342,342,cold-G,BurrowEmeneau1961[195],,DED2168
+343,343,cold-H,BurrowEmeneau1961[144],,DED1568
+344,344,cold-H,BurrowEmeneau1961[144],,DED1568
+345,345,cold-I,,Kolipakam,apparent singleton. no entry in DED
+346,346,cold-I,,Kolipakam,no apparent cognate. No entry in DED
+347,347,come-A,BurrowEmeneau1961[DED5270],,reasonable lookalike
+348,348,come-A,BurrowEmeneau1961[DED5270],,clear cognate
+349,349,come-A,BurrowEmeneau1961[476],,DED5270
+350,350,come-A,BurrowEmeneau1961[476],,DED5270
+351,351,come-A,Andronov1964;BurrowEmeneau1961[DED5270],,; 
+352,352,come-A,BurrowEmeneau1961[DED5270],,
+353,353,come-A,BurrowEmeneau1961[DED5270],,
+354,354,come-A,BurrowEmeneau1961[476],,DED5270
+355,355,come-A,BurrowEmeneau1961[DED5270],,
+356,356,come-A,BurrowEmeneau1961[DED5270],,
+357,357,come-A,BurrowEmeneau1961[476],,DED5270
+358,358,come-A,Andronov1964;BurrowEmeneau1961[DED5270],,; 
+359,359,come-A,BurrowEmeneau1961[475],,Set 5270
+360,360,come-A,BurrowEmeneau1961[476],,DED5270
+361,361,come-A,BurrowEmeneau1961[DED5270],Verkerk,; 
+362,362,come-A,Andronov1964;BurrowEmeneau1961[DED5270],,; 
+363,363,come-A,Andronov1964;BurrowEmeneau1961[DED5270],,; 
+364,364,come-A,BurrowEmeneau1961[476],,DED5270
+365,365,come-A,BurrowEmeneau1961[DED5270],,
+366,366,come-A,BurrowEmeneau1961[DED5270],,
+367,367,come-A,BurrowEmeneau1961[DED5270],,clear cognate
+368,368,die-A,BurrowEmeneau1961[DED2426],,reasonable cognate candidate
+369,369,die-A,BurrowEmeneau1961[213],,DED2426
+370,370,die-A,BurrowEmeneau1961[213],,DED2426
+371,371,die-A,Andronov1964;BurrowEmeneau1961[DED2426],,; 
+372,372,die-A,BurrowEmeneau1961[DED2426],,
+373,373,die-A,BurrowEmeneau1961[213],,DED2426
+374,374,die-A,BurrowEmeneau1961[DED2426],,
+375,375,die-A,BurrowEmeneau1961[DED2426],,
+376,376,die-A,Andronov1964,,
+377,377,die-A,BurrowEmeneau1961[DED2426],,
+378,378,die-A,Andronov1964,,
+379,379,die-A,BurrowEmeneau1961[DED2426],,reasonable lookalike
+380,380,die-A,BurrowEmeneau1961[DED2426],,excellent cognate candidate
+381,381,die-B,,Dunn,Looks like an I-E borrowing
+382,382,die-B,Andronov1964,,
+383,383,die-C,BurrowEmeneau1961[DED2988],,very similar forms cited for sister languages
+384,384,die-D,,Dunn,apparent singleton
+385,385,die-E,BurrowEmeneau1961[299],,DED3406
+386,386,die-F,BurrowEmeneau1961,,DED3068
+387,387,dog-A,,Verkerk,high quality look-alike
+388,388,dog-A,,Dunn,good lookalike
+389,389,dog-A,BurrowEmeneau1961[322],,DED3650
+390,390,dog-A,BurrowEmeneau1961[DED3650],,"DED 3650: Ka. nāy, nāyi id.; nāyitana doggishness."
+391,391,dog-A,BurrowEmeneau1961[DED3650],,DED 3650: Koḍ. na·y dog.
+392,392,dog-A,BurrowEmeneau1961[322],,DED3650
+393,393,dog-A,,Kolipakam,high quality look alike
+394,394,dog-A,,Verkerk,high quality look-alike
+395,395,dog-A,Andronov1964;BurrowEmeneau1961[DED3650],,; DED 3650: Ma. nāy id.
+396,396,dog-A,BurrowEmeneau1961[322],,DED3650
+397,397,dog-A,BurrowEmeneau1961[DED3650],,DED 3650: Pa. netta (pl. nettel) id.; iric netta wild dog.
+398,398,dog-A,Andronov1964;BurrowEmeneau1961[DED3650],,"; DED 3650: Ta. nāy, nāi dog."
+399,399,dog-A,BurrowEmeneau1961[DED3650],,DED 3650: To. no·y id.
+400,400,dog-A,BurrowEmeneau1961[DED3650],,DED 3650: Tu. nāyi id.
+401,401,dog-A,,Verkerk,high quality look-alike
+402,402,dog-B,BurrowEmeneau1961[DED1796],,DED 1796 Te. kukka dog. Onomatopaeia
+403,403,dog-C,BurrowEmeneau1961[DED3870],,"DED3870: Ma. paṭṭi dog, bitch; paṭṭicci bitch. DED(S) 3201."
+404,404,dog-D,BurrowEmeneau1961[254],,DED2916
+405,405,dog-E,,Kolipakam,no entry in DED.
+406,406,dog-E,,Kolipakam,high quality look alike to brahui term. No DED entry
+407,407,drink-A,BurrowEmeneau1961[DED1654],,clear cognate: identical to closely related languages
+408,408,drink-A,,Dunn,clear cognate
+409,409,drink-A,Andronov1964;BurrowEmeneau1961[DED1654],,; 
+410,410,drink-A,,Dunn,apparently a morphologically complex form of DED1654
+411,411,drink-A,BurrowEmeneau1961[DED1654],,clear cognate: identical to closely related languages
+412,412,drink-A,Andronov1964,,
+413,413,drink-A,,Dunn,"clear moprhologically complex form of large, stable cognate set"
+414,414,drink-A,Andronov1964,,
+415,415,drink-A,BurrowEmeneau1961[DED1654],,clear cognate: identical to closely related languages
+416,416,drink-B,Andronov1964,,
+417,417,drink-C,BurrowEmeneau1961[58],,DED600
+418,418,drink-C,BurrowEmeneau1961,,DED600
+419,419,drink-C,BurrowEmeneau1961[58],,DED600
+420,420,drink-C,,Dunn,clear cognate with DED600
+421,421,drink-C,BurrowEmeneau1961[58],,DED600
+422,422,drink-C,BurrowEmeneau1961[58],,Set 600
+423,423,drink-C,BurrowEmeneau1961[58],,DED600
+424,424,drink-C,Andronov1964,,
+425,425,drink-C,BurrowEmeneau1961,,"DED600: Un, Ud"
+426,426,drink-D,,Dunn,apparently singleton; possibly cognate with DED4223
+427,427,drink-F,,Kolipakam,No obvious cognate or entry in DED
+428,428,dry-A,Andronov1964,,
+429,429,dry-B,,Jordan,
+430,430,dry-C,Andronov1964;BurrowEmeneau1961[DED869],,; B&E form: eṇḍu
+431,431,dry-D,BurrowEmeneau1961[136],,DED1458
+432,432,dry-D,BurrowEmeneau1961[DED1458],,"Kur. xāynā (xayyas) to lose moisture, dry up, evaporate, lose flesh, waste away; xaixairnā to become quite dry, parched; xaidnā, xaida'ānā to make dry, desiccate (by exposing to the sun, fire, or the air); (Hahn) xaikā dry, dried up, withered."
+433,433,dry-D,BurrowEmeneau1961[DED1458],,"Reasonable similar to ""Malt. qáye to become dry, wither, become lean, fade; qeyre to be boiled, be hot; qeytre to boil, make hot."", especially when you consider ""Kurukh xaikā dry, dried up, withered. """
+434,434,dry-D,BurrowEmeneau1961[DED1458],,B&E form: kay(-nt)
+435,435,dry-D,,Jordan,Similar to other Tamil form: kaindadə
+436,436,dry-E,BurrowEmeneau1961[481],,DED5320
+437,437,dry-E,BurrowEmeneau1961[481],,DED5320
+438,438,dry-E,BurrowEmeneau1961[DED5320],,Andronov had a separate cognate class B
+439,439,dry-E,,Jordan,Possibly cognate with DED5320
+440,440,dry-E,BurrowEmeneau1961[DED5320],,B&E form: varaṭu Andronov had a separate cognate class B
+441,441,dry-F,,Jordan,Possible lookalike with Kannada: oɳagidu
+442,442,dry-F,BurrowEmeneau1961[DED601],,B&E form: oṇagisu
+443,443,dry-F,BurrowEmeneau1961[DED601],,B&E form: oṇaŋgi-
+444,444,dry-F,,Jordan,Lookalike with Kodava: oɳangina
+445,445,dry-F,,Jordan,Possible lookalike with Kannada: oɳagidu
+446,446,dry-F,BurrowEmeneau1961[DED601],,B&E form: nuṅgu
+447,447,dry-G,BurrowEmeneau1961[DED4537],,Identical to Telegu: poɖi
+448,448,dry-G,BurrowEmeneau1961[DED4537],,"B&E form Telugu: p(r)oyi ""oven, stone, hearth"""
+449,449,dry-H,,Jordan,
+450,450,dry-I,,Kolipakam,apparent singleton. No entry in DED
+451,451,ear-A,,Kolipakam,High quality look alike to set : 1977(pg.179) but not in DED list.
+452,452,ear-A,,Kolipakam,High quality look alike to set : 1977
+453,453,ear-A,BurrowEmeneau1961[179],,DED1977
+454,454,ear-A,BurrowEmeneau1961[179],,DED1977
+455,455,ear-A,Andronov1964;BurrowEmeneau1961[179],,; set - 1977
+456,456,ear-A,BurrowEmeneau1961[179],,set : 1977
+457,457,ear-A,BurrowEmeneau1961[179],,DED1977
+458,458,ear-A,BurrowEmeneau1961[179],,DED1977
+459,459,ear-A,,Kolipakam,High quality look alike to set : 1977(pg.179) but not in DED list.
+460,460,ear-A,,Kolipakam,High quality look alike to set : 1977(pg.179) but not in DED list.
+461,461,ear-A,BurrowEmeneau1961[179],,DED1977
+462,462,ear-A,BurrowEmeneau1961[179],,DED1977
+463,463,ear-A,BurrowEmeneau1961[179],,set - 1977
+464,464,ear-A,BurrowEmeneau1961[179],,DED1977
+465,465,ear-A,BurrowEmeneau1961[179],,set : 1977
+466,466,ear-A,Andronov1964;BurrowEmeneau1961[179],,; set : 1977
+467,467,ear-A,,Kolipakam,High quality look alike to set : 1977(pg.179) but not in DED list.
+468,468,ear-A,BurrowEmeneau1961[179],,set : 1977
+469,469,ear-A,,Kolipakam,High quality look alike to set : 1977(pg.179) but not in DED list.
+470,470,ear-B,Andronov1964,,
+471,471,ear-B,Andronov1964,,
+472,472,ear-C,,Kolipakam,No obvious cognate or entry in DED
+473,473,earth-A,BurrowEmeneau1961[413],,DED4666
+474,474,earth-A,,,
+475,475,earth-A,BurrowEmeneau1961[DED4666],,B&E form: maṇṇï
+476,476,earth-A,Andronov1964,,
+477,477,earth-A,Andronov1964,,
+478,478,earth-A,Andronov1964,,
+479,479,earth-A,BurrowEmeneau1961[DED4666],,
+480,480,earth-B,BurrowEmeneau1961[287],,DED3283
+481,481,earth-B,Andronov1964;BurrowEmeneau1961[DED3283],,; 
+482,482,earth-C,BurrowEmeneau1961[181],,DED1993
+483,483,earth-D,BurrowEmeneau1961[DED1953],,"B&E form is köty- ""to dig (earth with hoe)"" but I'm doubtful about this; there is also a form ""mon""."
+484,484,earth-E,,Jordan,Same as Te. form. cf DED4792
+485,485,earth-E,BurrowEmeneau1961[DED4792],,"B&E form is māsi ""dirt""."
+486,486,earth-F,Buck1949[15],,"Sanskrit bhumi- ""earth, land"""
+487,487,earth-F,Buck1949[15],,"Sanskrit bhumi- ""earth, land"""
+488,488,earth-F,,Kolipakam,"Sanskrit bhumi- ""earth, land"""
+489,489,earth-F,Buck1949[15],,"Sanskrit bhumi- ""earth, land"""
+490,490,earth-F,Buck1949[15],,"Sanskrit bhumi- ""earth, land"""
+491,491,earth-G,BurrowEmeneau1961[490],,DED5410
+492,492,earth-H,,Kolipakam,apparent singleton.no entry in DED
+493,493,eat-A,BurrowEmeneau1961[DED3263],,"clear cognate: see e.g. Koḍ. tinn- (timb-, tind-) to eat (not a meal)"
+494,494,eat-A,,Dunn,clear cognate
+495,495,eat-A,BurrowEmeneau1961[DED3263],,
+496,496,eat-A,BurrowEmeneau1961[DED3263],,
+497,497,eat-A,BurrowEmeneau1961[284],,DED3263
+498,498,eat-A,BurrowEmeneau1961[DED3263],,clear cognate
+499,499,eat-A,BurrowEmeneau1961[284],,DED3263
+500,500,eat-A,Andronov1964;BurrowEmeneau1961[DED3263],,tinnu-; 
+501,501,eat-A,BurrowEmeneau1961[284],,DED3263
+502,502,eat-A,BurrowEmeneau1961[DED3263],,clear cognates with closely related languages
+503,503,eat-A,Andronov1964,,
+504,504,eat-A,BurrowEmeneau1961[DED3263],,clear cognate
+505,505,eat-B,Andronov1964,,
+506,506,eat-C,,Dunn,apparent singleton
+507,507,eat-D,BurrowEmeneau1961[464],,DED5127
+508,508,eat-E,,Dunn,apparent singleton: can't show that this is cognate with DED 3263 To. tïn- (tïḏ-) to eat (including a meal)
+509,509,eat-F,BurrowEmeneau1961[59],,DED600
+510,510,eat-G,,Kolipakam,No obvious cognates or entry in DED
+511,511,eat-G,,Kolipakam,No obvious cognate or entry in DED
+512,512,eat-J,,Kolipakam,No obvious cognates or entry in DED
+513,513,eat-K,,Kolipakam,No obvious cognates or entry in DED
+514,514,egg-A,,Kolipakam,High quality look alike to set - 4939(pg.442) but not in DED list.
+515,515,egg-A,Andronov1964,,
+516,516,egg-A,BurrowEmeneau1961[442],,Set - 4939
+517,517,egg-A,BurrowEmeneau1961[442],,DED4939
+518,518,egg-A,Andronov1964;BurrowEmeneau1961[442],,; Set - 4939
+519,519,egg-A,Andronov1964;BurrowEmeneau1961[442],,; Set - 4939
+520,520,egg-A,BurrowEmeneau1961[442],,Set - 4939
+521,521,egg-A,,Kolipakam,High quality look alike to set - 4939(pg.442) but not in DED list.
+522,522,egg-B,Andronov1964;BurrowEmeneau1961[154],,; set - 1680
+523,523,egg-C,BurrowEmeneau1961[299],,set - 3413
+524,524,egg-C,BurrowEmeneau1961[299],,set - 3413
+525,525,egg-D,BurrowEmeneau1961,Kolipakam,DED1279; Self identified
+526,526,egg-D,BurrowEmeneau1961,,DED1279
+527,527,egg-E,,Kolipakam,
+528,528,egg-F,,Kolipakam,No obvious cognates or entry in DED
+529,529,egg-G,,Kolipakam,No obvious cognates or entry in DED
+530,530,egg-H,,Kolipakam,No obvious cognates or entry in DED
+531,531,egg-I,,Kolipakam,No obvious cognates or entry in DED
+532,532,egg-J,,Kolipakam,No obvious cognates or entry in DED
+533,533,egg-K,,Kolipakam,No obvious cognates or entry in DED
+534,534,egg-L,,Kolipakam,No obvious cognates or entry in DED
+535,535,eye-A,,Kolipakam,"High quality look alike to set - 1159(pg.109), but not on DED list."
+536,536,eye-A,,Kolipakam,High quality look alike to set - 1159
+537,537,eye-A,BurrowEmeneau1961[110],,DED1159
+538,538,eye-A,Andronov1964;BurrowEmeneau1961[109],,; set - 1159
+539,539,eye-A,BurrowEmeneau1961[109],,set - 1159
+540,540,eye-A,BurrowEmeneau1961[110],,DED1159
+541,541,eye-A,BurrowEmeneau1961[110],,DED1159
+542,542,eye-A,,Kolipakam,"High quality look alike to set - 1159(pg.109), but not on DED list."
+543,543,eye-A,BurrowEmeneau1961[110],,DED1159
+544,544,eye-A,BurrowEmeneau1961[110],,DED1159
+545,545,eye-A,Andronov1964;BurrowEmeneau1961[109],,; set - 1159
+546,546,eye-A,BurrowEmeneau1961[109],,"Set 1159 Initial ""q"" in the Andronov Malto list corresponds with # (or perhaps glottal stop) in this list."
+547,547,eye-A,BurrowEmeneau1961[110],,DED1159
+548,548,eye-A,BurrowEmeneau1961[109],,set - 1159
+549,549,eye-A,Andronov1964;BurrowEmeneau1961[109],,; set - 1159
+550,550,eye-A,Andronov1964;BurrowEmeneau1961[109],,; set - 1159
+551,551,eye-A,BurrowEmeneau1961[109],,set - 1159
+552,552,eye-A,BurrowEmeneau1961[109],,set - 1159
+553,553,eye-A,,Kolipakam,"High quality look alike to set - 1159(pg.109), but not on DED list."
+554,554,eye-B,Buck1949[225],,"from Skt. netra- ""eye"", PIE ni- ""lead"""
+555,555,eye-C,,Kolipakam,No obvious cognates or entry in DED
+556,556,fat-A,,Kolipakam,"High quality look alike to set - 2146 (pg.193), but not on DED list."
+557,557,fat-A,BurrowEmeneau1961[193],,DED2146
+558,558,fat-A,BurrowEmeneau1961[193],,set - 2146
+559,559,fat-A,BurrowEmeneau1961[193],,DED2146
+560,560,fat-A,,Kolipakam,"High quality look alike to set - 2146 (pg.193), but not on DED list."
+561,561,fat-A,Andronov1964;BurrowEmeneau1961[193],,; set - 2146
+562,562,fat-A,BurrowEmeneau1961[193],,set - 2146
+563,563,fat-A,Andronov1964;BurrowEmeneau1961[193],,; set - 2146
+564,564,fat-A,Andronov1964;BurrowEmeneau1961[193],,; set - 2146
+565,565,fat-A,,Kolipakam,"High quality look alike to set - 2146 (pg.193), but not on DED list."
+566,566,fat-B,,Kolipakam,"High quality look alike to set - 291 (pg.27), but not on DED list."
+567,567,fat-B,BurrowEmeneau1961[27],,set - 291
+568,568,fat-C,Andronov1964,,
+569,569,fat-D,,Kolipakam,high quality look alike. No entry in DED
+570,570,fat-D,,Kolipakam,Self-Identified
+571,571,fat-D,,Kolipakam,Self-Identified
+572,572,fat-D,,Kolipakam,Self-Identified
+573,573,fat-E,,Kolipakam,
+574,574,fat-F,,Kolipakam,
+575,575,fat-G,,Kolipakam,No obvious cognates or entry in DED
+576,576,fat-H,,Kolipakam,No obvious cognates or entry in DED
+577,577,feather-A,,Dunn,high quality lookalike
+578,578,feather-A,,Kolipakam,DED2591
+579,579,feather-A,Andronov1964,,
+580,580,feather-A,,Dunn,"high quality lookalike, looks like DED2591 but Toda is not in the list here."
+581,581,feather-B,Andronov1964,,
+582,582,feather-C,Andronov1964,,
+583,583,feather-D,Andronov1964,,
+584,584,feather-E,,Dunn,"self-identified set, no published evidence"
+585,585,feather-E,,Dunn,"self-identified set, no published evidence"
+586,586,feather-E,,Dunn,lookalike to a self-identified set
+587,587,feather-F,,Dunn,lookalike
+588,588,feather-G,,Dunn,no obvious relationship to anything else in DravLex or the DED
+589,589,feather-H,,Kolipakam,
+590,590,feather-I,,Kolipakam,DED4358
+591,591,feather-I,,Kolipakam,DED4358
+592,592,feather-J,,Kolipakam,No obvious cognate or entry in DED
+593,593,feather-K,,Kolipakam,No obvious cognates or entry in DED
+594,594,feather-L,,Kolipakam,No obvious cognates or entry in DED
+595,595,fire-A,Andronov1964;BurrowEmeneau1961[255],,; set - 2929
+596,596,fire-A,BurrowEmeneau1961[255],,set - 2929
+597,597,fire-B,,Kolipakam,High-quality look alike to set - 3266
+598,598,fire-B,BurrowEmeneau1961[255],,DED2929
+599,599,fire-B,Andronov1964;BurrowEmeneau1961[285],,; set - 3266
+600,600,fire-B,BurrowEmeneau1961[285],,set - 3266
+601,601,fire-B,,Kolipakam,High quality look alike to set - 3266 (pg. 285) but not on DED list.
+602,602,fire-C,Andronov1964;BurrowEmeneau1961[503],,; set - 5517
+603,603,fire-D,BurrowEmeneau1961[414],,Set - 4680
+604,604,fire-E,BurrowEmeneau1961[140],,Set - 1514
+605,605,fire-E,BurrowEmeneau1961[140],,Set - 1514
+606,606,fire-E,BurrowEmeneau1961,,DED1514
+607,607,fire-E,,Kolipakam,"High quality look alike to set - 1514, pg(140) but not in DED list."
+608,608,fire-E,BurrowEmeneau1961,,DED1514
+609,609,fire-E,BurrowEmeneau1961[140],,Set 1514
+610,610,fire-E,Andronov1964;BurrowEmeneau1961[140],,; Set - 1514
+611,611,fire-E,BurrowEmeneau1961[140],,Set - 1514
+612,612,fire-F,,Kolipakam,see Skt. agni-
+613,613,fire-F,,Kolipakam,cf. Skt. agni-
+614,614,fire-G,,Kolipakam,Self-Identified
+615,615,fire-H,,Kolipakam,Self-Identified
+616,616,fire-I,BurrowEmeneau1961[137],,DED1458
+617,617,fire-J,BurrowEmeneau1961,,DED3115
+618,618,fire-K,,Kolipakam,No obvious cognates or entry in DED
+619,619,fish-A,,Kolipakam,"High quality look alike of set - 4885 (pg.436), but not on DED list."
+620,620,fish-A,,Kolipakam,high quality look alike to set - 4885
+621,621,fish-A,BurrowEmeneau1961[436],,DED4885
+622,622,fish-A,BurrowEmeneau1961[436],,Set - 4885
+623,623,fish-A,Andronov1964;BurrowEmeneau1961[436],,obselete; set - 4885
+624,624,fish-A,BurrowEmeneau1961[436],,DED4885
+625,625,fish-A,BurrowEmeneau1961[436],,Set - 4885
+626,626,fish-A,BurrowEmeneau1961,,DED4885
+627,627,fish-A,BurrowEmeneau1961[436],,DED4885
+628,628,fish-A,Andronov1964;BurrowEmeneau1961[436],,; set - 4885
+629,629,fish-A,BurrowEmeneau1961[436],,Set - 4885
+630,630,fish-A,BurrowEmeneau1961[436],,Set - 4885
+631,631,fish-A,Andronov1964,Kolipakam,obselete; High quality look alike to set - 4885(pg.436) but not on DED list.
+632,632,fish-B,,Kolipakam,"High quality look alike of set - 1252, but not on DED list."
+633,633,fish-B,BurrowEmeneau1961[116],,set - 1252
+634,634,fish-B,Andronov1964,,
+635,635,fish-C,Andronov1964,,obselete
+636,636,fish-C,Andronov1964,,
+637,637,fish-D,,Kolipakam,Loan from hindi/sanskrit - matʃtʃi/matsya
+638,638,fish-E,,Kolipakam,Not sure if the correct meaning is recorded
+639,639,fish-F,,Kolipakam,No obvious cognates or entry in DED
+640,640,fly-A,BurrowEmeneau1961[DED4020],,Clear cognate
+641,641,fly-A,BurrowEmeneau1961[DED4020],,clear cognate
+642,642,fly-A,BurrowEmeneau1961[358],,DED4020
+643,643,fly-A,Andronov1964,,
+644,644,fly-A,BurrowEmeneau1961[DED4020],,
+645,645,fly-A,BurrowEmeneau1961[358],,DED4020
+646,646,fly-A,Andronov1964;BurrowEmeneau1961[DED4020],,; 
+647,647,fly-A,Andronov1964;BurrowEmeneau1961[DED4020],,; 
+648,648,fly-A,BurrowEmeneau1961[DED4020],,
+649,649,fly-A,BurrowEmeneau1961[DED4020],,"DED4020: ""rāpuni, rāvuni to fly (with aphaeresis)"" - note that other Tulu forms are clearer cognates, although with more distant meanings, e.g. ""pāruni to run, fly, escape""."
+650,650,fly-B,Andronov1964,,
+651,651,fly-C,,Dunn,Apparent singleton
+652,652,fly-D,,Dunn,Apparent singleton
+653,653,fly-E,,Kolipakam,
+654,654,fly-E,,Kolipakam,
+655,655,fly-F,,Kolipakam,Apparent singleton
+656,656,fly-G,,Kolipakam,apparent singleton
+657,657,foot-A,Andronov1964,,
+658,658,foot-A,BurrowEmeneau1961[8],,set - 72
+659,659,foot-A,BurrowEmeneau1961[8],,set - 72
+660,660,foot-A,BurrowEmeneau1961[8],,set - 72
+661,661,foot-A,BurrowEmeneau1961[8],,set - 72
+662,662,foot-B,BurrowEmeneau1961,,High quality look alike to set - 3843(pg.344) but not on the DED list.
+663,663,foot-B,BurrowEmeneau1961[344],,DED3843
+664,664,foot-B,BurrowEmeneau1961[344],,set - 3843
+665,665,foot-B,,Kolipakam,High quality look alike to DED3843
+666,666,foot-B,BurrowEmeneau1961[344],,set - 3843
+667,667,foot-B,Andronov1964;Krishnamurti2003[491],,"; ""A learned borrowing from Sanskrit"""
+668,668,foot-C,,Kolipakam,High quality look alike to set - 1479
+669,669,foot-C,BurrowEmeneau1961[138],,DED1479
+670,670,foot-C,BurrowEmeneau1961[138],,set - 1479
+671,671,foot-C,BurrowEmeneau1961[138],,set - 1479
+672,672,foot-C,BurrowEmeneau1961[138],,set - 1479
+673,673,foot-C,,Kolipakam,High quality look alike to set - 1479(pg. 138) but not on DED list.
+674,674,foot-D,BurrowEmeneau1961[177],,DED1943
+675,675,foot-E,,Kolipakam,High quality look alike to set - 7 (pg. 3) but not on DED list.
+676,676,foot-E,BurrowEmeneau1961[3],,set - 7
+677,677,foot-F,,Kolipakam,No obvious cognate or entry in DED
+678,678,foot-G,,Kolipakam,No obvious cognate or entry in DED
+679,679,foot-H,,Kolipakam,No obvious cognate or entry in DED
+680,680,foot-I,,Kolipakam,No obvious cognate or entry in DED
+681,681,full-A,,Jordan,
+682,682,full-B,,Jordan,Lookalike to Kod: dumba
+683,683,full-B,BurrowEmeneau1961[DED3331],,B&E form: tumbisu
+684,684,full-B,BurrowEmeneau1961[DED3331],,
+685,685,full-B,,Jordan,Identical to Kod: dumba
+686,686,full-C,BurrowEmeneau1961[326],,DED3682
+687,687,full-C,BurrowEmeneau1961[326],,DED3682
+688,688,full-C,,Jordan,Lookalike with Te: ninɖa:
+689,689,full-C,BurrowEmeneau1961[326],,DED3682
+690,690,full-C,BurrowEmeneau1961[DED3682],,B&E form: niṟa (check if this is a stem)
+691,691,full-C,BurrowEmeneau1961,,DED3682
+692,692,full-C,Andronov1964,,was cognate class A originally
+693,693,full-C,BurrowEmeneau1961[DED3682],,B&E form: niṇḍu Was originally Andronov class A
+694,694,full-D,,Jordan,Self-identified
+695,695,full-E,,Dunn,no apparent cognates
+696,696,full-F,,Kolipakam,Not similar to any other cognate class
+697,697,full-G,,Kolipakam,apparent singleton. no entry in ded
+698,698,full-G,,Kolipakam,
+699,699,full-H,,Kolipakam,Apparent singleton. No entry in DED
+700,700,give-A,,Dunn,clear lookalike
+701,701,give-A,,Dunn,clear lookalike
+702,702,give-A,Andronov1964;BurrowEmeneau1961[DED2053],,; 
+703,703,give-A,BurrowEmeneau1961[DED2053],,
+704,704,give-A,Andronov1964;BurrowEmeneau1961[DED2053],,; 
+705,705,give-A,Andronov1964;BurrowEmeneau1961[DED2053],,; 
+706,706,give-A,,Dunn,
+707,707,give-A,,Dunn,clear lookalike
+708,708,give-B,BurrowEmeneau1961[269],,DED3098
+709,709,give-B,BurrowEmeneau1961[269],,DED3098
+710,710,give-B,BurrowEmeneau1961[269],,DED3098
+711,711,give-B,BurrowEmeneau1961[269],,DED3096
+712,712,give-C,BurrowEmeneau1961[225],,DED2598
+713,713,give-C,BurrowEmeneau1961[225],,DED2598
+714,714,give-C,,Dunn,"Good lookalike, given a phonologically minimal form."
+715,715,give-C,,Dunn,"Good lookalike, given a phonologically minimal form. But check also I-E"
+716,716,give-C,BurrowEmeneau1961[225],,DED2598
+717,717,give-C,BurrowEmeneau1961[90],,Set 2598
+718,718,give-C,BurrowEmeneau1961[225],,DED2598
+719,719,give-C,Andronov1964;BurrowEmeneau1961[DED2598],,; 
+720,720,give-C,BurrowEmeneau1961[DED2598],,
+721,721,give-C,,Dunn,phonologically minimal stem
+722,722,give-C,,Dunn,phonologically minimal stem
+723,723,good-A,,Jordan,"Lookalike with Ta. nal-, nalla"
+724,724,good-A,BurrowEmeneau1961[DED3610],,
+725,725,good-A,Andronov1964;BurrowEmeneau1961[DED3610],,; 
+726,726,good-A,Andronov1964;BurrowEmeneau1961[DED3610],,; 
+727,727,good-A,,Jordan,Clear cognate with Ta. nalla
+728,728,good-B,,Jordan,Lookalike with Ka: oɭɭijadu
+729,729,good-B,Andronov1964;BurrowEmeneau1961[DED1006],,"Andronov form: oḷḷe, cognate class B; B&E form: oli, ole"
+730,730,good-B,BurrowEmeneau1961[97],,DED1006
+731,731,good-C,,Jordan,Lookalike with Te: mantʃi
+732,732,good-C,Andronov1964,,
+733,733,good-D,BurrowEmeneau1961[DED848],,
+734,734,good-E,,Jordan,
+735,735,good-F,BurrowEmeneau1961[DED848],,"éṛu good, beautiful, in health. DED(S) 722."
+736,736,good-G,,Kolipakam,
+737,737,good-H,,Kolipakam,
+738,738,good-I,,Kolipakam,apparent singleton. no entry in ded
+739,739,good-J,,Kolipakam,apparent singleton
+740,740,good-K,,Kolipakam,apparent singleton
+741,741,good-L,,Kolipakam,apparent singleton.
+742,742,green-A,,Jordan,Identical form to closely related languages.
+743,743,green-A,,Dunn,good lookalike
+744,744,green-A,BurrowEmeneau1961[342],,DED3821
+745,745,green-A,BurrowEmeneau1961[342],,"Set 3821. Burrows and Emeneau form is ""pasir"". Kannada has a change from proto-Dravidian p > h."
+746,746,green-A,BurrowEmeneau1961[342],,Burrows and Emeneau Set 3821. Form is given as pacce.
+747,747,green-A,BurrowEmeneau1961[342],,DED3821
+748,748,green-A,,Jordan,Form is identical to closely related Telegu. Burrows and Emeneau Set 3821.
+749,749,green-A,BurrowEmeneau1961[342],,DED3821
+750,750,green-A,,Jordan,"Form is identical to closely related Kodava. Andronov form is ""pacu-"""
+751,751,green-A,BurrowEmeneau1961[342],,Set 3821.
+752,752,green-A,Andronov1964;BurrowEmeneau1961[342],,; set 3821
+753,753,green-A,BurrowEmeneau1961[342],,Burrows and Emeneau Set 3821. Form is given as pacca.
+754,754,green-A,,Jordan,"Identical form to closely related languages. Burrows and Emeneau form is ""poč""."
+755,755,green-A,BurrowEmeneau1961[342],,"Set 3821 Burrows and Emeneau form is ""paccè""."
+756,756,green-A,,Jordan,Form is identical to closely related Kodava.
+757,757,green-B,,Kolipakam,possible loan word from hindi word for green/greenery - harijali/hara
+758,758,green-C,,Kolipakam,apparent singleton. No entry in DED
+759,759,green-D,,Kolipakam,Apparent singleton. No entry in DED
+760,760,green-E,,Kolipakam,Apparent singleton. No entry in DED
+761,761,green-F,,Kolipakam,apparent singleton. No entry in DED
+762,762,green-G,,Kolipakam,apparent singleton. No entry in DED
+763,763,green-H,,Kolipakam,Apparent singleton. No entry in DED
+764,764,hair-A,BurrowEmeneau1961[440],,Set : 4921
+765,765,hair-A,BurrowEmeneau1961[440],,Set : 4921
+766,766,hair-B,Andronov1964,,
+767,767,hair-B,Andronov1964;BurrowEmeneau1961[172],,; Set : 1892
+768,768,hair-B,BurrowEmeneau1961[172],,Set : 1892
+769,769,hair-C,Andronov1964;BurrowEmeneau1961[498],,; Set : 5482
+770,770,hair-D,Buck1949[204],,probable cognate with loan into Malayalam
+771,771,hair-D,Andronov1964;Buck1949[204],,"; """
+772,772,hair-E,,Kolipakam,"Simiilar to set DED4707, has a prefix of ""mand"" meaning head."
+773,773,hair-E,BurrowEmeneau1961[416],,Set : 4707
+774,774,hair-E,BurrowEmeneau1961[416],,Set : 4707
+775,775,hair-F,BurrowEmeneau1961[269],,Set : 3103
+776,776,hair-F,BurrowEmeneau1961[270],,DED3103
+777,777,hair-F,,Kolipakam,"High quality look alike to set - 3103 (pg. 269), but not on DED list"
+778,778,hair-G,,Kolipakam,High quality look alike to set - 2655 (pg. 230). but not on DED list.
+779,779,hair-G,BurrowEmeneau1961[230],,DED2655
+780,780,hair-G,BurrowEmeneau1961[230],,Set : 2655
+781,781,hair-H,BurrowEmeneau1961[179],,DED1973
+782,782,hair-H,,Kolipakam,high quality look alike to DED1973
+783,783,hair-I,,Kolipakam,No obvious cognates or entry in DED
+784,784,hair-J,,Kolipakam,
+785,785,hair-K,,Kolipakam,No obvious cognates or entry in DED
+786,786,hair-L,,Kolipakam,No obvious congates or entry in DED
+787,787,hair-L,,Kolipakam,"similar to te other form, has additional ""tal"", ""head"" prefix."
+788,788,hair-M,,Kolipakam,No obvious cognate or entry in DED
+789,789,hand-A,,Kolipakam,"High quality look alike, but not in the DED Set - 2023 pg. 183"
+790,790,hand-A,,Dunn,good quality lookalike
+791,791,hand-A,BurrowEmeneau1961[183],,DED2023
+792,792,hand-A,BurrowEmeneau1961[183],,Set - 2023
+793,793,hand-A,BurrowEmeneau1961[183],,Set - 2023
+794,794,hand-A,BurrowEmeneau1961[183],,DED2023
+795,795,hand-A,BurrowEmeneau1961[183],,DED2023
+796,796,hand-A,,Kolipakam,"High quality look alike, but not in the DED Set - 2023 pg. 183"
+797,797,hand-A,BurrowEmeneau1961[183],,DED2023
+798,798,hand-A,BurrowEmeneau1961[183],,DED2023
+799,799,hand-A,BurrowEmeneau1961[183],,Set - 2023
+800,800,hand-A,BurrowEmeneau1961[183],,DED2023
+801,801,hand-A,BurrowEmeneau1961[183],,Set - 2023
+802,802,hand-A,BurrowEmeneau1961[183],,Set - 2023
+803,803,hand-A,BurrowEmeneau1961[183],,Set - 2023
+804,804,hand-A,BurrowEmeneau1961[183],,Set - 2023
+805,805,hand-A,BurrowEmeneau1961[183],,Set - 2023
+806,806,hand-A,,Kolipakam,"High quality look alike, but not in the DED Set - 2023 pg. 183"
+807,807,hand-B,,Kolipakam,No obvious cognate or entry in DED
+808,808,hand-C,,Kolipakam,No obvious cognate or entry in DED
+809,809,head-A,BurrowEmeneau1961[269],,DED3103
+810,810,head-A,Andronov1964,,
+811,811,head-A,BurrowEmeneau1961[269],,set : 3103
+812,812,head-A,BurrowEmeneau1961[269],,DED3103
+813,813,head-A,,Kolipakam,"High quality look alike of set: 3103 (pg:269), but not in DED list."
+814,814,head-A,BurrowEmeneau1961[269],,DED3103
+815,815,head-A,Andronov1964;BurrowEmeneau1961[269],,; set : 3103
+816,816,head-A,BurrowEmeneau1961[269],,DED3103
+817,817,head-A,BurrowEmeneau1961[269],,set : 3103
+818,818,head-A,Andronov1964;BurrowEmeneau1961[269],,; set : 3103
+819,819,head-A,Andronov1964;BurrowEmeneau1961[269],,; set : 3103
+820,820,head-A,,Kolipakam,"High quality look alike of set: 3103 (pg:269), but not in DED list."
+821,821,head-B,,Kolipakam,"High quality look alike of set: 4682 (pg:414), but not in DED list."
+822,822,head-B,,Kolipakam,high quality look alike to set : 4682
+823,823,head-B,BurrowEmeneau1961[414],,set : 4682
+824,824,head-B,BurrowEmeneau1961[414],,DED4682
+825,825,head-B,BurrowEmeneau1961[414],,set : 4682
+826,826,head-B,BurrowEmeneau1961[414],,set : 4682
+827,827,head-C,BurrowEmeneau1961[149],,DED1630
+828,828,head-C,BurrowEmeneau1961[149],,Set 1630
+829,829,head-D,,Kolipakam,Loanword from sanskrit - Sirass
+830,830,head-E,,Kolipakam,No obvious cognates or link in DED
+831,831,hear-A,,Dunn,doubtful lookalike (cf kelpa- forms in DED)
+832,832,hear-A,,Dunn,clear cognate
+833,833,hear-A,BurrowEmeneau1961,,DED2017
+834,834,hear-A,Andronov1964,,
+835,835,hear-A,Andronov1964,,
+836,836,hear-A,BurrowEmeneau1961,,DED2017
+837,837,hear-A,Andronov1964,,
+838,838,hear-A,Andronov1964,,
+839,839,hear-A,Andronov1964,,identical to sister forms
+840,840,hear-A,Andronov1964,,"Tu. kēṇuni to hear, be attentive to, obey, ask, inquire, request."
+841,841,hear-A,Andronov1964,,identical to sister forms
+842,842,hear-C,,Dunn,lookalike
+843,843,hear-D,BurrowEmeneau1961[502],,DED5516
+844,844,hear-D,BurrowEmeneau1961[502],,DED5516
+845,845,hear-D,BurrowEmeneau1961[502],,DED5516
+846,846,hear-D,BurrowEmeneau1961[DED5516],,
+847,847,hear-D,BurrowEmeneau1961[502],,DED5516
+848,848,hear-D,Andronov1964;BurrowEmeneau1961[DED5516],,; 
+849,849,hear-D,BurrowEmeneau1961[502],,DED5516
+850,850,heart-A,Andronov1964,,"Tu. tigalè 'breast, chest'; Ka. (PBh.)"
+851,851,heart-A,,Dunn,Same as the other forms tagged as Skt loans by Andronov
+852,852,heart-A,Andronov1964,,
+853,853,heart-A,Andronov1964,,
+854,854,heart-A,Andronov1964,,
+855,855,heart-B,BurrowEmeneau1961[155],,DED1693
+856,856,heart-B,,Kolipakam,"Similar to DED1693, not in DED list"
+857,857,heart-B,BurrowEmeneau1961[DED1693],,Ko. gunḍer kaya heart;
+858,858,heart-B,BurrowEmeneau1961[DED1693],,"Te. guṇḍe, guṇḍelu, guṇḍiya the chest, heart, courage, boldness"
+859,859,heart-C,BurrowEmeneau1961[333],,DED3736
+860,860,heart-C,BurrowEmeneau1961[DED3736],,"not listed in DED, but a clear member of this class"
+861,861,heart-D,,Dunn,"Singleton, not in DED"
+862,862,heart-E,,Dunn,apparent singleton
+863,863,heart-F,BurrowEmeneau1961[DED698],,"ugli ""heart, mind"""
+864,864,heart-G,,Kolipakam,"Similar to hindi/sanskrit word ""pran/pa:n"" for life."
+865,865,heart-H,BurrowEmeneau1961[062],,DED645
+866,866,heart-I,,Kolipakam,No obvioous cognate or no entry in DED
+867,867,heart-J,,Kolipakam,No obvioous cognate or entry in DED
+868,868,horn-A,,Kolipakam,"High quality look alike to set - 2115(pg.191), but not in DED list"
+869,869,horn-A,,Kolipakam,High-quality look alike to set - 2115
+870,870,horn-A,Andronov1964;BurrowEmeneau1961[191],,; set - 2115
+871,871,horn-A,BurrowEmeneau1961[191],,set - 2115
+872,872,horn-A,BurrowEmeneau1961[191],,DED2115
+873,873,horn-A,,Kolipakam,"High quality look alike to set - 2115(pg.191), but not in DED list"
+874,874,horn-A,Andronov1964;BurrowEmeneau1961[191],,; set - 2115
+875,875,horn-A,Andronov1964;BurrowEmeneau1961[191],,; set - 2115
+876,876,horn-A,Andronov1964,,
+877,877,horn-A,BurrowEmeneau1961[191],,set - 2115
+878,878,horn-A,,Kolipakam,"High quality look alike to set - 2115(pg.191), but not in DED list"
+879,879,horn-B,,Kolipakam,Self - identified.
+880,880,horn-C,BurrowEmeneau1961[378],,DED4720
+881,881,horn-C,BurrowEmeneau1961[378],,DED4720
+882,882,horn-C,BurrowEmeneau1961[417],,Set 4720
+883,883,horn-D,,Kolipakam,Self - identified.
+884,884,horn-E,BurrowEmeneau1961[197],,DED2200
+885,885,horn-E,BurrowEmeneau1961[197],,DED2200
+886,886,kill-A,Andronov1964,,
+887,887,kill-A,BurrowEmeneau1961[DED2132],,
+888,888,kill-A,Andronov1964,,
+889,889,kill-A,Andronov1964,,
+890,890,kill-A,BurrowEmeneau1961[DED2132],,
+891,891,kill-B,BurrowEmeneau1961[212],,DEd2426
+892,892,kill-B,Andronov1964;BurrowEmeneau1961[212],,; DED2426
+893,893,kill-C,BurrowEmeneau1961[DED1942],,
+894,894,kill-C,BurrowEmeneau1961[DED1942],,Similar forms cited (difference suffix?)
+895,895,kill-D,,Dunn,apparent singleton
+896,896,kill-E,BurrowEmeneau1961[207],,DED2343
+897,897,kill-E,BurrowEmeneau1961[207],,DED2343
+898,898,kill-F,,Dunn,"apparent singleton, not similar enough to DED2132 /cognate/86/"
+899,899,kill-G,BurrowEmeneau1961[DED4044],,
+900,900,kill-H,BurrowEmeneau1961[266],,DED3068
+901,901,kill-I,BurrowEmeneau1961[29],,DED309
+902,902,kill-J,,Kolipakam,No obvious cognates or entry in DED
+903,903,kill-K,,Kolipakam,Khatam ki - simiar to hindi word for finishing off - or killing - khatam
+904,904,knee-A,BurrowEmeneau1961[448],,Set - 4990
+905,905,knee-A,BurrowEmeneau1961[448],,DED4990
+906,906,knee-A,,Kolipakam,"High quality look alike to Set - 4490(pg.448), but not in list."
+907,907,knee-A,BurrowEmeneau1961[448],,DED4990
+908,908,knee-A,BurrowEmeneau1961[448],,Set - 4990
+909,909,knee-A,BurrowEmeneau1961[448],,Set 4990
+910,910,knee-A,BurrowEmeneau1961[448],,Set - 4490
+911,911,knee-A,BurrowEmeneau1961[448],,Set - 4490
+912,912,knee-A,,Kolipakam,"High quality look alike to Set - 4490(pg.448), but not in list."
+913,913,knee-B,BurrowEmeneau1961[413],,Set - 4677
+914,914,knee-B,,Kolipakam,"High quality look alike to Set - 4677(pg.413), but not in list."
+915,915,knee-B,BurrowEmeneau1961[413],,DED4677
+916,916,knee-C,,Kolipakam,"High quality look alike to Set - 4935(pg.442), but not in list."
+917,917,knee-C,BurrowEmeneau1961[442],,DED4935
+918,918,knee-C,BurrowEmeneau1961[442],,Set - 4935
+919,919,knee-C,BurrowEmeneau1961[442],,Set - 4935
+920,920,knee-C,,Kolipakam,High quality look alike to Set 4935 (pg.442) but not in list.
+921,921,knee-C,BurrowEmeneau1961[442],,Set - 4935
+922,922,knee-D,,Kolipakam,Self-identified
+923,923,knee-E,,Kolipakam,Self-identified
+924,924,knee-F,,Kolipakam,
+925,925,knee-G,BurrowEmeneau1961,,DED2983
+926,926,knee-H,BurrowEmeneau1961,,DED5249
+927,927,knee-I,,Kolipakam,No obvious cognate or entry in DED
+928,928,know-A,BurrowEmeneau1961[DED314],,closely related lookalike to attested set
+929,929,know-A,Andronov1964,,
+930,930,know-A,BurrowEmeneau1961[DED314],,
+931,931,know-A,Andronov1964;BurrowEmeneau1961[DED314],,; 
+932,932,know-A,Andronov1964;BurrowEmeneau1961[DED314],,; 
+933,933,know-A,Andronov1964;BurrowEmeneau1961[DED314],,; 
+934,934,know-A,BurrowEmeneau1961[DED314],,
+935,935,know-A,BurrowEmeneau1961[DED314],,
+936,936,know-B,Andronov1964,,
+937,937,know-C,BurrowEmeneau1961,,DED17
+938,938,know-C,BurrowEmeneau1961[DED17],,
+939,939,know-D,BurrowEmeneau1961[DED3433],,
+940,940,know-D,BurrowEmeneau1961[DED3433],,
+941,941,know-D,BurrowEmeneau1961[DED3433],,
+942,942,know-D,BurrowEmeneau1961[DED3433],,
+943,943,know-E,BurrowEmeneau1961[301],,DED3419
+944,944,know-E,BurrowEmeneau1961[DED3419],,
+945,945,know-E,BurrowEmeneau1961[DED3419],,
+946,946,know-E,BurrowEmeneau1961[DED3419],,
+947,947,know-F,,Dunn,apparentn singleton
+948,948,know-F,,Dunn,apparentn singleton
+949,949,know-G,,Kolipakam,No obvious cognate or entry in DED
+950,950,know-H,,Kolipakam,No obvious cognate or entry in DED
+951,951,know-I,,Kolipakam,No obvious cognates or entry in DED
+952,952,know-J,,Kolipakam,No obvious cognates or entry in DED
+953,953,know-K,,Kolipakam,No obvious cognates or entry in DED
+954,954,know-L,,Kolipakam,No obvious cognates or entry in DED
+955,955,leaf-A,,Dunn,same as sister languages
+956,956,leaf-A,,Dunn,dubious lookalike (but see Kannada)
+957,957,leaf-A,Andronov1964;BurrowEmeneau1961[DED497],,"; DED497: Ka. ele, ela id."
+958,958,leaf-A,BurrowEmeneau1961[DED497],,DED497: Koḍ. elakaṇḍa id.
+959,959,leaf-A,BurrowEmeneau1961[48],,DED497
+960,960,leaf-A,Andronov1964;BurrowEmeneau1961[DED497],,; DED497: Ma. ila leaf;
+961,961,leaf-A,Andronov1964;BurrowEmeneau1961[DED497],,"; DED497: Ta. ilai leaf, petal; (-pp-, -tt-) to become green. form ele is not given."
+962,962,leaf-A,BurrowEmeneau1961[DED497],,DED497: To. es̱ id. (leaf)
+963,963,leaf-A,BurrowEmeneau1961[DED497],,"DED497: Tu. elè, irè id."
+964,964,leaf-A,,Dunn,same as sister languages
+965,965,leaf-B,BurrowEmeneau1961[32],,DED335
+966,966,leaf-B,,Kolipakam,high quality look alike
+967,967,leaf-B,,Verkerk,High quality look-alike
+968,968,leaf-B,Andronov1964;BurrowEmeneau1961[DED335],,"; DED335: Te. āku leaf, petal; (VPK also) seedlings of paddy for transplantation."
+969,969,leaf-C,Andronov1964;BurrowEmeneau1961[DED775],,; DED775: Pa. ev id.
+970,970,leaf-D,BurrowEmeneau1961[15],,DED141
+971,971,leaf-E,,Kolipakam,No obvious cognates or entry in DED
+972,972,leaf-F,,Kolipakam,No obvious cognates or entry in DED
+973,973,leaf-G,,Kolipakam,No obvious cognates or entry in DED
+974,974,leaf-H,,Kolipakam,"no obvious cognates or entry in DED, possible borrowing from IE"
+975,975,lie-A,Andronov1964;BurrowEmeneau1961[DED1524],,"; apparent singleton (contra Andronov), who had it in /cognate/93/"
+976,976,lie-A,BurrowEmeneau1961[141],,DED1524
+977,977,lie-A,Andronov1964;BurrowEmeneau1961[DED1524],,"; apparent singleton (contra Andronov), who had it in /cognate/93/"
+978,978,lie-B,Andronov1964,,
+979,979,lie-C,BurrowEmeneau1961,,DED4652
+980,980,lie-C,BurrowEmeneau1961,,DED4652
+981,981,lie-C,Andronov1964;BurrowEmeneau1961[DED4652],,; 
+982,982,lie-D,,Dunn,apparent singleton
+983,983,lie-E,,Dunn,apparent singleton
+984,984,lie-F,,Dunn,apparent singleton
+985,985,lie-G,BurrowEmeneau1961[DED3852],Dunn,"contra Andronov, who had it in /cognate/93/; apparent singleton (contra Andronov), who had it in /cognate/93/"
+986,986,lie-H,,Dunn,"This looks like a semantic mistake: See DED4459 Ta. pokkam lie, falsehood, deceit, fault; poccam, poccu lie, falsehood; fault, defect; poccai fault; poccāppu badness, evil, wickedness, fault. ? Ma. pokkar low people. Ka. boṅku to lie. Tu. boṅkuni to deny. Te. poccemu deceit, trick, defect, fault; boṅku to lie; n. a lie; false, untrue; boṅkincu to deceive, tempt; cause to tell a lie; boṅkari a liar; boṅkulã̄ḍu id.; fem. boṅkulã̄ḍi. Kuwi (S.) bōkinai to pretend; (Isr.) pōk- (-h-) to tell lies. Cf. 4531 Ta. poy. / Cf. Pkt. (DNM) phukkā = mithyā. DED(S) 3651."
+987,987,lie-I,BurrowEmeneau1961[DED3852],,clear cognate
+988,988,lie-I,BurrowEmeneau1961[DED3852],,clear cognate
+989,989,lie-I,BurrowEmeneau1961[DED3852],,
+990,990,lie-I,BurrowEmeneau1961[DED3852],,
+991,991,lie-I,BurrowEmeneau1961[DED3852],,
+992,992,lie-I,BurrowEmeneau1961[DED3852],,clear cognate
+993,993,lie-J,,Kolipakam,Apparent singleton
+994,994,lie-K,,Kolipakam,Apparent singleton
+995,995,lie-L,,Kolipakam,"Singleton, no entry in DED"
+996,996,lie-M,,Kolipakam,"Singleton, no entry in DED"
+997,997,liver-A,Andronov1964;BurrowEmeneau1961[DED546],,; 
+998,998,liver-A,BurrowEmeneau1961[54],,DED546
+999,999,liver-A,Andronov1964;BurrowEmeneau1961[DED546],,; 
+1000,1000,liver-A,Andronov1964;BurrowEmeneau1961[DED546],,; 
+1001,1001,liver-B,,Kolipakam,High quality look alike
+1002,1002,liver-B,,Dunn,"lookalike, poor quality"
+1003,1003,liver-B,Andronov1964,,
+1004,1004,liver-C,BurrowEmeneau1961[271],,DED3120
+1005,1005,liver-C,BurrowEmeneau1961[271],,DED3120
+1006,1006,liver-C,Andronov1964,,
+1007,1007,liver-D,BurrowEmeneau1961[DED1274],,
+1008,1008,liver-D,BurrowEmeneau1961[DED1274],,
+1009,1009,liver-E,,Dunn,nothing similar in DED
+1010,1010,liver-E,,Dunn,nothing similar in DED
+1011,1011,liver-F,,Dunn,apparent singleton
+1012,1012,liver-G,,Dunn,apparent singleton
+1013,1013,liver-H,,Kolipakam,No obvious cognates or entry in DED
+1014,1014,liver-I,,Kolipakam,No obvious cognates or entry in DED
+1015,1015,liver-J,,Kolipakam,No obvious cognates or entry in DED
+1016,1016,long-A,BurrowEmeneau1961[329],,DED3692
+1017,1017,long-A,Andronov1964;BurrowEmeneau1961[DED3692],,"; DED3692; ""Ta. nīḷ (nīḷv-, nīṇṭ-) to be long, be great; n. length, extension, elongation, long time, duration, height, tallness, loftiness, depth, order, series, row; nīḷa to a great length or distance, all along, at a great distance; nīḷam extension, length, distance, remoteness, delay, procrastination; nīḷi (-pp-, -tt-) to be lengthened, extended, be long as time or life, last long, endure, be protracted, delayed; n. that which is long, lofty, tall person; nīḷippu prolongation; nīḷiyatu that which is long, that which is omnipresent; -- 329 -- nīṇu (nīṇi-) to go a long distance; nīṭu (nīṭi-) to grow long, be lengthened, be extended through space or time, spread, extend, abound, be copious, thrive, grow well, rise high, last long, endure, be permanent, delay; n. long time, permanence; nīṭi (-pp-, -tt-) to lengthen (time, distance, etc.), endure, last, be permanent; nīṭṭu (nīṭṭi-) to lengthen, extend, stretch out, straighten, offer as oblations, give, insert, drive into, speak at length or too much, prolong as a note, delay, procrastinate, retard, defer; nīṭṭu length as of time or space, distance; nīṭṭam length, elongation of sound, strengthening, lengthening, procrastination; nīṭṭal lengthening, extending, stretching; nīṭṭi (-pp-, -tt-) to lengthen, delay; be prolonged, endure long; nikaḷam length."""
+1018,1018,long-A,BurrowEmeneau1961[DED3692],,"DED3692; ""Ma. nīḷuka to extend oneself, grow long, be delayed, protracted; nīḷa, nīḷē, nīḷavē far; nīḷam length, distance; nīḷal growing longer; nīḷ, nīr̤ length (in cpds.); nīṭu length, long; nīṭuka to be long; nīṭṭuka to lengthen, stretch out, allow to grow, delay, hold out, give; nīṭṭam length, stretching out, delay; nīṭṭal lengthening; nīṭṭu a royal handwriting, stroke, a grant of the Travancore raja, a ladder; nīṭṭikka to get lengthened, stretched."""
+1019,1019,long-A,Andronov1964,,
+1020,1020,long-A,BurrowEmeneau1961[DED3692],,"DED3692; ""Ta. nīḷ (nīḷv-, nīṇṭ-) to be long, be great; n. length, extension, elongation, long time, duration, height, tallness, loftiness, depth, order, series, row; nīḷa to a great length or distance, all along, at a great distance; nīḷam extension, length, distance, remoteness, delay, procrastination; nīḷi (-pp-, -tt-) to be lengthened, extended, be long as time or life, last long, endure, be protracted, delayed; n. that which is long, lofty, tall person; nīḷippu prolongation; nīḷiyatu that which is long, that which is omnipresent; -- 329 -- nīṇu (nīṇi-) to go a long distance; nīṭu (nīṭi-) to grow long, be lengthened, be extended through space or time, spread, extend, abound, be copious, thrive, grow well, rise high, last long, endure, be permanent, delay; n. long time, permanence; nīṭi (-pp-, -tt-) to lengthen (time, distance, etc.), endure, last, be permanent; nīṭṭu (nīṭṭi-) to lengthen, extend, stretch out, straighten, offer as oblations, give, insert, drive into, speak at length or too much, prolong as a note, delay, procrastinate, retard, defer; nīṭṭu length as of time or space, distance; nīṭṭam length, elongation of sound, strengthening, lengthening, procrastination; nīṭṭal lengthening, extending, stretching; nīṭṭi (-pp-, -tt-) to lengthen, delay; be prolonged, endure long; nikaḷam length."""
+1021,1021,long-A,BurrowEmeneau1961[DED3692],,"DED3692; ""Ta. nīḷ (nīḷv-, nīṇṭ-) to be long, be great; n. length, extension, elongation, long time, duration, height, tallness, loftiness, depth, order, series, row; nīḷa to a great length or distance, all along, at a great distance; nīḷam extension, length, distance, remoteness, delay, procrastination; nīḷi (-pp-, -tt-) to be lengthened, extended, be long as time or life, last long, endure, be protracted, delayed; n. that which is long, lofty, tall person; nīḷippu prolongation; nīḷiyatu that which is long, that which is omnipresent; -- 329 -- nīṇu (nīṇi-) to go a long distance; nīṭu (nīṭi-) to grow long, be lengthened, be extended through space or time, spread, extend, abound, be copious, thrive, grow well, rise high, last long, endure, be permanent, delay; n. long time, permanence; nīṭi (-pp-, -tt-) to lengthen (time, distance, etc.), endure, last, be permanent; nīṭṭu (nīṭṭi-) to lengthen, extend, stretch out, straighten, offer as oblations, give, insert, drive into, speak at length or too much, prolong as a note, delay, procrastinate, retard, defer; nīṭṭu length as of time or space, distance; nīṭṭam length, elongation of sound, strengthening, lengthening, procrastination; nīṭṭal lengthening, extending, stretching; nīṭṭi (-pp-, -tt-) to lengthen, delay; be prolonged, endure long; nikaḷam length."""
+1022,1022,long-A,,Verkerk,high quality look-alike
+1023,1023,long-B,,Verkerk,high quality look-alike
+1024,1024,long-B,,Dunn,good lookalike
+1025,1025,long-B,Andronov1964;BurrowEmeneau1961[DED621],,; DED621
+1026,1026,long-B,BurrowEmeneau1961[DED621],,DED621
+1027,1027,long-B,BurrowEmeneau1961[DED621],,DED621
+1028,1028,long-C,BurrowEmeneau1961[397],,DED4484
+1029,1029,long-C,,Verkerk,high quality look-alike
+1030,1030,long-C,Andronov1964;BurrowEmeneau1961[397],,; DED4484
+1031,1031,long-D,,Verkerk,"Could maybe be related to DED3692: ""To. ni·ṛ- (ni·ṛy-) to be stretched out (hand); ni·ṭ- (ni·ṭy-) to stretch out (hand); ni·ḷ- (ni·ḍ-) to be stretched out straight (rope), stretch oneself over or into, peep over (wall)."" but very doubtful."
+1032,1032,long-E,,Kolipakam,No obvious cognates
+1033,1033,long-F,,Kolipakam,High quality look alike
+1034,1034,long-F,,Kolipakam,No obvious cognates. No entry in DED
+1035,1035,long-G,,Kolipakam,No obvious cognates. No entry in DED
+1036,1036,louse-A,,Dunn,good lookalike
+1037,1037,louse-A,Andronov1964,,"Form is not listed in DED4449, but might be a change from inital p to initial h (?)"
+1038,1038,louse-A,BurrowEmeneau1961[394],,"Set 4449: ""Koḍ. pe·nï louse."""
+1039,1039,louse-A,BurrowEmeneau1961[394],,DED4449
+1040,1040,louse-A,,Kolipakam,DED4449
+1041,1041,louse-A,Andronov1964;BurrowEmeneau1961[DED4449],,"; DED4449: ""Ta. pēṉ louse. Ma. pēn id."""
+1042,1042,louse-A,BurrowEmeneau1961[394],,"Set 4449; ""Pa. pēni (pl. pēnul) id."" this conflicts with Andronov"
+1043,1043,louse-A,Andronov1964;BurrowEmeneau1961[DED4449],,; DED4449: Ta. pēṉ louse.
+1044,1044,louse-A,Andronov1964;BurrowEmeneau1961[394],,; Set 4449: Te. pēnu (pl. pēlu)
+1045,1045,louse-A,BurrowEmeneau1961[set 4449],,set 4449: Tu. pēnů id.
+1046,1046,louse-A,,Kolipakam,High quality look-alike
+1047,1047,louse-B,,Verkerk,"Doesn't resemble any of the other forms, is not in DED4449 - might be somehow related to the forms in DED2625"
+1048,1048,louse-C,BurrowEmeneau1961[372],,DED4203
+1049,1049,louse-C,BurrowEmeneau1961[372],Verkerk,DED4203; Doesn't resemble any of the other forms
+1050,1050,louse-D,,Verkerk,Doesn't resemble any of the other forms. Form cannot be found in DED. Might be related to DED833 with meaning 'rat'
+1051,1051,louse-D,,Verkerk,"Resembles the other Badga form, might be some type of derivation? Form cannot be found in DED. Might be related to DED833 with meaning 'rat'."
+1052,1052,louse-E,,Kolipakam,no entry in DED or similar words in list.
+1053,1053,louse-F,,Kolipakam,
+1054,1054,man-A,BurrowEmeneau1961[DED399],,"DED399: Koḍ. a·ḷï servant; a·ṇï, a·ṇ a·ḷï man, male; a·ŋuññi male child (< a·ṇï-kuññi)."
+1055,1055,man-A,Andronov1964;BurrowEmeneau1961[DED399],,"; DED399 ""Ma. āḷ a person, able person, servant, slave; āṇ male; āṇma bravery."""
+1056,1056,man-A,Andronov1964,Verkerk,"; There is no form that resembles this in DED399, but it seems similar enough to the other Tamil form."
+1057,1057,man-A,Andronov1964;BurrowEmeneau1961[DED399],,"; DED399 ""Ta. āḷ man, husband, servant, labourer, adult; āḷaṉ husband; (Tinn.) āḷiyan id.; āṇ male, manliness, courage, superiority, warrior; āṇaṉ manly person; āṇmai manliness, virility, courage; āṭavaṉ man, youth."""
+1058,1058,man-B,Andronov1964,,
+1059,1059,man-B,,Kolipakam,Clear cognate to loanwords in Telegu and Kannada
+1060,1060,man-B,Andronov1964,,
+1061,1061,man-C,BurrowEmeneau1961,,"Good lookalike to Kannada, but the entire set might be a loan"
+1062,1062,man-C,BurrowEmeneau1961[DED1173],,"DED1173: Ka. gaṇḍu strength, manliness, bravery; the male sex, a male, man; gaṇḍa a strong, manly male person, a husband; strength, greatness; gaṇḍasa, gaṇḍasu, gaṇḍusa, gaṇḍusu male person; gaṇḍike prowess; gaṇḍiga a valiant man; (Hav.) geṇḍã husband; geṇḍu male.."
+1063,1063,man-C,BurrowEmeneau1961[111],,DED 1173
+1064,1064,man-D,,Verkerk,high quality look-alike
+1065,1065,man-D,BurrowEmeneau1961[DED4616],,"DED4616: Te. maga, moga male; magāṭimi manliness, bravery, prowess; magãḍu husband, man, male, king, hero; (inscr.) maganṟu son; magatanamu manliness, virility, courage, bravery, boldness, spirit; magadi male of any animal, beast or bird; maganālu wife, married woman; magapāḍi manliness, honour, bravery; magalāgu manliness; magavã̄ḍu man, male, hero; maguva woman; maguvatanamu womanhood."
+1066,1066,man-E,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1067,1067,man-F,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1068,1068,man-G,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1069,1069,man-H,BurrowEmeneau1961[184],,DED 2030
+1070,1070,man-I,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1071,1071,man-J,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1072,1072,man-K,,Verkerk,"does not seem similar to any of the other forms, nothing found in DED"
+1073,1073,man-L,,Kolipakam,No obvious cognates or entry in DED
+1074,1074,man-M,,Kolipakam,No obvious cognates or entry in DED
+1075,1075,man-N,,Kolipakam,No obvious cognates or entry in DED
+1076,1076,man-O,,Kolipakam,No obvious cognates or entry in DED
+1077,1077,man-P,,Kolipakam,No obvious cognates or entry in DED
+1078,1078,man-Q,,Kolipakam,No obvious cognates or entry in DED
+1079,1079,man-R,,Kolipakam,No obvious cognates or entry in DED
+1080,1080,many-A,Andronov1964;BurrowEmeneau1961[DED3987],,; DED3987 spelled 'palavu'
+1081,1081,many-A,Andronov1964;BurrowEmeneau1961[DED3987],,; DED3987
+1082,1082,many-A,Andronov1964;BurrowEmeneau1961[DED3987],,; DED3987
+1083,1083,many-B,Andronov1964,,not to be found in DED
+1084,1084,many-C,,Verkerk,look-alike
+1085,1085,many-C,,Verkerk,look-alike
+1086,1086,many-D,,Verkerk,"look-alike, not to be found in DED"
+1087,1087,many-D,,Verkerk,"look-alike, not to be found in DED"
+1088,1088,many-E,,Verkerk,not to be found in DED
+1089,1089,many-F,,Verkerk,
+1090,1090,many-G,,Verkerk,not to be found in DED
+1091,1091,many-H,,Verkerk,not to be found in DED
+1092,1092,many-I,,Verkerk,not to be found in DED
+1093,1093,many-J,,Verkerk,not to be found in DED
+1094,1094,many-K,,Dunn,apparent singleton
+1095,1095,many-L,BurrowEmeneau1961[389],,DED4411
+1096,1096,many-M,,Kolipakam,No cognate. Not found in DED
+1097,1097,many-N,,Kolipakam,"No cognate, not found in DED"
+1098,1098,many-O,,Kolipakam,"No cognate, not found in DED"
+1099,1099,many-P,,Kolipakam,"No cognate, not found in DED"
+1100,1100,many-Q,,Kolipakam,"No cognate, not found in DED"
+1101,1101,many-R,,Kolipakam,"No cognate, not found in DED"
+1102,1102,many-S,,Kolipakam,"No cognate, not found in DED"
+1103,1103,meat-A,BurrowEmeneau1961[52],Dunn,set - 529; obvious cognate
+1104,1104,meat-A,BurrowEmeneau1961[52],Dunn,set - 529; obvious cognate
+1105,1105,meat-A,Andronov1964;BurrowEmeneau1961[52],,; set - 529
+1106,1106,meat-A,,Dunn,obvious cognate
+1107,1107,meat-B,Andronov1964;BurrowEmeneau1961[484],,; set - 5345
+1108,1108,meat-C,Buck1949,,"PIE memso- ""flesh"""
+1109,1109,meat-C,Andronov1964;Buck1949,,"; PIE memso- ""flesh"""
+1110,1110,meat-C,Buck1949,,"PIE memso- ""flesh"""
+1111,1111,meat-C,Buck1949,,"PIE memso- ""flesh"""
+1112,1112,meat-D,BurrowEmeneau1961[129],,set - 1391
+1113,1113,meat-E,BurrowEmeneau1961[406],,DED4588
+1114,1114,meat-E,BurrowEmeneau1961[406],,set - 4588
+1115,1115,meat-F,,Kolipakam,self identified
+1116,1116,meat-F,,Kolipakam,self identified
+1117,1117,meat-G,BurrowEmeneau1961,Kolipakam,DED728; self identified
+1118,1118,meat-H,,Kolipakam,
+1119,1119,meat-I,BurrowEmeneau1961[295],,DED3373
+1120,1120,meat-I,BurrowEmeneau1961[295],,DED3373
+1121,1121,meat-J,BurrowEmeneau1961[447],,DED4975
+1122,1122,meat-K,,Kolipakam,No obvious cognates or entry in DED
+1123,1123,meat-L,,Kolipakam,No obvious cognates or entry in DED
+1124,1124,meat-M,,Kolipakam,No obvious cognates or entry in DED
+1125,1125,moon-A,,Dunn,From Sanskrit chandra
+1126,1126,moon-A,Andronov1964,,
+1127,1127,moon-A,,Dunn,From Sanskrit chandra
+1128,1128,moon-A,,Dunn,From Sanskrit chandra
+1129,1129,moon-A,,Dunn,May be a form a Skt. chandra
+1130,1130,moon-A,,Kolipakam,Loanword from sanskrit chandra
+1131,1131,moon-A,Andronov1964,,
+1132,1132,moon-A,Andronov1964,,
+1133,1133,moon-A,Andronov1964,,
+1134,1134,moon-A,,Dunn,From Sanskrit chandra
+1135,1135,moon-B,BurrowEmeneau1961[335],,DED3754
+1136,1136,moon-B,BurrowEmeneau1961[335],,DED3754
+1137,1137,moon-B,BurrowEmeneau1961[DED3754],,very similar to term in related languages
+1138,1138,moon-B,BurrowEmeneau1961[335],,DED3754
+1139,1139,moon-B,BurrowEmeneau1961[335],,DED3754
+1140,1140,moon-B,Andronov1964,,
+1141,1141,moon-B,BurrowEmeneau1961[DED3754],,
+1142,1142,moon-B,BurrowEmeneau1961[DED3754],,identical to form in closely related language
+1143,1143,moon-B,BurrowEmeneau1961[DED3754],,identical to Kodava form from DED
+1144,1144,moon-C,,Dunn,reasonably convincing cognate with DED4422
+1145,1145,moon-D,BurrowEmeneau1961[DED5496],,Malt. bilbilre to shine brilliantly; bilpu moon. ?
+1146,1146,moon-E,BurrowEmeneau1961[291],,DED3338
+1147,1147,moon-F,BurrowEmeneau1961[202],,DED2287
+1148,1148,moon-G,,Kolipakam,Apparent singleton
+1149,1149,mountain-A,BurrowEmeneau1961[DED1731],,
+1150,1150,mountain-B,BurrowEmeneau1961[DED5474],,clear cognate
+1151,1151,mountain-B,Andronov1964;BurrowEmeneau1961[DED5474],,; 
+1152,1152,mountain-C,BurrowEmeneau1961[DED1864],,clear cognate
+1153,1153,mountain-C,Andronov1964;BurrowEmeneau1961[DED1864],,; 
+1154,1154,mountain-C,BurrowEmeneau1961[DED1864],,clear cognate
+1155,1155,mountain-D,BurrowEmeneau1961[DED4742],,clear cognate
+1156,1156,mountain-D,BurrowEmeneau1961[420],,ded4742
+1157,1157,mountain-D,BurrowEmeneau1961[DED4742],,
+1158,1158,mountain-D,BurrowEmeneau1961[DED4742],,
+1159,1159,mountain-E,BurrowEmeneau1961[457],,DED5058
+1160,1160,mountain-E,BurrowEmeneau1961[DED5058],,
+1161,1161,mountain-F,Buck1949[26],,
+1162,1162,mountain-F,Buck1949[26],,
+1163,1163,mountain-G,BurrowEmeneau1961[DED3221],,
+1164,1164,mountain-H,,Dunn,apparent singleton
+1165,1165,mountain-I,,Kolipakam,apparent singleton
+1166,1166,mountain-J,,Kolipakam,apparent singleton
+1167,1167,mountain-K,,Kolipakam,apparent singleton
+1168,1168,mountain-L,,Kolipakam,apparent singleton
+1169,1169,mountain-M,,Kolipakam,Apparent singleton. No entry in DED
+1170,1170,mouth-A,,Kolipakam,High quality look alike to set - 5352
+1171,1171,mouth-A,BurrowEmeneau1961[484],,DED5352
+1172,1172,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1173,1173,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1174,1174,mouth-A,BurrowEmeneau1961[484],,DED5352
+1175,1175,mouth-A,BurrowEmeneau1961[484],,DED5352
+1176,1176,mouth-A,Andronov1964;BurrowEmeneau1961[484],,; set - 5352
+1177,1177,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1178,1178,mouth-A,Andronov1964;BurrowEmeneau1961[484],,; set - 5352
+1179,1179,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1180,1180,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1181,1181,mouth-A,BurrowEmeneau1961[484],,set - 5352
+1182,1182,mouth-A,,Kolipakam,"High quality look alike to set - 5352(pg.484), but not on DED list."
+1183,1183,mouth-B,Andronov1964,,
+1184,1184,mouth-C,,Kolipakam,Self-identified. Not similar to any other form.
+1185,1185,mouth-D,,Kolipakam,Self-identified. Not similar to any other form.
+1186,1186,mouth-E,BurrowEmeneau1961[288],,DED3296
+1187,1187,mouth-E,BurrowEmeneau1961[288],,DED3296
+1188,1188,mouth-F,BurrowEmeneau1961[455],,DED5031
+1189,1189,mouth-G,BurrowEmeneau1961[156],,DED1078
+1190,1190,mouth-H,,Kolipakam,No obvious cognate or entry in DED
+1191,1191,name-A,,Jordan,Lookalike to Kannada: hesaru
+1192,1192,name-A,,Jordan,Lookalike cognate with Tamil: peyar
+1193,1193,name-A,BurrowEmeneau1961[389],,DED4410
+1194,1194,name-A,BurrowEmeneau1961[389],,DED4410
+1195,1195,name-A,Andronov1964;BurrowEmeneau1961[4410],,"Andronov cognate class A; B& form: pesar(u), and cognate with Ta. peyar"
+1196,1196,name-A,BurrowEmeneau1961[4410],,
+1197,1197,name-A,BurrowEmeneau1961[389],,DED4410
+1198,1198,name-A,BurrowEmeneau1961[389],,DED4410
+1199,1199,name-A,,Jordan,"Lookalike to Parji: pidir, etc"
+1200,1200,name-A,BurrowEmeneau1961[389],,DED4410
+1201,1201,name-A,Andronov1964;BurrowEmeneau1961[4410],,"; B&E form: peyar, piyar, pēr"
+1202,1202,name-A,,,
+1203,1203,name-A,Andronov1964,,
+1204,1204,name-A,Andronov1964;BurrowEmeneau1961[4410],,; 
+1205,1205,name-A,,Dunn,
+1206,1206,name-A,BurrowEmeneau1961[4410],,B&E form: pudarů
+1207,1207,name-A,,Jordan,Same form as Telugu pe:ɾu
+1208,1208,name-B,Buck1949[1263],,Sanskrit nāman- 'name'
+1209,1209,name-B,Buck1949[1263],,nāman- 'name' (Sanskrit) etc.
+1210,1210,neck-A,BurrowEmeneau1961[DED1366],,Good lookalike (e.g. Ka. kattu)
+1211,1211,neck-A,BurrowEmeneau1961[127],,DED1366
+1212,1212,neck-A,Andronov1964,,
+1213,1213,neck-A,Andronov1964;BurrowEmeneau1961[DED1366],,; 
+1214,1214,neck-B,,Dunn,Reasonable lookalike (to meɖa)
+1215,1215,neck-B,Andronov1964,,
+1216,1216,neck-B,BurrowEmeneau1961[DED4847],,
+1217,1217,neck-C,,,
+1218,1218,neck-C,BurrowEmeneau1961[181],,"Set 1996 ""Kur. xēser (xesr-) neck, shoulders. Malt. qasru neck.? Cf. 1366 Ta. kar̤uttu. DED 1662."""
+1219,1219,neck-D,BurrowEmeneau1961[DED1718],,Andronov had it in set /cognate/114/
+1220,1220,neck-E,,Dunn,no obvious cognates to this set
+1221,1221,neck-E,,Dunn,no obvious cognates to this set
+1222,1222,neck-F,,Dunn,no phonological evidence to link this to other sets
+1223,1223,neck-G,,Dunn,apparent singleton
+1224,1224,neck-H,BurrowEmeneau1961[408],,DED4622
+1225,1225,neck-I,,Kolipakam,No obvious cognate or entry in DED
+1226,1226,neck-J,,Kolipakam,No obvious cognates or
+1227,1227,neck-K,,Kolipakam,No obvious cognate or entry in DED
+1228,1228,neck-L,,Kolipakam,No obvious cognate or entry in DED
+1229,1229,new-A,,Dunn,apparent singleton
+1230,1230,new-B,,Kolipakam,
+1231,1231,new-B,,Dunn,"good lookalike to Telegu ""kotta"""
+1232,1232,new-B,Andronov1964,,
+1233,1233,new-C,BurrowEmeneau1961[378],,
+1234,1234,new-C,BurrowEmeneau1961[378],,DED4275
+1235,1235,new-C,BurrowEmeneau1961[DED4275],,
+1236,1236,new-C,BurrowEmeneau1961[DED4275],,
+1237,1237,new-C,BurrowEmeneau1961[378],,DED4275
+1238,1238,new-C,BurrowEmeneau1961[378],,DED4275
+1239,1239,new-C,BurrowEmeneau1961[378],,DED4275
+1240,1240,new-C,BurrowEmeneau1961[DED4275],,
+1241,1241,new-C,BurrowEmeneau1961,,DED4275
+1242,1242,new-C,Andronov1964;BurrowEmeneau1961[DED4275],,; 
+1243,1243,new-C,BurrowEmeneau1961[DED4275],,
+1244,1244,new-C,BurrowEmeneau1961[DED4275],,
+1245,1245,new-C,BurrowEmeneau1961[DED4275],,clear cognate
+1246,1246,new-C,BurrowEmeneau1961[DED4275],,
+1247,1247,new-C,BurrowEmeneau1961[DED4275],,clear cognate
+1248,1248,new-D,,Dunn,apparent singleton
+1249,1249,new-E,,Kolipakam,possible loanword from hindi - naja
+1250,1250,night-A,BurrowEmeneau1961[DED2552],,
+1251,1251,night-A,BurrowEmeneau1961[222],,DED2552
+1252,1252,night-A,Andronov1964,,
+1253,1253,night-A,BurrowEmeneau1961[DED2552],,
+1254,1254,night-B,Andronov1964;Buck1949[992],,; Sanskrit rātri-
+1255,1255,night-B,Andronov1964,,
+1256,1256,night-B,Andronov1964,,loanword
+1257,1257,night-B,Buck1949[992],,
+1258,1258,night-B,Andronov1964,,
+1259,1259,night-B,Buck1949[992],,
+1260,1260,night-C,BurrowEmeneau1961[425],,DED4781
+1261,1261,night-C,BurrowEmeneau1961,,DED4781
+1262,1262,night-D,BurrowEmeneau1961[DED4869],,
+1263,1263,night-E,,Dunn,apparent singleton
+1264,1264,night-F,,Dunn,apparent singleton
+1265,1265,night-G,,Dunn,apparent singleton
+1266,1266,night-H,,Dunn,apparent singleton
+1267,1267,night-I,BurrowEmeneau1961[316],,DED3584
+1268,1268,night-J,BurrowEmeneau1961[320],,DED3621
+1269,1269,night-J,BurrowEmeneau1961[320],,DED3621
+1270,1270,night-K,,Kolipakam,apparently singleton. no entry in DED
+1271,1271,nose-A,,Kolipakam,High quality look alike of the set - 5024(pg.454) . But not in the DED list.
+1272,1272,nose-A,,Kolipakam,high quality look alike to set - 5024
+1273,1273,nose-A,Andronov1964;BurrowEmeneau1961[454],,; set - 5024
+1274,1274,nose-A,BurrowEmeneau1961[454],,set - 5024
+1275,1275,nose-A,BurrowEmeneau1961[454],,DED5024
+1276,1276,nose-A,BurrowEmeneau1961[454],,DED5024
+1277,1277,nose-A,BurrowEmeneau1961[454],,DED5024
+1278,1278,nose-A,BurrowEmeneau1961[454],,DED5024
+1279,1279,nose-A,Andronov1964;BurrowEmeneau1961[454],,; set - 5024
+1280,1280,nose-A,BurrowEmeneau1961[454],,DED5024
+1281,1281,nose-A,BurrowEmeneau1961[454],,set - 5024
+1282,1282,nose-A,Andronov1964;BurrowEmeneau1961[454],,; set - 5024
+1283,1283,nose-A,Andronov1964;BurrowEmeneau1961[454],,; set - 5024
+1284,1284,nose-A,BurrowEmeneau1961[454],,set - 5024
+1285,1285,nose-A,,Kolipakam,High quality look alike of the set - 5024(pg.454) . But not in the DED list.
+1286,1286,nose-B,BurrowEmeneau1961[455],,DED5031
+1287,1287,nose-B,,Kolipakam,Self-identified.
+1288,1288,nose-C,,Kolipakam,Self-identified.
+1289,1289,nose-D,BurrowEmeneau1961[439],,DED4909
+1290,1290,nose-E,,Kolipakam,No obvious cognate or entry in DED
+1291,1291,not-A,,Dunn,good lookalike
+1292,1292,not-A,BurrowEmeneau1961[466],,DED2559
+1293,1293,not-A,BurrowEmeneau1961[DED2559],,DED2559
+1294,1294,not-A,BurrowEmeneau1961[466],,DED2559
+1295,1295,not-A,,Verkerk,high quality look alike
+1296,1296,not-A,Andronov1964;BurrowEmeneau1961[DED2559],,; DED2559
+1297,1297,not-A,Andronov1964;BurrowEmeneau1961[DED2559],,"; DED2559; speeled differently: il non-existence, death; illai it is not (in Old Tamil with a complete neg. paradigm); no; illāmai absence, non-existence, poverty, want; illātavaṉ one utterly destitute; illāṉ poor man; ill-eṉal death, negating existence; ilam, ilampai poverty; ili one who is without (at end of cpd.); iṉmai total negation of existence, poverty; iṉṟiya that which is not."
+1298,1298,not-A,BurrowEmeneau1961[DED2559],,DED2559
+1299,1299,not-A,,Verkerk,high quality look alike
+1300,1300,not-B,,Kolipakam,High quality look alike to DED333
+1301,1301,not-B,BurrowEmeneau1961[31],,DED333
+1302,1302,not-C,,Dunn,good lookalike
+1303,1303,not-C,BurrowEmeneau1961[DED234],,"DED234 - this cognate coding goes against Andronov, who said that this form goes with cognate class A."
+1304,1304,not-D,,Verkerk,
+1305,1305,not-E,,Verkerk,
+1306,1306,not-E,,Dunn,reasonable lookalike to Toda; no other apparent cognates
+1307,1307,not-F,BurrowEmeneau1961,,DED4743
+1308,1308,not-F,BurrowEmeneau1961,,DED4743
+1309,1309,not-G,,Kolipakam,No obvious cognates/look - alikes in the wordlist
+1310,1310,not-H,,Kolipakam,No obvious cognates or look alikes in the wordlist.
+1311,1311,not-I,,Kolipakam,No obvious cognate or look alike.
+1312,1312,one-A,,Verkerk,high quality look-alike
+1313,1313,one-A,,Dunn,"See e.g. phonetic realization of /o:ʈəja/ [wo:ʈaja] ""all"""
+1314,1314,one-A,BurrowEmeneau1961[94],,DED990
+1315,1315,one-A,,Kolipakam,High quality look alike
+1316,1316,one-A,BurrowEmeneau1961[990d],,"990d; ""Ka. ondu one thing;"""
+1317,1317,one-A,BurrowEmeneau1961[990d],,"990d; ""Koḍ. ondï one thing;"""
+1318,1318,one-A,BurrowEmeneau1961[94],,DED990
+1319,1319,one-A,BurrowEmeneau1961[94],,DED990
+1320,1320,one-A,,Verkerk,"Looks similar to the Gondi form, but the Gondi form is itself doubtful to be cognate (except for Andronov's cognate coding)"
+1321,1321,one-A,BurrowEmeneau1961[94],,DED990
+1322,1322,one-A,BurrowEmeneau1961[94],,DED990
+1323,1323,one-A,Andronov1964;BurrowEmeneau1961[990d],,"; 990d; ""Ta. oṉṟu, oṇṇu the number one; one """
+1324,1324,one-A,BurrowEmeneau1961,,DED990a
+1325,1325,one-A,BurrowEmeneau1961[94],,DED990
+1326,1326,one-A,BurrowEmeneau1961[990b],,"990b; ""Pa. okur one man; okal one woman; okut, okti one thing; ok one (adj.). """
+1327,1327,one-A,Andronov1964;BurrowEmeneau1961[990d],,"; 990d; ""Ta. oṉṟu, oṇṇu the number one; one """
+1328,1328,one-A,Andronov1964;BurrowEmeneau1961[990b],,"; 990b; ""Te. oka one (adj.), single; okãḍu, okõḍu, okarũḍu, okaruvũḍu, okorũḍu one man, one animal or thing; okata, okati, okatuka, okate, okarita, okariti, okarite, okartu, okartuka, okarte, okota, okorita, etc., one woman; okaru some persons; okaṭi, okoṭi one thing; okaṭa, okoṭa at one and the same time, together; (nearly all Te. forms also with -kk-). """
+1329,1329,one-A,BurrowEmeneau1961[990d],,"990d; ""Tu. oñji one thing;"""
+1330,1330,one-A,,Verkerk,high quality look-alike
+1331,1331,one-B,,Verkerk,Doesn't look similar to any of the other forms; search for this form in DED is not succesfull
+1332,1332,person-A,Andronov1964,,
+1333,1333,person-A,,Verkerk,"None of these forms are to be found in the DED, so I am assuming that they are all (except one) loans, since they all look highly similar"
+1334,1334,person-A,,Kolipakam,
+1335,1335,person-A,,Verkerk,"None of these forms are to be found in the DED, so I am assuming that they are all (except one) loans, since they all look highly similar"
+1336,1336,person-A,Andronov1964,,
+1337,1337,person-A,Andronov1964,,
+1338,1338,person-A,,Verkerk,"None of these forms are to be found in the DED, so I am assuming that they are all (except one) loans, since they all look highly similar"
+1339,1339,person-A,Andronov1964,,
+1340,1340,person-A,,Verkerk,"None of these forms are to be found in the DED, so I am assuming that they are all (except one) loans, since they all look highly similar"
+1341,1341,person-A,,Verkerk,"None of these forms are to be found in the DED, so I am assuming that they are all (except one) loans, since they all look highly similar"
+1342,1342,person-B,,Verkerk,Does not look like the other forms
+1343,1343,person-C,,Verkerk,Doesn't look like any of the others
+1344,1344,person-D,,Dunn,Singleton
+1345,1345,person-D,,Kolipakam,high quality look alike
+1346,1346,person-E,,Kolipakam,No obvious cognates or entry in DED
+1347,1347,person-F,,Kolipakam,No obvious cognates or entry in DED
+1348,1348,person-G,,Kolipakam,No obvious cognates or entry in DED
+1349,1349,rain-A,,Jordan,"Lookalike with Kannada ""male"""
+1350,1350,rain-A,,Jordan,Lookalike to Kodava form DED4753
+1351,1351,rain-A,BurrowEmeneau1961[DED4753],,B&E form: mar̤e
+1352,1352,rain-A,BurrowEmeneau1961[DED4753],,B&E form: maḷe
+1353,1353,rain-A,BurrowEmeneau1961[421],,DED4753
+1354,1354,rain-A,Andronov1964;BurrowEmeneau1961[DED4753],,; 
+1355,1355,rain-A,Andronov1964;BurrowEmeneau1961[DED4753],,; 
+1356,1356,rain-A,,Jordan,meɖ: Lookalike with rest of cognate class A ūṭṭi: Lookalike with Tamil: rain (DED761) Possible merge of two cognate classes?
+1357,1357,rain-A,,Jordan,Identical to Kannada form DED4753
+1358,1358,rain-B,Andronov1964;Buck1949[67],,; Skt. varsa-
+1359,1359,rain-B,Buck1949[67],,Skt. varsa-
+1360,1360,rain-C,BurrowEmeneau1961[487],,DED5381
+1361,1361,rain-C,,Jordan,Lookalike to Kolami vana DED5381
+1362,1362,rain-C,Andronov1964;BurrowEmeneau1961[DED5381],,; 
+1363,1363,rain-C,BurrowEmeneau1961[487],,DED5381
+1364,1364,rain-D,BurrowEmeneau1961[372],,DED4199
+1365,1365,rain-D,BurrowEmeneau1961[372],,DED4199
+1366,1366,rain-E,,Kolipakam,apparent singleton. No entry in DED
+1367,1367,rain-F,,Kolipakam,Apparent singleton no entry in DED
+1368,1368,rain-G,,Kolipakam,Apparent singleton. No entry in DED
+1369,1369,red-A,,Jordan,Form identical to Toda
+1370,1370,red-A,BurrowEmeneau1961[175],,DED1931
+1371,1371,red-A,Andronov1964,,
+1372,1372,red-A,BurrowEmeneau1961[176],,Set 1931 The form in Burrow is co·pï.
+1373,1373,red-A,BurrowEmeneau1961[175],,DED1931
+1374,1374,red-A,BurrowEmeneau1961[176],,Set 1931
+1375,1375,red-A,BurrowEmeneau1961,,DED1931
+1376,1376,red-A,BurrowEmeneau1961[176],,Set 1931. Andronov coded this as a separate cognate class C.
+1377,1377,red-A,Andronov1964,,
+1378,1378,red-A,BurrowEmeneau1961[175],,DED1931
+1379,1379,red-A,BurrowEmeneau1961[175],,DED1931
+1380,1380,red-A,,Jordan,Closely related languages have same or similar forms.
+1381,1381,red-A,BurrowEmeneau1961[DED1931],,
+1382,1382,red-A,BurrowEmeneau1961[176],,Set 1931 The form in Burrow is co·pï.
+1383,1383,red-B,BurrowEmeneau1961[84],,DED865
+1384,1384,red-B,BurrowEmeneau1961[84],,DED865
+1385,1385,red-B,BurrowEmeneau1961[84],,DED865
+1386,1386,red-B,,Jordan,Form is very similar to closely related Telugu.
+1387,1387,red-B,Andronov1964;BurrowEmeneau1961[DED865],,Andronov's form: eṟṟa; 
+1388,1388,red-C,,Jordan,
+1389,1389,red-D,BurrowEmeneau1961[335],,DED3748
+1390,1390,red-D,BurrowEmeneau1961[335],,DED3748
+1391,1391,red-E,,Kolipakam,apparent singleton. No entry in DED
+1392,1392,road-A,Andronov1964;BurrowEmeneau1961[478],,"; DED5297 Ma. var̤i way, road, path, succession and the way you came, backwards, manner, means, usage, custom."
+1393,1393,road-A,Andronov1964;BurrowEmeneau1961[478],,"; DED5297 Ta. var̤i way, path, road, origin, source, means, remedy, homage, manner, method, mode, posterity, descendants, race, family, lineage, relative, dependant, series, line, succession, impression, footprint, trace, usage, antiquity, boon, gift; afterwards."
+1394,1394,road-B,Andronov1964,,
+1395,1395,road-B,Andronov1964,,
+1396,1396,road-C,BurrowEmeneau1961,,DED4108
+1397,1397,road-C,Andronov1964;BurrowEmeneau1961[364],,; DED4108 Pa. pāv road.
+1398,1398,road-D,,Kolipakam,High quality look alike to DED3170
+1399,1399,road-D,,Kolipakam,high quality look alike to 3170
+1400,1400,road-D,BurrowEmeneau1961[275],,DED3170
+1401,1401,road-D,,Kolipakam,hihg quality look alike to 3170
+1402,1402,road-D,BurrowEmeneau1961[275],,DED3170
+1403,1403,road-E,,,
+1404,1404,road-E,,Kolipakam,"Self-identified, not similar to any other cognate class"
+1405,1405,road-E,,Kolipakam,"Self-identified, not similar to any other cognate class"
+1406,1406,road-F,,Kolipakam,"Similar to the hindi word for road ""rasta"""
+1407,1407,road-F,,Kolipakam,"Similar to the hindi word for road ""rasta"""
+1408,1408,road-F,,,
+1409,1409,road-F,,Kolipakam,"Similar to the hindi word for road ""rasta"""
+1410,1410,road-G,,Kolipakam; Jordan,"Self-identified, not similar to any other cognate class; Lookalike with members of DED1395"
+1411,1411,road-H,,Kolipakam,"Self-identified, not similar to any other cognate class"
+1412,1412,road-I,,Kolipakam,possible loan word from hindi - sadak
+1413,1413,road-J,BurrowEmeneau1961[212],Kolipakam,; DED2417
+1414,1414,road-J,,Kolipakam,DED2417
+1415,1415,road-K,,Kolipakam,apparent singleton
+1416,1416,root-A,,Dunn,same as sister languages
+1417,1417,root-A,,Dunn,reasonable lookalike
+1418,1418,root-A,Andronov1964;BurrowEmeneau1961[DED5535],,; DED5535: Ka. bēr(u) root;
+1419,1419,root-A,BurrowEmeneau1961[DED 5535],,DED 5535: Koḍ. be·rï root.
+1420,1420,root-A,BurrowEmeneau1961,,DED5535
+1421,1421,root-A,,Dunn,similar to many sister languages
+1422,1422,root-A,BurrowEmeneau1961,,DED5535
+1423,1423,root-A,Andronov1964;BurrowEmeneau1961[DED5535],,"; DED5535: Ma. vēr root, origin, cause."
+1424,1424,root-A,BurrowEmeneau1961[DED5535],,DED5535: Pa. vār (pl. -kul) id. contra Andronov
+1425,1425,root-A,Andronov1964;BurrowEmeneau1961[DED5535],,"; DED5535: Ta. vēr root, anything rootlike; foundation"
+1426,1426,root-A,Andronov1964;BurrowEmeneau1961[DED5535],,; DED5535: Te. vēru root.
+1427,1427,root-A,BurrowEmeneau1961[DED5535],Dunn,"DED5535: To. p&odieresisside;r id. Several forms have either per or ver, so seems a proper cognate; same as sister languages"
+1428,1428,root-A,BurrowEmeneau1961[DED5535],,"DED5535: Tu. bērů root; origin, cause."
+1429,1429,root-A,,Dunn,same as sister languages
+1430,1430,root-B,BurrowEmeneau1961[DED4077],,
+1431,1431,root-C,,Kolipakam,No obvious cognate or entry in DED
+1432,1432,root-D,,Kolipakam,No obvious cognate or entry in DED
+1433,1433,root-E,,Kolipakam,No obvious cognate or entry in DED
+1434,1434,root-F,,Kolipakam,No obvious cognate or entry in DED
+1435,1435,round-A,Andronov1964,,
+1436,1436,round-A,Andronov1964,,
+1437,1437,round-A,Andronov1964,,
+1438,1438,round-A,Andronov1964,,
+1439,1439,round-B,BurrowEmeneau1961[DED1695],,Go. (S.) gunḍkula pēru bead necklace (Voc. 1121); (M.) gonḍra round (Voc. 1195); (ASu.) guṇḍāl id.
+1440,1440,round-B,,Jordan,Good lookalike with Telegu: guṇḍrani
+1441,1441,round-B,,Kolipakam,reasonable cognate to DED1695
+1442,1442,round-B,,Dunn,"Reasonable cognate candidate, cf. DED1695"
+1443,1443,round-B,,Dunn,"Reasonable cognate candidate, cf DED1695"
+1444,1444,round-B,Andronov1964;BurrowEmeneau1961[DED1695],,; B&E form: guṇḍrani
+1445,1445,round-C,BurrowEmeneau1961[DED3309],,
+1446,1446,round-D,BurrowEmeneau1961[DED664],,B&E form: urïṭ-
+1447,1447,round-D,BurrowEmeneau1961[DED664],,B&E form: uruṇṭa
+1448,1448,round-D,BurrowEmeneau1961[DED664],,B&E form: uruṇṭai
+1449,1449,round-D,BurrowEmeneau1961[DED664],,B&E form: uḍy
+1450,1450,round-D,BurrowEmeneau1961[DED664],,B&E form: uṇḍè
+1451,1451,round-D,,Jordan,Lookalike with e.g. Tamil in DED664
+1452,1452,round-E,,Jordan,
+1453,1453,round-F,,Kolipakam,possible loan word from hindi - gol meaning round.
+1454,1454,round-G,,Kolipakam,apparent singleton. no entry in DED
+1455,1455,sand-A,,Jordan,Lookalike with Tamil maɳal
+1456,1456,sand-A,BurrowEmeneau1961[DED4666],,B&E form: maral
+1457,1457,sand-A,BurrowEmeneau1961[DED4666],,B&E form: maṇa
+1458,1458,sand-A,Andronov1964;BurrowEmeneau1961[DED4666],,; B&E form maṇal
+1459,1459,sand-A,BurrowEmeneau1961[413],,DED4666
+1460,1460,sand-A,BurrowEmeneau1961[DED4666],,B&E form: man
+1461,1461,sand-A,Andronov1964;BurrowEmeneau1961[DED4666],,; B&E form maṇal
+1462,1462,sand-A,BurrowEmeneau1961[DED4666],,B&E form er-moḷṇ This form identical to others in the cognate set
+1463,1463,sand-A,,Jordan,Lookalike with Kannada
+1464,1464,sand-B,BurrowEmeneau1961[56],,DED575
+1465,1465,sand-B,Andronov1964;BurrowEmeneau1961[DED575],,; 
+1466,1466,sand-B,BurrowEmeneau1961[56],,DED575
+1467,1467,sand-B,,Jordan,Lookalike with Telugu isuka
+1468,1468,sand-B,Andronov1964;BurrowEmeneau1961[DED575],,"; B&E forms usuka, isuka, isumu"
+1469,1469,sand-C,,Jordan,
+1470,1470,sand-D,,Jordan,
+1471,1471,sand-E,,Kolipakam,apparent singleton no entry in DED
+1472,1472,sand-F,,Kolipakam,apparent singleton. no entry in DED
+1473,1473,sand-F,,Kolipakam,high quality look alike with malto form - bali. No entry in DED
+1474,1474,sand-G,,Kolipakam,high quality look alike with kuwi form - bali
+1475,1475,say-A,Andronov1964;BurrowEmeneau1961[DED2855],,; 
+1476,1476,say-A,BurrowEmeneau1961[DED2855],,
+1477,1477,say-B,Andronov1964;BurrowEmeneau1961[DED4031],,; 
+1478,1478,say-B,,Dunn,clear cognate
+1479,1479,say-C,Andronov1964,,
+1480,1480,say-D,Andronov1964;BurrowEmeneau1961[DED1955],,"; not included in DED list, but clearly cognate with other DED forms."
+1481,1481,say-E,BurrowEmeneau1961[84],,DED868
+1482,1482,say-E,,Dunn,Looks cognate with some forms in related languages in the DED list
+1483,1483,say-E,Andronov1964;BurrowEmeneau1961[DED868],,; 
+1484,1484,say-F,,Dunn,clear cognate with DED4430
+1485,1485,say-G,,Dunn,apparent singleton
+1486,1486,say-H,,Dunn,apparent singleton
+1487,1487,say-I,,Dunn,apparent singleton
+1488,1488,say-J,,Dunn,apparent singleton
+1489,1489,say-K,BurrowEmeneau1961,,DED3887
+1490,1490,say-L,BurrowEmeneau1961[502],,DED5514
+1491,1491,say-M,BurrowEmeneau1961[356],,DED4003
+1492,1492,say-N,,Kolipakam,Apparent singleton. No entry in DED
+1493,1493,see-A,Andronov1964,,
+1494,1494,see-A,Andronov1964,,
+1495,1495,see-B,BurrowEmeneau1961[DED3794],,
+1496,1496,see-B,,Dunn,clear cognate
+1497,1497,see-B,Andronov1964;BurrowEmeneau1961[DED3794],,; 
+1498,1498,see-B,BurrowEmeneau1961[DED3794],,
+1499,1499,see-B,BurrowEmeneau1961,,DED3794
+1500,1500,see-B,BurrowEmeneau1961[DED3794],,
+1501,1501,see-B,BurrowEmeneau1961[DED3794],,identical to sister languages
+1502,1502,see-C,BurrowEmeneau1961,,DED2735
+1503,1503,see-C,BurrowEmeneau1961,,DED2735
+1504,1504,see-C,Andronov1964;BurrowEmeneau1961,,; DED2735
+1505,1505,see-E,,Dunn,no evidence this is related to any other terms
+1506,1506,see-F,,Dunn,no evidence this is related to any other terms
+1507,1507,see-G,,Dunn,no evidence this is related to any other terms
+1508,1508,see-H,BurrowEmeneau1961,,DED786
+1509,1509,see-I,,Kolipakam,No obvious cognate or entry in DED
+1510,1510,see-J,,Kolipakam,No obvious cognate or entry in DED
+1511,1511,see-K,,Kolipakam,No obvious cognates or entry in DED
+1512,1512,seed-A,,Dunn,similar to sister languages
+1513,1513,seed-A,,Dunn,same as sister languages
+1514,1514,seed-A,,Kolipakam,high quality look alike to 5401
+1515,1515,seed-A,BurrowEmeneau1961[490],,DED5401
+1516,1516,seed-A,Andronov1964;BurrowEmeneau1961[DED5401],,"; DED5401: Ka. bittu to put seeds, sow; bittu, bitta, bir̤tu seed; bittige, bittane act of sowing; bede seed, sowing."
+1517,1517,seed-A,BurrowEmeneau1961[set 5401],,"slightly different forms: bitta, birtu. Some convergence with DED60 Ka. bīya rice when cleaned from the husk, food.?"
+1518,1518,seed-A,BurrowEmeneau1961[490],,DED5401
+1519,1519,seed-A,BurrowEmeneau1961[490],,DED5401
+1520,1520,seed-A,,Kolipakam,high quality look alike to 5401
+1521,1521,seed-A,Andronov1964;BurrowEmeneau1961[DED5401],,"; DED5401: Ma. vittu seed, semen; vitekka to sow seed; vita sowing, sowing season, grain sown; vitar seed."
+1522,1522,seed-A,BurrowEmeneau1961[set 5401],,"DED5401: Pa. vit- to sow; vittid (pl. vittil) seed, semen. contra Andronov"
+1523,1523,seed-A,Andronov1964;BurrowEmeneau1961[DED5401],,"; Form is not listed in DED5401: Ta. vittu (vitti-), viccu (vicci-) to sow, spread, broadcast; vittu seed, semen; viccu seed; vitai (-pp-, -tt-) to sow seed, publish, deliver, throw; n. seed, testicle; vitaippu sowing."
+1524,1524,seed-A,BurrowEmeneau1961[set 5401],,"DED5401: Te. vittu to sow; n. seed, testicle; vittanamu seed, testicle; veda sowing."
+1525,1525,seed-A,,Dunn,"This form appears in some of the sister languages in DED5401; cf also DED60: Te. biyyamu seeds or grains of Oryza sativa without husks, paddy deprived of the husk, rice."
+1526,1526,seed-A,BurrowEmeneau1961[DED5401],Dunn,DED5401: To. pït- (pïty-) to sow; pït seed.; similar to sister languages
+1527,1527,seed-A,,Dunn,same as sister languages
+1528,1528,seed-B,BurrowEmeneau1961[DED1523],,"DED1523: Te. ginja a seed, a grain."
+1529,1529,seed-C,BurrowEmeneau1961[188],,DED2069
+1530,1530,seed-D,BurrowEmeneau1961[set 1781],,set 1781: Koḍ. kuru seed (esp. of jackfruit);
+1531,1531,seed-D,,Verkerk,High quality look-alike
+1532,1532,seed-F,BurrowEmeneau1961[368],,DED4153
+1533,1533,seed-F,,Verkerk,Seems unrelated to any of the other forms
+1534,1534,seed-G,,Verkerk,Seems unrelated to any of the other forms
+1535,1535,sit-A,Andronov1964,,
+1536,1536,sit-B,Andronov1964;BurrowEmeneau1961[DED480],,; 
+1537,1537,sit-B,BurrowEmeneau1961[DED480],,reasonable lookalike
+1538,1538,sit-B,,Dunn,reasonable lookalike
+1539,1539,sit-C,,Dunn,lookalike
+1540,1540,sit-C,Andronov1964;BurrowEmeneau1961[DED1835],,"; not the exact DED form, but close"
+1541,1541,sit-C,,Dunn,lookalike
+1542,1542,sit-D,,Dunn,Reasonable lookalike to DED1900
+1543,1543,sit-D,BurrowEmeneau1961,,DED1900
+1544,1544,sit-E,BurrowEmeneau1961,,DED930
+1545,1545,sit-E,BurrowEmeneau1961[90],,Set 930
+1546,1546,sit-F,BurrowEmeneau1961[DED1728],,reasonable lookalike for first part of apparent compound verb
+1547,1547,sit-F,BurrowEmeneau1961[DED1728],,"not identical, but the ku:t part is present in some forms"
+1548,1548,sit-F,BurrowEmeneau1961[DED1728],Dunn,; reasonable lookalike
+1549,1549,sit-G,,Dunn,apparent singleton
+1550,1550,sit-H,BurrowEmeneau1961[71],,DED725
+1551,1551,sit-H,BurrowEmeneau1961[71],,DED725
+1552,1552,sit-H,BurrowEmeneau1961[71],,DED725
+1553,1553,sit-I,BurrowEmeneau1961[287],,DED3291
+1554,1554,sit-J,,Kolipakam,apparent singleton
+1555,1555,skin-A,,Kolipakam,same form as a closely related language
+1556,1556,skin-A,,Kolipakam,High quality look alike to set - 3559
+1557,1557,skin-A,BurrowEmeneau1961[313],,DED3559
+1558,1558,skin-A,Andronov1964;BurrowEmeneau1961[312],,; set - 3559
+1559,1559,skin-A,BurrowEmeneau1961[313],,set - 3559
+1560,1560,skin-A,BurrowEmeneau1961[313],,DED3559
+1561,1561,skin-A,BurrowEmeneau1961[313],,3559
+1562,1562,skin-A,,Kolipakam,same form as a closely related language
+1563,1563,skin-A,BurrowEmeneau1961[313],,set - 3559
+1564,1564,skin-A,BurrowEmeneau1961[313],,DED3559
+1565,1565,skin-A,BurrowEmeneau1961[312],,set - 3559
+1566,1566,skin-A,Andronov1964;BurrowEmeneau1961[312],,; set - 3559
+1567,1567,skin-A,Andronov1964;BurrowEmeneau1961[312],,; DED3559
+1568,1568,skin-A,BurrowEmeneau1961[312],,set - 3559
+1569,1569,skin-A,,Kolipakam,Same form as similar language
+1570,1570,skin-B,Buck1949,,"Sanskrit carman ""skin""; PIE (s)keu- ""cover"""
+1571,1571,skin-B,Buck1949,,"Sanskrit carman ""skin""; PIE (s)keu- ""cover"""
+1572,1572,skin-B,Buck1949,,"Sanskrit carman ""skin""; PIE (s)keu- ""cover"""
+1573,1573,skin-B,Buck1949,,"Sanskrit carman ""skin""; PIE (s)keu- ""cover"""
+1574,1574,skin-C,BurrowEmeneau1961[224],,DED2585
+1575,1575,skin-D,,Kolipakam,No obvious cognate or entry in DED
+1576,1576,skin-E,,Kolipakam,No obvious cognate or entry in DED
+1577,1577,sleep-A,,Dunn,reasonable lookalike
+1578,1578,sleep-A,,Dunn,clear cognate
+1579,1579,sleep-A,BurrowEmeneau1961[DED707],,
+1580,1580,sleep-A,Buck1949[69],,DED707
+1581,1581,sleep-A,Andronov1964;BurrowEmeneau1961[DED707],,; 
+1582,1582,sleep-A,Andronov1964;BurrowEmeneau1961[DED707],,; 
+1583,1583,sleep-A,,Dunn,Reasonable quality lookalike
+1584,1584,sleep-A,,Dunn,Identical to close sister language
+1585,1585,sleep-B,Andronov1964;BurrowEmeneau1961[DED4735],,; 
+1586,1586,sleep-C,,Dunn,"This looks cognate with /lexeme/820/, classified by Andronov as a loanword"
+1587,1587,sleep-C,Andronov1964,,
+1588,1588,sleep-D,BurrowEmeneau1961,,DED4652
+1589,1589,sleep-D,Andronov1964,,
+1590,1590,sleep-E,Buck1949[131],,DED1407
+1591,1591,sleep-E,BurrowEmeneau1961[DED1407],,
+1592,1592,sleep-F,,Dunn,This might be a reflex of DED3276 or DED3291
+1593,1593,sleep-G,,Dunn,Apparent singleton
+1594,1594,sleep-H,,Dunn,Apparent singleton
+1595,1595,sleep-I,BurrowEmeneau1961,,DED4735
+1596,1596,sleep-J,,Kolipakam,No obvious cognates or entry in DED
+1597,1597,sleep-K,,Kolipakam,No obvious cognates or entry in DED
+1598,1598,small-A,,Verkerk,based on Andrnov's coding that Malayalam form is DED1594; this is a look-alike with the Kodava and Malayalam form
+1599,1599,small-A,Andronov1964;BurrowEmeneau1961[DED1594],,"; DED1594; ""Ma. ciṟṟu, ceṟṟu small; ciṟṟāḷ boy labourer; ceṟu small, little, young, mean; ceṟukuka to shrink; ceṟukkan lad, servant, bridegroom; ceṟukki girl; ceṟuppam, ceṟuma childhood; ceṟuman child, slave, Pulayan; ceṟumi girl, slave girl, Pulachi."""
+1600,1600,small-A,Andronov1964;BurrowEmeneau1961[DED1594],,"; DED1594: Ta. ciṟu (cīṟ before vowel), ciṟṟu small; ciṟu (-pp-, -tt-), ciṟuku (ciṟuki-) to be small, short, stunted in growth, shrink, diminish, be impoverished, sink low; ciṟukku (ciṟukki-) to reduce in size or quantity, lessen; ciṟuka sparingly, a little; ciṟukkaṉ boy; ciṟukki girl, wench, maidservant; ciṟumai smallness, insignificance, youth, diminution, poverty, scarcity, baseness; ciṟuval little child, childhood; ciṟuvaṉ boy, son, low person; ciṟuvi daughter; ciṟuvōr little boys, children; ciṟāmpu (ciṟāmpi-) to shrink, look small, grow lean; ciṟār children; ciṟicu that which is small, young boy or girl; ciṟitu that which is small; ciṟiya small, young, base; ciṟiyaṉ insignificant person, boy; ciṟṟāḷ boy, servant, boy or girl cooly."
+1601,1601,small-A,,Verkerk,Is not in DED1594; based on Andrnov's coding that Malayalam form is DED1594
+1602,1602,small-B,Andronov1964;BurrowEmeneau1961[DED4295],,"; DED4295; ""Ka. cikka, ciga little, small, young;"""
+1603,1603,small-C,BurrowEmeneau1961[255],,DED2594
+1604,1604,small-C,BurrowEmeneau1961[255],,
+1605,1605,small-C,BurrowEmeneau1961[255],,
+1606,1606,small-C,,Verkerk,high quality look-alike
+1607,1607,small-C,,Kolipakam,high quality look alike
+1608,1608,small-C,Andronov1964;BurrowEmeneau1961[DED2594],,"; DED2594; ""Pa. cin little (in a text; cin cin dīṛa ney just a little castor oil); cind, (NE) cinḍ son. Ga. (Oll.) sini vande little finger; sinḍ son; (S) cinḍu, sinḍu (pl. cinḍīl, sinḍīl) id.; (S.2) cin makil children. Go. (Mu.) cini anḍki little finger (Voc. 1315). """
+1609,1609,small-C,BurrowEmeneau1961[DED2594],,"DED2594; ""2594 Ta. ciṉṉa small, little, inferior, mean, low, young; ciṉṉam smallness, minuteness, anything small; ciṉṉi small child, little thing, a small measure. """
+1610,1610,small-C,BurrowEmeneau1961[DED2594],,"DED2594; ""Te. cinna small, little, young, younger, petty, mean, trifling, trivial; cinnãdanamu smallness, childhood, youth; cinnadi girl, lass; cinnavã̄ḍu boy, young man, one who is younger; cinni small, little, pretty. """
+1611,1611,small-C,,Verkerk,"look-alike, Tuli is not mentioned in DED2594"
+1612,1612,small-D,,Verkerk,
+1613,1613,small-E,,Verkerk,
+1614,1614,small-F,,Dunn,dubious lookalike
+1615,1615,small-F,,Verkerk,Form not recovered in search DED
+1616,1616,small-G,,Kolipakam,No obvious cognates or entry in DED
+1617,1617,small-H,,Kolipakam,no obvious cognate or entry in DED
+1618,1618,small-I,,Kolipakam,no obvious look alike or entry in DED
+1619,1619,small-J,BurrowEmeneau1961[109],,DED1151
+1620,1620,smoke-A,,Jordan,Identical to Kannada: hoge
+1621,1621,smoke-A,,Jordan,Lookalike with DED4240
+1622,1622,smoke-A,BurrowEmeneau1961[376],,DED4240
+1623,1623,smoke-A,Andronov1964,,
+1624,1624,smoke-A,BurrowEmeneau1961[DED4240],,
+1625,1625,smoke-A,BurrowEmeneau1961[376],,DED4240
+1626,1626,smoke-A,BurrowEmeneau1961[376],,DED4240
+1627,1627,smoke-A,Andronov1964;BurrowEmeneau1961[DED4240],,; 
+1628,1628,smoke-A,BurrowEmeneau1961[376],,DED4240
+1629,1629,smoke-A,Andronov1964;BurrowEmeneau1961[DED4240],,; 
+1630,1630,smoke-A,BurrowEmeneau1961[DED4240],,
+1631,1631,smoke-A,Andronov1964,,
+1632,1632,smoke-A,BurrowEmeneau1961[DED4240],,"B&E form is ""pax"": close but it's not clear whether this is the same word."
+1633,1633,smoke-A,BurrowEmeneau1961[DED4240],,B&E form: pogè
+1634,1634,smoke-A,,Jordan,Identical to Kodava poge DED4240
+1635,1635,smoke-B,BurrowEmeneau1961[DED1752],,
+1636,1636,smoke-C,BurrowEmeneau1961[464],,DED5131
+1637,1637,smoke-C,BurrowEmeneau1961[464],,DED5131
+1638,1638,smoke-C,BurrowEmeneau1961,,Set 5131
+1639,1639,stand-A,,Dunn,"Lookalike with e.g. Koḍ. nill- (nipp-, nind-) to stand"
+1640,1640,stand-A,BurrowEmeneau1961[325],,DED3675
+1641,1641,stand-A,Andronov1964;BurrowEmeneau1961[DED3675],,; 
+1642,1642,stand-A,BurrowEmeneau1961[DED3675],,
+1643,1643,stand-A,BurrowEmeneau1961[325],,DED3675
+1644,1644,stand-A,BurrowEmeneau1961[325],,DED3675
+1645,1645,stand-A,BurrowEmeneau1961[DED3675],,
+1646,1646,stand-A,BurrowEmeneau1961[DED3675],,
+1647,1647,stand-A,BurrowEmeneau1961[325],,DED3675
+1648,1648,stand-A,Andronov1964,,
+1649,1649,stand-A,BurrowEmeneau1961[475],,set 3675
+1650,1650,stand-A,BurrowEmeneau1961[DED3675],,
+1651,1651,stand-A,Andronov1964,,
+1652,1652,stand-A,Andronov1964,,
+1653,1653,stand-A,BurrowEmeneau1961[DED3675],,
+1654,1654,stand-A,,Dunn,reasonable lookalike
+1655,1655,stand-C,,Dunn,apparent singleton
+1656,1656,stand-D,,Dunn,apparent singleton
+1657,1657,stand-E,,Dunn,apparent singleton
+1658,1658,stand-F,,Dunn,apparent singleton
+1659,1659,stand-G,BurrowEmeneau1961[88],,DED916
+1660,1660,stand-G,BurrowEmeneau1961[88],,DED916
+1661,1661,star-A,,Dunn,good lookalike
+1662,1662,star-A,BurrowEmeneau1961[435],,Set 4876 Kur. bīnkō star;
+1663,1663,star-A,BurrowEmeneau1961[435],,Set 4876
+1664,1664,star-A,Andronov1964;BurrowEmeneau1961[DED4876],,; 
+1665,1665,star-B,,Kolipakam,possible loan word from hindi - sitar
+1666,1666,star-C,,Dunn,Skt. Nakshatram
+1667,1667,star-C,Andronov1964,,
+1668,1668,star-C,,Dunn,Skt. Nakshatram
+1669,1669,star-C,,Kolipakam,Loan word
+1670,1670,star-C,Andronov1964,,
+1671,1671,star-C,,Dunn,Skt. Nakshatram
+1672,1672,star-C,,Dunn,Skt. Nakshatram
+1673,1673,star-C,,Dunn,Skt. Nakshatram
+1674,1674,star-C,,Dunn,Skt. Nakshatram
+1675,1675,star-C,,Dunn,Skt. Nakshatram
+1676,1676,star-D,BurrowEmeneau1961[229],,DED2646
+1677,1677,star-D,BurrowEmeneau1961[229],,DED2646
+1678,1678,star-D,BurrowEmeneau1961[DED2646],,
+1679,1679,star-D,BurrowEmeneau1961[229],,DED2646
+1680,1680,star-D,Andronov1964,,
+1681,1681,star-D,BurrowEmeneau1961,,Set 2646
+1682,1682,star-E,,Kolipakam,apparent singleton. no entry in DED
+1683,1683,star-F,,Dunn,This might be a form of /cognate/156/
+1684,1684,stone-A,,,
+1685,1685,stone-A,,Jordan,Identical to Tamil cognate set from DED1298
+1686,1686,stone-A,BurrowEmeneau1961[121],,DED1298
+1687,1687,stone-A,Andronov1964,,
+1688,1688,stone-A,Andronov1964,,
+1689,1689,stone-A,BurrowEmeneau1961[DED1298],,B&E form: kallï
+1690,1690,stone-A,BurrowEmeneau1961[121],,DED1298
+1691,1691,stone-A,Andronov1964;BurrowEmeneau1961[DED1298],,; B&E form: kallu
+1692,1692,stone-A,BurrowEmeneau1961[121],,DED1298
+1693,1693,stone-A,BurrowEmeneau1961[DED1298],,B&E form kal
+1694,1694,stone-A,Andronov1964;BurrowEmeneau1961[DED1298],,; B&E form: kal
+1695,1695,stone-A,BurrowEmeneau1961[DED1298],,B&E form kas̱
+1696,1696,stone-A,BurrowEmeneau1961[DED1298],,B&E form kallů
+1697,1697,stone-A,,Jordan,Identical to Kannada cognate set from DED1298
+1698,1698,stone-B,,Jordan,Lookalike with Telegu form: ɾa:ji
+1699,1699,stone-B,Andronov1964;BurrowEmeneau1961[DED321],,"; 321 Ta. aṟai rock, ledge, grinding stone. Ko. ar flat rock. To. aṟ id. Ka. aṟe stone, rock, slab; rāyi stone (< Te.). Te. ṟāyi, rāyi (stem ṟā-, rā-) stone, rock; ṟappa a small stone. DED(N) 271."
+1700,1700,stone-C,BurrowEmeneau1961[477],,DED5285
+1701,1701,stone-D,BurrowEmeneau1961[348],,DED3909
+1702,1702,stone-E,BurrowEmeneau1961[155],,DED1695
+1703,1703,stone-F,,Kolipakam,apparent singleton.no entry in DED
+1704,1704,stone-G,,Kolipakam,apparent singleton. no entry in DED
+1705,1705,sun-A,Andronov1964,,
+1706,1706,sun-A,,Dunn,Clear loanword from Sanskrit surya
+1707,1707,sun-A,,Kolipakam,Hindi - surya
+1708,1708,sun-A,,Kolipakam,possible loan word from hidni - surya
+1709,1709,sun-A,Andronov1964,,
+1710,1710,sun-A,Andronov1964,,
+1711,1711,sun-A,Andronov1964,,
+1712,1712,sun-A,,Dunn,Clear loanword from Sanskrit surya
+1713,1713,sun-A,,Dunn,Clear loanword from Sanskrit surya
+1714,1714,sun-A,,Dunn,Clear loanword from Sanskrit surya
+1715,1715,sun-B,,Dunn,"reasonably convincing cognate, despite lack of analogues in close sister languages"
+1716,1716,sun-B,BurrowEmeneau1961[403],,DED4559
+1717,1717,sun-B,BurrowEmeneau1961[403],,DED4559
+1718,1718,sun-B,BurrowEmeneau1961[403],,DED4559
+1719,1719,sun-B,BurrowEmeneau1961[DED4559],,Clear cognate
+1720,1720,sun-B,BurrowEmeneau1961[403],,DED4559
+1721,1721,sun-C,BurrowEmeneau1961[503],,DED5517
+1722,1722,sun-C,BurrowEmeneau1961[503],,"Set 5517 Malt. bice to be cooked, be heated; bite to cook; béru sun."
+1723,1723,sun-D,,Dunn,Apparent singleton
+1724,1724,sun-E,BurrowEmeneau1961[337],,DED3774
+1725,1725,sun-F,BurrowEmeneau1961[507],,DED5554
+1726,1726,sun-F,BurrowEmeneau1961[507],,DED5554
+1727,1727,swim-A,BurrowEmeneau1961[DED3687],,clear cognate with sister languages
+1728,1728,swim-A,BurrowEmeneau1961[DED3687],,clear cognate with sister languages
+1729,1729,swim-A,Andronov1964;BurrowEmeneau1961[DED3687],,; 
+1730,1730,swim-A,BurrowEmeneau1961[328],,DED3687
+1731,1731,swim-A,BurrowEmeneau1961[DED3687],,
+1732,1732,swim-A,Andronov1964;BurrowEmeneau1961[DED3687],,; clear cognate with sister languages
+1733,1733,swim-A,Andronov1964;BurrowEmeneau1961[DED3687],,; 
+1734,1734,swim-A,Andronov1964;BurrowEmeneau1961[DED3687],,; 
+1735,1735,swim-A,BurrowEmeneau1961[DED3687],,
+1736,1736,swim-B,BurrowEmeneau1961[99],,DED1031
+1737,1737,swim-B,BurrowEmeneau1961[99],,"Set 1031 óge ""to swim, float."""
+1738,1738,swim-C,,Dunn,Apparent singleton
+1739,1739,swim-D,,Dunn,Apparent singleton
+1740,1740,swim-E,,Dunn,Apparent singleton
+1741,1741,swim-F,,Kolipakam,no obvious cognate or entry in DED
+1742,1742,swim-G,,Kolipakam,No obvious cognate or entry in DED
+1743,1743,swim-H,,Kolipakam,No obvious cognate or entry in DED
+1744,1744,swim-I,,Kolipakam,No obvious cognate or entry in DED
+1745,1745,tail-A,,Kolipakam,"High quality look alike to set - 57(pg.513), but not in DED list"
+1746,1746,tail-A,,Kolipakam,High-quality look alike to set - 57
+1747,1747,tail-A,Andronov1964;BurrowEmeneau1961[513],,; set - 57
+1748,1748,tail-A,BurrowEmeneau1961[513],,set - 57
+1749,1749,tail-A,BurrowEmeneau1961,,DED57
+1750,1750,tail-A,Andronov1964;BurrowEmeneau1961[513],,; set - 57
+1751,1751,tail-A,Andronov1964;BurrowEmeneau1961[513],,; set - 57
+1752,1752,tail-A,Andronov1964,,VK - Obselete
+1753,1753,tail-A,BurrowEmeneau1961[513],,set - 57
+1754,1754,tail-A,,Kolipakam,"High quality look alike to set - 57(pg.513), but not in DED list"
+1755,1755,tail-B,BurrowEmeneau1961[311],,DED3538
+1756,1756,tail-B,BurrowEmeneau1961[311],,DED3538
+1757,1757,tail-B,,Kolipakam,"High quality look alike to set - 3538(pg.311), but not in DED list"
+1758,1758,tail-B,Andronov1964;BurrowEmeneau1961[311],,; set - 3538
+1759,1759,tail-B,BurrowEmeneau1961[311],,set - 3538
+1760,1760,tail-C,BurrowEmeneau1961[192],,DED2135
+1761,1761,tail-C,BurrowEmeneau1961[192],,"Set 2135 qoli ""tail"""
+1762,1762,tail-D,BurrowEmeneau1961[374],,set - 4226
+1763,1763,tail-E,,Kolipakam,No obvious cognates or entry in DED
+1764,1764,tail-F,,Kolipakam,No obvious cognates or entry in DED
+1765,1765,that-A,,Verkerk,good quality look-alike
+1766,1766,that-A,,Kolipakam,High quality look alike to DED1
+1767,1767,that-A,BurrowEmeneau1961[3],,DED1
+1768,1768,that-A,Andronov1964,Verkerk,; DED1
+1769,1769,that-A,Andronov1964,Verkerk,"; DED1 Ka. a- remote demonstrative base; ava/āta, avaḷ/āke, avar/avargaḷ, adu/atu/attu, avu that man, that woman, those persons, that thing, those things; adj. ā; ako, agō˘, adē̆, adō behold!; añce on that side, beyond; āce id., afterwards; aṭa, aṭu, aṭṭu, aṣṭu, asa, anitu, anittu, ay(i)su, āṭu, āsu that much, that many; anitum, antu the whole; anibar so many persons; atta, attal on that side, in that direction, to that side, afterwards; antā̆, anthā̆, ana, anna, anaha such; antu thus; andu, anna, anne, āga, āgaḍu, āgal, āgaḷ, āgge, āgye at that time, then; al that place, that direction, that state or condition, then; alke when; alli in that place, there, to that place; ahage, ahaṅge, hāge, hāṅge in that manner, thus."
+1770,1770,that-A,,Verkerk,"DED1 - form adï - Koḍ. avë&supern;, ava, avu/aeŋga, adï that man, that woman, those persons, that thing/those things; adj. a·; alli there; alliñji from there; attï, attaṭṭi to that side; attiñji from that direction; appara that side, to that side, further (cf. 3984 To. par par); a·le by that way; akka then; akkatiñji since then; akka·kaṇe up to then; akkale·, akkanne· just then; andï that day; accë, accakï that many; annatë, antë of that kind; annane, a·taratï in that manner; annata·ŋgï for that purpose; a·naŋguṇḍï on account of that; a·lï among those."
+1771,1771,that-A,BurrowEmeneau1961[3],,DED1
+1772,1772,that-A,BurrowEmeneau1961[3],,DED1
+1773,1773,that-A,,Verkerk,good quality look-alike
+1774,1774,that-A,BurrowEmeneau1961[3],,DED1
+1775,1775,that-A,Andronov1964;BurrowEmeneau1961[DED1],,; DED1
+1776,1776,that-A,,Verkerk,"Probably another form of the demonstrative starting with a-, but not listed in DED."
+1777,1777,that-A,BurrowEmeneau1961,,DED1
+1778,1778,that-A,BurrowEmeneau1961,,DED1
+1779,1779,that-A,BurrowEmeneau1961[3],,DED1
+1780,1780,that-A,,Verkerk,"DED1 - Pa. ōd (obl. ōn-; NE ōḍ), ōr, ad, av that man, those men, that woman or thing, those women or things; adj. ā; aŋgoṭ that much, so much; apoṭ that time; at in that direction; atni so, in that way; adugi therefore; adoḍ in that direction; ana, ani there; anat-le from there; āta like that (inflected: ān āteni I am like that, etc.); āte, āten so, in that way. Ga. (Oll.) ōnḍ, ōr, ad, av that man, those men, that woman or thing, those women or things; adj. ā, āy; apaṛ like that; apaṛi in that way; āl there; (S) ōnḍ he; ōr they; (S.2) ācin that day, day before yesterday (cf. 2553 Kol. siḍ)."
+1781,1781,that-A,Andronov1964;BurrowEmeneau1961[DED1],,; DED1
+1782,1782,that-A,,Verkerk,"Probably another form of the demonstrative starting with a-, but not listed in DED"
+1783,1783,that-A,Andronov1964,Verkerk,; DED1
+1784,1784,that-A,,Verkerk,"DED1 - Te. vã̄ḍu (obl. vāni-)/ā̆tanu/ ā̆tagã̄ḍu/ā̆taḍu/āyana, vāru (obl. vāri-)/vāṇḍlu, adi (obl. dāni-)/addi/āyadi/ayyadi, avi (obl. vāṭi-)/avvi/āyavi/ayyavi that man, those persons, that woman or thing, those things; adj. ā; ābiḍa, ābiḍe, āviḍa, āviḍe, āme, āpe, āke, āyama that woman; akkaḍa, acaṭu, acoṭu, accaṭa, accaṭu, accōṭu, āḍa that place, there; akkaḍi of that place; appuḍu, apuḍu that time, then; appaṭi of that time; andu there; andali which is there; anta so much, all, whole; that time, then, afterwards; antagā much, very; antaṭa afterwards, then; antu whole, total; antē̆ only so much; andaṟu, andoṟu so many persons; anni, ani all (things), so many; aṭu, aṭula, aṭulu, aṭṭulu, aṭlu thus; aṭṭi such; attĩḍu, aṭṭī˜ḍu such a man; aṭṭidi such a woman or thing; aṭṭē̆ in that manner only; adigō˘, adē̆, allade, alladigo look there!; ala, alla that, that well-known or celebrated; avvala that side; afterwards, beyond, on the other side; aṭa there, then, afterwards."
+1785,1785,that-A,,Verkerk,"Probably an inflected form of the pronoun, not in DED1 though: To. a- (same meaning as Ko.); aQ (obl. an-) that person or thing; pl. aQa·m; adj. a (before consonant), ay (before vowel); aQïd because of that, therefore; aṯ in that direction; aṯik a little in that direction; al in that place, there; aṯs̱n, as̱n from that direction; aḏ on that day; atfok then; at that many; that much; atton just/only that much, in that same way (-ton, cf. 3196 Ta. tāṉ); atk that much; atks̱ at that distance; atatk only so much as that; ato·f such as that; a(g) gïs in that manner; as̱ ïn- to say like that; a·nk to that place; a·na·ṟ towards there, by that road; a·toṭ that bank (is this to be divided to yield 101 oṭ cliff or 3040 *toṭ side?); a mun that side, the other side; a mun no·ṛ the world of the dead (cf. 3638 Ta. nāṭu)."
+1786,1786,that-A,,Verkerk,"DED1 - form might refer to a number of these - Tu. āye, āḷů, ārů/ākuḷu, avu (obl. ay-), aykuḷu that man, that woman, those persons, that thing, those things; adj. ā; ātů so much; avuḷu, bauḷu, aḷpa, āmbe there; aḷta of that place; aḷtů thence; aḍe, aḍegů, añci thither; āpe yonder, opposite; āni, āpaga then; āpolē just then; añca thus; añcadè, añcane, añcene just so; añcitti such as that; antuga total."
+1787,1787,that-A,,Verkerk,good quality look-alike
+1788,1788,that-B,BurrowEmeneau1961[75],,DED764
+1789,1789,that-B,BurrowEmeneau1961[75],,DED764
+1790,1790,this-A,,Verkerk,high quality look-alike
+1791,1791,this-A,,Kolipakam,High quality look alike to DED410
+1792,1792,this-A,BurrowEmeneau1961[39],,DED410
+1793,1793,this-A,Andronov1964;BurrowEmeneau1961[DED410],,; DED410
+1794,1794,this-A,BurrowEmeneau1961[DED410],,"DED410 - form may be idï : Koḍ. ivën, iva, ivu/ieŋga, idï this man, this woman, these persons, this thing/these things; adj. i·; illi here; illiñji from here; ittï, ittaṭṭi, ippara to this side; ittiñji from this side; i·le by this way; ikka now; ikkatiñji from now on; ikka·kaṇe up to now; ikkale·, ikkanne· just now; iccë, iccakï this many; innatë, intë of this kind; innane, i·taratï in this manner; innata·ŋgï for this purpose; i·naŋguṇḍï on account of this; ippara this side (cf. 3984 To. par par)."
+1795,1795,this-A,BurrowEmeneau1961[39],,DED410
+1796,1796,this-A,BurrowEmeneau1961[39],,DED410
+1797,1797,this-A,,Verkerk,high quality look-alike
+1798,1798,this-A,BurrowEmeneau1961[39],,DED410
+1799,1799,this-A,BurrowEmeneau1961[39],,DED410
+1800,1800,this-A,Andronov1964;BurrowEmeneau1961[DED410],,; DED410
+1801,1801,this-A,,Verkerk,"Highly likely to be a form of the demonstrative i- prefixed to a word, but not listed in DED."
+1802,1802,this-A,BurrowEmeneau1961,,DED410
+1803,1803,this-A,BurrowEmeneau1961[39],,DED410
+1804,1804,this-A,BurrowEmeneau1961[DED410],,DED410
+1805,1805,this-A,Andronov1964;BurrowEmeneau1961[DED410],,; DED410
+1806,1806,this-A,,Verkerk,"Highly likely to be a form of the demonstrative i- prefixed to a word, but not listed in DED."
+1807,1807,this-A,Andronov1964;BurrowEmeneau1961[DED410],,; DED410
+1808,1808,this-A,BurrowEmeneau1961[DED410],,DED410 different form of the demonstrative?
+1809,1809,this-A,,Verkerk,"Highly likely to be a form of the demonstrative i- prefixed to a word, but not listed in DED."
+1810,1810,this-A,,Verkerk,high quality look-alike
+1811,1811,this-B,BurrowEmeneau1961[DED557],,"Tu. undu, undekuḷu this thing, these things (forms of the nearer demonstr.)."
+1812,1812,this-C,BurrowEmeneau1961[3],,DED1
+1813,1813,thou-A,,Verkerk,high quality look-alike
+1814,1814,thou-A,,Dunn,good lookalike
+1815,1815,thou-A,BurrowEmeneau1961[327],,3684
+1816,1816,thou-A,BurrowEmeneau1961[327],,3684
+1817,1817,thou-A,Andronov1964;BurrowEmeneau1961[327],,"; no. 3684, form cited is nīṃ, nīn(u)"
+1818,1818,thou-A,BurrowEmeneau1961,,DED3684; Koḍ. ni·nï/ni· (obl. nin-/ni·-).
+1819,1819,thou-A,,Kolipakam,Based on similarity with Tamil cognate ni:n
+1820,1820,thou-A,BurrowEmeneau1961[327],,3684
+1821,1821,thou-A,,Verkerk,high quality look-alike
+1822,1822,thou-A,BurrowEmeneau1961[327],,3684
+1823,1823,thou-A,BurrowEmeneau1961[327],,3684
+1824,1824,thou-A,Andronov1964;BurrowEmeneau1961[327],,"; no. 3684, form cited is nī"
+1825,1825,thou-A,BurrowEmeneau1961,,DED3684; Malt. nín (obl. niṉg-).
+1826,1826,thou-A,BurrowEmeneau1961,,DED3684; Malt. nín (obl. niṉg-).
+1827,1827,thou-A,BurrowEmeneau1961[327],,3684
+1828,1828,thou-A,BurrowEmeneau1961,,DED3684; Pa. īn (obl. in-).
+1829,1829,thou-A,Andronov1964;BurrowEmeneau1961[327],,; no. 3684
+1830,1830,thou-A,Andronov1964,,
+1831,1831,thou-A,BurrowEmeneau1961,,"DED3684; Te. nīvu, īvu (obl. nī-, nin-)."
+1832,1832,thou-A,BurrowEmeneau1961[327],,"no. 3684, form cited is ni·"
+1833,1833,thou-A,BurrowEmeneau1961,,DED3684; Tu. ī (obl. nin-).
+1834,1834,thou-A,,Verkerk,high quality look-alike
+1835,1835,tongue-A,,Kolipakam,"High-quality look alike to set - 3663 (pg:321), but not in the DED list."
+1836,1836,tongue-A,,Kolipakam,High quality look alike toset - 3633
+1837,1837,tongue-A,BurrowEmeneau1961[321],,set - 3633
+1838,1838,tongue-A,BurrowEmeneau1961[321],,set - 3663
+1839,1839,tongue-A,BurrowEmeneau1961[321],,DED3633
+1840,1840,tongue-A,BurrowEmeneau1961[321],,DED3633
+1841,1841,tongue-A,,Kolipakam,"High-quality look alike to set - 3663 (pg:321), but not in the DED list."
+1842,1842,tongue-A,BurrowEmeneau1961[321],,set - 3633
+1843,1843,tongue-A,BurrowEmeneau1961[321],,DED3633
+1844,1844,tongue-A,BurrowEmeneau1961[321],,set - 3633
+1845,1845,tongue-A,Andronov1964[321],,set - 3633
+1846,1846,tongue-A,BurrowEmeneau1961[321],,set - 3633
+1847,1847,tongue-A,BurrowEmeneau1961[321],,set - 3633
+1848,1848,tongue-A,BurrowEmeneau1961[321],,set - 3663
+1849,1849,tongue-A,,Kolipakam,"High-quality look alike to set - 3663 (pg:321), but not in the DED list."
+1850,1850,tongue-B,BurrowEmeneau1961[266],,DED3064
+1851,1851,tongue-B,BurrowEmeneau1961[266],,"Set 3064 ""taṛte"""
+1852,1852,tongue-C,BurrowEmeneau1961[497],,DED5470
+1853,1853,tongue-C,BurrowEmeneau1961[497],,DED5470
+1854,1854,tongue-D,,Kolipakam,no obvious cognate or entry in DED
+1855,1855,tooth-A,,Kolipakam,Same form in a closely related language
+1856,1856,tooth-A,,Kolipakam,High quality look alike to set - 3986
+1857,1857,tooth-A,BurrowEmeneau1961[355],,DED3986
+1858,1858,tooth-A,Andronov1964;BurrowEmeneau1961[355],,; set - 3986
+1859,1859,tooth-A,BurrowEmeneau1961[355],,set - 3986
+1860,1860,tooth-A,BurrowEmeneau1961[355],,DED3986
+1861,1861,tooth-A,BurrowEmeneau1961[355],,DED3986
+1862,1862,tooth-A,,Kolipakam,Same form as a similar language
+1863,1863,tooth-A,BurrowEmeneau1961[355],,DED3986
+1864,1864,tooth-A,BurrowEmeneau1961[355],,DED3986
+1865,1865,tooth-A,Andronov1964;BurrowEmeneau1961[355],,; Set- 3986
+1866,1866,tooth-A,BurrowEmeneau1961[355],,Set 3986
+1867,1867,tooth-A,BurrowEmeneau1961[355],,DED3986
+1868,1868,tooth-A,BurrowEmeneau1961[355],,set - 3986
+1869,1869,tooth-A,Andronov1964;BurrowEmeneau1961[355],,; Set- 3986
+1870,1870,tooth-A,BurrowEmeneau1961[355],,set - 3986
+1871,1871,tooth-A,BurrowEmeneau1961[355],,Set- 3986
+1872,1872,tooth-A,,Dunn,same as sister languages
+1873,1873,tooth-B,,Kolipakam,Self -Identified
+1874,1874,tooth-C,,Kolipakam,possible loan word from hindi - daant
+1875,1875,tooth-C,,Kolipakam,Possible loanword from hindi daant
+1876,1876,tree-A,,Dunn,very similar form to sister languages
+1877,1877,tree-A,,Dunn,good lookalike
+1878,1878,tree-A,BurrowEmeneau1961[416],,DED4711
+1879,1879,tree-A,Andronov1964;BurrowEmeneau1961[416],,; DED4711: Ka. mara id.
+1880,1880,tree-A,BurrowEmeneau1961[416],,DED4711: Koḍ. mara id.
+1881,1881,tree-A,BurrowEmeneau1961[416],,DED4711
+1882,1882,tree-A,BurrowEmeneau1961[416],,DED4711
+1883,1883,tree-A,,Verkerk,High quality look-alike
+1884,1884,tree-A,BurrowEmeneau1961[416],,DED4711
+1885,1885,tree-A,BurrowEmeneau1961[416],,"DED4711: Ma. maram tree, wood, timber; marakkāl a measure."
+1886,1886,tree-A,BurrowEmeneau1961[416],,DED4711: Pa. meri (pl. merkul) id. contra Andronov
+1887,1887,tree-A,Andronov1964;BurrowEmeneau1961[DED4711],,"; DED4711: Ta. maram (in cpds. marattu-) tree, wood, timber; marakkāl"
+1888,1888,tree-A,BurrowEmeneau1961[416],,DED4711: To. me·ṇ (obl. me·ṇt-) id.
+1889,1889,tree-A,BurrowEmeneau1961[416],,DED4711: Tu. mara id.;
+1890,1890,tree-A,,Dunn,same as sister languages
+1891,1891,tree-B,Andronov1964,Verkerk,; 
+1892,1892,tree-C,Buck1949[49],,Sankrit vṛkṣa-
+1893,1893,tree-D,,Kolipakam,No obvious cognates or entry in DED
+1894,1894,tree-E,,Kolipakam,No obvious cognates or entry in DED
+1895,1895,two-A,,Verkerk,high quality look-alike
+1896,1896,two-A,,Dunn,clear cognate
+1897,1897,two-A,BurrowEmeneau1961[46],,DED474
+1898,1898,two-A,BurrowEmeneau1961[46],,DED474
+1899,1899,two-A,BurrowEmeneau1961[DED474],,"DED474; ""Ka. eraḍu, erḍu, erar̤ two; adj. iru, ir, ik, ic, etc., īr; irpattu, ippattu twenty; innūṟu 200; irbar, ibbar, irvar two persons; irme, imme twice."""
+1900,1900,two-A,BurrowEmeneau1961[DED474],,"DED474; ""Koḍ. daṇḍï two things;"""
+1901,1901,two-A,BurrowEmeneau1961[46],,DED474
+1902,1902,two-A,,Verkerk,high quality look-alike
+1903,1903,two-A,BurrowEmeneau1961[46],,DED474
+1904,1904,two-A,BurrowEmeneau1961[46],,DED474
+1905,1905,two-A,Andronov1964;BurrowEmeneau1961[DED474],,"; DED474; ""Ma. raṇṭu two;"""
+1906,1906,two-A,,Kolipakam,High quality look alike
+1907,1907,two-A,BurrowEmeneau1961[DED474],,"DED474; ""Pa. irḍu two things; irul two men; iral two women; adj. ir; iroṭ twice."""
+1908,1908,two-A,Andronov1964;BurrowEmeneau1961[DED474],,"; DED474; ""Ta. iraṇṭu, (coll.) reṇṭu two; """
+1909,1909,two-A,Andronov1964;BurrowEmeneau1961[DED474],,"; DED474; ""Te. reṇḍu two things;"""
+1910,1910,two-A,BurrowEmeneau1961[DED474],,"DED474; ""To. e·ḍ (obl. e·ḍṇ-/e·ṇ-; e·ḷ- when preceded by plural personal or reflexive pronoun) two; ï foQ twenty; ï nu·ṟ 200; i kwa·w two kwa·x measures; i·r o·ṛ two years; i·r ak two a&cangle;ok measures; i·ṭy double, even (of numbers); ïm double; ïmu twins (pl. ïmua·m twins on more than one occasion); &idieresisside;štyu· twice."""
+1911,1911,two-A,BurrowEmeneau1961[DED474],,"DED474; ""Tu. raḍḍů two things;"""
+1912,1912,two-A,,Verkerk,high quality look-alike
+1913,1913,two-B,,Kolipakam,"No cognate, not in DED"
+1914,1914,two-C,,Kolipakam,"No cognate, not in DED"
+1915,1915,two-D,,Kolipakam,"No cognate, not in DED"
+1916,1916,two-E,,Kolipakam,"No cognate, not in DED"
+1917,1917,walk-A,BurrowEmeneau1961[DED3582],,clear cognate
+1918,1918,walk-A,BurrowEmeneau1961[DED3582],,clear cognate
+1919,1919,walk-A,Andronov1964;BurrowEmeneau1961[DED3582],,; 
+1920,1920,walk-A,BurrowEmeneau1961[DED3582],,
+1921,1921,walk-A,BurrowEmeneau1961[315],,DED3582
+1922,1922,walk-A,BurrowEmeneau1961[DED3582],,
+1923,1923,walk-A,Andronov1964;BurrowEmeneau1961[DED3582],,; 
+1924,1924,walk-A,Andronov1964;BurrowEmeneau1961[DED3582],,; 
+1925,1925,walk-A,Andronov1964;BurrowEmeneau1961[DED3582],,; 
+1926,1926,walk-A,BurrowEmeneau1961[DED3582],,
+1927,1927,walk-A,BurrowEmeneau1961[DED3582],,
+1928,1928,walk-A,BurrowEmeneau1961[DED3582],,
+1929,1929,walk-A,BurrowEmeneau1961[DED3582],,clear cognate
+1930,1930,walk-B,BurrowEmeneau1961[315],,DED3582
+1931,1931,walk-C,BurrowEmeneau1961[85],,DED871
+1932,1932,walk-C,BurrowEmeneau1961[85],,Set 871
+1933,1933,walk-D,BurrowEmeneau1961[274],,DED3151
+1934,1934,walk-E,,Kolipakam,Apparent singleton. No entry in DED
+1935,1935,warm-A,BurrowEmeneau1961[503],,DED5517
+1936,1936,warm-A,BurrowEmeneau1961[DED5517],,B&E form: beccage
+1937,1937,warm-A,BurrowEmeneau1961[DED5517],,
+1938,1938,warm-A,BurrowEmeneau1961[503],,DED5517
+1939,1939,warm-A,,Jordan,Lookalike with Telegu: ʋetʃtʃa
+1940,1940,warm-A,BurrowEmeneau1961[503],,DED5517
+1941,1941,warm-A,Andronov1964;BurrowEmeneau1961[DED5517],,; 
+1942,1942,warm-A,BurrowEmeneau1961[DED5517],,B&E form: vecca
+1943,1943,warm-A,BurrowEmeneau1961[DED5517],,B&E form: becca
+1944,1944,warm-A,,Jordan,Lookalike with Kodava: bekke
+1945,1945,warm-B,Andronov1964,,
+1946,1946,warm-C,,Jordan,Identical to Tamil form. Might be DED2654?
+1947,1947,warm-C,,Jordan,Identical to Betta Kurumba form. Might be DED2654?
+1948,1948,warm-D,,Kolipakam,Not similar to any other cognate class
+1949,1949,warm-D,,Kolipakam,Not similar to any other cognate class
+1950,1950,warm-E,,Dunn,apparent singleton
+1951,1951,warm-F,,Kolipakam,Not similar to any other cognate class
+1952,1952,warm-G,BurrowEmeneau1961[DED2654],,"Malt. kuṛe (kuṭ-) to burn, roast, sear; kuṛnare to be hot or warm; kuṛni warm, hot."
+1953,1953,warm-H,BurrowEmeneau1961[136],,DED1458
+1954,1954,warm-I,,Kolipakam,apparent singleton. no entry in DED
+1955,1955,warm-J,,Kolipakam,apparent singleton. no entry in DED
+1956,1956,water-A,Andronov1964;BurrowEmeneau1961[265],,"; DED3045 Ta. taṇ cold, cool; grace, love; taṇuppu chilliness, cold; taṇṇīr, taṇṇi cold water, water;"
+1957,1957,water-B,Andronov1964;BurrowEmeneau1961[501],,; DED5503 Ma. veḷḷam water.
+1958,1958,water-C,Buck1949[34],,Skt. jala-
+1959,1959,water-D,BurrowEmeneau1961[18],,DED187
+1960,1960,water-D,BurrowEmeneau1961[18],,"Malt. amu ""water"""
+1961,1961,water-E,,Kolipakam,High quality look alike to DED3690
+1962,1962,water-E,,,
+1963,1963,water-E,BurrowEmeneau1961[328],,DED3690
+1964,1964,water-E,BurrowEmeneau1961[328],,"Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1965,1965,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1966,1966,water-E,BurrowEmeneau1961[328],,DED3690
+1967,1967,water-E,BurrowEmeneau1961[325],,DED3690
+1968,1968,water-E,,Kolipakam,High quality look alike to DED3690
+1969,1969,water-E,BurrowEmeneau1961[328],,DED3690
+1970,1970,water-E,BurrowEmeneau1961[328],,"DED3690 Pa. nīr water, general appearance, character."
+1971,1971,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1972,1972,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1973,1973,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1974,1974,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1975,1975,water-E,BurrowEmeneau1961[328],,"DED3690 Ta. nīr water, sea, juice, liquor, urine, dampness, moisture; nature, disposition, state, condition; (-pp-, -tt-) to become thin or watery (as liquid food in cooking), be wet, moist; nīrmai property of water, as coolness; īr moisture, wetness, freshness, greenness; īram wet, moisture, humidity, freshness, greenness, coolness; īrali (-pp-, -tt-) to become moist, damp; īri (-pp-, -tt-) to become wet, moist, damp, cool, be benumbed by cold or disease; īrippu dampness, moisture; īriya damp, wet, cold. Ma. nīr water, juice, moisture; īram moisture, dirt; īrikka to grow damp; īrppam dampness; īrmam, īrman damp cloth; īṟam moisture, dirt, wet cloth; īṟan wet cloth. Ko. ni·r water, semen. To. ni·r water; ni·xoy- (ni·xos-) to be thirsty (see 1458); ni· pïkwïḷy water blister (see 4455); ni· pa·w watering-place in stream; i·rm (obl. i·rt-) dampness. Ka. nīr, nīru water; īra moisture, dampness, wetness; (Gul.) nīrki thirst. Koḍ. ni·rï water. Tu. nīrů id. Te. nīru water, urine; nīḷḷu (pl.) water; īmiri moisture. Kol. i·r water. Nk. īr id. Nk. (Ch.) īr water; īr kak- to bathe. Pa. nīr water, general appearance, character. Ga. (Oll. S.) nīr water. Konḍa nīr masu mist, dew (cf. 4641). Kui nīru juice, sap, essence. Br. dīr water, flood-water, juice, sap. / Cf. Skt. nīra- water, juice, liquor; nīvara- water, mud; Turner, CDIAL, no. 7552."
+1976,1976,water-E,,Kolipakam,High quality look alike to DED3690
+1977,1977,water-F,BurrowEmeneau1961[76],,DED761
+1978,1978,water-G,BurrowEmeneau1961[468],,DED5159
+1979,1979,we-A,,Verkerk,high quality look-alike
+1980,1980,we-A,BurrowEmeneau1961[322],,3647
+1981,1981,we-A,BurrowEmeneau1961[322],,"set 3647, form cited is nāvu"
+1982,1982,we-A,BurrowEmeneau1961[DED5154],,"Koḍ. eŋga (obl. eŋga-), naŋga (obl. naŋga-) we."
+1983,1983,we-A,,Verkerk,"look-alike, but unclear"
+1984,1984,we-A,BurrowEmeneau1961[322],,3647
+1985,1985,we-A,BurrowEmeneau1961[322],,"no. 3674, form cited is nām"
+1986,1986,we-A,BurrowEmeneau1961[322],,No. 3647 Malt. nám (obl. nam-) 'we (incl.)'
+1987,1987,we-A,BurrowEmeneau1961[322],,no. 3647
+1988,1988,we-A,BurrowEmeneau1961[322],,set 3647
+1989,1989,we-A,,Verkerk,high quality look-alike
+1990,1990,we-B,,Dunn,good lookalike
+1991,1991,we-B,,Dunn,doubtful lookalike (compare Tulu for another j- initial form)
+1992,1992,we-B,BurrowEmeneau1961[468],,DED 5154
+1993,1993,we-B,BurrowEmeneau1961[467],,DED 5154
+1994,1994,we-B,BurrowEmeneau1961[467],,DED 5154
+1995,1995,we-B,,Verkerk,"look-alike, but very doubtful"
+1996,1996,we-B,BurrowEmeneau1961[468],,DED 5154
+1997,1997,we-B,Andronov1964;BurrowEmeneau1961[467],,; set 5154. meaning = exclusive 'we'
+1998,1998,we-B,BurrowEmeneau1961[467],,DED 5154
+1999,1999,we-B,Andronov1964;BurrowEmeneau1961[467],,; set 5154
+2000,2000,we-B,BurrowEmeneau1961[467],,"set 5154, form cited is: 'nāṅkaḷ (obl. eṅkaḷ-) we (excl.)'"
+2001,2001,we-B,BurrowEmeneau1961[467],,"set 5154, form cited 'ēmu, nēmu, mēmu (obl. man-/mā-)'"
+2002,2002,we-B,Andronov1964[467];BurrowEmeneau1961[467],no. 5154,"exclusive 'we'; set 5154, form cited: To. em (obl. em-) we (excl.); om (obl. om-) we (incl.)."
+2003,2003,we-B,BurrowEmeneau1961[467],,"set 5154, form cited 'eṅkuḷů (obl. eṅkuḷe-) we (excl.)'"
+2004,2004,what-A,,Verkerk,high quality look-alike
+2005,2005,what-A,,Dunn,Similar to Tulu form
+2006,2006,what-A,BurrowEmeneau1961[467],,DED5151
+2007,2007,what-A,BurrowEmeneau1961[466],,DED5151
+2008,2008,what-A,Andronov1964,,"This form is not listed in DED5151: Ka. yā-, ā-, ē-, e- interrogative base; yā, yāva, ā, āva, dāva, ē, e what, which; yār, ār, dāru who (pl.); yāvanu, āvaṃ, āve which man; yāvaḷu, āvaḷ which woman; āvudu what, which; pl. āvuvu; yāke, yātake, yātakke, ētake, ēke why; ēn what; pl. ēvu; etta which or what place or direction, to or in which etc., where; ettam wheresoever; enitu, enittu, enisu, entuṭu, eṣṭu, ēṭu, ēsu how much, how many; enta, entā, entha, enthā, entaha, enna what kind or sort; entu how; entum by all or any means; endu when; endum always; enne what time; elli what place, where, whither; ehage, ehaṅge, eheṅge, eṅge, heṅge, hēge, hēṅge, hyāge hyāṅge in what manner; how."
+2009,2009,what-A,,Verkerk,"high quality look-alike, is not in DED5151 as would be expected: ""Koḍ. a·rï (dat. a·kï, gen. a·ḍa), da·rï who (sg., pl.); ennï what; e·vë&supern;, e·va, e·vu, e·dï which man, which woman, which persons, which thing or things; adj. e·; elli where; elliñji whence; ettï, ettaṭṭi, eppara to which side; ettiñji from which direction; e·le by which way; ekka when; ekkatiñji since when; ekka·kaṇe until when; ekkale· just when; ekkalu·, ekko·lu· always; endï which day; endu· always; eccë, eccakï how many; ennatë, entë of what kind; ennane, e·taratï in what manner; ennata·ŋgï for what purpose; e·naŋguṇḍï on account of what; ennaŋgï why."""
+2010,2010,what-A,BurrowEmeneau1961[466],,DED5151
+2011,2011,what-A,BurrowEmeneau1961[466],,DED5151
+2012,2012,what-A,,Verkerk,look-alike with Gondi
+2013,2013,what-A,BurrowEmeneau1961[467],,DED5151
+2014,2014,what-A,BurrowEmeneau1961[466],,DED5151
+2015,2015,what-A,Andronov1964;BurrowEmeneau1961[DED5151],,"; DED5151 Form cited is: ""entu what;"""
+2016,2016,what-A,BurrowEmeneau1961,,DED5151
+2017,2017,what-A,BurrowEmeneau1961,,DED5151
+2018,2018,what-A,BurrowEmeneau1961[466],,DED5151
+2019,2019,what-A,BurrowEmeneau1961[DED5151],,DED5151
+2020,2020,what-A,Andronov1964;BurrowEmeneau1961[DED5151],,"; DED5151 Form cited is: ""eṉṉa, eṉṉatu, eṉṉai what;"""
+2021,2021,what-A,Andronov1964,,
+2022,2022,what-A,,Verkerk,"high quality look-alike, is not in DED5151 as would be expected: ""Te. evãḍu (obl. evani-)/ēvã̄ḍu/ evvã̄ḍu/evvãḍu/ē̃ḍu/etãḍu, evaru (obl. evari-)/ ēvāru/evāru/evvaru/ēru/ēvārulu/evvāralu/ēvāṇḍru/evvāṇḍru/evvaṇḍru/evaṇḍru, ēdi (obl. dēni-)/edi/eddi/ēyadi/eyyadi, ēvi (obl. vēṭi-)/ evi/evvi/ēyavi/eyyavi who/which man, which persons, which woman or thing, which things; adj. ē; evata, evati, evatuka, evate, evarita, evariti, evarite, evartuka, (all the preceding with vv for v), ēbiḍa, ēme, ēpe, ēke which woman; ēmi what, why, how much, how; ekkaḍa, ecaṭa, ecaṭu, ecoṭu, eccaṭa, eccaṭu, eccō, eccōṭa, eccō˘ṭu, eṭa, ēḍa, ēyeḍa what place, where; ekkaḍi of what place; eppuḍu, epuḍu when; eppaṭi of what time; usual, former, old; endu where; enduṇḍi whence; endunu everywhere; enta how much, how great; entamu much, ever so much; ententa how large each; endanuka, endã̄ka how far, how long, until when; endaṟu how many persons; enni, eni how many things; enduku, ēṭiki ēla, ēlā why; eṭu, eṭula, eṭulu, eṭṭu, eṭṭulu, eṭlu, ēlāgu how; eṭṭi, ēṭi, ēlāṭi like what; eṭṭĩḍu what sort of man; eṭṭidi what sort of woman or thing; ennaḍu what day, when."""
+2023,2023,what-A,BurrowEmeneau1961[466],,DED5151
+2024,2024,what-A,,Verkerk,"look-alike, highly doubtful to be a cognate; is not in DED5151 as would be expected: ""To. e-, e·- (same meaning as Ko.); e·Q (obl. personal e·n-) which person or thing; pl. e·Qa·m; adj. e· (before consonant), e·y (before vowel); e·Qïd because of what; e·Qïdm because of any of these things; eṯ in which direction; eṯm in any direction; eṯïk a little in which direction; eṯs̱n, es̱n whence; e·l where; e·nk to what place; e·na·ṟ by what road, towards where; e·faxm always; e·ḏ, (in song also) eḏ why; eḏ on what day; etfok, etfïn when; et how many; etk how much; etks̱ at what distance; eto·f such as what; egy what manner, how; however much; e(g) gïs doing in what way, how; e(g) gïsem somehow; es̱ ïn- to say how or what; o·ry (obl. o·r-) who; in what; why; i· what (i· xïy- to do what; freely used in song). """
+2025,2025,what-A,,Verkerk,"is in DED5151 under form of eñci - ""Tu. ērů, ēraṇe who; dā, dānè, jānè, dāva, dādavu, vā, ovu what, which; dāye why; ēni, ēpa, ēpo when; ētů how much, how many; ētoḷu how often; eñca how; eñci what sort of; eñcitti such as what; ōḷu, oḷpa where; oḍe whither; oñci whence; (B-K.) ōpe which side; ōpetāyé which man. """
+2026,2026,what-A,,Verkerk,high quality look-alike
+2027,2027,white-A,,Jordan,Identical to e.g. Tamil and other members of DED5496
+2028,2028,white-A,,Jordan,Close lookalike with eg. Kannada beḷ(u) and cognate set DED5496
+2029,2029,white-A,BurrowEmeneau1961[DED5496],,"B&E forms: beḷ(u), beḷa, beḷ(u)pu, beḷatige, beḷantige, beḷḷage, biḷa, biḷu, biḷi, biḷe, biḷapu, biḷ(u)pu whiteness, brightness"
+2030,2030,white-A,BurrowEmeneau1961[DED5496],,"B&E form: boḷï- (boḷïp-, boḷït-) to become white; boḷakï, boḷica lamp; boḷi light; boḷïpï whiteness; boḷïtë white"
+2031,2031,white-A,BurrowEmeneau1961[500],,DED5496
+2032,2032,white-A,Andronov1964;BurrowEmeneau1961[DED5496],,"; B&E form: veḷukka to dawn, grow white, be white, be clean or bright; veḷuppu whiteness, brightness, dawn, leprosy;"
+2033,2033,white-A,BurrowEmeneau1961[DED5496],,
+2034,2034,white-A,Andronov1964;BurrowEmeneau1961[DED5496],,; B&E form: vel
+2035,2035,white-A,Andronov1964;BurrowEmeneau1961[DED5496],,"; B&E form: vella, vellani white; vellana, velli, vellika whiteness;"
+2036,2036,white-A,BurrowEmeneau1961[DED5496],,B&E form: pöl
+2037,2037,white-A,BurrowEmeneau1961[DED5496],,"B&E form: boḷů, bolů, boḷůṅgarè, bolci, boḷḷarè, boḷḷenti"
+2038,2038,white-A,,Jordan,Lookalike to e.g. Kodava and other members of DED5496
+2039,2039,white-B,BurrowEmeneau1961[301],,DED3433
+2040,2040,white-B,BurrowEmeneau1961[301],,DED3433
+2041,2041,white-B,,Kolipakam,"High quality look alike to DED3433 Te. teli white, pure"
+2042,2042,white-B,BurrowEmeneau1961[301],,"DED3433 Te. teli white, pure"
+2043,2043,white-C,,Kolipakam,No entry in DED
+2044,2044,white-C,,Kolipakam,No entry in DED
+2045,2045,white-D,,Kolipakam,No entry in DED
+2046,2046,white-E,,Kolipakam,apparent singleton. No entry in DED
+2047,2047,white-F,,Kolipakam,apparent singleton. No entry in DED
+2048,2048,white-G,,Kolipakam,apparent singleton. No entry in DED
+2049,2049,white-H,,Kolipakam,apparent singleton. No entry in DED
+2050,2050,who-A,,Dunn,"good lookalike, identical to form in sister language"
+2051,2051,who-A,BurrowEmeneau1961[465],,DED5151
+2052,2052,who-A,BurrowEmeneau1961[466],,DED5151
+2053,2053,who-A,Andronov1964;BurrowEmeneau1961[DED5151],,"; DED5151 - Form very similar but not the same as in DED: Ka. yā-, ā-, ē-, e- interrogative base; yā, yāva, ā, āva, dāva, ē, e what, which; yār, ār, dāru who (pl.); yāvanu, āvaṃ, āve which man; yāvaḷu, āvaḷ which woman; āvudu what, which; pl. āvuvu; yāke, yātake, yātakke, ētake, ēke why; ēn what; pl. ēvu; etta which or what place or direction, to or in which etc., where; ettam wheresoever; enitu, enittu, enisu, entuṭu, eṣṭu, ēṭu, ēsu how much, how many; enta, entā, entha, enthā, entaha, enna what kind or sort; entu how; entum by all or any means; endu when; endum always; enne what time; elli what place, where, whither; ehage, ehaṅge, eheṅge, eṅge, heṅge, hēge, hēṅge, hyāge hyāṅge in what manner; how."
+2054,2054,who-A,BurrowEmeneau1961[DED5151],,"DED5151 Form listed as a:rï - - Koḍ. a·rï (dat. a·kï, gen. a·ḍa), da·rï who (sg., pl.); ennï what; e·vë&supern;, e·va, e·vu, e·dï which man, which woman, which persons, which thing or things; adj. e·; elli where; elliñji whence; ettï, ettaṭṭi, eppara to which side; ettiñji from which direction; e·le by which way; ekka when; ekkatiñji since when; ekka·kaṇe until when; ekkale· just when; ekkalu·, ekko·lu· always; endï which day; endu· always; eccë, eccakï how many; ennatë, entë of what kind; ennane, e·taratï in what manner; ennata·ŋgï for what purpose; e·naŋguṇḍï on account of what; ennaŋgï why."
+2055,2055,who-A,BurrowEmeneau1961[467],,DED5151
+2056,2056,who-A,BurrowEmeneau1961[467],,DED5151
+2057,2057,who-A,Andronov1964;BurrowEmeneau1961[DED5151],,"; DED5151 - Form found is a:r: Ma. yāvan/ēvan, yāvaḷ/ēvaḷ, yāvar/ēvar/yār/ār who (masc. sg., fem. sg., pl.); yā/yātu/ētu/ēn, ēva what (sg., pl.); e, ē what; eṅṅu where; eṅṅum, eṅṅānum anywhere; eṅṅanē how; ettira, etra how much, how many; entu what; why; ennu what day, when; ennum, ennekkum always; e-ppuṟam what side; e-ppōḷ when; eppērum everyone"
+2058,2058,who-A,BurrowEmeneau1961,,DED 5151
+2059,2059,who-A,BurrowEmeneau1961[DED5151],,"DED5151 - form differently written - Pa. ēd (obl. ēr-) who; adj. āro which; ēdi (obl. ēri-) anybody, (with neg.) nobody; eŋgoṭ, eñot how much; ete, eten how; etoḍ, ettel when; etoḍ etoḍ repeatedly; etoḍi always, (with neg.) never; etni in what way; āre where; āt, āroḍ whither; nā, nāto what; nātek, nāteg, nāteŋg why."
+2060,2060,who-A,Andronov1964;BurrowEmeneau1961[DED5151],,; DED5151
+2061,2061,who-A,Andronov1964;BurrowEmeneau1961[DED5151],,; DED5151
+2062,2062,who-A,BurrowEmeneau1961[DED5151],,"DED5151 - spelled slightly differently; o:ry - To. e-, e·- (same meaning as Ko.); e·Q (obl. personal e·n-) which person or thing; pl. e·Qa·m; adj. e· (before consonant), e·y (before vowel); e·Qïd because of what; e·Qïdm because of any of these things; eṯ in which direction; eṯm in any direction; eṯïk a little in which direction; eṯs̱n, es̱n whence; e·l where; e·nk to what place; e·na·ṟ by what road, towards where; e·faxm always; e·ḏ, (in song also) eḏ why; eḏ on what day; etfok, etfïn when; et how many; etk how much; etks̱ at what distance; eto·f such as what; egy what manner, how; however much; e(g) gïs doing in what way, how; e(g) gïsem somehow; es̱ ïn- to say how or what; o·ry (obl. o·r-) who; in what; why; i· what (i· xïy- to do what; freely used in song)."
+2063,2063,who-A,BurrowEmeneau1961[DED5151],,"DED5151 Form listed a bit differently: Tu. ērů, ēraṇe who; dā, dānè, jānè, dāva, dādavu, vā, ovu what, which; dāye why; ēni, ēpa, ēpo when; ētů how much, how many; ētoḷu how often; eñca how; eñci what sort of; eñcitti such as what; ōḷu, oḷpa where; oḍe whither; oñci whence; (B-K.) ōpe which side; ōpetāyé which man."
+2064,2064,who-A,,Verkerk,Good quality look-alike
+2065,2065,who-B,,Dunn,no clear lookalike
+2066,2066,who-C,,Dunn,no clear lookalike
+2067,2067,who-D,,Kolipakam,No Clear look alike
+2068,2068,woman-A,BurrowEmeneau1961,,"Good lookalike to e.g. 4395 (a) Ta. peṇ woman, daughter, girl, wife, bride, female of animals or plants; peṇṭu woman, wife; peṇṭir (pl.) women; peṇṭaṉ, peṇṭakaṉ, peṇṭakam hermaphrodite, eunuch;"
+2069,2069,woman-A,BurrowEmeneau1961[DED4395],,"DED4395: ""Ka. peṇ, peṇṇu, peṇḍa female, woman; (Shanmugam) peṇḍir (pl.) women; peṇḍati, peṇḍiti wife; peṇtana state of being a female, feminine character or behaviour; heṇṇiga impotent man, coward; heṇṇuga pimp; heṅgasu female."""
+2070,2070,woman-A,BurrowEmeneau1961[DED4395],,"DED4395: ""Koḍ. poṇṇï wife, female; poṇṇa·ḷï woman; poŋga id. (in songs); pommakka women, wives."""
+2071,2071,woman-A,BurrowEmeneau1961[388],,DED 4395
+2072,2072,woman-A,BurrowEmeneau1961[DED4395],,"DED4395: ""Ma. peṇ a female, esp. a female child, girl, maidservant, bride; peṇṭi girl, woman; peṇṇan effeminate"""
+2073,2073,woman-A,Andronov1964;BurrowEmeneau1961[DED4395],,"; DED4395: ""Ta. peṇ woman, daughter, girl, wife, bride, female of animals or plants; peṇṭu woman, wife; peṇṭir (pl.) women; peṇṭaṉ, peṇṭakaṉ, peṇṭakam hermaphrodite, eunuch; peṇṇaṉ effeminate man; peṇmai being born a woman, feminine grace, womanliness, modesty; piṇai female of animals, doe; piṇaval female of the dog, pig, deer, or yak; piṇavu, piṇā id., woman; peṇṇai palmyra palm (cf. peṇ-paṉai female palmyra palm). """
+2074,2074,woman-A,,Verkerk,"Is not in DED4395, but looks a lot like it."
+2075,2075,woman-A,BurrowEmeneau1961[DED4395],,"DED4395: ""Tu. poṇṇu girl, female, maid; poṇṇa female, feminine, bridal; poṇjavu, poṇjevu a female in general, a grown-up woman; boḍedi wife; emmaḷu woman. """
+2076,2076,woman-B,Andronov1964,,
+2077,2077,woman-B,Andronov1964,,
+2078,2078,woman-B,Andronov1964,,
+2079,2079,woman-D,,,
+2080,2080,woman-E,,Verkerk,Doesn't resemble any of the other forms
+2081,2081,woman-F,,Verkerk,Doesn't resemble any of the other forms
+2082,2082,woman-G,,Verkerk,Doesn't resemble any of the other forms
+2083,2083,woman-H,,Verkerk,Doesn't resemble any of the other forms
+2084,2084,woman-I,,Verkerk,Doesn't resemble any of the other forms
+2085,2085,woman-J,,,
+2086,2086,woman-K,,Kolipakam,Similar to hindi naari
+2087,2087,woman-L,,Kolipakam,No entry in DED or obvious cognates
+2088,2088,woman-M,BurrowEmeneau1961[442],,DED4944
+2089,2089,woman-N,,Kolipakam,No obvious cognate or entry in DED
+2090,2090,woman-O,,Kolipakam,No obvious cognates or entry in DED
+2091,2091,woman-P,,Kolipakam,No obvious cognates or entry in DED
+2092,2092,woman-Q,,Kolipakam,No obvious cognates or entry in DED
+2093,2093,woman-R,,Kolipakam,No obvious cognates or entry in DED
+2094,2094,woman-S,,Kolipakam,No obvious cognates or entry in DED
+2095,2095,yellow-A,BurrowEmeneau1961[DED4635],,Lookalike with Kodava: mandʒa
+2096,2096,yellow-A,BurrowEmeneau1961[DED4635],,Lookalike with Tamil: mandʒaɭ
+2097,2097,yellow-A,BurrowEmeneau1961[DED4635],,B&E form: mañja
+2098,2098,yellow-A,BurrowEmeneau1961[409],,DED4635
+2099,2099,yellow-A,Andronov1964;BurrowEmeneau1961[DED4635],,; B&E form: mañña
+2100,2100,yellow-A,Andronov1964;BurrowEmeneau1961[DED4635],,"; ""Yellow colour as that of turmeric"""
+2101,2101,yellow-A,BurrowEmeneau1961[DED4635],,B&E form: mañjaḷů
+2102,2102,yellow-A,BurrowEmeneau1961[DED4635],,Lookalike with Kodava: mandʒa
+2103,2103,yellow-B,Andronov1964,,Andronov form: halaḍī - hindi - haldi (yellow)
+2104,2104,yellow-C,,Jordan,"Lookalike with Telegu pasupu, and identical to Kol. ""turmeric"" in B&E DED3821"
+2105,2105,yellow-C,Andronov1964;BurrowEmeneau1961[DED3821],,"; B&E forms: pasupu ""yellowish, turmeric"", pacca ""green, yellow"""
+2106,2106,yellow-D,BurrowEmeneau1961[DED220],,"B&E form: arsn ""saffron, yellow"""
+2107,2107,yellow-E,BurrowEmeneau1961[364],,DED4102
+2108,2108,yellow-E,BurrowEmeneau1961[364],,DED4102
+2109,2109,yellow-F,BurrowEmeneau1961[226],,DED2608
+2110,2110,yellow-G,,Kolipakam,apparent singleton. No entry in DED
+2111,2111,yellow-H,,Kolipakam,apparent singleton. No entry in DED
+2112,2112,yellow-I,,Kolipakam,apparent singleton. No entry in DED
+2113,2113,yellow-J,,Kolipakam,apparent singleton. No entry in DED
+2114,2114,yellow-K,,Kolipakam,apparent singleton. No entry in DED

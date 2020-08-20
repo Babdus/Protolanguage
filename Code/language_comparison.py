@@ -21,7 +21,7 @@ ie_test_langs = ['af', 'as', 'be', 'bg', 'bn', 'br', 'ca', 'cs',
 
 def get_languages(arg):
     if arg[-4:] == '.csv':
-        return pd.read_csv(arg).code
+        return pd.read_csv(arg, keep_default_na=False).code
     else:
         return arg.split(' ')
 
@@ -46,10 +46,10 @@ def compare(argv):
     start = time()
     df = pd.io.parsers.read_csv(argv[0],index_col=0).fillna('')
 
-    langs = ie_test_langs
+    langs = list(set(ie_test_langs) & set(df.columns))
 
     if len(argv) > 2:
-        langs = get_languages(argv[2])
+        langs = list(set(get_languages(argv[2])) & set(df.columns))
 
     with open(argv[1], 'w') as out:
         out.write(','+','.join(langs)+'\n')

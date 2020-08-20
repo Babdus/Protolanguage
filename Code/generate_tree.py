@@ -1,6 +1,7 @@
 import sys
 from time import time
 import pandas as pd
+import numpy as np
 from distance_dict_to_tree_dict import distance_to_tree
 
 def generate(argv):
@@ -24,12 +25,20 @@ def generate(argv):
             for b in d.columns:
                 if a != b:
                     Q[a][b] = (n-2)*d[a][b] - sum(d[a][k] for k in d.columns) - sum(d[b][k] for k in d.columns)
+                # else:
+                #     Q[a][b] = 0
+
+        # Q.astype(np.float16)
 
         #2 Find pair with minimal value in Q
-        a, b = Q.stack().idxmin()
+        # try:
+        a, b = Q.stack().astype(np.float16).idxmin()
+        # except TypeError:
+        #     print(Q)
+        #     exit()
 
         #3 Create parent node for minimal found pair and assign edge lengths
-        ab = a+b
+        ab = a+'.'+b
         if n == 2:
             delta[(a, ab)] = 0.5*d[a][b]
         else:

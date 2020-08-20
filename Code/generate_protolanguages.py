@@ -56,13 +56,13 @@ def reconstruct_languages(tree, df):
         reconstruct_languages(child1, df)
     else:
         child1['full_name'] = child1['name']
-        child1['name']      = tree['name'][:2]
+        child1['name']      = tree['name'].split('.')[0]
         child1['lang']      = load_modern_language(child1['name'], df)
     if 'children' in child2:
         reconstruct_languages(child2, df)
     else:
         child2['full_name'] = child2['name']
-        child2['name']      = tree['name'][-2:]
+        child2['name']      = tree['name'].split('.')[1]
         child2['lang']      = load_modern_language(child2['name'], df)
 
     tree['lang'] = reconstruct_language(child1, child2)
