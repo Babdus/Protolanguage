@@ -24,7 +24,7 @@ def convert(argv):
     df = df[df.index.notnull()]
     df.drop(['Family', 'Group', 'Language', 'Code2'], axis=1, inplace=True)
     df['Missing'] = df.apply(lambda x: x.isnull().sum(), axis='columns')
-    df.drop(df[df['Missing'] > 177].index, axis=0, inplace=True)
+    df.drop(df[df['Missing'] > 206].index, axis=0, inplace=True) #TODO change 206 to any number below to limit dictionaries with missing words
     df.drop(['Missing'], axis=1, inplace=True)
     df = df.fillna('')
     df = df[set(df.columns) & set(words)]
