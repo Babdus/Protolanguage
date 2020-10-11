@@ -45,7 +45,7 @@ def main(argv):
             convert_catalogue([words_csv, langs_csv, catalogue_path, word_languge_dicts_path])
 
     if from_step < 2:
-        print('Calculating language distances')
+        print('Calculating language distances', end='\r')
     language_distance_matrix_path = data_dir_path + '/words_and_languages/' + name + '_distances.csv'
     if from_step < 2:
         compare_langs([word_languge_dicts_path, language_distance_matrix_path, langs_csv])

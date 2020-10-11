@@ -51,6 +51,9 @@ def compare(argv):
     if len(argv) > 2:
         langs = list(set(get_languages(argv[2])) & set(df.columns))
 
+    n_langs = len(langs)
+    counter = 0
+
     with open(argv[1], 'w') as out:
         out.write(','+','.join(langs)+'\n')
         for i, col1 in enumerate(langs):
@@ -59,7 +62,8 @@ def compare(argv):
                 if i <= j:
                     out.write(',')
                     continue
-                print(col1, col2, end='\r')
+                counter += 1
+                print('Calculating language distances', f'{col1: <4}', f'{col2: <4}', f'\033[32;1m{(100*counter)//(((n_langs**2)-n_langs)//2)}%\033[0m', end='\r')
                 distances, output = calculate_distance(df, col1, col2, None)
                 if len(distances) == 0:
                     out.write(',N/A')
@@ -68,7 +72,7 @@ def compare(argv):
             out.write('\n')
 
     end = time()
-    print(((end-start)*1000//1)/1000, 'seconds')
+    print('Calculating language distances', f'\033[32;1m100%\033[0m', ((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
     compare(sys.argv[1:])
