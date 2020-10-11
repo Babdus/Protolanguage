@@ -1,71 +1,71 @@
 [
   {
-    "name": "liv.vro.et.vep.vot.krl.fi",
+    "name": "liv.et.vro.vep.vot.fi.krl",
     "parent": "null",
     "children": [
       {
-        "name": "liv.vro.et",
-        "distance": 0.0031876562500003924,
-        "parent": "liv.vro.et.vep.vot.krl.fi",
+        "name": "liv.et.vro",
+        "distance": 0.0031889844984185345,
+        "parent": "liv.et.vro.vep.vot.fi.krl",
         "children": [
           {
             "name": "Livonian",
-            "distance": 8.3657659375,
-            "parent": "liv.vro.et"
+            "distance": 8.36576822696481,
+            "parent": "liv.et.vro"
           },
           {
-            "name": "vro.et",
-            "distance": 1.5938790624999992,
-            "parent": "liv.vro.et",
+            "name": "et.vro",
+            "distance": 1.5938747584919888,
+            "parent": "liv.et.vro",
             "children": [
               {
-                "name": "V\u00f5ro",
-                "distance": 3.5659699999999996,
-                "parent": "vro.et"
+                "name": "Estonian",
+                "distance": 3.3914762683394613,
+                "parent": "et.vro"
               },
               {
-                "name": "Estonian",
-                "distance": 3.3914699999999995,
-                "parent": "vro.et"
+                "name": "V\u00f5ro",
+                "distance": 3.565973478062365,
+                "parent": "et.vro"
               }
             ]
           }
         ]
       },
       {
-        "name": "vep.vot.krl.fi",
-        "distance": 0.0031876562500003924,
-        "parent": "liv.vro.et.vep.vot.krl.fi",
+        "name": "vep.vot.fi.krl",
+        "distance": 0.0031889844984185345,
+        "parent": "liv.et.vro.vep.vot.fi.krl",
         "children": [
           {
             "name": "Veps",
-            "distance": 5.6043071875,
-            "parent": "vep.vot.krl.fi"
+            "distance": 5.604309359282306,
+            "parent": "vep.vot.fi.krl"
           },
           {
-            "name": "vot.krl.fi",
-            "distance": 1.4003203124999999,
-            "parent": "vep.vot.krl.fi",
+            "name": "vot.fi.krl",
+            "distance": 1.4003206217569915,
+            "parent": "vep.vot.fi.krl",
             "children": [
               {
                 "name": "Votic",
-                "distance": 4.022478749999999,
-                "parent": "vot.krl.fi"
+                "distance": 4.02247836622042,
+                "parent": "vot.fi.krl"
               },
               {
-                "name": "krl.fi",
-                "distance": 0.8700662499999998,
-                "parent": "vot.krl.fi",
+                "name": "fi.krl",
+                "distance": 0.8700653320297995,
+                "parent": "vot.fi.krl",
                 "children": [
                   {
-                    "name": "Karelian",
-                    "distance": 3.3089918750000002,
-                    "parent": "krl.fi"
+                    "name": "Finnish",
+                    "distance": 3.252242234970745,
+                    "parent": "fi.krl"
                   },
                   {
-                    "name": "Finnish",
-                    "distance": 3.252238125,
-                    "parent": "krl.fi"
+                    "name": "Karelian",
+                    "distance": 3.308996311775048,
+                    "parent": "fi.krl"
                   }
                 ]
               }
