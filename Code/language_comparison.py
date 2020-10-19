@@ -2,9 +2,10 @@ import sys
 from time import time
 import pandas as pd
 import numpy as np
-from multiprocessing import Pool
+from multiprocessing import Pool, current_process
 from IPA.IPAString import IPAString as Istr
 from IPA.IPAStringComparison import IPAStringComparison as Istcom
+from IPA.IPACharComparison import save_cache, read_cache
 
 test_langs = ['af', 'ar', 'as', 'az', 'ba', 'be', 'bg', 'bn', 'bo', 'br', 'ca',
               'cs', 'cy', 'da', 'de', 'el', 'en', 'es', 'fa', 'fi', 'fo', 'fr',
@@ -46,9 +47,11 @@ def calculate_distance(df, lang_1, lang_2, output_file):
             output.append((distance*1000//1/1000, word, lang_2_words[i]))
     return distances, output
 
-def calculate_distance_raw(should_skip, lang_1, lang_2, wordtups, comp, n_langs):
-    print('Calculating language distances',
-            f'{lang_1: <4}', f'{lang_2: <4}',
+def calculate_distance_raw(count, should_skip, lang_1, lang_2, wordtups, comp, n_langs):
+    process_id = current_process()._identity[0]
+    print((process_id-1)*'\t\t',
+            f'\033[32;1m{count*100/n_langs**2:4.1f}%\033[0m',
+            f'{lang_1: <3}', f'{lang_2: <3}', '\033[36;1m|\033[0m',
             end='\r')
     if should_skip:
         return (lang_1, lang_2, None)
@@ -67,8 +70,8 @@ def compare_parallel(out, langs, df):
     table = table.loc[sorted(table.index)]
     matrix = np.array(table)
     comp = Istcom()
-    pool = Pool(20)
-    args = [ (i <= j, lang_1, lang_2, [ (word_1, word_2) for word_1, word_2 in matrix[:,(i, j)] ], comp, matrix.shape[1]) for i, lang_1 in enumerate(table.columns) for j, lang_2 in enumerate(table.columns) ]
+    pool = Pool(4)
+    args = [ (i*matrix.shape[1]+j, i <= j, lang_1, lang_2, [ (word_1, word_2) for word_1, word_2 in matrix[:,(i, j)] ], comp, matrix.shape[1]) for i, lang_1 in enumerate(table.columns) for j, lang_2 in enumerate(table.columns) ]
     tuples = pool.starmap(calculate_distance_raw, args)
     tuples = np.array(sorted(tuples, key=lambda x: x[0]))
     tuples = tuples.reshape(matrix.shape[1], matrix.shape[1], -1)
@@ -90,8 +93,7 @@ def compare_loop(out, langs, df):
                 out.write(',')
                 continue
             counter += 1
-            print('Calculating language distances',
-                    f'{col1: <4}', f'{col2: <4}',
+            print(f'{col1: <4}', f'{col2: <4}',
                     f'\033[32;1m{(100*counter)//(((n_langs**2)-n_langs)//2)}%\033[0m',
                     end='\r')
             distances, output = calculate_distance(df, col1, col2, None)
@@ -111,11 +113,15 @@ def compare(argv):
     if len(argv) > 2:
         langs = list(set(get_languages(argv[2])) & set(df.columns))
 
+    read_cache(argv[3] + '/cache.pickle')
+
     with open(argv[1], 'w') as out:
         compare_parallel(out, langs, df)
 
+    # save_cache(argv[3] + '/cache.pickle')
+
     end = time()
-    print('Calculating language distances', f'\033[32;1m100%\033[0m', ((end-start)*1000//1)/1000, 'seconds')
+    print(f'\033[32;1m100%\033[0m', ((end-start)*1000//1)/1000, 'seconds')
 
 
 if __name__ == "__main__":
