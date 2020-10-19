@@ -11,7 +11,7 @@ from datetime import datetime
 from data_collection.wiktionary_parser import parser as wiki_parser
 from data_collection.convert_catalogue_to_dicts import convert as convert_catalogue
 from language_comparison import compare as compare_langs
-from generate_tree import generate as generate_tree
+from generate_tree_np import generate as generate_tree
 from generate_protolanguages import generate as reconstruct
 
 def main(argv):

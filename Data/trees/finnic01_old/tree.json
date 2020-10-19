@@ -1,0 +1,78 @@
+[
+  {
+    "name": "liv.et.vro.vep.vot.fi.krl",
+    "parent": "null",
+    "children": [
+      {
+        "name": "liv.et.vro",
+        "distance": 0.0031889844984185345,
+        "parent": "liv.et.vro.vep.vot.fi.krl",
+        "children": [
+          {
+            "name": "Livonian",
+            "distance": 8.36576822696481,
+            "parent": "liv.et.vro"
+          },
+          {
+            "name": "et.vro",
+            "distance": 1.5938747584919888,
+            "parent": "liv.et.vro",
+            "children": [
+              {
+                "name": "Estonian",
+                "distance": 3.3914762683394613,
+                "parent": "et.vro"
+              },
+              {
+                "name": "V\u00f5ro",
+                "distance": 3.565973478062365,
+                "parent": "et.vro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "vep.vot.fi.krl",
+        "distance": 0.0031889844984185345,
+        "parent": "liv.et.vro.vep.vot.fi.krl",
+        "children": [
+          {
+            "name": "Veps",
+            "distance": 5.604309359282306,
+            "parent": "vep.vot.fi.krl"
+          },
+          {
+            "name": "vot.fi.krl",
+            "distance": 1.4003206217569915,
+            "parent": "vep.vot.fi.krl",
+            "children": [
+              {
+                "name": "Votic",
+                "distance": 4.02247836622042,
+                "parent": "vot.fi.krl"
+              },
+              {
+                "name": "fi.krl",
+                "distance": 0.8700653320297995,
+                "parent": "vot.fi.krl",
+                "children": [
+                  {
+                    "name": "Finnish",
+                    "distance": 3.252242234970745,
+                    "parent": "fi.krl"
+                  },
+                  {
+                    "name": "Karelian",
+                    "distance": 3.308996311775048,
+                    "parent": "fi.krl"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -3,6 +3,8 @@ String.prototype.trunc = String.prototype.trunc ||
     return (this.length > n) ? this.substr(0, n-1) + '&hellip;' : this;
   };
 
+md5Hex = require('md5-hex');
+
 lang_codes = {
   "aa": "Afar",
   "ab": "Abkhazian",
@@ -220,9 +222,10 @@ $(window).on('load', function() {
     let dir = url.searchParams.get("dir");
 
     langs.forEach(function (lang, index) {
-      let path = "../Data/protolanguages/"+lang+".json";
+      lang_path = md5Hex(lang)
+      let path = "../Data/protolanguages/"+lang_path+".json";
       if(dir){
-        path = "../Data/trees/"+dir+"/protolanguages/"+lang+".json";
+        path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
       }
       d3.json(path, function(error, data) {
         lang_name = lang

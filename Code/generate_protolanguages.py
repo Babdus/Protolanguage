@@ -9,6 +9,7 @@ from time import time
 import random
 import json
 import pandas as pd
+import hashlib
 from IPA.IPAString import IPAString as Istr
 from IPA.IPAStringComparison import IPAStringComparison as Istcom
 
@@ -94,7 +95,8 @@ def generate(argv):
         l_json = json.dumps(languages_dict[lang])
         if not os.path.exists(argv[3]):
             os.makedirs(argv[3])
-        with open(argv[3] + '/' + lang + '.json', 'w') as out:
+        lang_path = hashlib.md5(lang.encode()).hexdigest()
+        with open(argv[3] + '/' + lang_path + '.json', 'w') as out:
             out.write(l_json)
 
     print(((end-start)*1000//1)/1000, 'seconds')

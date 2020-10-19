@@ -5,17 +5,17 @@
     "children": [
       {
         "name": "liv.et.vro",
-        "distance": 0.0031889844984185345,
+        "distance": 13.343469789507559,
         "parent": "liv.et.vro.vep.vot.fi.krl",
         "children": [
           {
             "name": "Livonian",
-            "distance": 8.36576822696481,
+            "distance": 9.490924372952009,
             "parent": "liv.et.vro"
           },
           {
             "name": "et.vro",
-            "distance": 1.5938747584919888,
+            "distance": 10.42836159796159,
             "parent": "liv.et.vro",
             "children": [
               {
@@ -34,37 +34,37 @@
       },
       {
         "name": "vep.vot.fi.krl",
-        "distance": 0.0031889844984185345,
+        "distance": 13.343469789507559,
         "parent": "liv.et.vro.vep.vot.fi.krl",
         "children": [
           {
             "name": "Veps",
-            "distance": 5.604309359282306,
+            "distance": 0.7965272818354272,
             "parent": "vep.vot.fi.krl"
           },
           {
             "name": "vot.fi.krl",
-            "distance": 1.4003206217569915,
+            "distance": 16.018652271568772,
             "parent": "vep.vot.fi.krl",
             "children": [
               {
                 "name": "Votic",
-                "distance": 4.02247836622042,
+                "distance": 2.331252199383004,
                 "parent": "vot.fi.krl"
               },
               {
                 "name": "fi.krl",
-                "distance": 0.8700653320297995,
+                "distance": 7.453835197117435,
                 "parent": "vot.fi.krl",
                 "children": [
                   {
                     "name": "Finnish",
-                    "distance": 3.252242234970745,
+                    "distance": 3.2312307084031486,
                     "parent": "fi.krl"
                   },
                   {
                     "name": "Karelian",
-                    "distance": 3.308996311775048,
+                    "distance": 3.3300078383426444,
                     "parent": "fi.krl"
                   }
                 ]
