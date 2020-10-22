@@ -61,7 +61,7 @@ def generate(argv):
     with open(argv[1], 'w') as out:
         out.write(t_json)
 
-    print(((end-start)*1000//1)/1000, 'seconds')
+    # print(((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
     generate(sys.argv[1:])

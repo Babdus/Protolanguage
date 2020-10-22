@@ -12,6 +12,7 @@ import pandas as pd
 import hashlib
 from IPA.IPAString import IPAString as Istr
 from IPA.IPAStringComparison import IPAStringComparison as Istcom
+from colors import *
 
 def convert_istr_to_printable(tree, languages_dict):
     if 'children' in tree:
@@ -35,8 +36,7 @@ def reconstruct_language(child1, child2):
     dist1 = child1['distance']
     dist2 = child2['distance']
 
-    color_code = random.choice([30, 31, 32, 33, 34, 35, 36, 37, 90, 91, 92, 93, 94, 95, 96, 97])
-    print(f'\033[{str(color_code)}m', child1['name'], child2['name'], '\033[0m', end='\r')
+    print(blue('Reconstructing protolanguages', bold=True), random_color(f"{child1['name'][:16]:<3}"), random_color(f"{child2['name'][:16]:<3}"), ' '*32, end='\r')
 
     for word in lang1:
         if len(lang2[word]) < 1:
@@ -99,7 +99,7 @@ def generate(argv):
         with open(argv[3] + '/' + lang_path + '.json', 'w') as out:
             out.write(l_json)
 
-    print(((end-start)*1000//1)/1000, 'seconds')
+    # print(((end-start)*1000//1)/1000, 'seconds')
 
 if __name__ == "__main__":
     generate(sys.argv[1:])
