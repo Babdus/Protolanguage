@@ -13,9 +13,9 @@ def get_language_codes():
 def create_tree(tree, root, ch_dict, language_codes):
     if root in ch_dict:
         for child, distance in ch_dict[root]:
-            if child in language_codes:
-                child = language_codes[child]
             node = {'name': child, 'distance': distance, 'parent': root}
+            if child in language_codes:
+                node['full_name'] = language_codes[child]
             if 'children' in tree:
                 tree['children'].append(node)
             else:

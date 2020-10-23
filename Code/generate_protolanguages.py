@@ -10,6 +10,7 @@ import random
 import json
 import pandas as pd
 import hashlib
+from multiprocessing import Pool, cpu_count
 from IPA.IPAString import IPAString as Istr
 from IPA.IPAStringComparison import IPAStringComparison as Istcom
 from colors import *
@@ -28,8 +29,17 @@ def load_modern_language(lang, df):
         dictionary[word] = Istr(dictionary[word])
     return dictionary
 
+def reconstruct_word(word, lang1_word, lang2_word, dist1, dist2, comp):
+    if len(lang2_word) < 1:
+        return word, lang1_word
+    elif len(lang1_word) < 1:
+        return word, lang2_word
+    else:
+        comp.compare(lang1_word, lang2_word, asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
+        return word, comp.parent
+
 def reconstruct_language(child1, child2):
-    lang = {}
+    # lang = {}
     comp = Istcom()
     lang1 = child1['lang']
     lang2 = child2['lang']
@@ -38,15 +48,21 @@ def reconstruct_language(child1, child2):
 
     print(blue('Reconstructing protolanguages', bold=True), random_color(f"{child1['name'][:16]:<3}"), random_color(f"{child2['name'][:16]:<3}"), ' '*32, end='\r')
 
-    for word in lang1:
-        if len(lang2[word]) < 1:
-            lang[word] = lang1[word]
-        elif len(lang1[word]) < 1:
-            lang[word] = lang2[word]
-        else:
-            comp.compare(lang1[word], lang2[word], asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
-            lang[word] = comp.parent
-            # print(comp.parent.to_ipa())
+    pool = Pool(cpu_count()-1)
+    args = [(word, lang1[word], lang2[word], dist1, dist2, comp) for word in lang1]
+    tuples = pool.starmap(reconstruct_word, args)
+
+    lang = {key: value for key, value in tuples}
+
+    # for word in lang1:
+    #     if len(lang2[word]) < 1:
+    #         lang[word] = lang1[word]
+    #     elif len(lang1[word]) < 1:
+    #         lang[word] = lang2[word]
+    #     else:
+    #         comp.compare(lang1[word], lang2[word], asymmetric=True, relat_dist_to_word1=(dist1/(dist1+dist2)))
+    #         lang[word] = comp.parent
+    #         # print(comp.parent.to_ipa())
     return lang
 
 def reconstruct_languages(tree, df):
@@ -56,14 +72,14 @@ def reconstruct_languages(tree, df):
     if 'children' in child1:
         reconstruct_languages(child1, df)
     else:
-        child1['full_name'] = child1['name']
-        child1['name']      = tree['name'].split('.')[0]
+        # child1['full_name'] = child1['name']
+        # child1['name']      = tree['name'].split('.')[0]
         child1['lang']      = load_modern_language(child1['name'], df)
     if 'children' in child2:
         reconstruct_languages(child2, df)
     else:
-        child2['full_name'] = child2['name']
-        child2['name']      = tree['name'].split('.')[1]
+        # child2['full_name'] = child2['name']
+        # child2['name']      = tree['name'].split('.')[1]
         child2['lang']      = load_modern_language(child2['name'], df)
 
     tree['lang'] = reconstruct_language(child1, child2)

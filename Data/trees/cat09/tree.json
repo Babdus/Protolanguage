@@ -14,9 +14,10 @@
             "parent": "mn.ba.ug.tr.az.hu.my.bo.vi.lo.th.za.km.brh.gdb.pci",
             "children": [
               {
-                "name": "Mongolian",
+                "name": "mn",
                 "distance": 11.295090415495455,
-                "parent": "mn.ba.ug.tr.az.hu"
+                "parent": "mn.ba.ug.tr.az.hu",
+                "full_name": "Mongolian"
               },
               {
                 "name": "ba.ug.tr.az.hu",
@@ -29,9 +30,10 @@
                     "parent": "ba.ug.tr.az.hu",
                     "children": [
                       {
-                        "name": "Bashkir",
+                        "name": "ba",
                         "distance": 5.526560679016805,
-                        "parent": "ba.ug.tr.az"
+                        "parent": "ba.ug.tr.az",
+                        "full_name": "Bashkir"
                       },
                       {
                         "name": "ug.tr.az",
@@ -39,9 +41,10 @@
                         "parent": "ba.ug.tr.az",
                         "children": [
                           {
-                            "name": "Uighur",
+                            "name": "ug",
                             "distance": 4.132592798009637,
-                            "parent": "ug.tr.az"
+                            "parent": "ug.tr.az",
+                            "full_name": "Uighur"
                           },
                           {
                             "name": "tr.az",
@@ -49,14 +52,16 @@
                             "parent": "ug.tr.az",
                             "children": [
                               {
-                                "name": "Turkish",
+                                "name": "tr",
                                 "distance": 3.3813195130477007,
-                                "parent": "tr.az"
+                                "parent": "tr.az",
+                                "full_name": "Turkish"
                               },
                               {
-                                "name": "Azerbaijani",
+                                "name": "az",
                                 "distance": 2.9080276415338284,
-                                "parent": "tr.az"
+                                "parent": "tr.az",
+                                "full_name": "Azerbaijani"
                               }
                             ]
                           }
@@ -65,9 +70,10 @@
                     ]
                   },
                   {
-                    "name": "Hungarian",
+                    "name": "hu",
                     "distance": 10.008921764803402,
-                    "parent": "ba.ug.tr.az.hu"
+                    "parent": "ba.ug.tr.az.hu",
+                    "full_name": "Hungarian"
                   }
                 ]
               }
@@ -89,14 +95,16 @@
                     "parent": "my.bo.vi.lo.th.za.km",
                     "children": [
                       {
-                        "name": "Burmese",
+                        "name": "my",
                         "distance": 11.827463201406836,
-                        "parent": "my.bo"
+                        "parent": "my.bo",
+                        "full_name": "Burmese"
                       },
                       {
-                        "name": "Tibetan",
+                        "name": "bo",
                         "distance": 11.276271629211553,
-                        "parent": "my.bo"
+                        "parent": "my.bo",
+                        "full_name": "Tibetan"
                       }
                     ]
                   },
@@ -111,9 +119,10 @@
                         "parent": "vi.lo.th.za.km",
                         "children": [
                           {
-                            "name": "Vietnamese",
+                            "name": "vi",
                             "distance": 10.1434716788361,
-                            "parent": "vi.lo.th.za"
+                            "parent": "vi.lo.th.za",
+                            "full_name": "Vietnamese"
                           },
                           {
                             "name": "lo.th.za",
@@ -126,30 +135,34 @@
                                 "parent": "lo.th.za",
                                 "children": [
                                   {
-                                    "name": "Lao",
+                                    "name": "lo",
                                     "distance": 3.266878856348862,
-                                    "parent": "lo.th"
+                                    "parent": "lo.th",
+                                    "full_name": "Lao"
                                   },
                                   {
-                                    "name": "Thai",
+                                    "name": "th",
                                     "distance": 3.095305372923975,
-                                    "parent": "lo.th"
+                                    "parent": "lo.th",
+                                    "full_name": "Thai"
                                   }
                                 ]
                               },
                               {
-                                "name": "Zhuang",
+                                "name": "za",
                                 "distance": 6.872708822675449,
-                                "parent": "lo.th.za"
+                                "parent": "lo.th.za",
+                                "full_name": "Zhuang"
                               }
                             ]
                           }
                         ]
                       },
                       {
-                        "name": "Central Khmer",
+                        "name": "km",
                         "distance": 11.864064526383576,
-                        "parent": "vi.lo.th.za.km"
+                        "parent": "vi.lo.th.za.km",
+                        "full_name": "Central Khmer"
                       }
                     ]
                   }
@@ -161,9 +174,10 @@
                 "parent": "my.bo.vi.lo.th.za.km.brh.gdb.pci",
                 "children": [
                   {
-                    "name": "Brahui",
+                    "name": "brh",
                     "distance": 10.225128103623426,
-                    "parent": "brh.gdb.pci"
+                    "parent": "brh.gdb.pci",
+                    "full_name": "Brahui"
                   },
                   {
                     "name": "gdb.pci",
@@ -171,14 +185,16 @@
                     "parent": "brh.gdb.pci",
                     "children": [
                       {
-                        "name": "Ollari",
+                        "name": "gdb",
                         "distance": 8.34946237966397,
-                        "parent": "gdb.pci"
+                        "parent": "gdb.pci",
+                        "full_name": "Ollari"
                       },
                       {
-                        "name": "Duruwa",
+                        "name": "pci",
                         "distance": 8.911873648253687,
-                        "parent": "gdb.pci"
+                        "parent": "gdb.pci",
+                        "full_name": "Duruwa"
                       }
                     ]
                   }
@@ -209,9 +225,10 @@
                     "parent": "en.yi.de.lb.fy.nl.af.da.nn.sv.fo.is",
                     "children": [
                       {
-                        "name": "English",
+                        "name": "en",
                         "distance": 8.419683231435513,
-                        "parent": "en.yi.de.lb.fy.nl.af"
+                        "parent": "en.yi.de.lb.fy.nl.af",
+                        "full_name": "English"
                       },
                       {
                         "name": "yi.de.lb.fy.nl.af",
@@ -229,21 +246,24 @@
                                 "parent": "yi.de.lb",
                                 "children": [
                                   {
-                                    "name": "Yiddish",
+                                    "name": "yi",
                                     "distance": 3.5738043130659656,
-                                    "parent": "yi.de"
+                                    "parent": "yi.de",
+                                    "full_name": "Yiddish"
                                   },
                                   {
-                                    "name": "German",
+                                    "name": "de",
                                     "distance": 3.30722438046273,
-                                    "parent": "yi.de"
+                                    "parent": "yi.de",
+                                    "full_name": "German"
                                   }
                                 ]
                               },
                               {
-                                "name": "Luxembourgish",
+                                "name": "lb",
                                 "distance": 5.275127405504689,
-                                "parent": "yi.de.lb"
+                                "parent": "yi.de.lb",
+                                "full_name": "Luxembourgish"
                               }
                             ]
                           },
@@ -253,9 +273,10 @@
                             "parent": "yi.de.lb.fy.nl.af",
                             "children": [
                               {
-                                "name": "Western Frisian",
+                                "name": "fy",
                                 "distance": 5.006082178654887,
-                                "parent": "fy.nl.af"
+                                "parent": "fy.nl.af",
+                                "full_name": "Western Frisian"
                               },
                               {
                                 "name": "nl.af",
@@ -263,14 +284,16 @@
                                 "parent": "fy.nl.af",
                                 "children": [
                                   {
-                                    "name": "Dutch",
+                                    "name": "nl",
                                     "distance": 4.160887097394897,
-                                    "parent": "nl.af"
+                                    "parent": "nl.af",
+                                    "full_name": "Dutch"
                                   },
                                   {
-                                    "name": "Afrikaans",
+                                    "name": "af",
                                     "distance": 4.920395971388172,
-                                    "parent": "nl.af"
+                                    "parent": "nl.af",
+                                    "full_name": "Afrikaans"
                                   }
                                 ]
                               }
@@ -291,9 +314,10 @@
                         "parent": "da.nn.sv.fo.is",
                         "children": [
                           {
-                            "name": "Danish",
+                            "name": "da",
                             "distance": 3.9329161760420757,
-                            "parent": "da.nn.sv"
+                            "parent": "da.nn.sv",
+                            "full_name": "Danish"
                           },
                           {
                             "name": "nn.sv",
@@ -301,14 +325,16 @@
                             "parent": "da.nn.sv",
                             "children": [
                               {
-                                "name": "Norwegian Nynorsk",
+                                "name": "nn",
                                 "distance": 4.187088813746373,
-                                "parent": "nn.sv"
+                                "parent": "nn.sv",
+                                "full_name": "Norwegian Nynorsk"
                               },
                               {
-                                "name": "Swedish",
+                                "name": "sv",
                                 "distance": 3.6283318766743182,
-                                "parent": "nn.sv"
+                                "parent": "nn.sv",
+                                "full_name": "Swedish"
                               }
                             ]
                           }
@@ -320,14 +346,16 @@
                         "parent": "da.nn.sv.fo.is",
                         "children": [
                           {
-                            "name": "Faroese",
+                            "name": "fo",
                             "distance": 5.632456013507302,
-                            "parent": "fo.is"
+                            "parent": "fo.is",
+                            "full_name": "Faroese"
                           },
                           {
-                            "name": "Icelandic",
+                            "name": "is",
                             "distance": 4.863695073233674,
-                            "parent": "fo.is"
+                            "parent": "fo.is",
+                            "full_name": "Icelandic"
                           }
                         ]
                       }
@@ -341,9 +369,10 @@
                 "parent": "en.yi.de.lb.fy.nl.af.da.nn.sv.fo.is.sq.cy.br.gv.ga.gd",
                 "children": [
                   {
-                    "name": "Albanian",
+                    "name": "sq",
                     "distance": 9.625162032650499,
-                    "parent": "sq.cy.br.gv.ga.gd"
+                    "parent": "sq.cy.br.gv.ga.gd",
+                    "full_name": "Albanian"
                   },
                   {
                     "name": "cy.br.gv.ga.gd",
@@ -356,14 +385,16 @@
                         "parent": "cy.br.gv.ga.gd",
                         "children": [
                           {
-                            "name": "Welsh",
+                            "name": "cy",
                             "distance": 6.429613089337682,
-                            "parent": "cy.br"
+                            "parent": "cy.br",
+                            "full_name": "Welsh"
                           },
                           {
-                            "name": "Breton",
+                            "name": "br",
                             "distance": 6.9039645648921475,
-                            "parent": "cy.br"
+                            "parent": "cy.br",
+                            "full_name": "Breton"
                           }
                         ]
                       },
@@ -373,9 +404,10 @@
                         "parent": "cy.br.gv.ga.gd",
                         "children": [
                           {
-                            "name": "Manx",
+                            "name": "gv",
                             "distance": 5.831596270246379,
-                            "parent": "gv.ga.gd"
+                            "parent": "gv.ga.gd",
+                            "full_name": "Manx"
                           },
                           {
                             "name": "ga.gd",
@@ -383,14 +415,16 @@
                             "parent": "gv.ga.gd",
                             "children": [
                               {
-                                "name": "Irish",
+                                "name": "ga",
                                 "distance": 6.302364908306781,
-                                "parent": "ga.gd"
+                                "parent": "ga.gd",
+                                "full_name": "Irish"
                               },
                               {
-                                "name": "Gaelic",
+                                "name": "gd",
                                 "distance": 5.683746202804328,
-                                "parent": "ga.gd"
+                                "parent": "ga.gd",
+                                "full_name": "Gaelic"
                               }
                             ]
                           }
@@ -413,9 +447,10 @@
                 "parent": "ps.hy.fa.tg.ku.he.ar.mt.sa.as.bn.hi.ur.lt.lv.pl.sk.cs.uk.be.ru.sl.bg.mk.fr.oc.ca.ro.la.it.es.gl.pt.el.liv.vot.fi.krl.vep.vro.et.ko.ja.sva.ka.lzz.xmf.ms.id.tl.se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                 "children": [
                   {
-                    "name": "Pushto",
+                    "name": "ps",
                     "distance": 10.214286828916453,
-                    "parent": "ps.hy.fa.tg.ku"
+                    "parent": "ps.hy.fa.tg.ku",
+                    "full_name": "Pushto"
                   },
                   {
                     "name": "hy.fa.tg.ku",
@@ -423,9 +458,10 @@
                     "parent": "ps.hy.fa.tg.ku",
                     "children": [
                       {
-                        "name": "Armenian",
+                        "name": "hy",
                         "distance": 10.430368056448911,
-                        "parent": "hy.fa.tg.ku"
+                        "parent": "hy.fa.tg.ku",
+                        "full_name": "Armenian"
                       },
                       {
                         "name": "fa.tg.ku",
@@ -438,21 +474,24 @@
                             "parent": "fa.tg.ku",
                             "children": [
                               {
-                                "name": "Persian",
+                                "name": "fa",
                                 "distance": 1.9960773404060892,
-                                "parent": "fa.tg"
+                                "parent": "fa.tg",
+                                "full_name": "Persian"
                               },
                               {
-                                "name": "Tajik",
+                                "name": "tg",
                                 "distance": 1.3714821834034345,
-                                "parent": "fa.tg"
+                                "parent": "fa.tg",
+                                "full_name": "Tajik"
                               }
                             ]
                           },
                           {
-                            "name": "Kurdish",
+                            "name": "ku",
                             "distance": 6.128218275910334,
-                            "parent": "fa.tg.ku"
+                            "parent": "fa.tg.ku",
+                            "full_name": "Kurdish"
                           }
                         ]
                       }
@@ -471,9 +510,10 @@
                     "parent": "he.ar.mt.sa.as.bn.hi.ur.lt.lv.pl.sk.cs.uk.be.ru.sl.bg.mk.fr.oc.ca.ro.la.it.es.gl.pt.el.liv.vot.fi.krl.vep.vro.et.ko.ja.sva.ka.lzz.xmf.ms.id.tl.se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                     "children": [
                       {
-                        "name": "Hebrew",
+                        "name": "he",
                         "distance": 7.96545391636989,
-                        "parent": "he.ar.mt"
+                        "parent": "he.ar.mt",
+                        "full_name": "Hebrew"
                       },
                       {
                         "name": "ar.mt",
@@ -481,14 +521,16 @@
                         "parent": "he.ar.mt",
                         "children": [
                           {
-                            "name": "Arabic",
+                            "name": "ar",
                             "distance": 6.783013278549397,
-                            "parent": "ar.mt"
+                            "parent": "ar.mt",
+                            "full_name": "Arabic"
                           },
                           {
-                            "name": "Maltese",
+                            "name": "mt",
                             "distance": 7.55484209220071,
-                            "parent": "ar.mt"
+                            "parent": "ar.mt",
+                            "full_name": "Maltese"
                           }
                         ]
                       }
@@ -510,9 +552,10 @@
                             "parent": "sa.as.bn.hi.ur.lt.lv.pl.sk.cs.uk.be.ru.sl.bg.mk.fr.oc.ca.ro.la.it.es.gl.pt.el",
                             "children": [
                               {
-                                "name": "Sanskrit",
+                                "name": "sa",
                                 "distance": 9.366995455425267,
-                                "parent": "sa.as.bn.hi.ur"
+                                "parent": "sa.as.bn.hi.ur",
+                                "full_name": "Sanskrit"
                               },
                               {
                                 "name": "as.bn.hi.ur",
@@ -525,14 +568,16 @@
                                     "parent": "as.bn.hi.ur",
                                     "children": [
                                       {
-                                        "name": "Assamese",
+                                        "name": "as",
                                         "distance": 5.582299180548407,
-                                        "parent": "as.bn"
+                                        "parent": "as.bn",
+                                        "full_name": "Assamese"
                                       },
                                       {
-                                        "name": "Bengali",
+                                        "name": "bn",
                                         "distance": 5.398779023090773,
-                                        "parent": "as.bn"
+                                        "parent": "as.bn",
+                                        "full_name": "Bengali"
                                       }
                                     ]
                                   },
@@ -542,14 +587,16 @@
                                     "parent": "as.bn.hi.ur",
                                     "children": [
                                       {
-                                        "name": "Hindi",
+                                        "name": "hi",
                                         "distance": 1.6849756089530732,
-                                        "parent": "hi.ur"
+                                        "parent": "hi.ur",
+                                        "full_name": "Hindi"
                                       },
                                       {
-                                        "name": "Urdu",
+                                        "name": "ur",
                                         "distance": 1.3426100716498486,
-                                        "parent": "hi.ur"
+                                        "parent": "hi.ur",
+                                        "full_name": "Urdu"
                                       }
                                     ]
                                   }
@@ -573,14 +620,16 @@
                                     "parent": "lt.lv.pl.sk.cs.uk.be.ru.sl.bg.mk",
                                     "children": [
                                       {
-                                        "name": "Lithuanian",
+                                        "name": "lt",
                                         "distance": 7.270960929215541,
-                                        "parent": "lt.lv"
+                                        "parent": "lt.lv",
+                                        "full_name": "Lithuanian"
                                       },
                                       {
-                                        "name": "Latvian",
+                                        "name": "lv",
                                         "distance": 6.065479584131751,
-                                        "parent": "lt.lv"
+                                        "parent": "lt.lv",
+                                        "full_name": "Latvian"
                                       }
                                     ]
                                   },
@@ -605,9 +654,10 @@
                                                 "parent": "pl.sk.cs.uk.be.ru",
                                                 "children": [
                                                   {
-                                                    "name": "Polish",
+                                                    "name": "pl",
                                                     "distance": 5.060790873213122,
-                                                    "parent": "pl.sk.cs"
+                                                    "parent": "pl.sk.cs",
+                                                    "full_name": "Polish"
                                                   },
                                                   {
                                                     "name": "sk.cs",
@@ -615,14 +665,16 @@
                                                     "parent": "pl.sk.cs",
                                                     "children": [
                                                       {
-                                                        "name": "Slovak",
+                                                        "name": "sk",
                                                         "distance": 2.7300385106801883,
-                                                        "parent": "sk.cs"
+                                                        "parent": "sk.cs",
+                                                        "full_name": "Slovak"
                                                       },
                                                       {
-                                                        "name": "Czech",
+                                                        "name": "cs",
                                                         "distance": 2.558644979147668,
-                                                        "parent": "sk.cs"
+                                                        "parent": "sk.cs",
+                                                        "full_name": "Czech"
                                                       }
                                                     ]
                                                   }
@@ -634,9 +686,10 @@
                                                 "parent": "pl.sk.cs.uk.be.ru",
                                                 "children": [
                                                   {
-                                                    "name": "Ukrainian",
+                                                    "name": "uk",
                                                     "distance": 4.691964139481219,
-                                                    "parent": "uk.be.ru"
+                                                    "parent": "uk.be.ru",
+                                                    "full_name": "Ukrainian"
                                                   },
                                                   {
                                                     "name": "be.ru",
@@ -644,14 +697,16 @@
                                                     "parent": "uk.be.ru",
                                                     "children": [
                                                       {
-                                                        "name": "Belarusian",
+                                                        "name": "be",
                                                         "distance": 3.4824663397453217,
-                                                        "parent": "be.ru"
+                                                        "parent": "be.ru",
+                                                        "full_name": "Belarusian"
                                                       },
                                                       {
-                                                        "name": "Russian",
+                                                        "name": "ru",
                                                         "distance": 4.10101221154677,
-                                                        "parent": "be.ru"
+                                                        "parent": "be.ru",
+                                                        "full_name": "Russian"
                                                       }
                                                     ]
                                                   }
@@ -660,9 +715,10 @@
                                             ]
                                           },
                                           {
-                                            "name": "Slovenian",
+                                            "name": "sl",
                                             "distance": 5.564470693906202,
-                                            "parent": "pl.sk.cs.uk.be.ru.sl"
+                                            "parent": "pl.sk.cs.uk.be.ru.sl",
+                                            "full_name": "Slovenian"
                                           }
                                         ]
                                       },
@@ -672,14 +728,16 @@
                                         "parent": "pl.sk.cs.uk.be.ru.sl.bg.mk",
                                         "children": [
                                           {
-                                            "name": "Bulgarian",
+                                            "name": "bg",
                                             "distance": 3.5615358827572763,
-                                            "parent": "bg.mk"
+                                            "parent": "bg.mk",
+                                            "full_name": "Bulgarian"
                                           },
                                           {
-                                            "name": "Macedonian",
+                                            "name": "mk",
                                             "distance": 3.8632994702787684,
-                                            "parent": "bg.mk"
+                                            "parent": "bg.mk",
+                                            "full_name": "Macedonian"
                                           }
                                         ]
                                       }
@@ -703,9 +761,10 @@
                                         "parent": "fr.oc.ca.ro.la.it.es.gl.pt",
                                         "children": [
                                           {
-                                            "name": "French",
+                                            "name": "fr",
                                             "distance": 8.49414920393724,
-                                            "parent": "fr.oc.ca"
+                                            "parent": "fr.oc.ca",
+                                            "full_name": "French"
                                           },
                                           {
                                             "name": "oc.ca",
@@ -713,14 +772,16 @@
                                             "parent": "fr.oc.ca",
                                             "children": [
                                               {
-                                                "name": "Occitan",
+                                                "name": "oc",
                                                 "distance": 4.30276475298349,
-                                                "parent": "oc.ca"
+                                                "parent": "oc.ca",
+                                                "full_name": "Occitan"
                                               },
                                               {
-                                                "name": "Catalan",
+                                                "name": "ca",
                                                 "distance": 4.574624118307821,
-                                                "parent": "oc.ca"
+                                                "parent": "oc.ca",
+                                                "full_name": "Catalan"
                                               }
                                             ]
                                           }
@@ -737,14 +798,16 @@
                                             "parent": "ro.la.it.es.gl.pt",
                                             "children": [
                                               {
-                                                "name": "Romanian",
+                                                "name": "ro",
                                                 "distance": 7.401326930226117,
-                                                "parent": "ro.la"
+                                                "parent": "ro.la",
+                                                "full_name": "Romanian"
                                               },
                                               {
-                                                "name": "Latin",
+                                                "name": "la",
                                                 "distance": 7.607394003787786,
-                                                "parent": "ro.la"
+                                                "parent": "ro.la",
+                                                "full_name": "Latin"
                                               }
                                             ]
                                           },
@@ -754,9 +817,10 @@
                                             "parent": "ro.la.it.es.gl.pt",
                                             "children": [
                                               {
-                                                "name": "Italian",
+                                                "name": "it",
                                                 "distance": 5.743241696746191,
-                                                "parent": "it.es.gl.pt"
+                                                "parent": "it.es.gl.pt",
+                                                "full_name": "Italian"
                                               },
                                               {
                                                 "name": "es.gl.pt",
@@ -764,9 +828,10 @@
                                                 "parent": "it.es.gl.pt",
                                                 "children": [
                                                   {
-                                                    "name": "Spanish",
+                                                    "name": "es",
                                                     "distance": 4.753763472850921,
-                                                    "parent": "es.gl.pt"
+                                                    "parent": "es.gl.pt",
+                                                    "full_name": "Spanish"
                                                   },
                                                   {
                                                     "name": "gl.pt",
@@ -774,14 +839,16 @@
                                                     "parent": "es.gl.pt",
                                                     "children": [
                                                       {
-                                                        "name": "Galician",
+                                                        "name": "gl",
                                                         "distance": 3.83947073417392,
-                                                        "parent": "gl.pt"
+                                                        "parent": "gl.pt",
+                                                        "full_name": "Galician"
                                                       },
                                                       {
-                                                        "name": "Portuguese",
+                                                        "name": "pt",
                                                         "distance": 3.7275765043018896,
-                                                        "parent": "gl.pt"
+                                                        "parent": "gl.pt",
+                                                        "full_name": "Portuguese"
                                                       }
                                                     ]
                                                   }
@@ -794,9 +861,10 @@
                                     ]
                                   },
                                   {
-                                    "name": "Greek",
+                                    "name": "el",
                                     "distance": 9.37621992929332,
-                                    "parent": "fr.oc.ca.ro.la.it.es.gl.pt.el"
+                                    "parent": "fr.oc.ca.ro.la.it.es.gl.pt.el",
+                                    "full_name": "Greek"
                                   }
                                 ]
                               }
@@ -815,9 +883,10 @@
                             "parent": "liv.vot.fi.krl.vep.vro.et.ko.ja.sva.ka.lzz.xmf.ms.id.tl.se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                             "children": [
                               {
-                                "name": "Livonian",
+                                "name": "liv",
                                 "distance": 6.845720264108497,
-                                "parent": "liv.vot.fi.krl.vep.vro.et"
+                                "parent": "liv.vot.fi.krl.vep.vro.et",
+                                "full_name": "Livonian"
                               },
                               {
                                 "name": "vot.fi.krl.vep.vro.et",
@@ -830,9 +899,10 @@
                                     "parent": "vot.fi.krl.vep.vro.et",
                                     "children": [
                                       {
-                                        "name": "Votic",
+                                        "name": "vot",
                                         "distance": 4.1915691030139115,
-                                        "parent": "vot.fi.krl"
+                                        "parent": "vot.fi.krl",
+                                        "full_name": "Votic"
                                       },
                                       {
                                         "name": "fi.krl",
@@ -840,14 +910,16 @@
                                         "parent": "vot.fi.krl",
                                         "children": [
                                           {
-                                            "name": "Finnish",
+                                            "name": "fi",
                                             "distance": 3.310815674454126,
-                                            "parent": "fi.krl"
+                                            "parent": "fi.krl",
+                                            "full_name": "Finnish"
                                           },
                                           {
-                                            "name": "Karelian",
+                                            "name": "krl",
                                             "distance": 3.250422872291667,
-                                            "parent": "fi.krl"
+                                            "parent": "fi.krl",
+                                            "full_name": "Karelian"
                                           }
                                         ]
                                       }
@@ -859,9 +931,10 @@
                                     "parent": "vot.fi.krl.vep.vro.et",
                                     "children": [
                                       {
-                                        "name": "Veps",
+                                        "name": "vep",
                                         "distance": 5.5198655552796065,
-                                        "parent": "vep.vro.et"
+                                        "parent": "vep.vro.et",
+                                        "full_name": "Veps"
                                       },
                                       {
                                         "name": "vro.et",
@@ -869,14 +942,16 @@
                                         "parent": "vep.vro.et",
                                         "children": [
                                           {
-                                            "name": "V\u00f5ro",
+                                            "name": "vro",
                                             "distance": 3.488606426542355,
-                                            "parent": "vro.et"
+                                            "parent": "vro.et",
+                                            "full_name": "V\u00f5ro"
                                           },
                                           {
-                                            "name": "Estonian",
+                                            "name": "et",
                                             "distance": 3.468843319859471,
-                                            "parent": "vro.et"
+                                            "parent": "vro.et",
+                                            "full_name": "Estonian"
                                           }
                                         ]
                                       }
@@ -897,14 +972,16 @@
                                 "parent": "ko.ja.sva.ka.lzz.xmf.ms.id.tl.se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                                 "children": [
                                   {
-                                    "name": "Korean",
+                                    "name": "ko",
                                     "distance": 11.362960949735118,
-                                    "parent": "ko.ja"
+                                    "parent": "ko.ja",
+                                    "full_name": "Korean"
                                   },
                                   {
-                                    "name": "Japanese",
+                                    "name": "ja",
                                     "distance": 11.106612988906708,
-                                    "parent": "ko.ja"
+                                    "parent": "ko.ja",
+                                    "full_name": "Japanese"
                                   }
                                 ]
                               },
@@ -919,9 +996,10 @@
                                     "parent": "sva.ka.lzz.xmf.ms.id.tl.se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                                     "children": [
                                       {
-                                        "name": "Svan",
+                                        "name": "sva",
                                         "distance": 10.916590840951617,
-                                        "parent": "sva.ka.lzz.xmf"
+                                        "parent": "sva.ka.lzz.xmf",
+                                        "full_name": "Svan"
                                       },
                                       {
                                         "name": "ka.lzz.xmf",
@@ -929,9 +1007,10 @@
                                         "parent": "sva.ka.lzz.xmf",
                                         "children": [
                                           {
-                                            "name": "Georgian",
+                                            "name": "ka",
                                             "distance": 7.969419728618434,
-                                            "parent": "ka.lzz.xmf"
+                                            "parent": "ka.lzz.xmf",
+                                            "full_name": "Georgian"
                                           },
                                           {
                                             "name": "lzz.xmf",
@@ -939,14 +1018,16 @@
                                             "parent": "ka.lzz.xmf",
                                             "children": [
                                               {
-                                                "name": "Laz",
+                                                "name": "lzz",
                                                 "distance": 5.907895434325351,
-                                                "parent": "lzz.xmf"
+                                                "parent": "lzz.xmf",
+                                                "full_name": "Laz"
                                               },
                                               {
-                                                "name": "Mingrelian",
+                                                "name": "xmf",
                                                 "distance": 5.688788196906293,
-                                                "parent": "lzz.xmf"
+                                                "parent": "lzz.xmf",
+                                                "full_name": "Mingrelian"
                                               }
                                             ]
                                           }
@@ -970,21 +1051,24 @@
                                             "parent": "ms.id.tl",
                                             "children": [
                                               {
-                                                "name": "Malay",
+                                                "name": "ms",
                                                 "distance": 1.4618164168632726,
-                                                "parent": "ms.id"
+                                                "parent": "ms.id",
+                                                "full_name": "Malay"
                                               },
                                               {
-                                                "name": "Indonesian",
+                                                "name": "id",
                                                 "distance": 1.7318970334291248,
-                                                "parent": "ms.id"
+                                                "parent": "ms.id",
+                                                "full_name": "Indonesian"
                                               }
                                             ]
                                           },
                                           {
-                                            "name": "Tagalog",
+                                            "name": "tl",
                                             "distance": 9.032768710893947,
-                                            "parent": "ms.id.tl"
+                                            "parent": "ms.id.tl",
+                                            "full_name": "Tagalog"
                                           }
                                         ]
                                       },
@@ -999,9 +1083,10 @@
                                             "parent": "se.ny.zu.kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                                             "children": [
                                               {
-                                                "name": "Northern Sami",
+                                                "name": "se",
                                                 "distance": 9.57997349716835,
-                                                "parent": "se.ny.zu"
+                                                "parent": "se.ny.zu",
+                                                "full_name": "Northern Sami"
                                               },
                                               {
                                                 "name": "ny.zu",
@@ -1009,14 +1094,16 @@
                                                 "parent": "se.ny.zu",
                                                 "children": [
                                                   {
-                                                    "name": "Chichewa",
+                                                    "name": "ny",
                                                     "distance": 7.631198510213335,
-                                                    "parent": "ny.zu"
+                                                    "parent": "ny.zu",
+                                                    "full_name": "Chichewa"
                                                   },
                                                   {
-                                                    "name": "Zulu",
+                                                    "name": "zu",
                                                     "distance": 11.304373853930453,
-                                                    "parent": "ny.zu"
+                                                    "parent": "ny.zu",
+                                                    "full_name": "Zulu"
                                                   }
                                                 ]
                                               }
@@ -1048,14 +1135,16 @@
                                                             "parent": "kff.gon.kfb.te",
                                                             "children": [
                                                               {
-                                                                "name": "Koya",
+                                                                "name": "kff",
                                                                 "distance": 7.4847080496983684,
-                                                                "parent": "kff.gon"
+                                                                "parent": "kff.gon",
+                                                                "full_name": "Koya"
                                                               },
                                                               {
-                                                                "name": "Gondi",
+                                                                "name": "gon",
                                                                 "distance": 6.81470073312878,
-                                                                "parent": "kff.gon"
+                                                                "parent": "kff.gon",
+                                                                "full_name": "Gondi"
                                                               }
                                                             ]
                                                           },
@@ -1065,23 +1154,26 @@
                                                             "parent": "kff.gon.kfb.te",
                                                             "children": [
                                                               {
-                                                                "name": "Kolami",
+                                                                "name": "kfb",
                                                                 "distance": 7.770627723754777,
-                                                                "parent": "kfb.te"
+                                                                "parent": "kfb.te",
+                                                                "full_name": "Kolami"
                                                               },
                                                               {
-                                                                "name": "Telugu",
+                                                                "name": "te",
                                                                 "distance": 8.146128705756755,
-                                                                "parent": "kfb.te"
+                                                                "parent": "kfb.te",
+                                                                "full_name": "Telugu"
                                                               }
                                                             ]
                                                           }
                                                         ]
                                                       },
                                                       {
-                                                        "name": "Kuvi",
+                                                        "name": "kxv",
                                                         "distance": 7.835575894094932,
-                                                        "parent": "kff.gon.kfb.te.kxv"
+                                                        "parent": "kff.gon.kfb.te.kxv",
+                                                        "full_name": "Kuvi"
                                                       }
                                                     ]
                                                   },
@@ -1091,14 +1183,16 @@
                                                     "parent": "kff.gon.kfb.te.kxv.mjt.kru",
                                                     "children": [
                                                       {
-                                                        "name": "Malto",
+                                                        "name": "mjt",
                                                         "distance": 7.636367629218949,
-                                                        "parent": "mjt.kru"
+                                                        "parent": "mjt.kru",
+                                                        "full_name": "Malto"
                                                       },
                                                       {
-                                                        "name": "Kurukh",
+                                                        "name": "kru",
                                                         "distance": 8.156721659443567,
-                                                        "parent": "mjt.kru"
+                                                        "parent": "mjt.kru",
+                                                        "full_name": "Kurukh"
                                                       }
                                                     ]
                                                   }
@@ -1110,9 +1204,10 @@
                                                 "parent": "kff.gon.kfb.te.kxv.mjt.kru.tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                                                 "children": [
                                                   {
-                                                    "name": "Toda",
+                                                    "name": "tcx",
                                                     "distance": 8.946451646976051,
-                                                    "parent": "tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy"
+                                                    "parent": "tcx.xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
+                                                    "full_name": "Toda"
                                                   },
                                                   {
                                                     "name": "xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
@@ -1125,9 +1220,10 @@
                                                         "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
                                                         "children": [
                                                           {
-                                                            "name": "Betta Kurumba",
+                                                            "name": "xub",
                                                             "distance": 8.066402165727622,
-                                                            "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta"
+                                                            "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta",
+                                                            "full_name": "Betta Kurumba"
                                                           },
                                                           {
                                                             "name": "kfe.kn.yea.kfa.bfq.ml.ta",
@@ -1135,9 +1231,10 @@
                                                             "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta",
                                                             "children": [
                                                               {
-                                                                "name": "Kota",
+                                                                "name": "kfe",
                                                                 "distance": 7.658555268500258,
-                                                                "parent": "kfe.kn.yea.kfa.bfq.ml.ta"
+                                                                "parent": "kfe.kn.yea.kfa.bfq.ml.ta",
+                                                                "full_name": "Kota"
                                                               },
                                                               {
                                                                 "name": "kn.yea.kfa.bfq.ml.ta",
@@ -1155,9 +1252,10 @@
                                                                         "parent": "kn.yea.kfa.bfq",
                                                                         "children": [
                                                                           {
-                                                                            "name": "Kannada",
+                                                                            "name": "kn",
                                                                             "distance": 6.008270760602593,
-                                                                            "parent": "kn.yea.kfa"
+                                                                            "parent": "kn.yea.kfa",
+                                                                            "full_name": "Kannada"
                                                                           },
                                                                           {
                                                                             "name": "yea.kfa",
@@ -1165,23 +1263,26 @@
                                                                             "parent": "kn.yea.kfa",
                                                                             "children": [
                                                                               {
-                                                                                "name": "Ravula",
+                                                                                "name": "yea",
                                                                                 "distance": 3.261502631191456,
-                                                                                "parent": "yea.kfa"
+                                                                                "parent": "yea.kfa",
+                                                                                "full_name": "Ravula"
                                                                               },
                                                                               {
-                                                                                "name": "Kodava",
+                                                                                "name": "kfa",
                                                                                 "distance": 3.4243160730475037,
-                                                                                "parent": "yea.kfa"
+                                                                                "parent": "yea.kfa",
+                                                                                "full_name": "Kodava"
                                                                               }
                                                                             ]
                                                                           }
                                                                         ]
                                                                       },
                                                                       {
-                                                                        "name": "Badaga",
+                                                                        "name": "bfq",
                                                                         "distance": 6.2633413282442865,
-                                                                        "parent": "kn.yea.kfa.bfq"
+                                                                        "parent": "kn.yea.kfa.bfq",
+                                                                        "full_name": "Badaga"
                                                                       }
                                                                     ]
                                                                   },
@@ -1191,14 +1292,16 @@
                                                                     "parent": "kn.yea.kfa.bfq.ml.ta",
                                                                     "children": [
                                                                       {
-                                                                        "name": "Malayalam",
+                                                                        "name": "ml",
                                                                         "distance": 5.192276002018951,
-                                                                        "parent": "ml.ta"
+                                                                        "parent": "ml.ta",
+                                                                        "full_name": "Malayalam"
                                                                       },
                                                                       {
-                                                                        "name": "Tamil",
+                                                                        "name": "ta",
                                                                         "distance": 5.036559788041328,
-                                                                        "parent": "ml.ta"
+                                                                        "parent": "ml.ta",
+                                                                        "full_name": "Tamil"
                                                                       }
                                                                     ]
                                                                   }
@@ -1209,9 +1312,10 @@
                                                         ]
                                                       },
                                                       {
-                                                        "name": "Tulu",
+                                                        "name": "tcy",
                                                         "distance": 7.792894833282513,
-                                                        "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy"
+                                                        "parent": "xub.kfe.kn.yea.kfa.bfq.ml.ta.tcy",
+                                                        "full_name": "Tulu"
                                                       }
                                                     ]
                                                   }

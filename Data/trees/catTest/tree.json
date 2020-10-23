@@ -9,14 +9,16 @@
         "parent": "de.en.da.sv.fi.et.vro.sva.xmf.lzz.ka",
         "children": [
           {
-            "name": "German",
+            "name": "de",
             "distance": 7.185173574692774,
-            "parent": "de.en"
+            "parent": "de.en",
+            "full_name": "German"
           },
           {
-            "name": "English",
+            "name": "en",
             "distance": 9.176953002379934,
-            "parent": "de.en"
+            "parent": "de.en",
+            "full_name": "English"
           }
         ]
       },
@@ -31,14 +33,16 @@
             "parent": "da.sv.fi.et.vro.sva.xmf.lzz.ka",
             "children": [
               {
-                "name": "Danish",
+                "name": "da",
                 "distance": 3.743303205675694,
-                "parent": "da.sv"
+                "parent": "da.sv",
+                "full_name": "Danish"
               },
               {
-                "name": "Swedish",
+                "name": "sv",
                 "distance": 4.021426682491695,
-                "parent": "da.sv"
+                "parent": "da.sv",
+                "full_name": "Swedish"
               }
             ]
           },
@@ -53,9 +57,10 @@
                 "parent": "fi.et.vro.sva.xmf.lzz.ka",
                 "children": [
                   {
-                    "name": "Finnish",
+                    "name": "fi",
                     "distance": 5.8774510443682475,
-                    "parent": "fi.et.vro"
+                    "parent": "fi.et.vro",
+                    "full_name": "Finnish"
                   },
                   {
                     "name": "et.vro",
@@ -63,14 +68,16 @@
                     "parent": "fi.et.vro",
                     "children": [
                       {
-                        "name": "Estonian",
+                        "name": "et",
                         "distance": 3.4826705563627494,
-                        "parent": "et.vro"
+                        "parent": "et.vro",
+                        "full_name": "Estonian"
                       },
                       {
-                        "name": "V\u00f5ro",
+                        "name": "vro",
                         "distance": 3.4747791900390768,
-                        "parent": "et.vro"
+                        "parent": "et.vro",
+                        "full_name": "V\u00f5ro"
                       }
                     ]
                   }
@@ -82,9 +89,10 @@
                 "parent": "fi.et.vro.sva.xmf.lzz.ka",
                 "children": [
                   {
-                    "name": "Svan",
+                    "name": "sva",
                     "distance": 10.711719055627231,
-                    "parent": "sva.xmf.lzz.ka"
+                    "parent": "sva.xmf.lzz.ka",
+                    "full_name": "Svan"
                   },
                   {
                     "name": "xmf.lzz.ka",
@@ -97,21 +105,24 @@
                         "parent": "xmf.lzz.ka",
                         "children": [
                           {
-                            "name": "Mingrelian",
+                            "name": "xmf",
                             "distance": 5.3012740662454805,
-                            "parent": "xmf.lzz"
+                            "parent": "xmf.lzz",
+                            "full_name": "Mingrelian"
                           },
                           {
-                            "name": "Laz",
+                            "name": "lzz",
                             "distance": 6.295409564986163,
-                            "parent": "xmf.lzz"
+                            "parent": "xmf.lzz",
+                            "full_name": "Laz"
                           }
                         ]
                       },
                       {
-                        "name": "Georgian",
+                        "name": "ka",
                         "distance": 7.8128734050218345,
-                        "parent": "xmf.lzz.ka"
+                        "parent": "xmf.lzz.ka",
+                        "full_name": "Georgian"
                       }
                     ]
                   }
