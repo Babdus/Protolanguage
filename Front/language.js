@@ -402,12 +402,15 @@ lang_codes = {
 $(window).on('load', function() {
   d3.json("../Data/words_and_languages/swadesh_list.json", function(error, words) {
     $("#table").append('<tr id="thead"><th>English</th><th></th></tr>');
-    for(var word in words) {
-      $("#table").append('<tr id="'+words[word]+'"><td>'+words[word]+'</td><td></td></tr>');
-    }
     let url = new URL(window.location.href);
     let langs = url.searchParams.get("langs").split(',');
     let dir = url.searchParams.get("dir");
+    for(var word in words) {
+      html = '<tr id="'+words[word]+'"><td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+words[word]+"&data="+dir+'">'+words[word]+'</a></td><td></td></tr>';
+      console.log(html);
+      $("#table").append(html);
+    }
+
 
     langs.forEach(function (lang, index) {
       lang_path = md5(lang);
