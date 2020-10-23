@@ -401,15 +401,18 @@ lang_codes = {
 
 $(window).on('load', function() {
   d3.json("../Data/words_and_languages/swadesh_list.json", function(error, words) {
-    $("#table").append('<tr id="thead"><th>English</th><th></th></tr>');
+    $("#table").append('<thead><tr id="thead"><th>English</th><th></th></tr></thead>');
     let url = new URL(window.location.href);
     let langs = url.searchParams.get("langs").split(',');
     let dir = url.searchParams.get("dir");
+    $("#table").append('<tbody>')
     for(var word in words) {
-      html = '<tr id="'+words[word]+'"><td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+words[word]+"&data="+dir+'">'+words[word]+'</a></td><td></td></tr>';
+      a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+words[word]+"&data="+dir+'">'
+      html = '<tr id="'+words[word]+'"><td>'+a+words[word]+'</a></td><td>'+a+'&nbsp;</a></td></tr>';
       console.log(html);
       $("#table").append(html);
     }
+    $("#table").append('</tbody>')
 
 
     langs.forEach(function (lang, index) {
@@ -420,9 +423,20 @@ $(window).on('load', function() {
       }
       d3.json(path, function(error, data) {
         lang_name = lang
-        $("#thead").append('<th>Reconstructed</th><th></th>');
+        if(lang.includes(".")){
+          lang_name = 'Reconstructed';
+        }
+        else {
+          lang_name = lang_codes[lang];
+        }
+        $("#thead").append('<th>'+lang_name+'</th>'+(lang.includes(".") ? '<th></th>' : ''));
         for(var word in data) {
-          $("#"+word).append('<td>['+data[word]+']</td><td id="arrow">&rarr;</td>');
+          a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">'
+          html = '<td>'+a+'['+data[word]+']</a></td>';
+          if(lang.includes(".")){
+            html += '<td id="arrow">'+a+'&rarr;</a></td>';
+          }
+          $("#"+word).append(html);
         }
       });
       if(lang.includes(".")){
@@ -446,7 +460,7 @@ $(window).on('load', function() {
           d3.json(path, function(error, data) {
             $("#thead").append('<th>'+lang_codes[lang]+'</th>');
             for(var word in data) {
-              $("#"+word).append('<td>['+data[word]+']</td>');
+              $("#"+word).append('<td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">['+data[word]+']</a></td>');
             }
           });
         });

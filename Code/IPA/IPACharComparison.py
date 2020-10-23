@@ -19,7 +19,7 @@ def in_the_same_cluster(f1, f2):
     s1 = places | secondary_places
     s2 = manners | secondary_manners
     s3 = airflows
-    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
+    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s3 and f2 in s3) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
 
 class IPACharComparison:
     def __init__(self):
