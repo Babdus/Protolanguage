@@ -10,14 +10,14 @@ table tr#thead {
   font-family: sans-serif;
 }
 
-table tr:hover {
+/* table tr:hover {
   border-bottom: 1px solid #628e7d;
-}
+} */
 
-table tr:hover td#arrow {
+/* table tr:hover td#arrow {
   font-size: 30px;
   color: #628e7d;
-}
+} */
 
 table tr td:first-child {
   font-family: sans-serif;
