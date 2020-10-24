@@ -35,7 +35,7 @@ body {
   /* overflow: hidden; */
   /* display: -ms-flex; display: -webkit-flex; display: flex; */
   max-width: 900px;
-  height: calc(100vh);
+  height: calc(100vh - 20px);
   margin: auto;
   /* background-color: #111; */
   /* padding: 10px; */
