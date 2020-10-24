@@ -55,14 +55,14 @@ function update(source) {
 		.attr("target", "_blank");
 
 	nodeA.append("ellipse")
-	  .attr("rx", function(d) { return d.lang[word] ? (d.children || d._children ? d.lang[word].length*5 : (d.lang[word].length + d.name.length + 3)*5) : 0 })
-    .attr("ry", function(d) { return 10 })
-	  .style("fill", function(d) {
-      return "#fff1cc"});
+	  .attr("rx", function(d) { return d.lang[word] ? (d.children || d._children ? d.lang[word].length*7 : (d.lang[word].length + d.name.length + 3)*7) : 0 })
+    .attr("ry", function(d) { return 14 })
+		.style("fill", function(d) { return "hsl("+d.color*2+", 30%, 20%)"; })
+		.style("stroke", function(d) { return "hsl("+d.color*2+", 30%, 40%)"; });
 
   nodeA.append("text")
 	  .attr("x", function(d) {
-		  return d.lang[word].length*3; })
+		  return d.lang[word] ? (d.children || d._children ? d.lang[word].length*4 : (d.lang[word].length + d.name.length +3)*4) : 0; })
 	  .attr("dy", ".3em")
 	  .attr("text-anchor", function(d) {
 		  return "end"; })
@@ -83,7 +83,8 @@ function update(source) {
   // Enter the links.
   var linkEnter = link.enter().insert("path", "g")
 	  .attr("class", "link")
-	  .attr("d", diagonal);
+	  .attr("d", diagonal)
+		.style("stroke", function(d) { return "hsl("+d.target.color*2+", 30%, 30%)"; });
 
 	linkEnter.append("text").text(function(d) { return 'aaaaa'; });
 }

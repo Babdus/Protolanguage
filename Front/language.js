@@ -444,7 +444,7 @@ $(window).on('load', function() {
         var paragraph = "This language is an ancestor of modern languages ";
         var langs1 = lang.split(".");
         console.log(langs1);
-        langs1.forEach(function (lang, index) {
+        langs1.slice(0,10).forEach(function (lang, index) {
           if(index == langs1.length - 2){
             paragraph += lang_codes[lang] + " and ";
           } else if (index == langs1.length - 1) {

@@ -65,24 +65,23 @@ def reconstruct_language(child1, child2):
     #         # print(comp.parent.to_ipa())
     return lang
 
-def reconstruct_languages(tree, df):
+def reconstruct_languages(tree, df, color, color_branching):
     child1 = tree['children'][0]
     child2 = tree['children'][1]
 
     if 'children' in child1:
-        reconstruct_languages(child1, df)
+        reconstruct_languages(child1, df, color+color_branching, color_branching//2)
     else:
-        # child1['full_name'] = child1['name']
-        # child1['name']      = tree['name'].split('.')[0]
-        child1['lang']      = load_modern_language(child1['name'], df)
+        child1['lang']  = load_modern_language(child1['name'], df)
+        child1['color'] = color+color_branching
     if 'children' in child2:
-        reconstruct_languages(child2, df)
+        reconstruct_languages(child2, df, color-color_branching, color_branching//2)
     else:
-        # child2['full_name'] = child2['name']
-        # child2['name']      = tree['name'].split('.')[1]
-        child2['lang']      = load_modern_language(child2['name'], df)
+        child2['lang']  = load_modern_language(child2['name'], df)
+        child2['color'] = color-color_branching
 
     tree['lang'] = reconstruct_language(child1, child2)
+    tree['color'] = color
 
 def generate(argv):
     df = pd.io.parsers.read_csv(argv[1],index_col=0).fillna('')
@@ -92,7 +91,7 @@ def generate(argv):
         forest = json.load(f)
 
     tree = forest[0]
-    reconstruct_languages(tree, df)
+    reconstruct_languages(tree, df, 180, 90)
 
     languages_dict = {}
     convert_istr_to_printable(tree, languages_dict)
