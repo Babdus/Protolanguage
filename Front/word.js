@@ -1,6 +1,6 @@
 // ************** Generate the tree diagram	 *****************
-var margin = {top: 20, right: 120, bottom: 20, left: 20},
-	width = 1887 - margin.right - margin.left,
+var margin = {top: 20, right: 120, bottom: 20, left: -20},
+	width = 1800 - margin.right - margin.left,
 	height = 3000 - margin.top - margin.bottom;
 
 var i = 0;
@@ -28,6 +28,10 @@ let path = "../Data/trees/"+data_name+"/tree_with_languages.json";
 // load the external data
 d3.json(path, function(error, treeData) {
   root = treeData[0];
+	root['parent'] = "0";
+	root['distance'] = 10.0;
+	pre_root = {"name": "0", "parent": "null", "children": [root], "lang": []};
+	root = pre_root;
   update(root);
 });
 

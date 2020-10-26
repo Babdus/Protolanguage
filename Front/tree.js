@@ -1,6 +1,6 @@
 // ************** Generate the tree diagram	 *****************
-var margin = {top: 20, right: 120, bottom: 20, left: 20},
-	width = 1887 - margin.right - margin.left,
+var margin = {top: 20, right: 120, bottom: 20, left: -20},
+	width = 1880 - margin.right - margin.left,
 	height = 3000 - margin.top - margin.bottom;
 
 var i = 0;
@@ -27,6 +27,10 @@ let path = "../Data/trees/"+data_name+"/tree_with_languages.json";
 // load the external data
 d3.json(path, function(error, treeData) {
   root = treeData[0];
+	root['parent'] = "0";
+	root['distance'] = 10.0;
+	pre_root = {"name": "0", "parent": "null", "children": [root]};
+	root = pre_root;
   update(root);
 });
 
@@ -58,7 +62,7 @@ function update(source) {
 		.attr("target", "_blank");
 
 	nodeA.append("ellipse")
-	  .attr("rx", function(d) { return d.children || d._children ? 5.3 : (d.full_name ? d.full_name.length*7 : d.name.length*7) })
+	  .attr("rx", function(d) { return d.children || d._children ? 5.3 : (d.full_name ? d.full_name.length*5+10 : d.name.length*5+10) })
     .attr("ry", function(d) { return d.children || d._children ? 5.3 : 14})
 		.style("fill", function(d) { return "hsl("+d.color*2+", 30%, 20%)"; })
 		.style("stroke", function(d) { return "hsl("+d.color*2+", 30%, 40%)"; });
