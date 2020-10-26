@@ -444,7 +444,8 @@ $(window).on('load', function() {
         var paragraph = "This language is an ancestor of modern languages ";
         var langs1 = lang.split(".");
         console.log(langs1);
-        langs1.slice(0,10).forEach(function (lang, index) {
+        // langs1.forEach(function (lang, index) {
+        for (const [index, lang] of langs1.entries()) {
           if(index == langs1.length - 2){
             paragraph += lang_codes[lang] + " and ";
           } else if (index == langs1.length - 1) {
@@ -452,18 +453,29 @@ $(window).on('load', function() {
           } else {
             paragraph += lang_codes[lang] + ", ";
           }
-          lang_path = md5(lang);
-          let path = "../Data/protolanguages/"+lang_path+".json";
-          if(dir){
-            path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
-          }
-          d3.json(path, function(error, data) {
-            $("#thead").append('<th>'+lang_codes[lang]+'</th>');
-            for(var word in data) {
-              $("#"+word).append('<td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">['+data[word]+']</a></td>');
+          if(index < 10){
+            lang_path = md5(lang);
+            let path = "../Data/protolanguages/"+lang_path+".json";
+            if(dir){
+              path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
             }
-          });
-        });
+            d3.json(path, function(error, data) {
+              $("#thead").append('<th class="lang-header">'+lang_codes[lang]+'</th>');
+              for(var word in data) {
+                $("#"+word).append('<td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">['+data[word]+']</a></td>');
+              }
+            });
+          }
+          else{
+            d3.json(path, function(error, data) {
+              $("#thead").append('<th class="ellipsis-header">...</th>');
+              for(var word in data) {
+                $("#"+word).append('<td></td>');
+              }
+            });
+            break;
+          }
+        }
         var age = 2000 - langs1.length*175;
         paragraph += (age < 0 ? Math.abs(age) + "BC " : age + "AD ") + "is the approximate date (without historical callibration) when this language was split into different languages."
         $("p").append(paragraph);

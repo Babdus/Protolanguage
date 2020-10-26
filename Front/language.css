@@ -42,8 +42,9 @@ table tbody tr:hover {
   /* border-bottom: 1px solid #6ba; */
 }
 
-table tr td {
+table tbody tr td {
   padding: 0;
+  overflow: overlay;
 }
 
 /* table tr:hover td#arrow {
@@ -65,10 +66,19 @@ table tr td:first-child a {
   margin: auto;
 }
 
-td, th {
-  min-width: 30px;
-  max-width: 200px;
-  padding: 5px;
+th {
+  padding: 5px 0;
+}
+
+th.lang-header {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+th.lang-header:hover {
+  text-overflow: initial;
+  overflow: initial;
+  color: #6ba;
 }
 
 h1 {
@@ -77,6 +87,8 @@ h1 {
   font-family: "Montserrat","Helvetica Neue",sans-serif;
   font-weight: 200;
   line-height: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* p {
