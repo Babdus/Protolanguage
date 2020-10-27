@@ -188,6 +188,14 @@ String.prototype.trunc = String.prototype.trunc ||
   }
   }
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array
+}
+
 lang_codes = {
   "aa": "Afar",
   "ab": "Abkhazian",
@@ -445,7 +453,8 @@ $(window).on('load', function() {
         var langs1 = lang.split(".");
         console.log(langs1);
         // langs1.forEach(function (lang, index) {
-        for (const [index, lang] of langs1.entries()) {
+
+        for (const [index, lang] of shuffleArray(langs1).entries()) {
           if(index == langs1.length - 2){
             paragraph += lang_codes[lang] + " and ";
           } else if (index == langs1.length - 1) {
@@ -466,14 +475,13 @@ $(window).on('load', function() {
               }
             });
           }
-          else{
+          else if(index == 10){
             d3.json(path, function(error, data) {
               $("#thead").append('<th class="ellipsis-header">...</th>');
               for(var word in data) {
                 $("#"+word).append('<td></td>');
               }
             });
-            break;
           }
         }
         var age = 2000 - langs1.length*175;
