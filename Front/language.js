@@ -193,7 +193,7 @@ function shuffleArray(array) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
-  return array
+  return array;
 }
 
 lang_codes = {
@@ -412,12 +412,11 @@ $(window).on('load', function() {
     $("#table").append('<thead><tr id="thead"><th>English</th><th></th></tr></thead>');
     let url = new URL(window.location.href);
     let langs = url.searchParams.get("langs").split(',');
-    let dir = url.searchParams.get("dir");
+    let dir = url.searchParams.get("data");
     $("#table").append('<tbody>')
     for(var word in words) {
       a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+words[word]+"&data="+dir+'">'
       html = '<tr id="'+words[word]+'"><td>'+a+words[word]+'</a></td><td>'+a+'&nbsp;</a></td></tr>';
-      console.log(html);
       $("#table").append(html);
     }
     $("#table").append('</tbody>')
@@ -430,67 +429,86 @@ $(window).on('load', function() {
         path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
       }
       d3.json(path, function(error, data) {
-        lang_name = lang
+        lang_name = lang;
         if(lang.includes(".")){
           lang_name = 'Reconstructed';
-        }
-        else {
-          lang_name = lang_codes[lang];
-        }
-        $("#thead").append('<th>'+lang_name+'</th>'+(lang.includes(".") ? '<th></th>' : ''));
-        for(var word in data) {
-          a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">'
-          html = '<td>'+a+'['+data[word]+']</a></td>';
-          if(lang.includes(".")){
-            html += '<td id="arrow">'+a+'&rarr;</a></td>';
-          }
-          $("#"+word).append(html);
-        }
-      });
-      if(lang.includes(".")){
-        $("h1").append("Dictionary of reconstructed protolanguage " + lang);
-        var paragraph = "This language is an ancestor of modern languages ";
-        var langs1 = lang.split(".");
-        console.log(langs1);
-        // langs1.forEach(function (lang, index) {
 
-        for (const [index, lang] of shuffleArray(langs1).entries()) {
-          if(index == langs1.length - 2){
-            paragraph += lang_codes[lang] + " and ";
-          } else if (index == langs1.length - 1) {
-            paragraph += lang_codes[lang] + ". ";
-          } else {
-            paragraph += lang_codes[lang] + ", ";
+          var h1 = "Dictionary of reconstructed protolanguage " + lang;
+          $('h1').append(h1);
+          var p = "This language is an ancestor of modern languages ";
+          var langs1 = lang.split(".");
+          for (const [index, lang] of langs1.entries()) {
+            var a = '<a href="' + url.pathname.replace(/[^/]*$/, '')+"language.html?langs="+lang+'&data='+dir+'">';
+            if(index == langs1.length - 2){
+              p += a + lang_codes[lang] + '</a>' + " and ";
+            } else if (index == langs1.length - 1) {
+              p += a + lang_codes[lang] + '</a>' + ". ";
+            } else {
+              p += a + lang_codes[lang] + '</a>' + ", ";
+            }
           }
-          if(index < 10){
+          var age = 2000 - langs1.length*175;
+          p += (age < 0 ? Math.abs(age) + "BC " : age + "AD ") + "is the approximate date (without historical callibration) when this language was split into different languages.";
+          $("p").append(p);
+
+          shuffleArray(langs1);
+          var dictionary = {}
+
+          for (const lang of langs1.slice(0,10)) {
             lang_path = md5(lang);
             let path = "../Data/protolanguages/"+lang_path+".json";
             if(dir){
               path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
             }
-            d3.json(path, function(error, data) {
-              $("#thead").append('<th class="lang-header">'+lang_codes[lang]+'</th>');
-              for(var word in data) {
-                $("#"+word).append('<td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">['+data[word]+']</a></td>');
-              }
+            $.getJSON(path, function(data){
+              $.each(data, function(word, value){
+                dictionary[lang+','+word] = value;
+              });
             });
           }
-          else if(index == 10){
-            d3.json(path, function(error, data) {
-              $("#thead").append('<th class="ellipsis-header">...</th>');
-              for(var word in data) {
-                $("#"+word).append('<td></td>');
+
+          setTimeout(function(){
+            var thead = '<th>'+lang_name+'</th><th></th>';
+            for (const lang of langs1.slice(0,10)) {
+              thead += '<th class="lang-header"><a href="'+url.pathname.replace(/[^/]*$/, '')+"language.html?langs="+lang+'&data='+dir+'">'+lang_codes[lang]+'</a></th>';
+            }
+            thead += langs1.length > 10 ? '<th class="ellipsis-header">...</th>' : '';
+            $('#thead').append(thead);
+
+            var trs = {}
+
+            for (const lang of langs1.slice(0,10)) {
+              for (var word in data) {
+                var transcription = dictionary[lang+','+word];
+                var td = '<td><a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">['+transcription+']</a></td>';
+                if (word in trs) {
+                  trs[word] += td;
+                }
+                else {
+                  trs[word] = td;
+                }
               }
-            });
+            }
+            for (var word in trs) {
+              var a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">'
+              var html = '<td>'+a+'['+data[word]+']</a></td><td id="arrow">'+a+'&rarr;</a></td>';
+              var tr = html + trs[word];
+              tr += langs1.length > 10 ? '<td></td>' : '';
+              $('#'+word).append(tr);
+            }
+          }, 250);
+        }
+        else {
+          lang_name = lang_codes[lang];
+          $("h1").append("Dictionary of modern language " + lang_codes[lang]);
+          $("#thead").append('<th>'+lang_name+'</th>'+(lang.includes(".") ? '<th></th>' : ''));
+          for(var word in data) {
+            a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">'
+            html = '<td>'+a+'['+data[word]+']</a></td>';
+            $("#"+word).append(html);
           }
         }
-        var age = 2000 - langs1.length*175;
-        paragraph += (age < 0 ? Math.abs(age) + "BC " : age + "AD ") + "is the approximate date (without historical callibration) when this language was split into different languages."
-        $("p").append(paragraph);
-      }
-      else {
-        $("h1").append("Dictionary of modern language " + lang_codes[lang]);
-      }
+      });
     });
   });
 });

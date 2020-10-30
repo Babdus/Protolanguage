@@ -55,7 +55,7 @@ function update(source) {
 		  return "translate(" + d.y + "," + d.x + ")"; });
 
   var nodeA = nodeEnter.append("a")
-		.attr("xlink:href", function(d) { return url.pathname.replace(/[^/]*$/, '') + "language.html?langs="+d.name+"&dir="+data_name; })
+		.attr("xlink:href", function(d) { return url.pathname.replace(/[^/]*$/, '') + "language.html?langs="+d.name+"&data="+data_name; })
 		.attr("target", "_blank");
 
 	nodeA.append("ellipse")
