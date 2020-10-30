@@ -429,11 +429,11 @@ $(window).on('load', function() {
         path = "../Data/trees/"+dir+"/protolanguages/"+lang_path+".json";
       }
       d3.json(path, function(error, data) {
-        lang_name = lang;
+        // lang_name = lang;
         if(lang.includes(".")){
-          lang_name = 'Reconstructed';
+          // lang_name = 'Reconstructed';
 
-          var h1 = "Dictionary of reconstructed protolanguage " + lang;
+          var h1 = "Dictionary of reconstructed protolanguage " + lang + " ";
           $('h1').append(h1);
           var p = "This language is an ancestor of modern languages ";
           var langs1 = lang.split(".");
@@ -448,7 +448,7 @@ $(window).on('load', function() {
             }
           }
           var age = 2000 - langs1.length*175;
-          p += (age < 0 ? Math.abs(age) + "BC " : age + "AD ") + "is the approximate date (without historical callibration) when this language was split into different languages.";
+          p += (age < 0 ? Math.abs(age) + "BC " : age + "AD ") + "is the approximate date (without historical callibration) when this language was split into different languages. ";
           $("p").append(p);
 
           shuffleArray(langs1);
@@ -468,7 +468,7 @@ $(window).on('load', function() {
           }
 
           setTimeout(function(){
-            var thead = '<th>'+lang_name+'</th><th></th>';
+            var thead = '<th>Reconstructed</th><th></th>';
             for (const lang of langs1.slice(0,10)) {
               thead += '<th class="lang-header"><a href="'+url.pathname.replace(/[^/]*$/, '')+"language.html?langs="+lang+'&data='+dir+'">'+lang_codes[lang]+'</a></th>';
             }
@@ -500,8 +500,8 @@ $(window).on('load', function() {
         }
         else {
           lang_name = lang_codes[lang];
-          $("h1").append("Dictionary of modern language " + lang_codes[lang]);
-          $("#thead").append('<th>'+lang_name+'</th>'+(lang.includes(".") ? '<th></th>' : ''));
+          $("h1").append("Dictionary of modern language " + lang_codes[lang] + " ");
+          $("#thead").append('<th class="lang-header"><a href="'+url.pathname.replace(/[^/]*$/, '')+"language.html?langs="+lang+'&data='+dir+'">'+lang_codes[lang]+'</a></th>');
           for(var word in data) {
             a = '<a href="'+url.pathname.replace(/[^/]*$/, '')+"word.html?word="+word+"&data="+dir+'">'
             html = '<td>'+a+'['+data[word]+']</a></td>';
