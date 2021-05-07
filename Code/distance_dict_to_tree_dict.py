@@ -6,7 +6,7 @@ d_dict = {('a', 'ac'): 7, ('c', 'ac'): 9, ('b', 'bd'): 8, ('d', 'bd'): 6,
           ('e', 'ace'): 3, ('ac', 'ace'): 6, ('ace', 'acebd'): 2, ('bd', 'acebd'): 4}
 
 def get_language_codes():
-    df = pd.read_csv('/home/babdus/Development/Python Projects/Protolanguage/Data/words_and_languages/language_list.csv', skipinitialspace=True)
+    df = pd.read_csv('Data/words_and_languages/language_list.csv', skipinitialspace=True)
     d = {row[1].code: row[1].language for row in df.iterrows()}
     return d
 

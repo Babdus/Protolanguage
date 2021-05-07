@@ -33,8 +33,8 @@ def main(argv):
     from_web  = argv[3]
     from_step = int(argv[4]) if len(argv) > 4 else 0
 
-    dir_path      = '/home/babdus/Development/Python Projects/Protolanguage/'
-    data_dir_path = dir_path + '/Data/'
+    dir_path      = ''#'/home/babdus/Development/Python Projects/Protolanguage/'
+    data_dir_path = dir_path + 'Data/'
 
     start = time()
 
