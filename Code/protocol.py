@@ -24,7 +24,7 @@ def main(argv):
     else:
         from_step = 0
 
-    dir_path      = '/home/babdus/Development/Python Projects/Protolanguage/'
+    dir_path      = '.'
     data_dir_path = dir_path + '/Data/'
 
     start = time()

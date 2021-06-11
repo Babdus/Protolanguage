@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ka.sva.lzz.xmf",
+    "parent": "null",
+    "children": [
+      {
+        "name": "ka.sva",
+        "distance": 1.2266538608704978,
+        "parent": "ka.sva.lzz.xmf",
+        "children": [
+          {
+            "name": "Georgian",
+            "distance": 7.930111985310191,
+            "parent": "ka.sva"
+          },
+          {
+            "name": "Svan",
+            "distance": 13.978853981301405,
+            "parent": "ka.sva"
+          }
+        ]
+      },
+      {
+        "name": "lzz.xmf",
+        "distance": 1.2266538608704978,
+        "parent": "ka.sva.lzz.xmf",
+        "children": [
+          {
+            "name": "Laz",
+            "distance": 6.7324299832863455,
+            "parent": "lzz.xmf"
+          },
+          {
+            "name": "Mingrelian",
+            "distance": 4.864253647945298,
+            "parent": "lzz.xmf"
+          }
+        ]
+      }
+    ]
+  }
+]

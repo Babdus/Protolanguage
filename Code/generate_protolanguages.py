@@ -94,8 +94,12 @@ def generate(argv):
         l_json = json.dumps(languages_dict[lang])
         if not os.path.exists(argv[3]):
             os.makedirs(argv[3])
-        with open(argv[3] + '/' + lang + '.json', 'w') as out:
-            out.write(l_json)
+        try:
+            with open(argv[3] + '/' + lang + '.json', 'w') as out:
+                out.write(l_json)
+        except OSError as e:
+            print(e)
+            continue
 
     print(((end-start)*1000//1)/1000, 'seconds')
 
