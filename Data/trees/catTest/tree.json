@@ -1,0 +1,137 @@
+[
+  {
+    "name": "de.en.da.sv.fi.et.vro.sva.xmf.lzz.ka",
+    "parent": "null",
+    "children": [
+      {
+        "name": "de.en",
+        "distance": 0.04280254979684894,
+        "parent": "de.en.da.sv.fi.et.vro.sva.xmf.lzz.ka",
+        "children": [
+          {
+            "name": "de",
+            "distance": 7.185173574692774,
+            "parent": "de.en",
+            "full_name": "German"
+          },
+          {
+            "name": "en",
+            "distance": 9.176953002379934,
+            "parent": "de.en",
+            "full_name": "English"
+          }
+        ]
+      },
+      {
+        "name": "da.sv.fi.et.vro.sva.xmf.lzz.ka",
+        "distance": 0.04280254979684894,
+        "parent": "de.en.da.sv.fi.et.vro.sva.xmf.lzz.ka",
+        "children": [
+          {
+            "name": "da.sv",
+            "distance": 3.0943273654542516,
+            "parent": "da.sv.fi.et.vro.sva.xmf.lzz.ka",
+            "children": [
+              {
+                "name": "da",
+                "distance": 3.743303205675694,
+                "parent": "da.sv",
+                "full_name": "Danish"
+              },
+              {
+                "name": "sv",
+                "distance": 4.021426682491695,
+                "parent": "da.sv",
+                "full_name": "Swedish"
+              }
+            ]
+          },
+          {
+            "name": "fi.et.vro.sva.xmf.lzz.ka",
+            "distance": 4.307668841006242,
+            "parent": "da.sv.fi.et.vro.sva.xmf.lzz.ka",
+            "children": [
+              {
+                "name": "fi.et.vro",
+                "distance": 3.952591475042574,
+                "parent": "fi.et.vro.sva.xmf.lzz.ka",
+                "children": [
+                  {
+                    "name": "fi",
+                    "distance": 5.8774510443682475,
+                    "parent": "fi.et.vro",
+                    "full_name": "Finnish"
+                  },
+                  {
+                    "name": "et.vro",
+                    "distance": 2.2189819585419057,
+                    "parent": "fi.et.vro",
+                    "children": [
+                      {
+                        "name": "et",
+                        "distance": 3.4826705563627494,
+                        "parent": "et.vro",
+                        "full_name": "Estonian"
+                      },
+                      {
+                        "name": "vro",
+                        "distance": 3.4747791900390768,
+                        "parent": "et.vro",
+                        "full_name": "V\u00f5ro"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "sva.xmf.lzz.ka",
+                "distance": 1.2834688021368281,
+                "parent": "fi.et.vro.sva.xmf.lzz.ka",
+                "children": [
+                  {
+                    "name": "sva",
+                    "distance": 10.711719055627231,
+                    "parent": "sva.xmf.lzz.ka",
+                    "full_name": "Svan"
+                  },
+                  {
+                    "name": "xmf.lzz.ka",
+                    "distance": 3.267134925674176,
+                    "parent": "sva.xmf.lzz.ka",
+                    "children": [
+                      {
+                        "name": "xmf.lzz",
+                        "distance": 2.5705463020293506,
+                        "parent": "xmf.lzz.ka",
+                        "children": [
+                          {
+                            "name": "xmf",
+                            "distance": 5.3012740662454805,
+                            "parent": "xmf.lzz",
+                            "full_name": "Mingrelian"
+                          },
+                          {
+                            "name": "lzz",
+                            "distance": 6.295409564986163,
+                            "parent": "xmf.lzz",
+                            "full_name": "Laz"
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ka",
+                        "distance": 7.8128734050218345,
+                        "parent": "xmf.lzz.ka",
+                        "full_name": "Georgian"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

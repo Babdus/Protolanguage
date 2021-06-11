@@ -33,6 +33,8 @@ def generate(argv):
         #2 Find pair with minimal value in Q
         # try:
         a, b = Q.stack().astype(np.float16).idxmin()
+
+        print(n, a, b)
         # except TypeError:
         #     print(Q)
         #     exit()
@@ -44,6 +46,8 @@ def generate(argv):
         else:
             delta[(a, ab)] = 0.5*d[a][b] + 1/(2*(n-2)) * (sum(d[a][k] for k in d.columns) - sum(d[b][k] for k in d.columns))
         delta[(b, ab)] = d[a][b] - delta[(a, ab)]
+
+        print(d[a][b], delta[(a, ab)], delta[(b, ab)])
 
         #4 Add row and column to d for new node
         d[ab] = [0]*n

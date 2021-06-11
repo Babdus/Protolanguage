@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet">
     <link rel="tree icon" type="image/png" href="https://img.icons8.com/ios-glyphs/48/000000/large-tree.png"/>
     <title>Protolanguage reconstruction tool</title>
   </head>
@@ -10,28 +13,34 @@
   <body>
     <div class="wrapper">
       <h1>Protolanguage reconstruction tool</h1>
-      <p>This is a homepage for protolanguage reconstruction tool. To view freshly reconstructed tree of languages</p>
-      <a href="tree.html" class="button">Click here</a>
-      <p>This result is obtained through several steps of this program. Which are</p>
-      <ul>
-        <li>
-          Retrieving data from the internet
-          <p>The data is being retrieved from the <a href="https://www.wiktionary.org/">Wiktionary</a> using web-scraping methods. Data consists of transcriptions of words in every language that is available. The word which are being found are predetermind as a list, namely Swadesh List, a famous list which was created by archaeolinguist Morris Swadesh for comparison of languages and reconstruction of protolanguages. Nevertheless, the list can be changed easily and the corresponding data would be the result of calculations over this new list.</p>
-        </li>
-        <li>
-          Calculating language distances
-          <p>Once the data is collected, each language is being compared to every other one. The process of language comparison is the sum of the comparisons of each individual word. For the word comparison there is being used Levenstein distance and Hungarian algorithms.</p>
-          <p>The result of each language comparison is stored as a number that indicates how far these languages are from each other, represented as a matrix as a whole.</p>
-        </li>
-        <li>
-          Building language tree
-          <p>From the language distance matrix using Neighbour-joining algorithm the language tree is being built.</p>
-        </li>
-        <li>
-          Reconstructing protolanguages
-          <p>In just created language tree, for each parent node, there is being calculated possible protolanguage using the vocabularies of the predecessor languages. The algorithms used for constructing a language are Levenstein distance and Dijkstra.</p>
-        </li>
-      </ul>
+      <div class="sub-wrapper">
+        <p>This is a homepage for protolanguage reconstruction tool. To view freshly reconstructed tree of languages</p>
+        <a href="tree.html?data=cat11" class="button">Click here</a>
+        <p>This result is obtained through several steps of this program. Which are</p>
+        <ul>
+          <li>
+            Retrieving data from the internet
+            <p>The data is being retrieved from the <a href="https://www.wiktionary.org/" target="_blank">Wiktionary</a> using web-scraping methods. Data consists of transcriptions of words in every language that is available. The word which are being found are predetermined as a list, namely <a href="https://en.wikipedia.org/wiki/Swadesh_list" target="_blank">Swadesh List</a>, a famous list which was created by archaeolinguist <a href="https://en.wikipedia.org/wiki/Morris_Swadesh" target="_blank">Morris Swadesh</a> for comparison of languages and reconstruction of protolanguages. Nevertheless, the list can be changed easily and the corresponding data would be the result of calculations over this new list.</p>
+          </li>
+          <li>
+            or Retrieving data from language catalogue
+            <p>The data is pregathered by linguists in a <a href="https://docs.google.com/spreadsheets/d/1aU_GtOwnZdM9EitCgwC3lSiuCFDGeaNItCB89B_E6gQ/edit?usp=sharing" target="_blank">unified catalogue</a> of languages with their corresponding <a href="https://en.wikipedia.org/wiki/Swadesh_list" target="_blank">Swadesh lists</a>.
+          </li>
+          <li>
+            Calculating language distances
+            <p>Once the data is collected, every language is being compared to each other (In total the n squared operations). The whole process of language comparison comprises of the comparisons of each individual word and then the results are summed up. For the word comparison there is being used <a href="https://en.wikipedia.org/wiki/Levenshtein_distance" target="_blank">Levenstein distance</a> and <a href="https://en.wikipedia.org/wiki/Hungarian_algorithm" target="_blank">Hungarian algorithm</a>.</p>
+            <p>The result of each language comparison is stored as a number that indicates how far these languages are from each other, represented as a matrix as a whole.</p>
+          </li>
+          <li>
+            Building language tree
+            <p>From the language distance matrix using <a href="https://en.wikipedia.org/wiki/Neighbor_joining" target="_blank">Neighbour-joining algorithm</a> the language tree is being built.</p>
+          </li>
+          <li>
+            Reconstructing protolanguages
+            <p>In the language tree, that was created in the last step, for each parent node, there is being calculated possible protolanguage using the vocabularies of the predecessor languages. The algorithms used for constructing a language are <a href="https://en.wikipedia.org/wiki/Levenshtein_distance" target="_blank">Levenstein distance</a> and <a href="https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm" target="_blank">Dijkstra</a>.</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

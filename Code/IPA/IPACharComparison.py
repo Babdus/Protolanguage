@@ -2,26 +2,45 @@ from IPA.IPAChar import IPAChar
 from IPA.IPAData import *
 from munkres import Munkres, DISALLOWED
 from IPA.dijkstra import *
+import pickle
+
+cache = {}
+
+def read_cache(path):
+    global cache
+    with open(path, 'rb') as f:
+        cache = pickle.load(f)
+
+def save_cache(path):
+    with open(path, 'wb') as f:
+        pickle.dump(cache, f)
 
 def in_the_same_cluster(f1, f2):
     s1 = places | secondary_places
     s2 = manners | secondary_manners
     s3 = airflows
-    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s2 and f2 in s2) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
+    return (f1 in s1 and f2 in s1) or (f1 in s2 and f2 in s2) or (f1 in s3 and f2 in s3) or (f1 in {'GL', 'GZ'} and f2 in {'EJ', 'IT'}) or (f1 in {'EJ', 'IT'} and f2 in {'GL', 'GZ'})
 
 class IPACharComparison:
     def __init__(self):
         pass
 
     def compare(self, ch1, ch2, asymmetric=False, relat_dist_to_ch1=0.5):
+        global cache
         self.char1 = ch1
         self.char2 = ch2
+
+        self.parent = ch1 if asymmetric else None
+
+        if not asymmetric:
+            if (ch1.symbol(), ch2.symbol()) in cache:
+                self.distance = cache[(ch1.symbol(), ch2.symbol())]
+                return
+
         self.distance = 0
         self.way = {}
         set1 = self.char1.features - self.char2.features
         set2 = self.char2.features - self.char1.features
-
-        self.parent = ch1 if asymmetric else None
 
         if len(set1) + len(set2) == 0:
             return
@@ -47,6 +66,11 @@ class IPACharComparison:
         indexes = [step for step in indexes if step[1] < len(set1) or step[0] < len(set2)]
         self.distance = sum(matrix[step[0]][step[1]] for step in indexes)
         self.way = {column_names[step[1]]: row_names[step[0]] for step in indexes}
+
+        if not asymmetric:
+            cache[(ch1.symbol(), ch2.symbol())] = self.distance
+            cache[(ch2.symbol(), ch1.symbol())] = self.distance
+            print(len(cache), end='\r')
 
     @staticmethod
     def is_valid_sound(features):
